@@ -1,0 +1,245 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>8. Reducción de stock &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="6. Stock" href="../09_stock.html" />
+    <link rel="next" title="7. Seguridad" href="../10_seguridad.html" />
+    <link rel="prev" title="7. Toma de inventario por ubicación" href="stock_07.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../10_seguridad.html" title="7. Seguridad"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="stock_07.html" title="7. Toma de inventario por ubicación"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../09_stock.html" accesskey="U">6. Stock</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="reduccion-de-stock">
+<h1>8. Reducción de stock<a class="headerlink" href="#reduccion-de-stock" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p>Reducción de stock con libro en mano</p>
+<p>Esta herramienta ayuda a decidir qué libros devolver al proveedor a partir de un conjunto de libros que se tienen &#8220;en mano&#8221;. El objetivo es tomar una mesa, estante o conjunto de libros, pasarlos por el sistema, y que el mismo indique qué hay que devolver.
+Una vez definidas las cantidades, el sistema genera las devoluciones de consignación o créditos correspondientes.</p>
+<p class="last"><em>Importante</em>: por cada libro, el sistema evalúa la cantidad a devolver. El criterio utilizado es parametrizable por el usuario, quién deberá definir     este criterio previamente para poder configurar el sistema de acuerdo a su necesidad.</p>
+</div>
+<div class="section" id="pasos-para-crear-la-devolucion">
+<h2>8.1. Pasos para crear la devolución<a class="headerlink" href="#pasos-para-crear-la-devolucion" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-2"></span><ol class="arabic simple" id="index-3">
+<li>Ir al menú <cite>Stock &#8211;&gt; Reducción de stock</cite>.</li>
+<li>Ingresar uno a uno los libros que se quieren evaluar.</li>
+</ol>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/RStock_1.png" src="../../_images/RStock_1.png" />
+</div>
+</div></blockquote>
+<p>El sistema mostrará la siguiente información.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Si el sistema evalúa que no hay que devolver el libro, aparecerá el mensaje  &#8220;No debería devolver este libro, desea devolverlo de todas maneras (N/s)&#8221;. Si contesta sí, pide la cantidad y lo agrega al listado.</li>
+</ul>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/RStock_2.png" src="../../_images/RStock_2.png" />
+</div>
+</div></blockquote>
+<ul class="simple">
+<li>Si el sistema evalúa que hay que devolver el libro, aparece el mensaje &#8220;Debería devolver xxx ejemplares de este libro, ingrese la cantidad a devolver&#8221;. Si el usuario devuelve una cantidad distinta a la sugerida, la fila se muestra en rojo.</li>
+</ul>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/RStock_3.png" src="../../_images/RStock_3.png" />
+</div>
+</div></blockquote>
+</div></blockquote>
+<dl class="docutils">
+<dt>El listado muestra un semáforo según la cantidad devuelta:</dt>
+<dd><ul class="first last simple">
+<li>Verde: se devuelve el stock total del producto</li>
+<li>Amarillo: devolución parcial</li>
+<li>Rojo: no se devuelve</li>
+</ul>
+</dd>
+</dl>
+<p>Al terminar de procesar los libros, presionar Aceptar. El sistema creará las devoluciones y los créditos correspondientes.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/RStock_4.png" src="../../_images/RStock_4.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="configuracion">
+<h2>8.2. Configuración<a class="headerlink" href="#configuracion" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Configuración</strong></p>
+<p class="last">Para que la decisión de los libros a devolver sea adecuada, es necesario configurar varios puntos. Revise la documentación y si hace falta solicite asistencia al equipo de soporte.</p>
+</div>
+<div class="section" id="cantidad-de-libros-a-devolver">
+<h3>8.2.1. Cantidad de libros a devolver<a class="headerlink" href="#cantidad-de-libros-a-devolver" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>El núcleo de la herramienta está en el criterio que utiliza el sistema para sugerir la cantidad a devolver. Este criterio se parametriza desde el menú Sistema-&gt;Parámetros,
+buscar el valor ReduceStockFormula, indicando la fórmula a evaluar por cada libro.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/RStock_5.png" src="../../_images/RStock_5.png" />
+</div>
+</div></blockquote>
+<p>Por ejemplo, si se desea devolver el libro si su cantidad en stock es mayor a la venta en el próximo año, la fórmula será STOCK - VENTAESTIMADAANUAL.
+En ese caso, si tengo 10 en stock y la venta prevista es de 7, el sistema sugiere devolver 3. Si hay 10 en stock y la venta prevista es de 13, no sugiere devolver.</p>
+<p>En esta fórmula se pueden utilizar distintos valores que provee el sistema.</p>
+<blockquote>
+<div><ul class="simple">
+<li>VENTA: venta en el período</li>
+<li>VULTMES: venta último mes</li>
+<li>VULTANIO: venta último año</li>
+<li>VULTSEMANA: venta última semana</li>
+<li>STOCK: stock</li>
+<li>CONSIGNACION: consignación</li>
+<li>VENTAESTIMADA&#8217;: venta estimada por tendencia</li>
+<li>VENTAESTIMADAANUAL: venta estimada anual</li>
+<li>PUNTO_REORDEN: punto de reorden</li>
+<li>STOCK_MINIMO: stock mínimo</li>
+<li>STOCK_MAXIMO: stock máximo</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="conjunto-de-libros-que-nunca-se-devuelven">
+<h3>8.2.2. Conjunto de libros que nunca se devuelven<a class="headerlink" href="#conjunto-de-libros-que-nunca-se-devuelven" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Puede configurarse un grupo de libros que siempre que se evalúen el sistema indicará que no hay que devolverlos.
+Se utiliza para los libros que la librería quiere tener siempre, independientemente de su rendimiento.</p>
+<p>Para configurar estos libros, crear el grupo de libros en Catálogo-&gt;Grupo de libros. Luego ir al menú Sistema-&gt;Parámetros, buscar el valor ReduceStockNoReturnBookSet, colocar el identificador del grupo de libros creados y presionar Aceptar. Finalmente, presionar el botón Refrescar.</p>
+</div>
+<div class="section" id="conjunto-de-libros-que-se-devuelven-por-su-totalidad">
+<h3>8.2.3. Conjunto de libros que se devuelven por su totalidad<a class="headerlink" href="#conjunto-de-libros-que-se-devuelven-por-su-totalidad" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Para estos libros, el sistema siempre sugerirá devolver todo su stock.
+Para configurar estos libros, crear el grupo de libros en Catálogo-&gt;Grupo de libros. Luego ir al menú Sistema-&gt;Parámetros, buscar el valor ReduceStockReturnAllBookSet, colocar el identificador del grupo de libros creados y presionar Aceptar. Finalmente, presionar el botón Refrescar.</p>
+</div>
+<div class="section" id="dias-minimos-para-considerar-la-devolucion-del-stock">
+<h3>8.2.4. Días mínimos para considerar la devolución del stock<a class="headerlink" href="#dias-minimos-para-considerar-la-devolucion-del-stock" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Suele pasar que no se desea devolver libros que ingresaron recientemente, independientemente de su rendimiento. Si un libro ingresó hace pocos días, quizás no se haya vendido pero es deseable que todavía no se devuelva para poder evaluar con más tiempo su rendimiento.
+Este comportamiento puede parametrizarse indicando la cantidad mínima de días en stock que el sistema debe evaluar.</p>
+<p>Para configurar esta cantidad de días,  ir al menú Sistema-&gt;Parámetros, buscar el valor ReduceStockMinStockDays, colocar la cantidad de días y presionar Aceptar. Finalmente, presionar el botón Refrescar.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">8. Reducción de stock</a><ul>
+<li><a class="reference internal" href="#pasos-para-crear-la-devolucion">8.1. Pasos para crear la devolución</a></li>
+<li><a class="reference internal" href="#configuracion">8.2. Configuración</a><ul>
+<li><a class="reference internal" href="#cantidad-de-libros-a-devolver">8.2.1. Cantidad de libros a devolver</a></li>
+<li><a class="reference internal" href="#conjunto-de-libros-que-nunca-se-devuelven">8.2.2. Conjunto de libros que nunca se devuelven</a></li>
+<li><a class="reference internal" href="#conjunto-de-libros-que-se-devuelven-por-su-totalidad">8.2.3. Conjunto de libros que se devuelven por su totalidad</a></li>
+<li><a class="reference internal" href="#dias-minimos-para-considerar-la-devolucion-del-stock">8.2.4. Días mínimos para considerar la devolución del stock</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="stock_07.html"
+                        title="Capítulo anterior">7. Toma de inventario por ubicación</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="../10_seguridad.html"
+                        title="Próximo capítulo">7. Seguridad</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../10_seguridad.html" title="7. Seguridad"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="stock_07.html" title="7. Toma de inventario por ubicación"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../09_stock.html" >6. Stock</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

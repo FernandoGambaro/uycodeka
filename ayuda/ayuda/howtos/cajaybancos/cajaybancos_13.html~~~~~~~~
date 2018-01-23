@@ -1,0 +1,239 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>13. ¿Cómo visualizar y conciliar los movimientos de banco? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="5. Caja y Bancos" href="../08_cajaybancos.html" />
+    <link rel="next" title="14. ¿Cómo visualizar el estado de una cuenta?" href="cajaybancos_14.html" />
+    <link rel="prev" title="12. ¿Cómo extraer efectivo de una caja?" href="cajaybancos_12.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_14.html" title="14. ¿Cómo visualizar el estado de una cuenta?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_12.html" title="12. ¿Cómo extraer efectivo de una caja?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" accesskey="U">5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-visualizar-y-conciliar-los-movimientos-de-banco">
+<span id="howto-bookkeeping-viewbankaccountmovements"></span><h1>13. ¿Cómo visualizar y conciliar los movimientos de banco?<a class="headerlink" href="#como-visualizar-y-conciliar-los-movimientos-de-banco" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="section" id="visualizar-los-movimientos-de-banco">
+<span id="index-1"></span><h2>13.1. Visualizar los Movimientos de Banco<a class="headerlink" href="#visualizar-los-movimientos-de-banco" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Caja y Bancos ‣ Movimientos
+de banco</em>. Se abrirá la pantalla Búsqueda de Movimientos de banco.</p>
+<div class="figure">
+<img alt="../../_images/scrBankAccountMovements.png" src="../../_images/scrBankAccountMovements.png" />
+<p class="caption">Pantalla Búsqueda de Movimientos de banco</p>
+</div>
+</li>
+<li><p class="first">Completar alguno de los criterios de búsqueda:</p>
+<ul class="simple">
+<li>Cuenta: Cuenta en la que se realizó el movimiento.</li>
+<li>Rango de fechas: Rango de fechas en las que se realizó el movimiento.</li>
+<li>Signo: Signo del movimiento (Débito o Crédito).</li>
+<li>Estado: conciliados o no conciliados.</li>
+<li>Importe: Rango de importe del movimiento.</li>
+<li>Origen: cheque, manual, depósito, extracción o tarjetas.</li>
+</ul>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Buscar</em>.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="conciliar-los-movimientos-de-banco">
+<h2>13.2. Conciliar los Movimientos de Banco<a class="headerlink" href="#conciliar-los-movimientos-de-banco" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">El sistema Fierro cuenta con la posibilidad de conciliar los movimientos de banco, indicando cuales ya se encuentran debidamente registrados en el extracto bancario, incluyendo la opción de cambiar la fecha o el importe del movimiento (estas últimas dos opciones sólo se pueden aplicar cuando el movimiento no esta conciliado).</p>
+</div>
+<div class="section" id="conciliar-movimientos-de-banco">
+<h3>13.2.1. Conciliar movimientos de banco<a class="headerlink" href="#conciliar-movimientos-de-banco" title="Enlazar permanentemente con este título">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Caja y Bancos ‣ Movimientos
+de banco</em>. Se abrirá la pantalla Búsqueda de Movimientos de banco. Seleccionar el movimiento a conciliar</p>
+<div class="figure">
+<img alt="../../_images/ConciliarMovimientoBanco1.png" src="../../_images/ConciliarMovimientoBanco1.png" />
+<p class="caption">Pantalla Búsqueda de Movimientos de banco</p>
+</div>
+</li>
+<li><p class="first">Hacer click en el icono <img alt="/icons/22validar.png" class="inlinegraphic" src="../../_images/22validar.png" /></p>
+</li>
+<li><p class="first">Aceptar la conciliación del movimiento. El movimiento quedara conciliado y se pude verificar en la columna <em class="menuselection">Conciliado ‣ Sí</em></p>
+<div class="figure">
+<img alt="../../_images/ConciliarMovimientoBanco3.png" src="../../_images/ConciliarMovimientoBanco3.png" />
+<p class="caption">Conciliación de movimiento de banco</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="revertir-la-conciliacion-del-movimiento-de-banco">
+<h3>13.2.2. Revertir la conciliación del movimiento de banco<a class="headerlink" href="#revertir-la-conciliacion-del-movimiento-de-banco" title="Enlazar permanentemente con este título">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">En la búsqueda de movimientos de banco seleccionar el movimiento conciliado</p>
+</li>
+<li><p class="first">Hacer click en el icono <img alt="/icons/22no_valido.png" class="inlinegraphic" src="../../_images/22no_valido.png" /></p>
+</li>
+<li><p class="first">Aceptar la reverción de la conciliación del movimiento. El movimiento quedará como &#8220;no conciliado&#8221; y se pude verificar en la columna <em class="menuselection">Conciliado ‣ No</em></p>
+<div class="figure">
+<img alt="../../_images/ConciliarMovimientoBanco5.png" src="../../_images/ConciliarMovimientoBanco5.png" />
+<p class="caption">Revertir conciliación de movimiento de banco</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="cambiar-la-fecha-del-movimiento-de-banco">
+<h3>13.2.3. Cambiar la fecha del movimiento de banco<a class="headerlink" href="#cambiar-la-fecha-del-movimiento-de-banco" title="Enlazar permanentemente con este título">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">En la búsqueda de movimientos de banco seleccionar el movimiento a modificar</p>
+</li>
+<li><p class="first">Hacer click en el icono <img alt="/icons/cambiar_fecha.png" class="inlinegraphic" src="../../_images/cambiar_fecha.png" /></p>
+</li>
+<li><p class="first">Indicar la nueva fecha para el movimiento</p>
+<div class="figure">
+<img alt="../../_images/CambiarFechaMovimiento2.png" src="../../_images/CambiarFechaMovimiento2.png" />
+<p class="caption">Cambiar fecha de movimiento de banco</p>
+</div>
+</li>
+<li><p class="first">Al búscar nuevamente el movimiento se puede ver la nueva fecha en la columna y en la vista del documento.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="modificar-el-importe-del-movimiento-de-banco">
+<h3>13.2.4. Modificar el importe del movimiento de banco<a class="headerlink" href="#modificar-el-importe-del-movimiento-de-banco" title="Enlazar permanentemente con este título">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">En la consulta de movimientos de banco seleccionar el movimiento a editar</p>
+</li>
+<li><p class="first">Hacer click en el icono <img alt="/icons/22cambiar_importe.png" class="inlinegraphic" src="../../_images/22cambiar_importe.png" /></p>
+</li>
+<li><p class="first">Indicar el nuevo importe para el movimiento</p>
+<div class="figure">
+<img alt="../../_images/CambiarImporteMovimiento2.png" src="../../_images/CambiarImporteMovimiento2.png" />
+<p class="caption">Cambiar el importe de un movimiento de banco</p>
+</div>
+</li>
+<li><p class="first">Al búscar nuevamente el movimiento se puede ver el nuevo importe en la columna y en la vista del documento.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../manual.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">13. ¿Cómo visualizar y conciliar los movimientos de banco?</a><ul>
+<li><a class="reference internal" href="#visualizar-los-movimientos-de-banco">13.1. Visualizar los Movimientos de Banco</a></li>
+<li><a class="reference internal" href="#conciliar-los-movimientos-de-banco">13.2. Conciliar los Movimientos de Banco</a><ul>
+<li><a class="reference internal" href="#conciliar-movimientos-de-banco">13.2.1. Conciliar movimientos de banco</a></li>
+<li><a class="reference internal" href="#revertir-la-conciliacion-del-movimiento-de-banco">13.2.2. Revertir la conciliación del movimiento de banco</a></li>
+<li><a class="reference internal" href="#cambiar-la-fecha-del-movimiento-de-banco">13.2.3. Cambiar la fecha del movimiento de banco</a></li>
+<li><a class="reference internal" href="#modificar-el-importe-del-movimiento-de-banco">13.2.4. Modificar el importe del movimiento de banco</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="cajaybancos_12.html"
+                        title="Capítulo anterior">12. ¿Cómo extraer efectivo de una caja?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="cajaybancos_14.html"
+                        title="Próximo capítulo">14. ¿Cómo visualizar el estado de una cuenta?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_14.html" title="14. ¿Cómo visualizar el estado de una cuenta?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_12.html" title="12. ¿Cómo extraer efectivo de una caja?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" >5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

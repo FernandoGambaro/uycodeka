@@ -1,0 +1,1 @@
+a:13:{s:9:"logged_in";b:1;s:6:"UserID";s:1:"1";s:2:"IP";s:13:"192.168.1.254";s:7:"UserTpo";i:-1;s:7:"UserTra";s:1:"2";s:7:"UserNom";s:8:"Fernando";s:7:"UserApe";s:8:"Gámbaro";s:4:"hora";i:1459254363;s:8:"inactivo";i:60000000;s:10:"isLoggedIn";b:1;s:7:"timeOut";i:60000000;s:8:"loggedAt";i:1459255723;s:7:"version";s:5:"1.8.4";}

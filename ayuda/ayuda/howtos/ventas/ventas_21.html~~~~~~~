@@ -1,0 +1,184 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>23. ¿Cómo utilizar la estimación y tendencia de ventas? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="24. ¿Cómo crear puntos de facturación?" href="ventas_22.html" />
+    <link rel="prev" title="22. ¿Cómo se completa la operación de pago contrareembolso?" href="ventas_20.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_22.html" title="24. ¿Cómo crear puntos de facturación?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_20.html" title="22. ¿Cómo se completa la operación de pago contrareembolso?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-utilizar-la-estimacion-y-tendencia-de-ventas">
+<span id="howto-ventas-tendencias"></span><h1>23. ¿Cómo utilizar la estimación y tendencia de ventas?<a class="headerlink" href="#como-utilizar-la-estimacion-y-tendencia-de-ventas" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Tendencia de ventas</strong></p>
+<p>Se trata de un coeficiente que indica si las ventas de un libro vienen
+aumentando o descendiendo, sobre un rango de variación que va desde -100
+(máxima caída) hasta 100 (máximo ascenso). El sistema provee las tendencias
+histórica y reciente de ventas de cada libro, las que pueden examinarse y
+utilizarse de distintas formas.</p>
+<p>Además, el sistema proporciona <em>estimaciones de venta</em> en base a tendencias.
+La venta estimada se calcula como una proyección proporcional de ventas pero
+modificada por la tendencia. Ejemplo: si en los últimos 30 días se vendieron
+10 ejemplares, proporcionalmente en los próximos 30 días deberían venderse
+otros 10. Pero al ser modificada la estimación por la tendencia, si ésta es
+creciente la estimación podría ser de 14 ejemplares, y si es decreciente, de
+4.</p>
+<p class="last"><em>Importante:</em> en el cálculo de la estimación se consideran únicamente las
+ventas en días en que el libro tuvo stock.  Ejemplo: si en un mes se
+vendieron 10 ejemplares de un libro pero durante 15 días no tuvo stock, la
+proyección indicará que en el próximo mes se venderán 20 ejemplares, pues
+idealmente eso hubiera ocurrido de haber estado el libro en stock.</p>
+</div>
+<ol class="arabic simple">
+<li>La tendencia de ventas pueden visualizarse en 6 columnas de
+la <em class="guilabel">pantalla de libros</em>, a saber:<ul>
+<li>Tendencia histórica (cadena);</li>
+<li>Tendencia histórica (sucursal);</li>
+<li>Tendencia reciente (cadena);</li>
+<li>Tendencia reciente (sucursal);</li>
+<li>Venta estimada por tendencia (cadena);</li>
+<li>Venta estimada por tendencia (sucursal).</li>
+</ul>
+</li>
+<li>Otro uso de la tendencia es en la <em class="guilabel">generación automática de
+pedidos</em>, para pedir cantidades en base al aumento o disminución en las
+ventas (<em>véase</em> <a class="reference internal" href="../compras/compras_02.html#howto-compras-sec2-salesbetweendates"><em>Venta entre fechas</em></a>).</li>
+<li>Un tercer uso posible de la tendencia de ventas es en las <em class="guilabel">alarmas
+automáticas de reposición</em> (<em>véase</em> <a class="reference internal" href="../general/general_12.html#howto-others-tareasprogramadas"><em>¿Cómo crear tareas programadas?</em></a>).</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p>El <em class="guilabel">cálculo de la tendencia</em> se basa en ciertos parámetros
+predefinidos, pero que que pueden modificarse:</p>
+<ol class="last arabic simple">
+<li>Cantidad de días que se consideran en la tendencia <em>reciente</em>.
+El valor predefinido es 60.</li>
+<li>Cantidad de días que se consideran en la tendencia <em>histórica</em>.
+El valor predefinido es 1000.</li>
+<li>Porcentaje asignado a la tendencia reciente y a la histórica en el
+cálculo de la estimación.  Los valores predefinidos son de 80 % para
+la reciente y de 20 % para la histórica.</li>
+<li>Cantidad de días que se consideran para el cálculo de la estimación (es
+decir, que el valor Venta estimada se considere para los próximos x días).
+El valor predefinido es 30.</li>
+<li>Cantidad de días mínimos que se consideran para evaluar la tendencia (es
+decir que si el libro ingresó hace menos días, no se evalúa para no
+distorcionar los datos por un ingreso reciente). El valor predeterminado
+es 10% (el 10% de la cantidad de días de la tendencia, si la cantidad de
+días de la tendencia es 30, los días mínimos son 3)</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_20.html"
+                        title="Capítulo anterior">22. ¿Cómo se completa la operación de pago contrareembolso?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_22.html"
+                        title="Próximo capítulo">24. ¿Cómo crear puntos de facturación?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_22.html" title="24. ¿Cómo crear puntos de facturación?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_20.html" title="22. ¿Cómo se completa la operación de pago contrareembolso?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

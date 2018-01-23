@@ -1,0 +1,235 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>3. ¿Cómo crear un grupo de usuarios? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="7. Seguridad" href="../10_seguridad.html" />
+    <link rel="next" title="4. ¿Cómo asignar permisos?" href="seguridad_04.html" />
+    <link rel="prev" title="2. ¿Cómo crear un usuario?" href="seguridad_02.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="seguridad_04.html" title="4. ¿Cómo asignar permisos?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="seguridad_02.html" title="2. ¿Cómo crear un usuario?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../10_seguridad.html" accesskey="U">7. Seguridad</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-un-grupo-de-usuarios">
+<span id="howto-security-createusergroup"></span><h1>3. ¿Cómo crear un grupo de usuarios?<a class="headerlink" href="#como-crear-un-grupo-de-usuarios" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><ol class="arabic" id="index-1">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Sistema ‣ Grupos de
+usuarios</em>. Se abrirá la pantalla Búsqueda de grupos de usuarios.</p>
+<div class="figure">
+<img alt="../../_images/scrUserGroupSearch.png" src="../../_images/scrUserGroupSearch.png" />
+<p class="caption">Pantalla Búsqueda de grupos de usuarios</p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Crear</em>.Se abrirá el asistente para crear un
+nuevo grupo de usuarios. Ver <a class="reference internal" href="../../basics/pantallas/pantallas_03.html#basics-controls-wizards"><em>Asistente</em></a>.</p>
+</li>
+<li><p class="first">Completar los pasos del asistente.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Finish (Terminar)</em> para crear el grupo de usuarios.</p>
+</li>
+</ol>
+<p>Los pasos de la creación de un grupo de usuarios son:</p>
+<div class="section" id="nombre-y-sucursal">
+<h2>3.1. Nombre y sucursal<a class="headerlink" href="#nombre-y-sucursal" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="figure">
+<img alt="../../_images/scrUserGroupSucursalPage.png" src="../../_images/scrUserGroupSucursalPage.png" />
+<p class="caption">Pantalla general de la creación de un grupo de usuarios</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Completar el nombre del grupo en el campo Nombre.</p>
+</li>
+<li><p class="first">Ingresar una descripción del grupo en el campo Descripción.</p>
+</li>
+<li><p class="first">Seleccionar las sucursales a donde pueden ingresar los usuarios
+pertenecientes al grupo.</p>
+<p>Cuando un usuario ingresa al sistema, solo podrá ingresar a las
+sucursales permitidas a los grupos a los que pertenece.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="vistas">
+<h2>3.2. Vistas<a class="headerlink" href="#vistas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En esta pantalla se determinan qué vistas puede usar el usuario. Ver <a class="reference internal" href="../../basics/busqueda/mantenimiento_03.html#basics-searchs-sec3"><em>¿Qué
+es una vista?</em></a>.</p>
+<div class="figure">
+<img alt="../../_images/scrUserGroupHtmlViewPage.png" src="../../_images/scrUserGroupHtmlViewPage.png" />
+<p class="caption">Pantalla de permisos sobro las vistas</p>
+</div>
+<ol class="arabic simple">
+<li>Por cada entidad de sistema (libros, facturas de compra, remitos, movimientos
+de stock, etc.) se muestran las vistas correspondientes.</li>
+<li>Seleccionar las vistas permitidas para el grupo.</li>
+<li>Si se desea asignar el permiso a todas las vistas de una entidad, seleccionar
+directamente la entidad. Las vistas correspondientes quedarán seleccionadas.</li>
+</ol>
+</div>
+<div class="section" id="columnas">
+<h2>3.3. Columnas<a class="headerlink" href="#columnas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En esta pantalla se determinan qué columnas puede visualizar el usuario en
+cada búsqueda del sistema. Ver <a class="reference internal" href="../../basics/busqueda/mantenimiento_14.html#basics-searchs-sec13"><em>Configurar las columnas del resultado</em></a>.</p>
+<div class="figure">
+<img alt="../../_images/scrUserGroupColumnsPage.png" src="../../_images/scrUserGroupColumnsPage.png" />
+<p class="caption">Pantalla de permisos sobro las columnas</p>
+</div>
+<ol class="arabic simple">
+<li>Por cada entidad de sistema (libros, facturas de compra, remitos, movimientos
+de stock, etc.) se muestran las columnas disponibles.</li>
+<li>Seleccionar las columnas permitidas para el grupo.</li>
+<li>Si se desea asignar el permiso a todas las columnas de una entidad,
+seleccionar directamente la entidad. Las columnas correspondientes quedarán
+seleccionadas.</li>
+</ol>
+</div>
+<div class="section" id="paneles-de-busqueda">
+<h2>3.4. Paneles de búsqueda<a class="headerlink" href="#paneles-de-busqueda" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En esta pantalla se determinan qué paneles de búsqueda puede utilizar el usuario
+en cada búsqueda del sistema. Ver <a class="reference internal" href="../../basics/busqueda/mantenimiento_07.html#basics-searchs-sec7"><em>Cambiar el panel de búsqueda</em></a>.</p>
+<div class="figure">
+<img alt="../../_images/scrUserGroupFilterPanelPage.png" src="../../_images/scrUserGroupFilterPanelPage.png" />
+<p class="caption">Pantalla de permisos sobro los paneles de búsqueda</p>
+</div>
+<ol class="arabic simple">
+<li>Por cada entidad de sistema (libros, facturas de compra, remitos, movimientos
+de stock, etc.) se muestran los paneles de búsqueda disponibles.</li>
+<li>Seleccionar los paneles de búsqueda permitidos para el grupo.</li>
+<li>Si se desea asignar el permiso a todos los paneles de búsqueda de una
+entidad, seleccionar directamente la entidad.</li>
+</ol>
+</div>
+<div class="section" id="permisos">
+<h2>3.5. Permisos<a class="headerlink" href="#permisos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En esta pantalla se determina qué puede hacer el grupo de usuarios.</p>
+<p>Los permisos se muestran divididos por módulos.</p>
+<p>Algunos permisos se asignan simplemente seleccionando el permiso. Por ejemplo,
+Crear autores.</p>
+<p>Otros permisos tienen parámetros, por ejemplo, el permiso de Anular facturas
+tiene el parámetro de las sucursales donde se puede realizar. Los parámetros se
+muestran a la derecha de la lista de permisos, cuando se hace click sobre el
+mismo.</p>
+<div class="figure">
+<img alt="../../_images/scrUserGroupActionsPage.png" src="../../_images/scrUserGroupActionsPage.png" />
+<p class="caption">Pantalla de permisos</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../manual.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">3. ¿Cómo crear un grupo de usuarios?</a><ul>
+<li><a class="reference internal" href="#nombre-y-sucursal">3.1. Nombre y sucursal</a></li>
+<li><a class="reference internal" href="#vistas">3.2. Vistas</a></li>
+<li><a class="reference internal" href="#columnas">3.3. Columnas</a></li>
+<li><a class="reference internal" href="#paneles-de-busqueda">3.4. Paneles de búsqueda</a></li>
+<li><a class="reference internal" href="#permisos">3.5. Permisos</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="seguridad_02.html"
+                        title="Capítulo anterior">2. ¿Cómo crear un usuario?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="seguridad_04.html"
+                        title="Próximo capítulo">4. ¿Cómo asignar permisos?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="seguridad_04.html" title="4. ¿Cómo asignar permisos?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="seguridad_02.html" title="2. ¿Cómo crear un usuario?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../10_seguridad.html" >7. Seguridad</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

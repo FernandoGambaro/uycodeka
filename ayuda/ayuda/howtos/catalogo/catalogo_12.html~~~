@@ -1,0 +1,196 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1.17. Kardex &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="1. Catálogo" href="../05_catalogo.html" />
+    <link rel="next" title="1.18. ¿Cómo trabajar con libros usados?" href="catalogo_13.html" />
+    <link rel="prev" title="1.11. Importación masiva de libros" href="catalogo_11.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="catalogo_13.html" title="1.18. ¿Cómo trabajar con libros usados?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_11.html" title="1.11. Importación masiva de libros"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" accesskey="U">1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="kardex">
+<h1>1.17. Kardex<a class="headerlink" href="#kardex" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Utilidad del kardex</strong></p>
+<p class="last">El kardex muestra el historial de movimientos de stock y consignación
+de un libro, listando los documentos que lo afectan ordenados por fecha,
+y detallando el efecto que producen en el stock firme, el stock
+consignado y el original de consignación (consignado teórico).</p>
+</div>
+<ol class="arabic">
+<li><p class="first">En una búsqueda de libros, si se pulsa el botón derecho del mouse sobre el
+campo inferior de la pantalla (vista), puede elegirse la vista de Kardex para
+el libro seleccionado:</p>
+<div class="figure">
+<img alt="../../_images/Kardex.png" src="../../_images/Kardex.png" />
+<p class="caption">Búsqueda de libros con vista de kardex</p>
+</div>
+</li>
+<li><p class="first">Elementos del kardex:</p>
+<ul>
+<li><p class="first">Fecha: Fecha del documento;</p>
+</li>
+<li><p class="first">Documento: Breve descripción del documento;</p>
+</li>
+<li><p class="first">Número: Número del documento;</p>
+</li>
+<li><p class="first">Tipo: Tipo de documento. A continuación se describen las referencias de tipo:</p>
+<p>Para facturas y remitos:</p>
+<ul class="simple">
+<li>C: Consignación</li>
+<li>R: Reposición</li>
+<li>F: Firme</li>
+<li>A: Anulado</li>
+<li>B: Baja de consignación</li>
+<li>D: Firme con derecho a devolución</li>
+<li>O: Compulsiva</li>
+</ul>
+<p>Para documentos de stock:</p>
+<ul class="simple">
+<li>D: Movimiento entre depósitos</li>
+<li>E: Entrada</li>
+<li>S: Salida</li>
+</ul>
+</li>
+<li><p class="first">Cant.: Cantidad de ejemplares del documento;</p>
+</li>
+<li><p class="first">Movimientos Cant. Firme: Indica la cantidad de stock firme que modifica el documento;</p>
+</li>
+<li><p class="first">Movimientos Consignación: Indica la cantidad de stock consignado que
+modifica el documento; la cantidad que se encuentra entre paréntesis indica
+el movimiento del original de consignación;</p>
+</li>
+<li><p class="first">Acumulado Stock Firme: Stock firme luego de efectuado el movimiento
+correspondiente al documento;</p>
+</li>
+<li><p class="first">Acumulado Consignación: Stock consignado luego de efectuado el movimiento
+correspondiente al documento. La cantidad que se encuentra entre paréntesis
+indica cómo queda el original de consignación luego del movimiento;</p>
+</li>
+<li><p class="first">Origen: Para el caso de documentos vinculados a las ventas,  muestra el
+cliente correspondiente. Para los documentos de compras, el proveedor. Para
+los documentos de stock muestra el depósito correspondiente.</p>
+</li>
+</ul>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">La vista hasta aquí descripta muestra el historial del libro durante el
+último año.  Si desea visualizar el kardex para otro período, o filtrar por
+sucursal, puede utilizarse el reporte Kardex en la opción de
+menú <em class="menuselection">Stock ‣ Reportes ‣ Kardex</em>.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="catalogo_11.html"
+                        title="Capítulo anterior">1.11. Importación masiva de libros</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="catalogo_13.html"
+                        title="Próximo capítulo">1.18. ¿Cómo trabajar con libros usados?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="catalogo_13.html" title="1.18. ¿Cómo trabajar con libros usados?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_11.html" title="1.11. Importación masiva de libros"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" >1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,238 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>8.11. ¿Cómo trabajar offline en Fierro? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="8. General" href="../11_general.html" />
+    <link rel="next" title="8.12. ¿Cómo crear tareas programadas?" href="general_12.html" />
+    <link rel="prev" title="8.10. Impresión de las vistas HTML" href="general_10.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="general_12.html" title="8.12. ¿Cómo crear tareas programadas?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_10.html" title="8.10. Impresión de las vistas HTML"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" accesskey="U">8. General</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-trabajar-offline-en-fierro">
+<h1>8.11. ¿Cómo trabajar offline en Fierro?<a class="headerlink" href="#como-trabajar-offline-en-fierro" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Ante posibles interrupciones en el funcionamiento <em>online</em> de Fierro por
+falta de Internet en la sucursal o en el servidor central, es posible
+utilizar el sistema en modo <em>offline</em>, lo cual permite <em class="guilabel">facturar</em>
+, <em class="guilabel">crear clientes</em> y hacer todo tipo de <em class="guilabel">consultas</em>,
+pero NO crear otro contenido nuevo como libros, proveedores, etcétera.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">En el menú Aplicaciones -&gt; Oficina, del escritorio de Linux, ingresar al modo
+<em>offline</em> con el ícono &#8220;Fierro-offline&#8221;. Nos damos cuenta que Fierro inició
+en modo <em>offline</em> porque en el título de la ventana dice: &#8220;** MODO OFFLINE
+SOLO CONSULTA Y FACTURACIÓN **&#8221;.</p>
+</li>
+<li><p class="first">IMPORTANTE: si se utilizan facturas pre-impresas, antes de empezar a trabajar
+<em>offline</em> debe cambiarse el próximo número de factura del punto de venta
+respectivo (Ver <a class="reference internal" href="../ventas/ventas_09.html#howto-ventas-sec9"><em>¿Cómo modificar el próximo número de Factura de Venta?</em></a>). ¿Por qué?</p>
+<p>Todas las noches el sistema transmite, vía Internet, una copia de la base
+desde el servidor central al servidor <em>offline</em> (no obstante, esta copia
+puede hacerse manualmente). Dicha copia está siempre desactualizada -por lo
+menos 24 horas- al momento de pasar a trabajar <em>offline</em>, pues aún no se hizo
+esa operación nocturna.</p>
+<p>Ejemplo:</p>
+<ul class="simple">
+<li>La copia de la noche anterior guardó hasta la factura número 30. El
+usuario inicia Fierro al comienzo de jornada, factura <em>online</em> durante la
+mañana y llega hasta la factura número 40. En ese momento se pierde la
+conexión a Internet, y el usuario pasa a Fierro <em>offline</em>;</li>
+<li>Pero, en <em>offline</em> la base había sido guardada hasta la factura 30, por lo
+cual, el usuario deberá cambiar el próximo número de factura. De lo
+contrario, las facturas <em>offline</em> no podrán enviarse al servidor principal
+cuando se retome la conexión;</li>
+<li>La explicación es que, cuando el sistema intente pasar la factura número
+31, encontrará que ese número ya fue usado por el usuario durante su
+jornada <em>online</em>. E igualmente ocurrirá con las restantes hasta la número
+40.</li>
+<li>Es decir, antes de empezar a trabajar sin conexión deberá cambiarse el
+próximo número de factura al 41.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Mientras se trabaja <em>offline</em>, los datos se guardan en dos
+almacenamientos. La segunda instancia de almacenamiento puede denominarse
+&#8220;lista o cola de operaciones a enviar&#8221;. Al momento de envío de
+operaciones, el sistema toma el primer dato de la cola y lo envía, luego
+toma el segundo y lo envía, y así sucesivamente.</p>
+</div>
+</li>
+<li><p class="first">Lo explicado previamente sobre el cambio de próximo número de factura no es
+necesario si se utiliza impresora con <em class="guilabel">controlador fiscal</em>.</p>
+</li>
+<li><p class="first">¿Cómo enviar al servidor central las facturas y notas de crédito realizadas
+<em>offline</em>? Puede hacerse automáticamente al restablecerse la conexión, o
+manualmente con un pendrive. Para enviarlas automáticamente, desde el
+escritorio de Linux: Aplicaciones -&gt; Herramientas del sistema -&gt; Panel de
+control de Fierro -&gt; Enviar operaciones offline -&gt; Aceptar.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">En el panel de control de Fierro, al modo <em>online</em> se lo
+denomina <em class="guilabel">remoto</em>, y al modo <em>offline</em> se lo
+denomina <em class="guilabel">local</em>.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/enviarOperaciones.png" src="../../_images/enviarOperaciones.png" />
+<p class="caption">Enviar operaciones</p>
+</div>
+</li>
+<li><p class="first">Las operaciones no transmitidas por causa de algún error producen el envío
+automatico de un mail de aviso a Soporte-IT de Lambda Sistemas.</p>
+</li>
+</ol>
+<div class="section" id="fierro-offline-en-ferias">
+<h2>8.11.1. Fierro offline en ferias<a class="headerlink" href="#fierro-offline-en-ferias" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Al inicio de jornada, la base de datos central y la de feria son iguales: la
+feria tiene toda la información de la central.</p>
+</li>
+<li><p class="first">Durante el día, en la librería principal se realizan todas las operaciones
+cotidianas, mientras que en feria solo se procesan las facturas de venta, que
+se guardan en su base de datos y en archivos externos que luego podrán
+copiarse.</p>
+</li>
+<li><p class="first">Al terminar el día, se copian las facturas creadas en la feria a un pendrive,
+para ser llevadas a la central.</p>
+</li>
+<li><p class="first">Las facturas del pendrive son copiadas a la base central, y luego de ello la
+central tendrá registro de las ventas de feria. La base de datos central se
+vuelve a copiar al pendrive para ser llevada a la feria, así ésta tendrá sus
+ventas y los datos actualizados de la central (precios, stock, etcétera).</p>
+<div class="admonition warning">
+<p class="first admonition-title">Advertencia</p>
+<p class="last">IMPORTANTE:
+Los pasos anteriores deben realizarse en el orden descripto, caso
+contrario habrá pérdida de información.</p>
+</div>
+</li>
+<li><p class="first">En la feria, se toma la base del pendrive con sus datos completos y
+actualizados: la base de la feria es &#8220;pisada&#8221; por la nueva base de datos.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Antes de comenzar a facturar, se debe revisar el <em class="guilabel">próximo
+número de factura</em> para que coincida con el papel.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">8.11. ¿Cómo trabajar offline en Fierro?</a><ul>
+<li><a class="reference internal" href="#fierro-offline-en-ferias">8.11.1. Fierro offline en ferias</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="general_10.html"
+                        title="Capítulo anterior">8.10. Impresión de las vistas HTML</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="general_12.html"
+                        title="Próximo capítulo">8.12. ¿Cómo crear tareas programadas?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="general_12.html" title="8.12. ¿Cómo crear tareas programadas?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_10.html" title="8.10. Impresión de las vistas HTML"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" >8. General</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

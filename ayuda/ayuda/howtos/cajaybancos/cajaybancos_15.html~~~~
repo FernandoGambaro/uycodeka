@@ -1,0 +1,154 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>15. ¿Cómo visualizar los cheques emitidos? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="5. Caja y Bancos" href="../08_cajaybancos.html" />
+    <link rel="next" title="16. ¿Cómo visualizar la cartera de cheques?" href="cajaybancos_16.html" />
+    <link rel="prev" title="14. ¿Cómo visualizar el estado de una cuenta?" href="cajaybancos_14.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_16.html" title="16. ¿Cómo visualizar la cartera de cheques?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_14.html" title="14. ¿Cómo visualizar el estado de una cuenta?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" accesskey="U">5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-visualizar-los-cheques-emitidos">
+<h1>15. ¿Cómo visualizar los cheques emitidos?<a class="headerlink" href="#como-visualizar-los-cheques-emitidos" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Caja y Bancos ‣ Cheques</em>. Se
+abrirá la pantalla Búsqueda de Cheques.</p>
+<div class="figure">
+<img alt="../../_images/scrCheckSearch.png" src="../../_images/scrCheckSearch.png" />
+<p class="caption">Pantalla Búsqueda de Cheques</p>
+</div>
+</li>
+<li><p class="first">Completar algún criterio de búsqueda:</p>
+<ul class="simple">
+<li>Fecha de emisión: Rango de fechas en la que se emitió el Cheque.</li>
+<li>Fecha de pago: Rango de fechas de pago.</li>
+<li>Cuenta: Cuenta origen del Cheque.</li>
+<li>Número: Rango de Números de Cheque.</li>
+<li>Importe: Rango de importe del Cheque.</li>
+<li>Estado: Estado del cheque.</li>
+</ul>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Buscar</em>.</p>
+</li>
+<li><p class="first">En la vista general, se visualizan los datos del cheque seleccionado.
+Haciendo click sobre el comprobante asociado, se visualiza la respectiva
+ficha. Por ejemplo, puede visualizarse la ficha de la orden de pago o el
+gasto que cancela el cheque.</p>
+<div class="figure">
+<img alt="../../_images/scrCheckView.png" src="../../_images/scrCheckView.png" />
+<p class="caption">Vista general del cheque</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="cajaybancos_14.html"
+                        title="Capítulo anterior">14. ¿Cómo visualizar el estado de una cuenta?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="cajaybancos_16.html"
+                        title="Próximo capítulo">16. ¿Cómo visualizar la cartera de cheques?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_16.html" title="16. ¿Cómo visualizar la cartera de cheques?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_14.html" title="14. ¿Cómo visualizar el estado de una cuenta?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" >5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

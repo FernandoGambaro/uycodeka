@@ -1,0 +1,884 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>2. ¿Cómo generar pedidos? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Compras" href="../07_compras.html" />
+    <link rel="next" title="3. ¿Cómo ingresar una factura remito de tipo reposición o firme?" href="compras_03.html" />
+    <link rel="prev" title="1. ¿Cómo agregar una sugerencia de compra?" href="compras_01.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="compras_03.html" title="3. ¿Cómo ingresar una factura remito de tipo reposición o firme?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_01.html" title="1. ¿Cómo agregar una sugerencia de compra?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" accesskey="U">3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-generar-pedidos">
+<h1>2. ¿Cómo generar pedidos?<a class="headerlink" href="#como-generar-pedidos" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Tipos de pedido</strong></p>
+<p>Los pedidos de envío de mercadería firme o consignada, por un lado, y los
+pedidos de liquidación de consignación (baja) por otro, se generan
+separadamente.</p>
+<p>Ello se debe a que son tipos de pedido diferentes: los primeros contienen
+material solicitado al proveedor, y se utilizan para validar el ingreso de
+dicho material en <em class="guilabel">remitos</em> y <em class="guilabel">facturas remito</em>.
+<em>Véase</em> <a class="reference internal" href="compras_04.html#howto-compras-sec4"><em>¿Cómo ingresar un remito de consignación?</em></a>
+y <a class="reference internal" href="compras_03.html#howto-compras-sec3"><em>¿Cómo ingresar una factura remito de tipo reposición o firme?</em></a></p>
+<p>Los pedidos de baja, en cambio, solo indican los libros y cantidades que
+se solicita sean facturados por el proveedor, y se utilizan para validar
+las <em class="guilabel">facturas de liquidación</em>.
+<em>Véase</em> <a class="reference internal" href="compras_05.html#howto-compras-sec5"><em>¿Cómo ingresar una factura de baja de consignación?</em></a></p>
+<p class="last">Fierro proporciona <em>cuatro</em> maneras de crear pedidos a proveedores: 1)
+manualmente, 2) automáticamente a un solo proveedor, 3) por lote de pedidos,
+y 4) automáticamente a más de un proveedor (esta última sólo para solicitar
+mercadería, no para liquidar).</p>
+</div>
+<div class="section" id="como-crear-manualmente-un-pedido-de-mercaderia">
+<h2>2.1. ¿Cómo crear manualmente un pedido de mercadería?<a class="headerlink" href="#como-crear-manualmente-un-pedido-de-mercaderia" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-2"></span><ol class="arabic" id="index-3">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Compras ‣ Pedidos ‣ Pedidos</em>.</p>
+</li>
+<li><p class="first">En la pantalla que se presenta, pulsar el ícono
+<img alt="/icons/22npedidos.png" class="inlinegraphic" src="../../_images/22npedidos.png" /> de la barra de herramientas.</p>
+</li>
+<li><p class="first">En la ventana que aparece deben completarse los datos <em>Proveedor</em>, <em>Tipo</em>
+(Firme o Consignación) y <em>Envío</em>, y elegirse la sucursal para la que se
+genera el pedido.</p>
+<div class="figure">
+<img alt="../../_images/pedidoManual.png" src="../../_images/pedidoManual.png" />
+<p class="caption">None</p>
+</div>
+</li>
+<li><p class="first">Se identifican los libros que incluirá el pedido. Esto puede hacerse
+colocando un código del libro y pulsando <em class="guilabel">Enter</em>, o bien mediante
+el ícono <img alt="/icons/22b_libro.png" class="inlinegraphic" src="../../_images/22b_libro.png" />, que abre una ventana de búsqueda en
+el catálogo (<em>Véase</em> <a class="reference internal" href="../catalogo/catalogo_01.html#howto-catalogo-sec1"><em>¿Cómo buscar libros por título y autor?</em></a>).</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Si se introduce en el campo <em>Código</em> alguno de los cuatro códigos (ISBN,
+interno, de barras o de proveedor) con que Fierro puede reconocer un
+libro, al pulsar <em class="guilabel">Enter</em> o <em class="guilabel">Tab</em> el sistema
+autocompleta el título, el precio y el descuento.</p>
+</div>
+</li>
+<li><p class="first">Añadir al pedido con el botón <em class="guilabel">Agregar</em> el libro seleccionado.</p>
+</li>
+<li><p class="first">Otros modos de carga de libros en el pedido son la captura de paquetes
+(<em>Véase</em> <a class="reference internal" href="../general/general_02.html#howto-others-packet"><em>¿Cómo crear y utilizar paquetes?</em></a>) o de
+pedidos preexistentes: botones <img alt="/icons/buscarPaquetes.png" class="inlinegraphic" src="../../_images/buscarPaquetes.png" /> y
+<img alt="/icons/22bpedido.png" class="inlinegraphic" src="../../_images/22bpedido.png" /> sobre la parte superior izquierda de la
+grilla de carga.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Los <em>pedidos de baja</em> (liquidación) manuales se generan de modo similar,
+en <em class="menuselection">Compras ‣ Pedidos ‣ Pedidos de baja</em>.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="como-crear-un-pedido-con-la-generacion-automatica-de-pedidos">
+<span id="howto-compras-sec2-sec2"></span><h2>2.2. ¿Cómo crear un pedido con la Generación automática de pedidos?<a class="headerlink" href="#como-crear-un-pedido-con-la-generacion-automatica-de-pedidos" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-4"></span><div class="admonition note" id="index-5">
+<p class="first admonition-title">Nota</p>
+<p><strong>Generación automática de pedidos</strong></p>
+<p>Esta herramienta sugiere qué material debería pedirse a un proveedor,
+basándose para ello en dos fuentes principales: el <em>faltante</em> de
+consignación y las <em>ventas</em> en un período dado.</p>
+<p class="last">Además de su utilidad práctica, puede entenderse y usarse también como una
+<em>pantalla de análisis</em> para la toma de decisiones de compra.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Compras ‣ Pedidos ‣
+Generación de pedidos</em>. Se abrirá la pantalla <em>Generación automática de
+pedidos</em>.</p>
+</li>
+<li><p class="first">Ingresar en el campo <em>Proveedor</em> el código respectivo y presionar la tecla
+<tt class="kbd docutils literal"><span class="pre">Tab</span></tt>. Si no se recuerda el código del proveedor, buscarlo mediante el
+botón <img alt="/icons/searchCopia.png" class="inlinegraphic" src="../../_images/searchCopia.png" /> . Luego de ingresado el código, el
+nombre aparecerá a la derecha del botón.</p>
+</li>
+<li><p class="first">Seleccionar la sucursal para la que van a generarse los pedidos.
+Por defecto aparece <em>Todas</em>.</p>
+</li>
+<li><p class="first">Seleccionar los tipos de pedido a crear. Por defecto aparecen marcados los
+tres: <em>Firme</em>, <em>Consignación</em>, <em>Baja</em>.</p>
+</li>
+<li><p class="first">Seleccionar el tipo de envío para la mercadería.</p>
+<div class="figure">
+<img alt="../../_images/genAutoPedidos.png" src="../../_images/genAutoPedidos.png" />
+<p class="caption">Generación automática de pedidos</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la estrategia. (<em>Véase</em> <a class="reference internal" href="#howto-compras-sec2-genorderstrategy"><em>Estrategias de
+generación de pedidos</em></a>.)</p>
+</li>
+<li><p class="first">Pulsar el botón <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" /> de la barra de herramientas
+para que el sistema ejecute el cálculo. La pantalla mostrará los libros y sus
+cantidades indicados por dicho cálculo:</p>
+<ul>
+<li><p class="first">Además de ello, podrá obtenerse una <em>variedad de datos</em> para facilitar la
+decisión de realizar el pedido, según las columnas que se utilicen en la
+pantalla (<em>véase</em> <a class="reference internal" href="../../basics/busqueda/mantenimiento_14.html#basics-searchs-sec13"><em>Configurar las columnas del resultado</em></a>).</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Ejemplos de <em class="guilabel">columnas para análisis</em>, entre otras que pueden
+utilizarse: Stock, Faltante consignación, Pedidos pendientes,
+Devoluciones, Entradas / Salidas por transferencia, Fecha último pedido,
+Fecha última venta, Compras / Ventas en el período (para la estrategia
+<em>Venta entre fechas</em>), Ventas último mes / último año, etcétera.  Las
+columnas <em>Venta estimada</em>, <em>Tendencia reciente</em> y <em>Tendencia histórica</em>
+están relacionadas con la <em class="guilabel">Tendencia de ventas</em>, cuyo uso en
+la generación de pedidos se explica más abajo.</p>
+</div>
+</li>
+<li><p class="first">Una de las <em class="guilabel">columnas instrumentales</em> básicas (además de código,
+título y precio de cada libro) es la columna <em>A pedir</em>, que informa,
+mediante una letra inicial y un número, el tipo de pedido y la cantidad a
+solicitar al proveedor. Por ejemplo, C:1, B:1 significa que el cálculo del
+sistema ha indicado generar un pedido de reposición por consignación de un
+ejemplar y un pedido de baja de un ejemplar.</p>
+</li>
+<li><p class="first">Como se dijo en la nota introductoria, la lista de libros a pedir indicada
+por el sistema constituye también un factor de decisión de compras. De
+allí, la posibilidad de <em class="guilabel">exportar a planilla</em> el resultado del
+cálculo para una evaluación externa. Se debe pulsar el botón <img alt="/icons/22exportar.png" class="inlinegraphic" src="../../_images/22exportar.png" /> en la barra de herramientas, y elegir luego la
+opción <em>Planilla OpenOffice</em>. El sistema creará un planilla con los datos
+de las columnas que se tengan en la pantalla:</p>
+<div class="figure">
+<img alt="../../_images/exportarPedido.png" src="../../_images/exportarPedido.png" />
+<p class="caption">Exportar el pedido a planilla</p>
+</div>
+</li>
+</ul>
+</li>
+<li><p class="first">Para modificar las cantidades de un libro indicadas por el sistema, hacer
+doble clic sobre la línea del libro, o marcarlo en la lista y pulsar el botón
+<img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" /> en la barra de herramientas. Se abrirá el
+editor de cantidades:</p>
+<div class="figure">
+<img alt="../../_images/editarPedido.png" src="../../_images/editarPedido.png" />
+<p class="caption">Modificar el pedido</p>
+</div>
+</li>
+<li><p class="first">Para sacar un libro de la lista, seleccionarlo y pulsar el botón <em class="guilabel">Quitar</em>.</p>
+</li>
+<li><p class="first">Para ingresar en la lista un libro que no fue indicado por el cálculo, pulsar
+el botón <em class="guilabel">Agregar</em>. Esto abre una pantalla de búsqueda en la cual
+se deberá marcar el libro y pulsar <em class="guilabel">Aceptar</em>. Luego de ello
+aparecerá incluido en la lista.</p>
+</li>
+<li><p class="first">Pulsar <em class="guilabel">Aceptar</em> en la base de la pantalla. El sistema creará el o
+los pedidos al proveedor, según el cálculo haya incluido o no pedidos de
+mercadería y también pedidos de baja.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Recuérdese que el sistema genera, en una misma operación,
+<em>separadamente</em> los pedidos de libros y los de liquidación de
+consignación.</p>
+</div>
+</li>
+</ol>
+<div class="section" id="envio-de-los-pedidos-al-proveedor">
+<h3>2.2.1. Envío de los pedidos al proveedor<a class="headerlink" href="#envio-de-los-pedidos-al-proveedor" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="admonition warning">
+<p class="first admonition-title">Advertencia</p>
+<p class="last">Para poder enviar desde Fierro los pedidos al proveedor, se debe tener
+configurado el envío de correo (<em>véase</em> <a class="reference internal" href="../general/general_05.html#howto-others-mailconfig"><em>Configuración del envío por
+mail</em></a>) y, en la ficha de cada proveedor, debe
+constar su dirección de e-mail.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Luego de creado un <em>pedido de mercadería</em>, buscarlo
+en <em class="menuselection">Compras ‣ Pedidos ‣ Pedidos</em>, marcarlo y pulsar el botón
+<img alt="/icons/22mail.png" class="inlinegraphic" src="../../_images/22mail.png" /> en la barra de herramientas.</p>
+</li>
+<li><p class="first">Luego de creado un <em>pedido de baja</em>, buscarlo
+en <em class="menuselection">Compras ‣ Pedidos ‣ Pedidos de baja</em>, marcarlo y
+pulsar el botón <img alt="/icons/22mail.png" class="inlinegraphic" src="../../_images/22mail.png" /> en la barra de herramientas.</p>
+</li>
+<li><p class="first">En ambos casos, luego de dicha operación el sistema informará si el mail pudo
+enviarse correctamente, y la columna <em>Envío por mail</em> en la pantalla del
+pedido contendrá la fecha en que éste fue enviado:</p>
+<div class="figure">
+<img alt="../../_images/mailOK.png" src="../../_images/mailOK.png" />
+<p class="caption">Confirmación de envío</p>
+</div>
+<div class="figure">
+<img alt="../../_images/pedidoEnviado.png" src="../../_images/pedidoEnviado.png" />
+<p class="caption">Pedido enviado</p>
+</div>
+</li>
+<li><p class="first">El proveedor recibirá en su casilla de mail un mensaje conformado como se ve
+a continuación:</p>
+<div class="figure">
+<img alt="../../_images/contenidoMail.png" src="../../_images/contenidoMail.png" />
+<p class="caption">Contenido del mail al proveedor</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="estrategias-de-generacion-de-pedidos">
+<span id="howto-compras-sec2-genorderstrategy"></span><h3>2.2.2. Estrategias de generación de pedidos<a class="headerlink" href="#estrategias-de-generacion-de-pedidos" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>¿Qué son?</strong></p>
+<p>Los mecanismos de cálculo del sistema para la generación automática de
+pedidos se denominan <em>estrategias</em>, y son, básicamente: <em>Faltante de
+consignación</em> y <em>Venta entre fechas</em>.</p>
+<p class="last">En esta sección se explica en qué consisten, y cómo
+configurarlas.</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Cada estrategia tiene parámetros para definir cómo sugiere el sistema los
+libros y las cantidades a pedir. Estos parámetros se establecen una vez y
+luego, en el uso cotidiano, solo se debe seleccionar la estrategia y
+utilizarla.  Es posible además asignar <em>una estrategia a cada proveedor</em>,
+para no tener que seleccionarla cada vez que se le realizan pedidos.  Los
+parámetros de configuración de estrategias se adaptan a las políticas de
+compra de cada librería, y responden a cómo constan los datos en el sistema;
+por ejemplo, si se trabaja o no con proveedor principal, etcétera.</p>
+</div>
+<p><em>Cómo comenzar a usar estrategias:</em></p>
+<ul>
+<li><p class="first">Para <em class="guilabel">crear</em>, <em class="guilabel">modificar</em> o <em class="guilabel">eliminar</em> una
+estrategia, presionar el botón <img alt="/icons/searchCopia.png" class="inlinegraphic" src="../../_images/searchCopia.png" /> junto al
+combo de estrategias. Se abrirá la pantalla para editar estrategias.</p>
+<div class="figure">
+<img alt="../../_images/editorEstrategias.png" src="../../_images/editorEstrategias.png" />
+<p class="caption">Edición de estrategias</p>
+</div>
+</li>
+<li><p class="first">El botón <em class="guilabel">Crear</em> conduce a un editor vacío en el cual, moviéndose
+verticalmente con la barra de desplazamiento, puede marcarse el casillero
+respectivo y activarse una de las dos estrategias estándares de
+Fierro:</p>
+<div class="figure">
+<img alt="../../_images/ventaEntreFechas.png" src="../../_images/ventaEntreFechas.png" />
+<p class="caption">Para activar Venta entre fechas</p>
+</div>
+<div class="figure">
+<img alt="../../_images/faltanteConsignacion.png" src="../../_images/faltanteConsignacion.png" />
+<p class="caption">Para activar Faltante de consignación</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Estrategias combinadas</strong></p>
+<p class="last">Como se dijo, lo más común es tener una estrategia <em>Venta entre fechas</em> y
+otra <em>Faltante de consignación</em>, para lo cual se crean ambas, se les
+coloca el nombre, y se habilitan sus parámetros. Pero también es posible
+configurar estrategias que sean <em class="guilabel">combinación de ambos
+criterios</em>.</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Cuando se marca el casillero de una estrategia, se habilita debajo la
+sección del editor que contiene sus parámetros.</p>
+</div>
+</li>
+<li><p class="first">Al pulsar el botón <em class="guilabel">Modificar</em>, el editor no aparece ahora vacío
+sino que muestra, ya habilitados, los parámetros de la estrategia
+seleccionada:</p>
+<ul>
+<li><p class="first">Cambiar uno o más parámetros y pulsar <em class="guilabel">Aceptar</em>.</p>
+</li>
+<li><p class="first">La modificación queda señalada en la pantalla previa con la expresión
+&lt;Editado&gt; a la derecha del nombre de la estrategia.</p>
+<div class="figure">
+<img alt="../../_images/estrategiaEditada.png" src="../../_images/estrategiaEditada.png" />
+<p class="caption">Estrategia modificada</p>
+</div>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Si se pulsa <em class="guilabel">Aceptar</em> directamente en la pantalla anterior, la
+modificación de la estrategia sólo tendrá efecto en la generación de
+pedidos que se haga a continuación. Esto se debe a que quizás se desee
+ejecutarla con cambios una única vez, y no modificarla permanentemente.
+Para guardar cambios a una estrategia en forma permanente, se debe
+seleccionarla y pulsar el botón <em class="guilabel">Guardar</em>. La expresión
+&lt;Editado&gt; desaparecerá, y podrá pulsarse entonces el
+botón <em class="guilabel">Aceptar</em>.</p>
+</div>
+</li>
+<li><p class="first">El botón <em class="guilabel">Eliminar</em> borra una estrategia seleccionada.</p>
+</li>
+<li><p class="first">El botón <em class="guilabel">Duplicar</em> crea una nueva estrategia a partir de los
+parámetros de una estrategia existente:</p>
+<ul>
+<li><p class="first">Marcar la estrategia de la que se quiere partir y pulsar dicho botón.
+Aparecerá entonces una nueva estrategia llamada Copia de...  &lt;Nuevo&gt;.</p>
+<div class="figure">
+<img alt="../../_images/estrategiaCopiada.png" src="../../_images/estrategiaCopiada.png" />
+<p class="caption">Estrategia copiada</p>
+</div>
+</li>
+<li><p class="first">Para que la copia se guarde en forma permanente, pulsar <em class="guilabel">Guardar</em>
+(la expresión &lt;Nuevo&gt; desaparecerá). De lo contrario, luego de
+pulsar <em class="guilabel">Aceptar</em> la copia tendrá aplicación solamente en el
+cálculo de pedidos inmediato.</p>
+</li>
+</ul>
+</li>
+<li><p class="first">El botón <em class="guilabel">Predeterminada</em> permite asignar una estrategia en forma
+duradera a un proveedor, para no tener que elegirla en cada ocasión.</p>
+<ul class="simple">
+<li>Elegir el proveedor en la pantalla de generación de pedidos.</li>
+<li>Marcar la estrategia en el editor, pulsar el botón <em>Predeterminada</em>, y luego
+el botón <em class="guilabel">Aceptar</em>.</li>
+<li>Si a continuación se consulta la ficha del proveedor
+en <em class="menuselection">Compras ‣ Proveedores</em>, se advertirá que la estrategia
+elegida le ha sido asignada.</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Fijar en un proveedor una <em class="guilabel">estrategia determinada</em> también
+puede hacerse en la ficha del mismo, en su solapa <em>Descuento</em>.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/estrategia.png" src="../../_images/estrategia.png" />
+<p class="caption">Asignar estrategia manualmente</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="venta-entre-fechas">
+<span id="howto-compras-sec2-salesbetweendates"></span><h3>2.2.3. Venta entre fechas<a class="headerlink" href="#venta-entre-fechas" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>¿Cómo sugiere las cantidades?</strong></p>
+<p>Mediante esta estrategia, Fierro indica pedir material -o solicitar su
+liquidación- en base a las <em class="guilabel">ventas</em> realizadas en un intervalo de
+tiempo, y al <em class="guilabel">faltante</em>.</p>
+<p class="last">Cuando se ejecuta el cálculo con esta estrategia y el valor para fechas es
+<em>Rango</em>, aparece una ventana para completar el intervalo de tiempo. Por
+defecto, el sistema propone un intervalo desde la fecha del último pedido
+hasta el día de ayer.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/rangoFechas.png" src="../../_images/rangoFechas.png" />
+<p class="caption">Rango de fechas</p>
+</div>
+<div class="figure">
+<img alt="../../_images/paramVentaEntreFechas.png" src="../../_images/paramVentaEntreFechas.png" />
+<p class="caption">Configuración de Venta entre fechas</p>
+</div>
+<p>Los parámetros son:</p>
+<ul>
+<li><p class="first"><em>Descontar pedidos pendientes</em>: indica si el cálculo debe considerar, en la
+cantidad de libros a solicitar, los pedidos anteriores que permanecen sin
+cumplir. Por ejemplo, si se vendieron dos ejemplares de un libro pero ya se
+hizo un pedido al proveedor para que reponga uno, marcar o no este parámetro
+influirá en que sugiera pedir dos o uno.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p>A los efectos del cálculo, si se tilda el casillero <em>Descontar pedidos
+pendientes</em> <a class="footnote-reference" href="#id2" id="id1">[1]</a>, para el sistema tales pedidos se asumirán como ya
+cumplidos.  En otras palabras, descontar un <em class="guilabel">pedido de baja</em>
+pendiente hará que el sistema &#8220;reste&#8221; del original de consignación, y
+descontar un <em class="guilabel">pedido de mercadería</em> pendiente hará que el
+sistema &#8220;sume&#8221; al stock.</p>
+<table class="last docutils footnote" frame="void" id="id2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td><p class="first last">Por pedidos pendientes, en este caso, solo debe entenderse
+los de <em class="guilabel">consignación</em> y <em class="guilabel">baja</em>,
+no los de material en firme.</p>
+</td></tr>
+</tbody>
+</table>
+</div>
+</li>
+<li><p class="first"><em>Sólo pedidos en firme</em>: marcar este casillero indicará a la estrategia que
+sólo calcule pedidos de libros propios.</p>
+</li>
+<li><p class="first"><em>Ignorar stock</em>: se debe marcar sólo en casos donde, generalmente a causa de
+una escasa o nula frecuencia de inventarios, no se tenga seguridad sobre las
+cantidades en stock registradas en el sistema: por ejemplo, en Fierro figuran
+consignados 3 ejemplares de un libro cuyo stock físico es 4, y se desea
+informar la venta de 2; esta venta no sería indicada por la generación de
+pedidos debido a que no hay faltante.</p>
+</li>
+<li><p class="first"><em>Mostrar todos los libros aunque la cantidad sugerida sea cero</em>: esta opción
+permite que se vean, en la lista en pantalla generada por el cálculo,
+<em class="guilabel">todos</em> los libros del proveedor elegido, incluso aquellos de los
+que no hay faltante, a los fines del análisis de compra.</p>
+</li>
+<li><p class="first"><em>Porcentaje de consignación dada a clientes considerada como stock propio</em>:
+cuando se tienen libros consignados en <em class="guilabel">clientes</em>, puede indicarse
+qué porcentaje de ese material -entre 0 y 100- debe entenderse como propio a
+los fines del cálculo y, por lo tanto, que el sistema lo interprete o no,
+total o parcialmente, como faltante.</p>
+</li>
+<li><p class="first"><em>Pedidos de libros vendidos en firme</em>. Este parámetro ofrece tres
+comportamientos posibles a adoptar por la estrategia cuando las ventas del
+período han incluido libros propios:</p>
+<ul class="simple">
+<li>No pedir libros vendidos en firme si están consignados;</li>
+<li>Pedir en firme si las ventas han superado el original de consignación;</li>
+<li>Pedir en ampliación de consignación.</li>
+</ul>
+</li>
+<li><p class="first"><em>Rango de fechas</em>. Este parámetro tiene tres opciones:</p>
+<ul class="simple">
+<li><em>Rango</em>: al ejecutar la estrategia, el sistema presenta la ventana mostrada
+más arriba, en la cual debe completarse el intervalo de fechas para
+considerar las ventas.</li>
+<li><em>Últimos días</em>: se coloca una cantidad de días en el combo numérico.
+El sistema toma las ventas entre esa cantidad de días atrás y el día de ayer.</li>
+<li><em>Desde el último pedido</em>: el sistema considera directamente el lapso desde
+la fecha del último pedido hasta el día de ayer.</li>
+</ul>
+</li>
+<li><p class="first"><em>Recompra</em>. Este parámetro gestiona la relación entre stock, estado de compra
+de los libros, y cantidades a pedir. Sus opciones son:</p>
+<ul>
+<li><p class="first"><em>Todo</em>: sugiere pedir la misma cantidad de libros vendidos. Si se vendieron
+tres ejemplares, indicará pedir tres ejemplares.</p>
+</li>
+<li><p class="first"><em>Sólo consignado</em>: se utiliza cuando hay libros propios y consignados. Si
+hay 2 ejemplares propios y tres consignados, y se vendieron cuatro, va a
+sugerir pedir tres ejemplares para reponer lo consignado, pero no lo firme.</p>
+</li>
+<li><p class="first"><em>Si el stock es cero</em>: sólo sugiere pedir cuando el stock ha llegado a cero.
+Si se vendieron, por ejemplo, dos ejemplares pero queda uno, no indicará
+pedir ninguno.</p>
+</li>
+<li><p class="first"><em>Consignado + firme si el stock es cero</em>: si hay stock firme y consignado,
+sugiere reponer todo lo consignado, y lo firme solo cuando el stock sea
+cero. Ejemplo: si hay dos ejemplares propios y tres consignados, y se
+vendieron 5, indicará pedir 5.</p>
+</li>
+<li><p class="first"><em>Según tendencia:</em> tanto la estrategia Venta entre fechas como la de
+Faltante de consignación pueden configurarse para que el criterio de
+reposición responda a la tendencia de ventas (<em>véase</em> <a class="reference internal" href="../ventas/ventas_21.html#howto-ventas-tendencias"><em>¿Cómo utilizar
+la estimación y tendencia de ventas?</em></a>). Por
+ejemplo, si la venta futura estimada de un libro es de 10 ejemplares y su
+stock actual es de 2, se sugerirá pedir 8 ejemplares, con independencia de
+cuanto se haya vendido en el período evaluado.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Coeficientes</strong></p>
+<p>En la configuración de la estrategia elegida se dispone un coeficiente
+para pedidos en firme y otro para consignados, que aumenta o disminuye
+la cantidad calculada por el sistema. Ejemplo: un coeficiente de 1.2
+para consignados indica que si el libro está consignado se pedirá un 20
+% más de lo necesario.</p>
+<p class="last">Además, puede definirse otro coeficiente, menor, para los libros en
+firme.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/coeficientesTendencia.png" src="../../_images/coeficientesTendencia.png" />
+<p class="caption">Configuración de Faltante de consignación</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">La <em class="guilabel">tendencia de ventas</em> es un indicador de la evolución,
+ascendente o descendente, de las ventas de un libro.  Si se considera
+que, al momento de indicar qué y cuánto pedir, el comportamiento
+estándar de la generación automática de pedidos es una relación entre
+cantidades vendidas y faltante de consignación, se entiende que el uso
+de tendencias haga menos mecánica dicha generación, dado que entonces
+partirá de una <em class="guilabel">estimación</em> como variable para el cálculo.</p>
+</div>
+</li>
+</ul>
+</li>
+<li><p class="first"><em>Asignación a proveedor</em>. Este parámetro define a qué proveedor se asignan los
+libros vendidos. Existe una lista de opciones, y debe definirse cuáles se
+aplican y en qué orden:</p>
+<ul class="simple">
+<li><em>Proveedor principal</em>: asigna lo vendido al proveedor designado como
+principal en la ficha del libro (<em>véase</em> <a class="reference internal" href="../catalogo/catalogo_03.html#howto-catalogo-sec3-sec4"><em>Proveedores</em></a>).</li>
+<li><em>Última compra</em>: asigna lo vendido al proveedor al cual se le efectuó la
+última compra.</li>
+<li><em>Proveedor consignación</em>: asigna lo vendido al proveedor del cual se tiene
+consignado el libro.</li>
+<li><em>Proveedor por regla de distribución</em>: asigna lo vendido al proveedor que ha
+sido configurado como distribuidor del libro.</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p>En la pantalla mostrada más arriba (<em>Figura II.7-19</em>) se señala en
+recuadro rojo un posible ordenamiento. Con él, la generación actuará
+como sigue:</p>
+<blockquote class="last">
+<div><ol class="arabic simple">
+<li>el sistema buscará todos los ejemplares vendidos en el
+rango, con independencia de su proveedor</li>
+<li>listará los libros consignados por el proveedor elegido</li>
+<li>si para algunos libros existe más de un proveedor, buscará
+aquellos donde el proveedor elegido figure como principal</li>
+<li>si no los hubiese, buscará aquellos donde el proveedor elegido
+haya sido el de última compra</li>
+<li>si nada de lo anterior aplica, utilizará la regla de distribución,
+que considera a las editoriales que se hayan colocado, en la
+ficha del proveedor, en su solapa <em>Editoriales en distribución</em>.</li>
+</ol>
+</div></blockquote>
+</div>
+</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Riesgos de usar sólo Venta entre fechas</strong></p>
+<p>Debe entenderse que, si se registraron en el sistema <em>salidas de mercadería
+no ocasionadas por ventas</em> (robos, ajustes de stock, etcétera), ellas no
+serán reflejadas por el cálculo de la estrategia, y las diferencias
+permanecerán en el tiempo.</p>
+<p class="last">De modo similar, si no se ha liquidado un período de ventas, en el
+siguiente período no habrá de aparecer.</p>
+</div>
+</div>
+<div class="section" id="faltante-de-consignacion">
+<h3>2.2.4. Faltante de consignación<a class="headerlink" href="#faltante-de-consignacion" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>¿Cómo sugiere las cantidades?</strong></p>
+<p class="last">Esta estrategia indica pedir los libros según la <em class="guilabel">diferencia</em>
+entre la consignación inicial de un proveedor y el stock físico de sus
+libros consignados.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/paramFaltanteConsignacion.png" src="../../_images/paramFaltanteConsignacion.png" />
+<p class="caption">Configuración de Faltante de consignación</p>
+</div>
+<p>Sus parámetros específicos son:</p>
+<ul class="simple">
+<li><em>Criterio de reposición</em>. Indica cómo se sugieren las cantidades a pedir. Sus
+opciones son:<ul>
+<li><em>Todo</em>: pide la totalidad del faltante de consignación.</li>
+<li><em>Sólo si no hay stock</em>: pide el faltante de la consignación sólo si el stock
+ha llegado a cero.</li>
+<li><em>Según tendencia</em>: véase la misma opción en <a class="reference internal" href="#howto-compras-sec2-salesbetweendates"><em>Venta entre fechas</em></a>.</li>
+</ul>
+</li>
+<li><em>Múltiples consignaciones</em>: cuando un libro está consignado por más de un
+proveedor, los criterios para elegir a qué proveedor asignar el pedido pueden
+distribuirse y ordenarse -al igual que en la configuración de Venta entre
+fechas- entre los campos <em>Criterios disponibles</em> y <em>Orden de los criterios</em>.
+Ellos son:<ul>
+<li><em>Proveedor principal</em>: el pedido se realiza al proveedor designado como
+principal en la ficha del libro.</li>
+<li><em>Última compra</em>: el pedido se realiza al proveedor al que se efectuó la
+última compra del libro.</li>
+<li><em>Mejor descuento</em>: el pedido se realiza al proveedor al que se ha comprado
+con mejor descuento.</li>
+<li><em>Pseudo aleatorio</em>: combinación variable de los criterios anteriores.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="como-afecta-a-las-compras-una-consignacion-unificada">
+<h3>2.2.5. ¿Cómo afecta a las compras una consignación unificada?<a class="headerlink" href="#como-afecta-a-las-compras-una-consignacion-unificada" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Efectos de la unificación</strong></p>
+<p>Si en una empresa con más de una sucursal la consignación de un proveedor
+está unificada, habrá un único valor para la consignación y el stock, es
+decir, se sumarán los remitos y el stock de todas las sucursales. En tal
+caso, si ingresan remitos de consignación a dos sucursales, al evaluar lo
+consignado y el faltante el sistema considerará la cantidad pendiente y el
+stock a partir de ambos remitos y de la suma de stock de ambas sucursales.</p>
+<p>Explicado por la negativa: si NO hay consignación unificada y el proveedor
+otorga consignación a las dos sucursales, puede que aparezca en una sucursal
+faltante de libros y, en la otra, libros en firme. En cambio, si la
+consignación estuviese unificada, no se &#8220;tendría&#8221; -en términos del kardex-
+el material firme porque éste compensaría el faltante en la otra sucursal.</p>
+<p>En otras palabras, cuando la consignación está unificada el sistema hace una
+sóla cuenta, en la que considera los remitos y el stock de forma única.</p>
+<p class="last"><em>Observación</em>: a efectos de las <em class="guilabel">ventas</em>, no debe pensarse que una
+consignación unificada ignorará los stocks en cada depósito. Si no hay
+ejemplares en una sucursal, el sistema no los tomará artificialmente de
+otra.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Dentro de la ficha del proveedor, en su solapa <em>Unificación</em>, haciendo clic
+en los respectivos casilleros puede marcarse o desmarcarse la unificación de
+consignación.</p>
+<div class="figure">
+<img alt="../../_images/unificacion.png" src="../../_images/unificacion.png" />
+<p class="caption">Solapa Unificación</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="como-asignan-estas-estrategias-los-precios-en-los-pedidos-de-baja">
+<h3>2.2.6. ¿Cómo asignan estas estrategias los precios en los pedidos de baja?<a class="headerlink" href="#como-asignan-estas-estrategias-los-precios-en-los-pedidos-de-baja" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Estas estrategias utilizan criterios diferentes para asignar los precios al ser aplicadas en la generación de los pedidos de baja:</p>
+<ul class="simple">
+<li>La estrategia <em>Venta entre fechas</em> considera los precios al inicio del período indicado + 3 días. Es decir que si en el pedido de baja se selecciona la estrategia Ventas entre fechas para el rango de fechas del 01-10 al 31-10, se va a generar un pedido con los precios al 04-10. De este modo la librería tiene tiempo hasta al tercer día del mes para realizar los cambios de precio enviados por el proveedor.</li>
+<li>La estrategia <em>Faltante de Consignación</em>, en el pedido de baja toma los precios de los libros a 20 días antes de la fecha de creación del pedido. Es posible aplicar el precio de la última venta, en vez del histórico de 20 días atrás, configurando un parámetro (deben solicitarlo a Lambda Sistemas).</li>
+</ul>
+</div>
+</div>
+<div class="section" id="como-generar-pedidos-a-varios-proveedores-en-una-misma-operacion">
+<h2>2.3. ¿Cómo generar pedidos a varios proveedores en una misma operación?<a class="headerlink" href="#como-generar-pedidos-a-varios-proveedores-en-una-misma-operacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-6"></span><div class="admonition note" id="index-7">
+<p class="first admonition-title">Nota</p>
+<p><strong>Pedidos a varios proveedores</strong></p>
+<p>A diferencia de la herramienta anterior, ésta permite calcular, reunir y
+guardar pedidos para <em>más de un proveedor</em> en la misma pantalla de
+operación.</p>
+<p class="last">Sin embargo, se asemeja a la anterior en que dicho cálculo se basa también
+en las estrategias <em>Faltante de consignación</em> y <em>Venta entre fechas</em>.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Compras ‣ Pedidos ‣
+Generación automática de pedidos por lote.</em></p>
+</li>
+<li><p class="first">En la pantalla que se presenta, con el botón <em class="guilabel">Agregar</em> debe
+buscarse y elegirse el proveedor. Previamente se debe haber seleccionado una
+estrategia.</p>
+</li>
+<li><p class="first">Tal como se ve en la imagen siguiente, en esta instancia la columna Estado
+permanece Pendiente, y la columna Pedidos en cero.</p>
+<div class="figure">
+<img alt="../../_images/agregarProveedores.png" src="../../_images/agregarProveedores.png" />
+<p class="caption">Agregar proveedores</p>
+</div>
+</li>
+<li><p class="first">Los botones <img alt="/icons/22exportar.png" class="inlinegraphic" src="../../_images/22exportar.png" /> y <img alt="/icons/22importar.png" class="inlinegraphic" src="../../_images/22importar.png" /> permiten, respectivamente, guardar desde esta
+pantalla una lista de proveedores para su posterior uso, o importar una lista
+generada con anterioridad por el mismo método.</p>
+</li>
+<li><p class="first">Luego de la selección de proveedores, debe ejecutarse el cálculo de los
+pedidos mediante el botón <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" /> . En este momento,
+si se ha elegido la estrategia <em>Venta entre fechas</em> el sistema pedirá una
+fecha de inicio para los proveedores que aún no tienen pedidos. El rango de
+fechas se mostrará en las columnas Desde y Hasta.</p>
+<div class="figure">
+<img alt="../../_images/procesarPedidos.png" src="../../_images/procesarPedidos.png" />
+<p class="caption">Procesar pedidos</p>
+</div>
+</li>
+<li><p class="first">Durante la ejecución del cálculo, el estado para cada proveedor irá cambiando
+a Procesado, y la columna Pedidos pasará a indicar la cantidad de pedidos que
+se crearán. Todo este proceso puede detenerse con el botón <img alt="/icons/22cancelar.png" class="inlinegraphic" src="../../_images/22cancelar.png" />.</p>
+</li>
+<li><p class="first">Si luego de procesados los pedidos se desea generarlos directamente sin
+editar, debe pulsarse el botón <img alt="/icons/22npedidos.png" class="inlinegraphic" src="../../_images/22npedidos.png" /> en la barra
+de herramientas.</p>
+</li>
+<li><p class="first">En cambio, con doble clic sobre la línea correspondiente a un pedido se abre
+una nueva pantalla, en la cual pueden modificarse sus cantidades. La nueva
+pantalla mostrará el o los libros incluidos en el pedido, marcando sobre los
+cuales y pulsando el botón <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" /> se presentará la
+ventana de edición.</p>
+<div class="figure">
+<img alt="../../_images/editarPedidos.png" src="../../_images/editarPedidos.png" />
+<p class="caption">Editar pedidos</p>
+</div>
+</li>
+<li><p class="first">Tanto si se acepta la modificación de un pedido como si se cierra la ventana
+de edición mediante el menú <em class="menuselection">Ventanas ‣ Cerrar</em>, en la
+pantalla inicial el estado de los pedidos habrá cambiado a Generado.</p>
+<div class="figure">
+<img alt="../../_images/guardarPedidos.png" src="../../_images/guardarPedidos.png" />
+<p class="caption">Crear pedidos</p>
+</div>
+</li>
+<li><p class="first">Los pedidos creados podrán localizarse en <em class="menuselection">Compras ‣ Pedidos
+‣ Pedidos</em> y <em class="menuselection">Compras ‣ Pedidos ‣ Pedidos de baja</em>.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="como-generar-pedidos-a-multiples-proveedores">
+<span id="howto-compras-sec2-sec4"></span><h2>2.4. ¿Cómo generar pedidos a múltiples proveedores?<a class="headerlink" href="#como-generar-pedidos-a-multiples-proveedores" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-8"></span><div class="admonition note" id="index-9">
+<p class="first admonition-title">Nota</p>
+<p><strong>Pedido a múltiples proveedores</strong></p>
+<p>Esta funcionalidad permite realizar pedidos en cuya elaboración se integren
+el análisis de las <em>ventas,</em> de las <em>señas y reservas pendientes,</em> y de las
+<em>sugerencias de compra.</em></p>
+<p class="last">Al mismo tiempo es posible reunir, con esta herramienta, artículos que
+se solicitan a diferentes proveedores.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Compras ‣ Pedidos ‣
+Generación de pedidos a múltiples proveedores.</em></p>
+</li>
+<li><p class="first">En la pantalla que aparece, la barra de herramientas presenta los botones
+para las diferentes opciones:</p>
+<ul>
+<li><p class="first">El botón <img alt="/icons/22vta_factura.png" class="inlinegraphic" src="../../_images/22vta_factura.png" /> , para agregar al pedido ítems
+indicados por el sistema en base a sus <em>ventas</em>.</p>
+</li>
+<li><p class="first">El botón <img alt="/icons/22vtareserva.png" class="inlinegraphic" src="../../_images/22vtareserva.png" /> , para agregar al pedido ítems
+indicados por el sistema en base a <em>señas y reservas pendientes</em>. (Véase
+<a class="reference internal" href="../ventas/ventas_15.html#howto-ventas-reservations"><em>¿Cómo trabajar con señas y reservas?</em></a>)</p>
+</li>
+<li><p class="first">El botón <img alt="/icons/22buyPreOrder.png" class="inlinegraphic" src="../../_images/22buyPreOrder.png" /> , para agregar al pedido ítems
+indicados por el sistema en base a <em>sugerencias de compra</em>. (Véase
+<a class="reference internal" href="compras_01.html#howto-compras-sec1"><em>¿Cómo agregar una sugerencia de compra?</em></a>)</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Una vez agregados los items, la acción de volver a pulsar los mismos
+botones <em class="guilabel">quita</em> los items de la pantalla.</p>
+</div>
+</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/PedidosMultiplesProveedores.png" src="../../_images/PedidosMultiplesProveedores.png" />
+<p class="caption">Pantalla de pedidos a múltiples proveedores</p>
+</div>
+</li>
+<li><p class="first">Una vez agregados los ítems que se desee, la columna Acción mostrará cuántos
+y en qué condición (F: firmes, C: consignados) habrán de pedirse.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Ésta, como todas las existentes en Fierro para generar pedidos, es
+también una pantalla de <em class="guilabel">análisis y decisión</em>.  Vale decir
+que, personalizando adecuadamente sus columnas (<em>Véase</em> <a class="reference internal" href="../../basics/busqueda/mantenimiento_14.html#basics-searchs-sec13"><em>Configurar
+las columnas del resultado</em></a>), puede tenerse a la
+vista desde teléfono y contacto de los distintos proveedores hasta
+información de stock actual, ventas recientes, faltantes de
+consignación, fechas de últimos pedidos, etcétera, para cada item.</p>
+</div>
+</li>
+<li><p class="first">Para completar el pedido, deben seleccionarse los ítems en la lista y pulsar
+el botón <img alt="/icons/22validar.png" class="inlinegraphic" src="../../_images/22validar.png" /> en la barra de herramientas. En la
+columna Resolución cada ítem se verá como Pedido. (Si se desea seleccionar
+todos los ítems, pulsar a la vez las teclas Ctrl y A.)</p>
+</li>
+<li><p class="first">Pulsando el botón <img alt="/icons/22editProvider.png" class="inlinegraphic" src="../../_images/22editProvider.png" /> en la barra de
+herramientas, se puede cambiar el proveedor de un libro seleccionado, o
+asignárselo al que no lo tiene.</p>
+</li>
+<li><p class="first">Pulsando el botón <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" /> en la barra de herramientas,
+se puede cambiar la cantidad a pedir de un libro seleccionado.</p>
+</li>
+<li><p class="first">Terminado el ingreso de ítems, al pulsar <em class="guilabel">Aceptar</em> se generarán los
+distintos pedidos para cada proveedor.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">2. ¿Cómo generar pedidos?</a><ul>
+<li><a class="reference internal" href="#como-crear-manualmente-un-pedido-de-mercaderia">2.1. ¿Cómo crear manualmente un pedido de mercadería?</a></li>
+<li><a class="reference internal" href="#como-crear-un-pedido-con-la-generacion-automatica-de-pedidos">2.2. ¿Cómo crear un pedido con la Generación automática de pedidos?</a><ul>
+<li><a class="reference internal" href="#envio-de-los-pedidos-al-proveedor">2.2.1. Envío de los pedidos al proveedor</a></li>
+<li><a class="reference internal" href="#estrategias-de-generacion-de-pedidos">2.2.2. Estrategias de generación de pedidos</a></li>
+<li><a class="reference internal" href="#venta-entre-fechas">2.2.3. Venta entre fechas</a></li>
+<li><a class="reference internal" href="#faltante-de-consignacion">2.2.4. Faltante de consignación</a></li>
+<li><a class="reference internal" href="#como-afecta-a-las-compras-una-consignacion-unificada">2.2.5. ¿Cómo afecta a las compras una consignación unificada?</a></li>
+<li><a class="reference internal" href="#como-asignan-estas-estrategias-los-precios-en-los-pedidos-de-baja">2.2.6. ¿Cómo asignan estas estrategias los precios en los pedidos de baja?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#como-generar-pedidos-a-varios-proveedores-en-una-misma-operacion">2.3. ¿Cómo generar pedidos a varios proveedores en una misma operación?</a></li>
+<li><a class="reference internal" href="#como-generar-pedidos-a-multiples-proveedores">2.4. ¿Cómo generar pedidos a múltiples proveedores?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="compras_01.html"
+                        title="Capítulo anterior">1. ¿Cómo agregar una sugerencia de compra?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="compras_03.html"
+                        title="Próximo capítulo">3. ¿Cómo ingresar una factura remito de tipo reposición o firme?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="compras_03.html" title="3. ¿Cómo ingresar una factura remito de tipo reposición o firme?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_01.html" title="1. ¿Cómo agregar una sugerencia de compra?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" >3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

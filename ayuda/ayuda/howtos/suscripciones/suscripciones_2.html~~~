@@ -1,0 +1,176 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>2. Generación automática de pedidos &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="14. Suscripciones" href="../18_suscripciones.html" />
+    <link rel="next" title="3. Facturación de suscripción" href="suscripciones_3.html" />
+    <link rel="prev" title="1. Servicio de suscripciones" href="suscripciones_1.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="suscripciones_3.html" title="3. Facturación de suscripción"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="suscripciones_1.html" title="1. Servicio de suscripciones"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../18_suscripciones.html" accesskey="U">14. Suscripciones</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="generacion-automatica-de-pedidos">
+<h1>2. Generación automática de pedidos<a class="headerlink" href="#generacion-automatica-de-pedidos" title="Enlazar permanentemente con este título">¶</a></h1>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Suscripciones ‣ Generación de pedidos</em>.</li>
+<li>Se abrirá la pantalla de generación de pedidos donde se debe completar:</li>
+</ol>
+<ul>
+<li><p class="first">Artículo del catálogo para generar los pedidos.</p>
+</li>
+<li><p class="first">Colección.</p>
+</li>
+<li><p class="first">Ediciones/Números.</p>
+</li>
+<li><p class="first">Se pueden incluir filtros por suscripciones o por clientes.</p>
+</li>
+<li><p class="first">Se crearán Reservas en base a las suscripciones activas.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/GeneracionPedidosSuscripciones.png" src="../../_images/GeneracionPedidosSuscripciones.png" />
+</div>
+</div></blockquote>
+</li>
+</ul>
+<div class="section" id="consulta-de-reservas">
+<h2>2.1. Consulta de reservas<a class="headerlink" href="#consulta-de-reservas" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul>
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Señas y reservas ‣ tipo: pedidos por suscripción</em>.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/SuscripcionReserva.png" src="../../_images/SuscripcionReserva.png" />
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="armado-de-los-paquetes-en-base-a-los-modelos-de-pedidos">
+<h2>2.2. Armado de los paquetes en base a los modelos de pedidos<a class="headerlink" href="#armado-de-los-paquetes-en-base-a-los-modelos-de-pedidos" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Generar el reporte de Modelos de pedidos desde la opción de menú Reportes → Ventas → Reportes → Modelos de pedidos. Opciones: Detallado / Resumido / Etiquetas.</li>
+<li>Armar los pedidos físicos según cada modelo de pedido en el reporte.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/SuscripcionesReporte.png" src="../../_images/SuscripcionesReporte.png" />
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">2. Generación automática de pedidos</a><ul>
+<li><a class="reference internal" href="#consulta-de-reservas">2.1. Consulta de reservas</a></li>
+<li><a class="reference internal" href="#armado-de-los-paquetes-en-base-a-los-modelos-de-pedidos">2.2. Armado de los paquetes en base a los modelos de pedidos</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="suscripciones_1.html"
+                        title="Capítulo anterior">1. Servicio de suscripciones</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="suscripciones_3.html"
+                        title="Próximo capítulo">3. Facturación de suscripción</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="suscripciones_3.html" title="3. Facturación de suscripción"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="suscripciones_1.html" title="1. Servicio de suscripciones"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../18_suscripciones.html" >14. Suscripciones</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

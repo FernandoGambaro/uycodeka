@@ -1,0 +1,272 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4. Contratos &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="11. Derechos de Autor" href="../14_ddaa.html" />
+    <link rel="next" title="5. Liquidación de derechos de autor" href="ddaa_4.html" />
+    <link rel="prev" title="3. ¿Cómo crear una Relación de Responsable?" href="ddaa_2.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ddaa_4.html" title="5. Liquidación de derechos de autor"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ddaa_2.html" title="3. ¿Cómo crear una Relación de Responsable?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../14_ddaa.html" accesskey="U">11. Derechos de Autor</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="contratos">
+<h1>4. Contratos<a class="headerlink" href="#contratos" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="section" id="como-crear-un-nuevo-contrato">
+<span id="index-1"></span><h2>4.1. ¿Cómo crear un nuevo contrato?<a class="headerlink" href="#como-crear-un-nuevo-contrato" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Derechos de Autor ‣ Contratos</em>.</li>
+<li>Se abrirá la pantalla de consulta de contratos, para crear un nuevo contrato deben presionar el botón <img alt="/icons/22nuevo.png" class="inlinegraphic" src="../../_images/22nuevo.png" /> o desde el menú <em class="menuselection">Ventana activa ‣ Nuevo Contrato</em>.</li>
+<li>Se pueden crear tres tipos de contratos:</li>
+</ol>
+<ul class="simple">
+<li>Pago a porcentaje</li>
+<li>Pago único</li>
+<li>Pago por reimpresión</li>
+</ul>
+<ol class="arabic">
+<li><p class="first">Seleccionar el tipo de contrato que se quiere crear en la primer solapa del editor.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_NContratoTipos.png" src="../../_images/Dautor_NContratoTipos.png" />
+<p class="caption">Seleccionar tipo de contrato</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Datos generales a completar (igual en los tres tipos de contratos)</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_NuevoContrato.png" src="../../_images/Dautor_NuevoContrato.png" />
+<p class="caption">Datos generales</p>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li><em>Código</em>: Código con el que se referencia el contrato al sistema. Ver <a class="reference internal" href="../../basics/pantallas/pantallas_05.html#basics-controls-sequences"><em>Ingreso de códigos</em></a>.</li>
+<li><em>Libro</em>: Código del libro a vincular al contrato, tipear o ingresar con el lector de código de barras o realizar la
+búsqueda del libro presionando el botón <img alt="/icons/22b_libro.png" class="inlinegraphic" src="../../_images/22b_libro.png" />.</li>
+<li><em>Derecho habiente</em>: Código del derecho habiente a vincular al contrato, tipear o realizar la
+búsqueda del mismo presionando el botón <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" />.</li>
+<li><em>Tipo</em>: Tipo de autor seleccionable de la lista creada desde <em class="menuselection">Catálogo ‣ Otros ‣ Autores</em> .</li>
+<li><em>Estado</em>: Estados posibles &#8220;Vigente&#8221; - &#8220;No Vigente&#8221;.</li>
+<li><em>Vigencia</em>: Período de vigencia del contrato.</li>
+<li><em>Anticipo Inicial</em>: El dato es informativo, no va a la cuenta.</li>
+<li><em>Moneda</em>: Moneda del anticipo, por ejemplo: “Pesos”. Las monedas se administran desde <em class="menuselection">Sistema ‣ Monedas</em> .</li>
+</ul>
+</li>
+</ol>
+<p>Presionar el botón <em class="guilabel">Next</em> .</p>
+<div class="section" id="contratos-de-tipo-pago-unico">
+<h3>4.1.1. Contratos de tipo: Pago único<a class="headerlink" href="#contratos-de-tipo-pago-unico" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Completar la información correspondiente al pago.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_NCPagoUnico.png" src="../../_images/Dautor_NCPagoUnico.png" />
+<p class="caption">Datos del pago contrato de pago único</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="contratos-de-tipo-pago-por-reimpresion">
+<h3>4.1.2. Contratos de tipo: Pago por reimpresión<a class="headerlink" href="#contratos-de-tipo-pago-por-reimpresion" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Completar la información correspondiente al pago.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_NCPagoReimpresion.png" src="../../_images/Dautor_NCPagoReimpresion.png" />
+<p class="caption">Datos del pago contrato por reimpresión</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="contratos-de-tipo-pago-a-porcentaje">
+<h3>4.1.3. Contratos de tipo: Pago a porcentaje<a class="headerlink" href="#contratos-de-tipo-pago-a-porcentaje" title="Enlazar permanentemente con este título">¶</a></h3>
+<blockquote>
+<div><blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_NCPagoPorcentaje.png" src="../../_images/Dautor_NCPagoPorcentaje.png" />
+<p class="caption">Detalle de porcentaje y período contrato a porcentaje</p>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li><em>Período de liquidación</em>: Período en el que se liquidará el contrato: mensual, semestral, anual, entre otros. Los mismos son creados por Lambda Sistemas.</li>
+<li><em>Porcentaje de descuento máximo (ventas)</em>: Porcentaje de descuento aplicado en facturas de ventas que no se deben tomar en cuenta para la liquidación, por ejemplo al colocar 60% en el valor, las facturas con descuento mayor al 60% no se liquidarán. El valor 100% deja sin efecto este campo.</li>
+<li><em>Contemplar sólo facturas cobradas</em>: Esta opción debe corresponder al acuerdo firmado con el autor. Por lo tanto tomará en cuenta para el cálculo de la liquidación las facturas una vez que estén cobradas. Si una factura fue generada en el primer semestre del año, pero cobrada en el segundo, será liquidada cuando este cobrada, es decir, en el segundo semestre.</li>
+<li><em>Ventas Nacionales</em>: Modalidad para valorizar la venta: &#8220;Precio de venta de la Factura&#8221;, &#8220;Precio de lista predeterminada&#8221; o &#8220;Precio Neto&#8221;</li>
+<li><em>Ventas Institucionales</em>: Idem anterior. Para diferenciar las ventas institucionales deben crear un grupo de clientes (Ventas &#8211;&gt; Otros &#8211;&gt; Tipos de clientes) y asignar los clientes al mismo, luego confirmar a Lambda Sistemas para realizar la configuración.</li>
+<li><em>Ventas exterior</em>: Idem anterior. Para diferenciar las ventas de exportación, las mismas deben realizarse con el punto de venta con letra &#8220;E&#8221;.</li>
+<li><em>Límite inferior (cantidad de ejemplares vendidos)</em>: Cantidad de ejemplares vendidos previamente a la carga del contrato en el sistema Fierro, para que las mismas sean tomadas en cuenta al momento de generar las liquidaciones.</li>
+<li><em>Moneda</em>: Moneda del contrato, por ejemplo: “Pesos”. Las monedas se administran desde <em class="menuselection">Sistema ‣ Monedas</em> .</li>
+<li><em>Porcentaje</em>: Porcentaje de liquidación en función de la cantidad de ejemplares vendidos, se puede diferenciar por tipo de venta (nacional, institucional y exterior) y asignar diferentes rangos, por ejemplo de 1 a 1000 &#8211;&gt; 10%, de 1001 a infinito &#8211;&gt; 15 %.</li>
+</ul>
+</div></blockquote>
+<p>Presionar el botón <em class="guilabel">Next</em> .</p>
+</div>
+<div class="section" id="archivos-asociados">
+<h3>4.1.4. Archivos asociados<a class="headerlink" href="#archivos-asociados" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Los contratos pueden tener archivos adjuntos.</p>
+<p>Ver <a class="reference internal" href="../general/general_04.html#howto-others-attachs"><em>¿Cómo agregar archivos adjuntos?</em></a>.</p>
+</div>
+<div class="section" id="notas">
+<h3>4.1.5. Notas<a class="headerlink" href="#notas" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Para agregar información adicional a los contratos se pueden crear notas asociadas.</p>
+<p>Ver <a class="reference internal" href="../general/general_03.html#howto-others-notes"><em>¿Cómo agregar notas?</em></a>.</p>
+<p>Presionar el botón <em class="guilabel">Finish (Terminar )</em> para crear el contrato.</p>
+</div>
+</div>
+<div class="section" id="como-consultar-un-contrato">
+<h2>4.2. ¿Cómo consultar un contrato?<a class="headerlink" href="#como-consultar-un-contrato" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Derechos de Autor ‣ Contratos</em>.</p>
+<div class="figure">
+<img alt="../../_images/Dautor_ConsultaContrato.jpg" src="../../_images/Dautor_ConsultaContrato.jpg" />
+<p class="caption">Consulta de contratos</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="como-modificar-un-contrato">
+<h2>4.3. ¿Cómo modificar un contrato?<a class="headerlink" href="#como-modificar-un-contrato" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Derechos de Autor ‣ Contratos</em>.</li>
+<li>Se abrirá la pantalla de consulta de contratos, para modificar un contrato deben buscar y seleccionar el indicado y luego presionar el botón <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" />.</li>
+</ol>
+</div>
+<div class="section" id="como-copiar-un-contrato">
+<h2>4.4. ¿Cómo copiar un contrato?<a class="headerlink" href="#como-copiar-un-contrato" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Cuando en un contrato intervienen varios derecho habientes, se debe registrar en el sistema un contrato por el mismo libro por cada derecho habiente. El botón de copiado permite luego
+de registrar el primero, copiar el contrato a semejanza asignando el derecho habiente correspondiente.</p>
+</div>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Derechos de Autor ‣ Contratos</em>.</li>
+<li>Se abrirá la pantalla de consulta de contratos, para copiar un contrato deben buscar y seleccionar el indicado y luego presionar el botón <img alt="/icons/b_comparar_inventario.png" class="inlinegraphic" src="../../_images/b_comparar_inventario.png" /></li>
+<li>Se abrirá la ficha del nuevo contrato a semejanza del copiado con el campo vacío de derecho habiente para asignar el correspondiente. También se pueden modificar otros datos antes de guardar.</li>
+<li>Presionar el botón <em class="guilabel">Aceptar</em> para crear el contrato.</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">4. Contratos</a><ul>
+<li><a class="reference internal" href="#como-crear-un-nuevo-contrato">4.1. ¿Cómo crear un nuevo contrato?</a><ul>
+<li><a class="reference internal" href="#contratos-de-tipo-pago-unico">4.1.1. Contratos de tipo: Pago único</a></li>
+<li><a class="reference internal" href="#contratos-de-tipo-pago-por-reimpresion">4.1.2. Contratos de tipo: Pago por reimpresión</a></li>
+<li><a class="reference internal" href="#contratos-de-tipo-pago-a-porcentaje">4.1.3. Contratos de tipo: Pago a porcentaje</a></li>
+<li><a class="reference internal" href="#archivos-asociados">4.1.4. Archivos asociados</a></li>
+<li><a class="reference internal" href="#notas">4.1.5. Notas</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#como-consultar-un-contrato">4.2. ¿Cómo consultar un contrato?</a></li>
+<li><a class="reference internal" href="#como-modificar-un-contrato">4.3. ¿Cómo modificar un contrato?</a></li>
+<li><a class="reference internal" href="#como-copiar-un-contrato">4.4. ¿Cómo copiar un contrato?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ddaa_2.html"
+                        title="Capítulo anterior">3. ¿Cómo crear una Relación de Responsable?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ddaa_4.html"
+                        title="Próximo capítulo">5. Liquidación de derechos de autor</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ddaa_4.html" title="5. Liquidación de derechos de autor"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ddaa_2.html" title="3. ¿Cómo crear una Relación de Responsable?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../14_ddaa.html" >11. Derechos de Autor</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

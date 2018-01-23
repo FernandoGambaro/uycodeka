@@ -1,0 +1,160 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>8. ¿Cómo obtener un reporte de saldos de derecho habientes? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="11. Derechos de Autor" href="../14_ddaa.html" />
+    <link rel="next" title="12. Prensa" href="../15_prensa.html" />
+    <link rel="prev" title="7. ¿Cómo visualizar la Cuenta Corriente de un derecho habiente?" href="ddaa_6.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../15_prensa.html" title="12. Prensa"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ddaa_6.html" title="7. ¿Cómo visualizar la Cuenta Corriente de un derecho habiente?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../14_ddaa.html" accesskey="U">11. Derechos de Autor</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-obtener-un-reporte-de-saldos-de-derecho-habientes">
+<h1>8. ¿Cómo obtener un reporte de saldos de derecho habientes?<a class="headerlink" href="#como-obtener-un-reporte-de-saldos-de-derecho-habientes" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><ol class="arabic" id="index-1">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Derechos de autor ‣ Reportes ‣ Detalle de Saldos</em>.
+Se abrirá la pantalla de reporte de detalle de saldos.</p>
+<div class="figure">
+<img alt="../../_images/Dautor_Reporte.png" src="../../_images/Dautor_Reporte.png" />
+<p class="caption">Pantalla Reporte de Detalle de saldos</p>
+</div>
+</li>
+<li><p class="first">Completar el <em>estilo del reporte</em>:</p>
+<ul class="simple">
+<li><em>Reporte</em>: detalle de deuda.</li>
+<li><em>Opción</em>: orden de los datos (&#8220;Agrupado por autor&#8221;, &#8220;Salto de página por autor&#8221;) y tipo de salida (Por semestre)</li>
+<li><em>Hoja</em>: tipo de hoja en que sale el reporte ( A4 / Planilla Open Office).</li>
+<li><em>Salida</em>: pantalla, impresora, etc.</li>
+</ul>
+</li>
+<li><p class="first">Completar los <em>parámetros del reporte</em>:</p>
+<ul class="simple">
+<li><em>Sucursal</em>: sucursal de donde se toman los documentos.</li>
+<li><em>Fecha</em>: fecha de corte.</li>
+<li><em>Filtros</em>: el reporte puede generarse para un conjunto de derecho habientes o para todos, también se puede filtrar por contratos.</li>
+</ul>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+<li><p class="first">Visualización de reporte:</p>
+<div class="figure">
+<img alt="../../_images/Dautor_ReportePDF.png" src="../../_images/Dautor_ReportePDF.png" />
+<p class="caption">Detalle de deuda - Salida A4</p>
+</div>
+<div class="figure">
+<img alt="../../_images/Dautor_ReportePlanilla.png" src="../../_images/Dautor_ReportePlanilla.png" />
+<p class="caption">Detalle de deuda - Salida Planilla</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ddaa_6.html"
+                        title="Capítulo anterior">7. ¿Cómo visualizar la Cuenta Corriente de un derecho habiente?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="../15_prensa.html"
+                        title="Próximo capítulo">12. Prensa</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../15_prensa.html" title="12. Prensa"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ddaa_6.html" title="7. ¿Cómo visualizar la Cuenta Corriente de un derecho habiente?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../14_ddaa.html" >11. Derechos de Autor</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

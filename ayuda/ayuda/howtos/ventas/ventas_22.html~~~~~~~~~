@@ -1,0 +1,183 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>24. ¿Cómo crear puntos de facturación? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="25. Vendedores" href="ventas_23.html" />
+    <link rel="prev" title="23. ¿Cómo utilizar la estimación y tendencia de ventas?" href="ventas_21.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_23.html" title="25. Vendedores"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_21.html" title="23. ¿Cómo utilizar la estimación y tendencia de ventas?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-puntos-de-facturacion">
+<span id="howto-ventas-punto"></span><h1>24. ¿Cómo crear puntos de facturación?<a class="headerlink" href="#como-crear-puntos-de-facturacion" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Puntos de Facturación</strong></p>
+<p class="last">Representan el punto de emisión de las facturas y notas de crédito y
+la numeración de estos comprobantes.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Otros ‣ Puntos de Facturación</em>.</p>
+</li>
+<li><p class="first">En la pantalla que se presenta, pulsar el botón <em class="guilabel">Crear</em>. Se abrirá
+el editor para crear un nuevo punto de facturación:</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/nuevoPuntoVenta.png" src="../../_images/nuevoPuntoVenta.png" />
+<p class="caption">Editor de nuevo punto de Facturación</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Los campos de creación son:</p>
+<ul>
+<li><p class="first"><em>Nombre</em>: se utiliza para identificar el punto, por ejemplo, &#8220;FC Fiscal A&#8221;;</p>
+</li>
+<li><p class="first"><em>Sucursal</em>: a la que pertenece el punto de facturación;</p>
+</li>
+<li><p class="first"><em>Prefijo</em>: este dato es asignado por el ente controlador (AFIP, etc), por ejemplo, &#8220;0001&#8221;;</p>
+</li>
+<li><p class="first"><em>Próximo Número de Factura</em>: en caso de tratarse de un nuevo punto se asigna el número 1, o bien si corresponde a una migración se indica el que corresponda;</p>
+</li>
+<li><p class="first"><em>Caja Predeterminada</em>: del listado de cajas disponibles debe seleccionar la que quedará por defecto cada vez que utilicen el punto. Las cajas se administran desde <cite>Caja y Bancos &#8211;&gt; Otros &#8211;&gt; Cajas</cite>.;</p>
+</li>
+<li><p class="first"><em>Moneda</em>: moneda con la que factura el punto de facturación, por ejemplo: &#8220;Pesos&#8221;. Las monedas se administran desde <cite>Sistema &#8211;&gt; Monedas</cite>.;</p>
+</li>
+<li><p class="first"><em>Letra</em>: se debe tipear la letra correspondiente al punto, por ejemplo, A, B, C, E;</p>
+</li>
+<li><p class="first"><em>Tipo de Impresión</em>: Opciones:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Fiscal: Se utiliza cuando emiten los documentos con impresora fiscal.</li>
+<li>Ingreso Manual: el punto de venta representa la numeración impresa en ese talonario. Esta opción permite asignar el número de forma manual en cada documento.</li>
+<li>Manual Consecutivo: Ídem anterior, sólo que esta opción sigue una secuencia, se administra desde el punto de facturación &#8211;&gt; <em>Próximo Número de Factura</em> .</li>
+<li>Preimpreso: Se utiliza cuando se imprimen los documentos sobre un preimpreso.</li>
+<li>Factura Electrónica: Se utiliza cuando desde el sistema se emiten facturas electrónicas.</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</li>
+</ol>
+<p>Desde la consulta de puntos de facturación, además de crear los mismos, se pueden realizar las siguientes operaciones:</p>
+<blockquote>
+<div><ul class="simple">
+<li><em>Modificar</em> los datos ingresados</li>
+<li><em>Eliminar</em> un punto de facturación (siempre que no tenga ningúna operación registrada).</li>
+<li><em>Renumerar Facturas</em>:  Ver <a class="reference internal" href="ventas_09.html#howto-ventas-sec9"><em>¿Cómo renumerar Facturas de Venta?</em></a></li>
+</ul>
+</div></blockquote>
+<div class="figure">
+<img alt="../../_images/PuntosdeVenta.png" src="../../_images/PuntosdeVenta.png" />
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_21.html"
+                        title="Capítulo anterior">23. ¿Cómo utilizar la estimación y tendencia de ventas?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_23.html"
+                        title="Próximo capítulo">25. Vendedores</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_23.html" title="25. Vendedores"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_21.html" title="23. ¿Cómo utilizar la estimación y tendencia de ventas?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,212 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>22. ¿Cómo se completa la operación de pago contrareembolso? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="23. ¿Cómo utilizar la estimación y tendencia de ventas?" href="ventas_21.html" />
+    <link rel="prev" title="21. ¿Cómo utilizar el sistema de puntos?" href="ventas_19.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_21.html" title="23. ¿Cómo utilizar la estimación y tendencia de ventas?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_19.html" title="21. ¿Cómo utilizar el sistema de puntos?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-se-completa-la-operacion-de-pago-contrareembolso">
+<span id="howto-ventas-contrareembolso"></span><h1>22. ¿Cómo se completa la operación de pago contrareembolso?<a class="headerlink" href="#como-se-completa-la-operacion-de-pago-contrareembolso" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><ol class="arabic">
+<li><p class="first">Una vez guardada la factura que fue abonada contrareembolso, se realiza su
+búsqueda en <em class="menuselection">Caja y Bancos ‣ Pagos</em>.  Una vez allí, se la
+puede localizar con ayuda del filtro Forma de Pago Contrareembolso.</p>
+<div class="figure">
+<img alt="../../_images/numeroGuia.png" src="../../_images/numeroGuia.png" />
+<p class="caption">Pantalla de contrareembolso pendiente</p>
+</div>
+</li>
+<li><p class="first">Se debe marcar la factura en los resultados de la búsqueda, y luego
+seleccionar la opción <em class="menuselection">Ventana Activa ‣ Ingresar número de
+guía</em>. Esto presenta un campo editable donde debe escribirse el número de
+guía del Correo Argentino.  Este número se obtiene del comprobante que emite
+el correo cuando se le ha entregado el paquete.</p>
+</li>
+<li><p class="first">Luego de ingresar el número y pulsar <em class="guilabel">Aceptar</em>, el sistema envía
+automáticamente al cliente el aviso de que su pedido ha sido enviado, y la
+columna de estado cambia de Pendiente a Enviado. En dicho aviso, el cliente
+recibe además el número de guía del correo, con el cual podrá hacer el
+seguimiento de su envío mediante Internet o por teléfono.</p>
+</li>
+<li><p class="first">Si hubiera habido, por ejemplo, un error en el ingreso del número de guía, el
+estado puede volverse a Pendiente en la opción <em class="menuselection">Ventana Activa
+‣ Volver al estado anterior</em>. Después de ingresar el número correcto, el
+cliente recibirá un nuevo e-mail de rectificación.</p>
+</li>
+<li><p class="first">En la misma pantalla se imprime el formulario que se entrega al correo. Esto
+puede hacerse mediante la opción de menú <em class="menuselection">Ventana Activa ‣
+Imprimir forma de pago</em>, o bien pulsando el ícono <img alt="/icons/22imprimir.png" class="inlinegraphic" src="../../_images/22imprimir.png" /> en la barra de herramientas.</p>
+<div class="figure">
+<img alt="../../_images/referenciaEnvio.png" src="../../_images/referenciaEnvio.png" />
+<p class="caption">Formulario para el correo</p>
+</div>
+</li>
+<li><div class="first admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Gastos</strong>
+Respecto del pago del correo, por un lado se registra el <em>importe</em> y la
+<em>forma de pago</em>, y por otro la <em>factura</em> emitida por el correo por su
+servicio.</p>
+<p>En la forma de pago se ingresa el valor efectivamente pagado (por
+ejemplo, de un envío de $105 el Correo solo paga $100, la diferencia
+es el costo del Correo).</p>
+<p class="last">Con esta operación, en el sistema se crean automáticamente dos
+operaciones: un gasto de tipo <em>Ingreso</em> por el importe recibido y la
+forma de pago indicada, y por otro, un gasto del tipo <em>Egreso</em> por el
+importe retenido por el Correo. Este último tiene una forma de pago
+predefinida que no mueve caja y banco porque no hay un movimiento real de
+dinero.</p>
+</div>
+<p>Al momento de registrar el pago, se utiliza la opción <em class="menuselection">Ventana
+Activa ‣ Ingresar pago y factura</em>. Se presenta un editor que consta de dos
+solapas, una para ingresar los datos de la factura del Correo y la otra para
+su importe y forma de pago:</p>
+<div class="figure">
+<img alt="../../_images/facturaCorreo.png" src="../../_images/facturaCorreo.png" />
+<p class="caption">Solapa de datos de factura</p>
+</div>
+<div class="figure">
+<img alt="../../_images/pagoCorreo.png" src="../../_images/pagoCorreo.png" />
+<p class="caption">Solapa de forma de pago</p>
+</div>
+</li>
+<li><p class="first">A continuación, si se actualiza la búsqueda del pago éste aparecerá en estado
+Pagado, por lo cual se lo podrá localizar filtrándolo por dicho estado y
+también con el número de guía.</p>
+<div class="figure">
+<img alt="../../_images/contrareembolso.png" src="../../_images/contrareembolso.png" />
+<p class="caption">Pantalla de contrareembolso pagado</p>
+</div>
+</li>
+<li><p class="first">Asimismo, la vista inferior del pago muestra dos enlaces, uno de Ingreso y
+otro de Egreso, mediante los cuales puede accederse a las respectivas fichas,
+tanto la del ingreso del pago del Correo como la del gasto cobrado por la
+operación:</p>
+<div class="figure">
+<img alt="../../_images/fichaPago.png" src="../../_images/fichaPago.png" />
+<p class="caption">Ficha del pago del contrareembolso</p>
+</div>
+<div class="figure">
+<img alt="../../_images/fichaGasto.png" src="../../_images/fichaGasto.png" />
+<p class="caption">Ficha del gasto del contrareembolso</p>
+</div>
+</li>
+<li><p class="first">Incluso en esta instancia, la operación puede deshacerse mediante la
+opción <em class="menuselection">Ventana Activa ‣ Volver al estado anterior</em>.</p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_19.html"
+                        title="Capítulo anterior">21. ¿Cómo utilizar el sistema de puntos?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_21.html"
+                        title="Próximo capítulo">23. ¿Cómo utilizar la estimación y tendencia de ventas?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_21.html" title="23. ¿Cómo utilizar la estimación y tendencia de ventas?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_19.html" title="21. ¿Cómo utilizar el sistema de puntos?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

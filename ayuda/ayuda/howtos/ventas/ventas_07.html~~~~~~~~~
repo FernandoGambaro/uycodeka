@@ -1,0 +1,146 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>9. ¿Cómo crear una Nota de Crédito? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="10. ¿Cómo buscar una Factura de Venta?" href="ventas_08.html" />
+    <link rel="prev" title="8. ¿Cómo crear condiciones de venta?" href="ventas_06.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_08.html" title="10. ¿Cómo buscar una Factura de Venta?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_06.html" title="8. ¿Cómo crear condiciones de venta?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-una-nota-de-credito">
+<span id="howto-ventas-sec7"></span><h1>9. ¿Cómo crear una Nota de Crédito?<a class="headerlink" href="#como-crear-una-nota-de-credito" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><ol class="arabic" id="index-1">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Notas de crédito</em>.
+Se abrirá la pantalla de búsqueda de Notas de Crédito.</p>
+<div class="figure">
+<img alt="../../_images/NotasCredito.png" src="../../_images/NotasCredito.png" />
+<p class="caption">Pantalla de búsqueda de Notas de Crédito</p>
+</div>
+</li>
+<li><p class="first">Para crear una nueva nota de crédito, pulsar el botón del tipo que se requiera:</p>
+<ul class="simple">
+<li><img alt="/icons/NuevaNotaCredito.png" class="inlinegraphic" src="../../_images/NuevaNotaCredito.png" /> Crear una nueva nota de crédito minorista</li>
+<li><img alt="/icons/NotaDeCreditoCuentaCorriente.png" class="inlinegraphic" src="../../_images/NotaDeCreditoCuentaCorriente.png" /> Crear una nueva nota de
+crédito mayorista en cuenta corriente. Al agregar un libro, el semáforo
+indicará si existe o no asociación con una factura.</li>
+<li><img alt="/icons/NotaDeCreditoGeneral.png" class="inlinegraphic" src="../../_images/NotaDeCreditoGeneral.png" /> Crear una nueva nota de crédito
+mayorista general (sin ítems)</li>
+</ul>
+</li>
+<li><p class="first">Seguir los mismos pasos que se realizan para crear una nueva factura
+de venta. Ver <a class="reference internal" href="ventas_01.html#howto-ventas-sec1"><em>¿Cómo facturar una venta?</em></a></p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_06.html"
+                        title="Capítulo anterior">8. ¿Cómo crear condiciones de venta?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_08.html"
+                        title="Próximo capítulo">10. ¿Cómo buscar una Factura de Venta?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_08.html" title="10. ¿Cómo buscar una Factura de Venta?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_06.html" title="8. ¿Cómo crear condiciones de venta?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

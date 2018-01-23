@@ -1,0 +1,318 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>11. ¿Cómo crear un nuevo Proveedor? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Compras" href="../07_compras.html" />
+    <link rel="next" title="12. Pago a Proveedores" href="compras_13.html" />
+    <link rel="prev" title="10. ¿Cómo visualizar la Cuenta Corriente de un Proveedor?" href="compras_11.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="compras_13.html" title="12. Pago a Proveedores"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_11.html" title="10. ¿Cómo visualizar la Cuenta Corriente de un Proveedor?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" accesskey="U">3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-un-nuevo-proveedor">
+<span id="howto-compras-sec10"></span><h1>11. ¿Cómo crear un nuevo Proveedor?<a class="headerlink" href="#como-crear-un-nuevo-proveedor" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><p id="index-1">Es posible crear o modificar la ficha de un proveedor desde la pantalla
+Búsqueda de Proveedores o Selección de Proveedores en las distíntas partes del
+sistema.</p>
+<ol class="arabic">
+<li><p class="first">Desde la pantalla <em>Búsqueda de Proveedores</em> <tt class="kbd docutils literal"><span class="pre">Ctrl</span></tt><tt class="kbd docutils literal"><span class="pre">P</span></tt>,
+seleccionar la opción de menú <em class="menuselection">Ventana Activa ‣ Nuevo Proveedor</em>
+o el ícono <img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" />.
+Se abrirá el asistente para crear un nuevo proveedor.</p>
+</li>
+<li><p class="first">Desde la pantalla <em>Selección de Proveedores</em> seleccionar el
+ícono <img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" /> . Se abrirá el asistente para crear un
+nuevo proveedor. Ver <a class="reference internal" href="../../basics/pantallas/pantallas_03.html#basics-controls-wizards"><em>Asistente</em></a>.</p>
+<p>EL único campo obligatorio es nombre.</p>
+<div class="figure">
+<img alt="../../_images/scrAssisCrearProveedor.png" src="../../_images/scrAssisCrearProveedor.png" />
+<p class="caption">Asistente para crear un proveedor.</p>
+</div>
+</li>
+<li><p class="first">Completar los pasos del asistente. Para finalizar en un paso intermedio
+presionar las teclas <tt class="kbd docutils literal"><span class="pre">Ctrl</span></tt><tt class="kbd docutils literal"><span class="pre">F</span></tt>.</p>
+<p>Presionar el botón <em class="guilabel">Finish (Terminar )</em> para crear el proveedor.</p>
+</li>
+</ol>
+<p>Las secciones de la creación de un proveedor son:</p>
+<div class="section" id="datos-generales-de-la-organizacion">
+<h2>11.1. Datos generales de la organización.<a class="headerlink" href="#datos-generales-de-la-organizacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los datos a que podra completar son:</p>
+<ul class="simple">
+<li>Código: Código del proveedor con el que se referencia en el sistema. Ver
+<a class="reference internal" href="../../basics/pantallas/pantallas_05.html#basics-controls-sequences"><em>Ingreso de códigos</em></a>.</li>
+<li>Nombre Fantasía.</li>
+<li>Razón Social.</li>
+<li>Tipo de IVA.</li>
+<li>CUIT\CUIL.</li>
+<li>Contacto: nombre de la persona dentro de la empresa con quien se trata
+habitualmente.</li>
+</ul>
+</div>
+<div class="section" id="direccion-del-proveedor">
+<h2>11.2. Dirección del proveedor.<a class="headerlink" href="#direccion-del-proveedor" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Datos de contacto del proveedor.</p>
+<ul class="simple">
+<li>Domicilio.</li>
+<li>Código Postal.</li>
+<li>País.</li>
+<li>Provincia.</li>
+<li>Localidad.</li>
+<li>Teléfono.</li>
+<li>Email.</li>
+</ul>
+</div>
+<div class="section" id="editoriales-que-distribuye">
+<h2>11.3. Editoriales que distribuye<a class="headerlink" href="#editoriales-que-distribuye" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En esta sección se completan las editoriales que distribuye el proveedor.
+Este dato se utiliza para saber cuáles son los proveedores de un libro, en
+lugar de asignar un proveedor principal a cada libro. Por cada editorial
+realizar los siguientes pasos:</p>
+<ol class="arabic simple">
+<li>Presionar el botón <em class="guilabel">Agregar</em></li>
+<li>Buscar una editorial por nombre o código.</li>
+<li>Presionar el botón <em class="guilabel">Aceptar</em></li>
+<li>Para quitar una editorial, seleccionarla de la lista y presionar el
+botón <em class="guilabel">Quitar</em>.</li>
+</ol>
+</div>
+<div class="section" id="otros-libros-que-distribuye">
+<h2>11.4. Otros libros que distribuye<a class="headerlink" href="#otros-libros-que-distribuye" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Si el proveedor distribuye algún libro especial, y no puede definirse en la
+sección anterior que distribuye toda su editorial, ingresar en esta parte los
+libros que distribuye.</p>
+<p>Estos libros pueden definirse mediante grupos dinámicos ( por ejemplo, todos los
+libros de un carácter o una materia), o grupos estáticos (un conjunto fijo de
+libros).</p>
+<ol class="arabic simple">
+<li>Presionar el botón <em class="guilabel">Agregar</em>.</li>
+<li>Crear el grupo de libros. Ver <a class="reference internal" href="../catalogo/catalogo_07.html#howto-catalogo-sec7"><em>¿Cómo crear un Grupo de Libros?</em></a></li>
+<li>Presionar el botón <em class="guilabel">Aceptar</em>.</li>
+<li>Para quitar un grupo, seleccionarlo de la lista y presionar el
+botón <em class="guilabel">Quitar</em>.</li>
+</ol>
+</div>
+<div class="section" id="condicion-de-compra-y-descuentos">
+<h2>11.5. Condición de compra y descuentos<a class="headerlink" href="#condicion-de-compra-y-descuentos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En esta sección se define la condición de compra y los descuentos.</p>
+<ul>
+<li><p class="first"><em>Condición de compra</em></p>
+<p>Seleccionar la condición de compra con que se opera con el proveedor.</p>
+</li>
+<li><p class="first"><em>Estrategia de generación de pedidos</em></p>
+<p>Seleccionar la estrategia de generación de pedidos que se utiliza
+habitualmente para crear los pedidos al proveedor (<em>Véase</em> <a class="reference internal" href="compras_02.html#howto-compras-sec2-sec2"><em>¿Cómo crear
+un pedido con la Generación automática de pedidos?</em></a>).</p>
+</li>
+<li><p class="first"><em>Descuento</em></p>
+<p>En el campo descuento predeterminado, completar el descuento que se aplica en
+las compras al proveedor.</p>
+<p>Si para algún conjunto de libros hay un descuento excepcional, se completan
+estos descuentos.</p>
+<ul class="simple">
+<li>Si el descuento especial es por editorial, presionar el botón
+<em class="guilabel">Editorial</em>, realizar la búsqueda, seleccionar la editorial y
+completar el descuento.</li>
+<li>Si el descuento especial es para otro conjunto de libros, presionar el botón
+<em class="guilabel">Agregar</em>, definir el grupo y asignar el descuento. El grupo puede
+ser dinámico (los libros de una materia, de un carácter, etc,), o estático
+(una lista fija de libros). Ver <a class="reference internal" href="../catalogo/catalogo_07.html#howto-catalogo-sec7"><em>¿Cómo crear un Grupo de
+Libros?</em></a>.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="factor-de-escalado-de-precios">
+<h2>11.6. Factor de escalado de precios<a class="headerlink" href="#factor-de-escalado-de-precios" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Factor de escalado de precios</strong></p>
+<p>El factor de escalado de precios es un coeficiente que se aplica al
+precio del libro. Se define por proveedor, con el objetivo de reflejar
+el costo que tiene el libro, según el proveedor. Suele utilizarse con
+los libros importados.</p>
+<p class="last">El escalado aplica a todos los libros, y también pueden definirse
+excepciones para distintos conjuntos de libros.</p>
+</div>
+<ol class="arabic simple">
+<li>Completar el factor de escalado de precios que aplica a todos los libros. Si
+no hay escalado, el valor es 1.</li>
+<li>Si hay conjuntos de libros que tienen un coeficiente distinto:<ol class="arabic">
+<li>Presionar el botón <em class="guilabel">Agregar</em>.</li>
+<li>Definir el grupo y asignar el factor de escalado. El grupo puede ser
+dinámico (los libros de una materia, de un carácter, etc.), o estático
+(una lista fija de libros). Ver <a class="reference internal" href="../catalogo/catalogo_07.html#howto-catalogo-sec7"><em>¿Cómo crear un Grupo de Libros?</em></a>.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="section" id="archivos-asociados-a-un-proveedor">
+<h2>11.7. Archivos asociados a un proveedor<a class="headerlink" href="#archivos-asociados-a-un-proveedor" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La ficha del proveedor puede tener archivos adjuntos.</p>
+<p>Para agregar un archivo adjunto:</p>
+<ol class="arabic simple">
+<li>Seleccionar el tipo de archivo.</li>
+<li>Buscar el archivo a adjuntar presionando el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" />.</li>
+<li>Complete la descripción del archivo (opcional).</li>
+<li>Presione el botón <em class="guilabel">Agregar</em></li>
+</ol>
+</div>
+<div class="section" id="notas">
+<h2>11.8. Notas<a class="headerlink" href="#notas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El proveedor puede tener notas asociadas.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>¿Qué son?</strong></p>
+<p>Las <em>notas</em> son comentarios sobre el cliente, que pueden hacerse para
+variadas utilidades.</p>
+<p>Las notas quedan registradas y todos los usuarios pueden leer el contenido,
+quién las escribió, en qué fecha y sucursal.</p>
+<p class="last">Ver <a class="reference internal" href="../general/general_03.html#howto-others-notes"><em>¿Cómo agregar notas a los libros, clientes, proveedores o
+documentos?</em></a>.</p>
+</div>
+<p>Para agregar una nota:</p>
+<ol class="arabic">
+<li><p class="first">Presionar el botón <img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" />. Se abrirá la pantalla Nueva Nota.</p>
+<div class="figure">
+<img alt="../../_images/scrNewNote.png" src="../../_images/scrNewNote.png" />
+<p class="caption">Pantalla Nueva Nota</p>
+</div>
+</li>
+<li><p class="first">Completar el título (Asunto) y el texto de la nota.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ol>
+<div class="section" id="fusion-administrativa-de-proveedores">
+<h3>11.8.1. Fusión administrativa de proveedores<a class="headerlink" href="#fusion-administrativa-de-proveedores" title="Enlazar permanentemente con este título">¶</a></h3>
+<span class="target" id="index-2"></span><span class="target" id="index-3"></span></div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">11. ¿Cómo crear un nuevo Proveedor?</a><ul>
+<li><a class="reference internal" href="#datos-generales-de-la-organizacion">11.1. Datos generales de la organización.</a></li>
+<li><a class="reference internal" href="#direccion-del-proveedor">11.2. Dirección del proveedor.</a></li>
+<li><a class="reference internal" href="#editoriales-que-distribuye">11.3. Editoriales que distribuye</a></li>
+<li><a class="reference internal" href="#otros-libros-que-distribuye">11.4. Otros libros que distribuye</a></li>
+<li><a class="reference internal" href="#condicion-de-compra-y-descuentos">11.5. Condición de compra y descuentos</a></li>
+<li><a class="reference internal" href="#factor-de-escalado-de-precios">11.6. Factor de escalado de precios</a></li>
+<li><a class="reference internal" href="#archivos-asociados-a-un-proveedor">11.7. Archivos asociados a un proveedor</a></li>
+<li><a class="reference internal" href="#notas">11.8. Notas</a><ul>
+<li><a class="reference internal" href="#fusion-administrativa-de-proveedores">11.8.1. Fusión administrativa de proveedores</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="compras_11.html"
+                        title="Capítulo anterior">10. ¿Cómo visualizar la Cuenta Corriente de un Proveedor?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="compras_13.html"
+                        title="Próximo capítulo">12. Pago a Proveedores</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="compras_13.html" title="12. Pago a Proveedores"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_11.html" title="10. ¿Cómo visualizar la Cuenta Corriente de un Proveedor?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" >3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

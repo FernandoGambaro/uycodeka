@@ -1,0 +1,293 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>17. ¿Cómo trabajar con señas y reservas? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="18. ¿Cómo actualizar la lista de precios?" href="ventas_15a.html" />
+    <link rel="prev" title="16. ¿Cómo anular una Factura de Venta?" href="ventas_14.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_15a.html" title="18. ¿Cómo actualizar la lista de precios?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_14.html" title="16. ¿Cómo anular una Factura de Venta?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-trabajar-con-senas-y-reservas">
+<span id="howto-ventas-reservations"></span><h1>17. ¿Cómo trabajar con señas y reservas?<a class="headerlink" href="#como-trabajar-con-senas-y-reservas" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><p>El circuito de señas y reservas incluye la solicitud anticipada de libros por
+parte de los clientes, la creación de pedidos a proveedores en base a dichas
+solicitudes, el aviso del sistema cuando los libros ingresan, y por último la
+facturación total.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Reservas, señas y señas generales</strong></p>
+<p>Cuando el cliente hace la solicitud de un libro y no deja dinero a cuenta,
+se registra el pedido como una <em>reserva</em>; si el cliente deja dinero por el
+libro solicitado, se registra una <em>seña</em>; y cuando deja dinero por libros
+cuyo registro aún no existe en Fierro, se hace una <em>seña general</em>.</p>
+<p class="last">Cuando se genera una seña o seña general, se emite una factura por el
+importe abonado.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Señas y Reservas</em>.
+Se abrirá la pantalla <em>Reservas</em>.</p>
+<div class="figure">
+<img alt="../../_images/consultaReservas.png" src="../../_images/consultaReservas.png" />
+<p class="caption">Consulta de señas y reservas</p>
+</div>
+</li>
+<li><p class="first">Dicha pantalla permite buscar y seleccionar reservas y señas pendientes, y
+facturarlas mediante el botón <img alt="/icons/facturarLibro.png" class="inlinegraphic" src="../../_images/facturarLibro.png" /> en la barra
+de herramientas. Asimismo, el botón <img alt="/icons/cambiarEstado.png" class="inlinegraphic" src="../../_images/cambiarEstado.png" /> y el
+enlace <em>Cambiar</em> en la vista inferior permiten modificar
+el <em class="guilabel">estado</em> de la reserva o seña seleccionada. Algunos estados
+posibles son: <em>Pedido</em>, <em>Cancelado</em>, <em>Separado</em>, <em>Bloqueado</em>, etcétera.</p>
+</li>
+<li><p class="first">Para la creación, pulsar el botón del tipo que se requiera:</p>
+<ul class="simple">
+<li><img alt="/icons/22nreserva.png" class="inlinegraphic" src="../../_images/22nreserva.png" /> Crear una nueva <em class="guilabel">reserva</em>;</li>
+<li><img alt="/icons/22nsenia.png" class="inlinegraphic" src="../../_images/22nsenia.png" /> Crear una nueva <em class="guilabel">seña</em>;</li>
+<li><img alt="/icons/22_new_general_anticipe.png" class="inlinegraphic" src="../../_images/22_new_general_anticipe.png" /> Crear una nueva <em class="guilabel">seña general</em>;</li>
+</ul>
+</li>
+</ol>
+<div class="section" id="como-crear-una-nueva-sena">
+<h2>17.1. Cómo crear una nueva seña<a class="headerlink" href="#como-crear-una-nueva-sena" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Reservas</strong></p>
+<p class="last">Los pasos de creación de una <em>nueva reserva</em> son similares, excepto por el
+hecho de que no se utilizará ninguna forma de pago.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Pulsar el botón <img alt="/icons/22nsenia.png" class="inlinegraphic" src="../../_images/22nsenia.png" /> en la barra de herramientas.
+Se abrirá la pantalla de una nueva seña.</p>
+<div class="figure">
+<img alt="../../_images/nuevaSenia.png" src="../../_images/nuevaSenia.png" />
+<p class="caption">Crear una nueva seña</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el cliente.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Un cliente nuevo puede ser creado en esta misma pantalla con el botón
+<img alt="/icons/altaCliente.png" class="inlinegraphic" src="../../_images/altaCliente.png" /> , y a los efectos de la seña bastará
+con colocar, en el editor que se presenta, un nombre y un teléfono de
+contacto. Este número aparecerá automáticamente en el campo <em>Contacto</em>
+de la nueva seña. El campo Aviso/Envío permite a su vez elegir entre
+<em>Avisar por mail</em>, <em>Avisar por teléfono</em>, o <em>Pasa el cliente</em>.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/nuevoCliente.png" src="../../_images/nuevoCliente.png" />
+<p class="caption">nuevoCliente</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el o los libros que serán señados, e incluirlos en la seña con el
+botón <em class="guilabel">Agregar</em>.</p>
+</li>
+<li><p class="first">Seleccionar la forma de pago, <img alt="/icons/22efectivo.png" class="inlinegraphic" src="../../_images/22efectivo.png" /> ó <img alt="/icons/22tarjeta.png" class="inlinegraphic" src="../../_images/22tarjeta.png" /> , en la barra de herramientas, en el menú <em>Ventana
+Activa</em> o en la solapa <em>Formas de pago</em>.</p>
+</li>
+<li><p class="first">Pulsar <em class="guilabel">Aceptar</em> para guardar la seña.</p>
+</li>
+<li><p class="first">Una vez guardada la seña o la reserva, podrán ir siguiéndose sus cambios de
+estado en la vista inferior respectiva y, asimismo, en el proceso de pedir y
+recibir los items.</p>
+</li>
+<li><p class="first">Si se utiliza la <em class="guilabel">Generación de pedidos a múltiples proveedores</em>
+(Ver <a class="reference internal" href="../compras/compras_02.html#howto-compras-sec2-sec4"><em>¿Cómo generar un pedido a múltiples proveedores?</em></a>), al guardar un pedido basado en seña o reserva el
+sistema ofrecerá abrir una pantalla con los pedidos creados. Tras ello se
+presenta la visualización del cambio de estado, el cual <em class="guilabel">debe
+aceptarse para que tome efecto</em>.</p>
+<div class="figure">
+<img alt="../../_images/pedidoSenia.png" src="../../_images/pedidoSenia.png" />
+<p class="caption">Pantalla de item pedido</p>
+</div>
+</li>
+<li><p class="first">De manera similar, cuando el libro es ingresado aparece nuevamente el aviso
+de cambio de estado.</p>
+<div class="figure">
+<img alt="../../_images/recibidoSenia.png" src="../../_images/recibidoSenia.png" />
+<p class="caption">Pantalla de item recibido</p>
+</div>
+</li>
+<li><p class="first">Para utilizar una seña puede procederse como se indicó arriba: buscar y
+seleccionar la seña y facturarla mediante el botón <img alt="/icons/facturarLibro.png" class="inlinegraphic" src="../../_images/facturarLibro.png" />, o bien abrir una nueva factura, seleccionar el
+cliente, y buscar sus señas o reservas pendientes mediante el botón <img alt="/icons/22breserva.png" class="inlinegraphic" src="../../_images/22breserva.png" /> .</p>
+<div class="figure">
+<img alt="../../_images/seleccionarSenia.png" src="../../_images/seleccionarSenia.png" />
+<p class="caption">Pantalla de selección de seña</p>
+</div>
+</li>
+<li><p class="first">Se marca la seña o reserva a facturar y se pulsa <em class="guilabel">Aceptar</em> para que
+ingrese en la grilla de la nueva factura. El sistema advierte del agregado de
+la seña como adicional (esto puede comprobarse en la solapa Adicionales).</p>
+<div class="figure">
+<img alt="../../_images/agregarSenia.png" src="../../_images/agregarSenia.png" />
+<p class="caption">Pantalla de agregado de seña</p>
+</div>
+<div class="figure">
+<img alt="../../_images/adicionalSenia.png" src="../../_images/adicionalSenia.png" />
+<p class="caption">Pantalla de adicionales</p>
+</div>
+</li>
+<li><p class="first">Elegir la forma de pago: el sistema mostrará el saldo restante a pagar.
+Pulsar <em class="guilabel">Aceptar</em> para registrar la factura.</p>
+</li>
+<li><p class="first">En todo momento podrán seguirse los cambios de estado de la seña o reserva en
+su vista inferior, y también los documentos con que dichos cambios se
+cumplieron.</p>
+<div class="figure">
+<img alt="../../_images/cambiosEstado.png" src="../../_images/cambiosEstado.png" />
+<p class="caption">Vista inferior de la seña</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="como-crear-una-sena-general">
+<h2>17.2. Cómo crear una seña general<a class="headerlink" href="#como-crear-una-sena-general" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Siempre en la pantalla de búsqueda de señas y reservas, pulsar el botón
+<img alt="/icons/22_new_general_anticipe.png" class="inlinegraphic" src="../../_images/22_new_general_anticipe.png" /> en la barra de herramientas.</p>
+</li>
+<li><p class="first">En la pantalla que se abre, en lugar de la solapa de detalle de items se
+presenta un campo para descripción, en el que es posible escribir el motivo
+por el cual el cliente deja un monto en anticipo.</p>
+<p>Ingresar el importe en la solapa Formas de pago, en Ventana Activa o con los
+botones de la barra de herramientas.</p>
+<div class="figure">
+<img alt="../../_images/nuevaSeniaGeneral.png" src="../../_images/nuevaSeniaGeneral.png" />
+<p class="caption">Pantalla de nueva seña general</p>
+</div>
+</li>
+<li><p class="first">Cuando la seña general se facture, puede ocurrir que el importe total de los
+items elegidos sea menor al monto anticipado. En la solapa <em>Adicionales</em> de
+la nueva factura de ventas, una vez que se ha descargado en ella la seña
+general, con doble clic sobre la misma es posible editar el importe utilizado
+(en la imagen de ejemplo, se escribirá 417).</p>
+<p>Luego de registrar la factura, el cliente aún dispondrá de la seña con su
+saldo restante.</p>
+<div class="figure">
+<img alt="../../_images/editarImporteSenia.png" src="../../_images/editarImporteSenia.png" />
+<p class="caption">Editor de importe de seña</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../manual.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">17. ¿Cómo trabajar con señas y reservas?</a><ul>
+<li><a class="reference internal" href="#como-crear-una-nueva-sena">17.1. Cómo crear una nueva seña</a></li>
+<li><a class="reference internal" href="#como-crear-una-sena-general">17.2. Cómo crear una seña general</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_14.html"
+                        title="Capítulo anterior">16. ¿Cómo anular una Factura de Venta?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_15a.html"
+                        title="Próximo capítulo">18. ¿Cómo actualizar la lista de precios?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_15a.html" title="18. ¿Cómo actualizar la lista de precios?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_14.html" title="16. ¿Cómo anular una Factura de Venta?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

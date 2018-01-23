@@ -1,0 +1,283 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>17. ¿Cómo registrar un gasto? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="5. Caja y Bancos" href="../08_cajaybancos.html" />
+    <link rel="next" title="18. Transferencias de caja" href="cajaybancos_18.html" />
+    <link rel="prev" title="16. ¿Cómo visualizar la cartera de cheques?" href="cajaybancos_16.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_18.html" title="18. Transferencias de caja"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_16.html" title="16. ¿Cómo visualizar la cartera de cheques?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" accesskey="U">5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-registrar-un-gasto">
+<span id="howto-bookkeeping-newexpense"></span><h1>17. ¿Cómo registrar un gasto?<a class="headerlink" href="#como-registrar-un-gasto" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Caja y Bancos ‣ Gastos</em>.
+Se abrirá la pantalla Búsqueda de gastos.</p>
+<div class="figure">
+<img alt="../../_images/scrExpenseSearch.png" src="../../_images/scrExpenseSearch.png" />
+<p class="caption">Pantalla Búsqueda de gastos</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el ícono <img alt="/icons/n_gastos.png" class="inlinegraphic" src="../../_images/n_gastos.png" />.
+Se abrira la pantalla Nuevo Gasto.</p>
+<div class="figure">
+<img alt="../../_images/scrExpenseNew.png" src="../../_images/scrExpenseNew.png" />
+<p class="caption">Pantalla Nuevo gasto</p>
+</div>
+</li>
+<li><p class="first">Completar los datos del gasto:</p>
+<ul class="simple">
+<li><em>Proveedor</em>: Si el gasto no tiene un proveedor específico, seleccionar la opción &#8220;Sin registrar&#8221; y completar en el campo &#8220;Nombre&#8221; el nombre del proveedor. Por ejemplo, un ticket de colectivo no tiene un proveedor vinculado. Caso contrario, seleccionar la opción &#8220;Registrado&#8221; y buscar el proveedor dentro del listado de proveedores del sistema.</li>
+<li><em>Tipo</em>: clasificación del gasto. El tipo de gasto se selecciona de una lista que puede configurarse.</li>
+<li><em>Sucursal</em>: sucursal a la que corresponde el gasto.</li>
+<li><em>Fecha</em>: fecha en que se realizó el gasto. Si la fecha contable es distinta a la fecha del documento, hacer click derecho sobre el campo fecha e ingresar la fecha contable.</li>
+<li><em>Comprobante</em>: tipo de comprobante.</li>
+<li><em>Número</em>: número del comprobante, si corresponde.</li>
+<li><em>Importe</em>: monto del gasto.</li>
+<li><em>Importe IVA</em>: monto del IVA.</li>
+<li><em>Descripción</em>: descripción del gasto.</li>
+</ul>
+</li>
+<li><p class="first">Seleccionar las formas de pago en la solapa Formas de pago. El total de las formas de pago debe coincidir con el importe del gasto. Si el gasto es en cuenta corriente del proveedor, seleccionar la opción &#8220;Ingresar pago en cuenta corriente&#8221;. Luego podrá cancelarse con una orden de pago o un recibo.</p>
+</li>
+<li><p class="first">En la solapa imputación, por defecto se visualización la imputación del gasto completo al tipo de gasto seleccionado anteriormente. Es posible que un gasto se impute a más de un tipo de gasto. En este caso, quitar la imputación con el botón Quitar y agregar las distintas imputaciones. Por ejemplo, una factura de un proveedor informático puede corresponder a la compra de una impresora y una resma de papel. En este caso, parte del gasto se imputará a infraestructura informática y parte a insumos.</p>
+</li>
+</ol>
+<p>Si en el sistema se cargaron previamente los centros de costos (en el menú Caja y bancos-&gt;Otros-&gt;Centros de costos), en la solapa de Imputación pueden asociarse los centros de costos.</p>
+<p>También puede imputarse el gasto a un libro determinado. Este caso es útil para las editoriales, quienes en el proceso de producción imputan las facturas de gastos a libros determinados para luego poder listar todos los gastos vinculados a los mismos.</p>
+<ol class="arabic simple">
+<li>Presionar el botón <em class="guilabel">Aceptar</em> o la tecla <tt class="kbd docutils literal"><span class="pre">F9</span></tt> para terminar
+la creación del gasto.</li>
+</ol>
+<div class="section" id="ingreso-de-un-gasto-con-iva-como-unico-impuesto">
+<h2>17.1. Ingreso de un gasto con IVA como único impuesto<a class="headerlink" href="#ingreso-de-un-gasto-con-iva-como-unico-impuesto" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Suponemos que hay que ingresar una factura de un gasto por un importe total de $121, de los cuales $21 corresponden al IVA.</p>
+<p>La carga del gasto sería:</p>
+<blockquote>
+<div><ul>
+<li><p class="first">En la cabecera, completar en &#8220;Importe total&#8221; el total de la factura, es decir: $121. En el campo &#8220;Total IVA&#8221;, ingresar $21.</p>
+<div class="figure">
+<img alt="../../_images/gastoIVACabecera.png" src="../../_images/gastoIVACabecera.png" />
+</div>
+</li>
+<li><p class="first">Con esos valores ingresados, el sistema calcula el IVA. Observar en la solapa IVA los valores completos (podría haber una diferencia de CENTAVOS que se puede
+ajustar manualmente).</p>
+<div class="figure">
+<img alt="../../_images/gastoIVAIVA.png" src="../../_images/gastoIVAIVA.png" />
+</div>
+</li>
+<li><p class="first">En la solapa Imputación, automáticamente se imputan $100 al tipo de gasto principal y $21 al tipo de gasto &#8220;IVA crédito fiscal&#8221;.</p>
+<div class="figure">
+<img alt="../../_images/gastoIVAImputacion.png" src="../../_images/gastoIVAImputacion.png" />
+</div>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="ingreso-de-un-gasto-con-iva-percepciones-y-otros-impuestos">
+<h2>17.2. Ingreso de un gasto con IVA, percepciones y otros impuestos<a class="headerlink" href="#ingreso-de-un-gasto-con-iva-percepciones-y-otros-impuestos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En este ejemplo se explica la carga de la factura de la imagen, que tiene percepciones y distintos impuestos.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/facturaGastoEscaneada.png" src="../../_images/facturaGastoEscaneada.png" />
+</div>
+</div></blockquote>
+<div class="section" id="cabecera">
+<h3>17.2.1. Cabecera<a class="headerlink" href="#cabecera" title="Enlazar permanentemente con este título">¶</a></h3>
+<blockquote>
+<div><ul>
+<li><p class="first">En &#8220;Importe Total&#8221; va el importe TOTAL de la factura, incluyendo todos los impuestos o percepciones.</p>
+</li>
+<li><p class="first">En &#8220;Total IVA&#8221; va únicamente el IVA de la factura. Esto NO incluye la percepción de IVA que no es IVA devengado por esta factura sino un cobro
+anticipado de impuestos.</p>
+<div class="figure">
+<img alt="../../_images/gastoIVA2Cabecera.png" src="../../_images/gastoIVA2Cabecera.png" />
+</div>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="solapa-iva">
+<h3>17.2.2. Solapa IVA<a class="headerlink" href="#solapa-iva" title="Enlazar permanentemente con este título">¶</a></h3>
+<blockquote>
+<div><ul>
+<li><p class="first">Los importes de la columna &#8220;$ Bruto&#8221; para las filas &#8220;Exento&#8221;, &#8220;IVA Tasa...&#8221;
+se toman de la factura, del detalle de productos facturados o de totales
+habitualmente indicados en las factura &#8220;Neto gravado al xxx%&#8221;. Al cargar
+esos valores se calcula automáticamente el valor de la columna &#8220;$ IVA&#8221;
+correspondiente. Podría haber una diferencia de CENTAVOS que se puede
+ajustar manualmente.</p>
+</li>
+<li><p class="first">Las percepciones de Ingresos Brutos (IIBB) e IVA se cargan en las filas
+correspondientes, en la columna de &#8220;$ Bruto&#8221;.</p>
+</li>
+<li><p class="first">Otros impuestos no recuperables como tasas especiales o &#8220;Impuestos
+internos&#8221; o similares, se suman en la fila &#8220;No gravado&#8221;, en la columna &#8220;$
+Bruto&#8221;.</p>
+</li>
+<li><p class="first">La suma de la columna &#8220;$ Bruto&#8221; debe ser igual a &#8220;Importe Total&#8221; - &#8220;Total IVA&#8221;.</p>
+</li>
+<li><p class="first">La suma de la columna &#8220;$ IVA&#8221; debe ser igual a &#8220;Total IVA&#8221;.</p>
+<div class="figure">
+<img alt="../../_images/gastoIVA2IVA.png" src="../../_images/gastoIVA2IVA.png" />
+</div>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="solapa-imputaciones">
+<h3>17.2.3. Solapa Imputaciones<a class="headerlink" href="#solapa-imputaciones" title="Enlazar permanentemente con este título">¶</a></h3>
+<blockquote>
+<div><ul>
+<li><p class="first">Las imputaciones se calculan automáticamente.</p>
+</li>
+<li><p class="first">El &#8220;Total IVA&#8221; debe coincidir con lo imputado a &#8220;IVA Crédito Fiscal&#8221;.</p>
+</li>
+<li><p class="first">Las percepciones de IVA, IIBB y Ganancias deben aparecer discriminadas en
+sus propios tipos de gastos.</p>
+</li>
+<li><p class="first">El importe restante se aplica al tipo de gasto principal. Debería coincidir
+con lo que en la solapa IVA está en las filas de &#8220;IVA Tasa...&#8221; + &#8220;Exento&#8221; +
+&#8220;No gravado&#8221;, dentro de la columna &#8220;$ Bruto&#8221;. En este caso, a la cuenta
+&#8220;Teléfono&#8221; se imputaría no solo el neto gravado, sino también los impuestos
+no recuperables, que conforman el costo real.</p>
+<div class="figure">
+<img alt="../../_images/gastoIVA2Imputacion.png" src="../../_images/gastoIVA2Imputacion.png" />
+</div>
+</li>
+</ul>
+</div></blockquote>
+<p>En la siguiente figura se muestra la asociación entre los componentes de la factura y la carga de la solapa IVA.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/ivaMapping.png" src="../../_images/ivaMapping.png" />
+</div>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">17. ¿Cómo registrar un gasto?</a><ul>
+<li><a class="reference internal" href="#ingreso-de-un-gasto-con-iva-como-unico-impuesto">17.1. Ingreso de un gasto con IVA como único impuesto</a></li>
+<li><a class="reference internal" href="#ingreso-de-un-gasto-con-iva-percepciones-y-otros-impuestos">17.2. Ingreso de un gasto con IVA, percepciones y otros impuestos</a><ul>
+<li><a class="reference internal" href="#cabecera">17.2.1. Cabecera</a></li>
+<li><a class="reference internal" href="#solapa-iva">17.2.2. Solapa IVA</a></li>
+<li><a class="reference internal" href="#solapa-imputaciones">17.2.3. Solapa Imputaciones</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="cajaybancos_16.html"
+                        title="Capítulo anterior">16. ¿Cómo visualizar la cartera de cheques?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="cajaybancos_18.html"
+                        title="Próximo capítulo">18. Transferencias de caja</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_18.html" title="18. Transferencias de caja"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_16.html" title="16. ¿Cómo visualizar la cartera de cheques?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" >5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,215 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>8.14. ¿Qué son y para que se utilizan los atributos parametrizables? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="8. General" href="../11_general.html" />
+    <link rel="next" title="8.15. ¿Cómo crear tareas?" href="general_15.html" />
+    <link rel="prev" title="8.13. SINLI" href="general_13.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="general_15.html" title="8.15. ¿Cómo crear tareas?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_13.html" title="8.13. SINLI"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" accesskey="U">8. General</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="que-son-y-para-que-se-utilizan-los-atributos-parametrizables">
+<span id="howto-others-customattribute"></span><h1>8.14. ¿Qué son y para que se utilizan los atributos parametrizables?<a class="headerlink" href="#que-son-y-para-que-se-utilizan-los-atributos-parametrizables" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Atributos Parametrizables</strong></p>
+<p>Los <em>atributos parametrizables</em> son campos que se pueden agregar en las fichas de clientes, libros y proveedores y
+permiten ampliar los datos que se registran en ellas.</p>
+<p>Se utilizan para agregar atributos sin necesidad de modificar el modelo de datos de Fierro. En el sistema también se
+denominan “Campos adicionales”.</p>
+<p class="last">Por ejemplo, para recolectar información específica de sus clientes para una campaña de marketing una librería agregó
+los siguientes atributos: ¿Tiene automóvil? ¿Tiene celular?, Cantidad de hijos, Tiene tarjeta de crédito, etc.</p>
+</div>
+<div class="section" id="definicion-de-un-atributo">
+<h2>8.14.1. Definición de un atributo<a class="headerlink" href="#definicion-de-un-atributo" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-2"></span><ul id="index-3">
+<li><p class="first">Cuando se crea un nuevo atributo se define:</p>
+<blockquote>
+<div><ul class="simple">
+<li>El nombre del atributo</li>
+<li>El tipo de dato: los tipos de datos a completar en el atributo pueden ser fecha, entero, decimal, texto,
+booleano o un valor de una lista de valores predefinida.</li>
+<li>Una función de validación.</li>
+<li>Un valor predeterminado: el que figura por defecto.</li>
+<li>Se indica si este campo es obligatorio o no.</li>
+<li>Número de orden en el que aparece el atributo dentro de la lista de atributos parametrizables.</li>
+</ul>
+</div></blockquote>
+<p>Esta configuración la realiza Lambda Sistemas dentro de una tabla en la base de datos.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="edicion-de-los-atributos">
+<h2>8.14.2. Edición de los atributos<a class="headerlink" href="#edicion-de-los-atributos" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-4"></span><ul class="simple" id="index-5">
+<li>Los atributos se editan dentro de la ficha del libro, cliente o proveedor. Si el sistema tiene configurados atributos
+parametrizables, se agrega una solapa donde se editan estos valores.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/customattributeedicion.png" src="../../_images/customattributeedicion.png" />
+<p class="caption">Edición de atributos personalizables en la ficha del cliente</p>
+</div>
+</div>
+<div class="section" id="visualizacion">
+<h2>8.14.3. Visualización<a class="headerlink" href="#visualizacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-6"></span><ul class="simple" id="index-7">
+<li>En cada pantalla de búsqueda, si el sistema tiene configurado atributos parametrizales, se agrega una vista llamada
+“Campos adicionales” donde se ven los valores del objeto seleccionado.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/customattributevista.png" src="../../_images/customattributevista.png" />
+<p class="caption">Vista &#8220;Campos adicionales&#8221; en la consulta de clientes</p>
+</div>
+</div>
+<div class="section" id="pantallas-de-consulta-busqueda-por-parametros-parametrizables">
+<h2>8.14.4. Pantallas de consulta: búsqueda por parámetros parametrizables<a class="headerlink" href="#pantallas-de-consulta-busqueda-por-parametros-parametrizables" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-8"></span><ul class="simple" id="index-9">
+<li>En cada pantalla de búsqueda, si el sistema tiene configurado atributos parametrizales, se agrega un panel de búsqueda
+donde se pueden filtrar los datos por todos los parámetros definidos.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/customattributebusqueda.png" src="../../_images/customattributebusqueda.png" />
+<p class="caption">Consulta de clientes por atributos parametrizables</p>
+</div>
+</div>
+<div class="section" id="columnas">
+<h2>8.14.5. Columnas<a class="headerlink" href="#columnas" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-10"></span><ul class="simple" id="index-11">
+<li>Es posible agregar a las consultas las columnas correspondientes a los atributos parametrizables.</li>
+</ul>
+</div>
+<div class="section" id="reportes">
+<h2>8.14.6. Reportes<a class="headerlink" href="#reportes" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-12"></span><ul class="simple" id="index-13">
+<li>Como todos los reportes de Fierro permiten ser filtrados por los criterios de búsqueda disponibles, esta herramienta también es visible en los criterios de filtrado de los reportes.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/customattributereporte.png" src="../../_images/customattributereporte.png" />
+<p class="caption">Reporte de ventas filtrado para los clientes de educación terciaria</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">8.14. ¿Qué son y para que se utilizan los atributos parametrizables?</a><ul>
+<li><a class="reference internal" href="#definicion-de-un-atributo">8.14.1. Definición de un atributo</a></li>
+<li><a class="reference internal" href="#edicion-de-los-atributos">8.14.2. Edición de los atributos</a></li>
+<li><a class="reference internal" href="#visualizacion">8.14.3. Visualización</a></li>
+<li><a class="reference internal" href="#pantallas-de-consulta-busqueda-por-parametros-parametrizables">8.14.4. Pantallas de consulta: búsqueda por parámetros parametrizables</a></li>
+<li><a class="reference internal" href="#columnas">8.14.5. Columnas</a></li>
+<li><a class="reference internal" href="#reportes">8.14.6. Reportes</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="general_13.html"
+                        title="Capítulo anterior">8.13. SINLI</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="general_15.html"
+                        title="Próximo capítulo">8.15. ¿Cómo crear tareas?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="general_15.html" title="8.15. ¿Cómo crear tareas?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_13.html" title="8.13. SINLI"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" >8. General</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

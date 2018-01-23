@@ -1,0 +1,145 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>9. ¿Cómo visualizar los movimientos de caja? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="5. Caja y Bancos" href="../08_cajaybancos.html" />
+    <link rel="next" title="10. ¿Cómo transferir dinero de una caja a otra?" href="cajaybancos_10.html" />
+    <link rel="prev" title="8. ¿Cómo ingresar el cierre de las tarjetas?" href="cajaybancos_08.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_10.html" title="10. ¿Cómo transferir dinero de una caja a otra?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_08.html" title="8. ¿Cómo ingresar el cierre de las tarjetas?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" accesskey="U">5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-visualizar-los-movimientos-de-caja">
+<span id="howto-bookkeeping-viewcashboxmovements"></span><h1>9. ¿Cómo visualizar los movimientos de caja?<a class="headerlink" href="#como-visualizar-los-movimientos-de-caja" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Caja y Bancos ‣ Movimientos
+de caja</em>. Se abrirá la pantalla Búsqueda de Movimientos de Caja.</p>
+<div class="figure">
+<img alt="../../_images/scrCashBoxMovementsSearch.png" src="../../_images/scrCashBoxMovementsSearch.png" />
+<p class="caption">Pantalla Búsqueda de Movimientos de Caja</p>
+</div>
+</li>
+<li><p class="first">Completar alguno de los criterios de búsqueda:</p>
+<ul class="simple">
+<li>Caja: Caja en la que se realizó el movimiento.</li>
+<li>Rango de fechas: Rango de fechas en las que se realizó el movimiento.</li>
+<li>Origen: Origen del Movimiento.</li>
+<li>Moneda: Moneda en que se realizó el movimiento.</li>
+<li>Importe: Rango de importe del movimiento.</li>
+<li>Signo: Signo del movimiento (Débito o Crédito).</li>
+</ul>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Buscar</em>.</p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="cajaybancos_08.html"
+                        title="Capítulo anterior">8. ¿Cómo ingresar el cierre de las tarjetas?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="cajaybancos_10.html"
+                        title="Próximo capítulo">10. ¿Cómo transferir dinero de una caja a otra?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_10.html" title="10. ¿Cómo transferir dinero de una caja a otra?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_08.html" title="8. ¿Cómo ingresar el cierre de las tarjetas?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" >5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

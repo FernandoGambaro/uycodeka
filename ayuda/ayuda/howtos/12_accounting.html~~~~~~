@@ -1,0 +1,165 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>9. Contabilidad &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../index.html" />
+    <link rel="next" title="9.1. Módulo contable en Fierro" href="accounting/01_intro.html" />
+    <link rel="prev" title="8.16. ¿Cómo crear tareas?" href="general/general_16.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../manual.html">
+      <img class="logo" src="../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="accounting/01_intro.html" title="9.1. Módulo contable en Fierro"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="general/general_16.html" title="8.16. ¿Cómo crear tareas?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../manual.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="contabilidad">
+<h1>9. Contabilidad<a class="headerlink" href="#contabilidad" title="Enlazar permanentemente con este título">¶</a></h1>
+<p id="index-0">En este capítulo se explica el módulo contable de Fierro.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="accounting/01_intro.html">9.1. Módulo contable en Fierro</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="accounting/01_intro.html#introduccion">9.1.1. Introducción</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/01_intro.html#caracteristicas">9.1.2. Características</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/01_intro.html#puesta-en-marcha">9.1.3. Puesta en marcha</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="accounting/02_accounts.html">9.2. Plan de cuentas</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="accounting/02_accounts.html#como-acceder-al-plan-de-cuentas">9.2.1. ¿Cómo acceder al plan de cuentas?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/02_accounts.html#como-buscar-una-cuenta-en-el-plan-de-cuentas">9.2.2. ¿Cómo buscar una cuenta en el plan de cuentas?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/02_accounts.html#como-agregar-una-cuenta-nueva">9.2.3. ¿Cómo agregar una cuenta nueva?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/02_accounts.html#como-modificar-una-cuenta">9.2.4. ¿Cómo modificar una cuenta?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="accounting/03_financialYears.html">9.3. Ejercicios y libros</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="accounting/03_financialYears.html#como-crear-un-ejercicio-contable">9.3.1. ¿Cómo crear un ejercicio contable?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/03_financialYears.html#como-crear-un-libro-contable">9.3.2. ¿Cómo crear un libro contable?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="accounting/04_entries.html">9.4. Asientos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="accounting/04_entries.html#tipos-de-asientos">9.4.1. Tipos de asientos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/04_entries.html#asientos-de-apertura-y-cierre-del-ejercicio">9.4.2. Asientos de Apertura y Cierre del Ejercicio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/04_entries.html#donde-visualizar-los-asientos">9.4.3. ¿Dónde visualizar los asientos?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/04_entries.html#cuando-se-generan-los-asientos">9.4.4. ¿Cuándo se generan los asientos?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/04_entries.html#borrado-de-asientos">9.4.5. Borrado de asientos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/04_entries.html#como-cargar-un-asiento-manual">9.4.6. ¿Cómo cargar un asiento manual?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/04_entries.html#como-modificar-un-asiento">9.4.7. ¿Cómo modificar un asiento?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/04_entries.html#con-que-fecha-se-crean-los-asientos">9.4.8. ¿Con qué fecha se crean los asientos?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/04_entries.html#como-resumir-asientos">9.4.9. ¿Cómo resumir asientos?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/04_entries.html#regeneracion-de-asientos">9.4.10. Regeneración de asientos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/04_entries.html#importacion-de-asientos-desde-planillas">9.4.11. Importación de Asientos desde planillas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/04_entries.html#asientos-generados-por-las-consolidaciones-de-caja-y-tarjetas-con-diferencias">9.4.12. Asientos generados por las consolidaciones de caja y tarjetas con diferencias</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="accounting/05_reports.html">9.5. Reportes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="accounting/05_reports.html#libro-diario">9.5.1. Libro diario</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/05_reports.html#mayor">9.5.2. Mayor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting/05_reports.html#balance">9.5.3. Balance</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="general/general_16.html"
+                        title="Capítulo anterior">8.16. ¿Cómo crear tareas?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="accounting/01_intro.html"
+                        title="Próximo capítulo">9.1. Módulo contable en Fierro</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="accounting/01_intro.html" title="9.1. Módulo contable en Fierro"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="general/general_16.html" title="8.16. ¿Cómo crear tareas?"
+             >anterior</a> |</li>
+<li><a href="../manual.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

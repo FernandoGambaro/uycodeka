@@ -1,0 +1,149 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>3. Búsquedas &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../index.html" />
+    <link rel="next" title="1. Partes de la pantallas" href="mantenimiento/mantenimiento_01.html" />
+    <link rel="prev" title="2.6. Ventanas" href="principal/principal_06.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../manual.html">
+      <img class="logo" src="../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="mantenimiento/mantenimiento_01.html" title="1. Partes de la pantallas"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="principal/principal_02.html" title="2.2. Menú"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../manual.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="busquedas">
+<h1>3. Menú Mantenimiento<a class="headerlink" href="#busquedas" title="Enlazar permanentemente con este título"></a></h1>
+<p id="index-0">Este capítulo describe el uso de las <em>búsquedas</em>.</p>
+<p>Las búsquedas son el punto de partida para casi toda la funcionalidad del
+sistema. Por ejemplo, para cancelar un pedido, facturar un libro, o ingresar un
+remito, primero es necesario acceder a la respectiva búsqueda.</p>
+<p>La estructura de la pantalla de búsquedas es la misma para todas las entidades
+del sistema: libros, clientes, proveedores, documentos de compras y ventas,
+stock, etc.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="03_mantenimiento.html">3. Menú Mantenimiento</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_01.html">3.1. Listado-Alta-Baja-Modificación Clientes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_02.html">3.2. Listado-Alta-Baja-Modificación Proveedores</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_03.html">3.3. Listado-Alta-Baja-Modificación Usuarios</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_04.html">3.4. Listado-Alta-Baja-Modificación Artículos en transito</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_05.html">3.5. Listado-Alta-Baja-Modificación Artículos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_06.html">3.6. Listado-Alta-Baja-Modificación Familias de Artículos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_07.html">3.7. Listado-Alta-Baja-Modificación Sectores de la Empresa</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_08.html">3.8. Configuración de Datos del Ssitema</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_09.html">3.9. Listado-Alta-Baja-Modificación Bancos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_10.html">3.10. Plan de cuentas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_11.html">3.11. Listado-Alta-Baja-Modificación Locales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_12.html">3.12. Listado-Alta-Baja-Modificación Embalajes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_13.html">3.13. Listado-Alta-Baja-Modificación Formas de pago</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_14.html">3.14. Listado-Alta-Baja-Modificación Tipo de cambio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_15.html">3.15. Listado-Alta-Baja-Modificación Impuestos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_16.html">3.16. Listado-Alta-Baja-Modificación Monedas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mantenimiento/mantenimiento_17.html">3.17. Listado-Alta-Baja-Modificación Etiquetas</a></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="principal/principal_06.html"
+                        title="Capítulo anterior">2.2. Menú</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="mantenimiento/mantenimiento_01.html"
+                        title="Próximo capítulo">3.1. Listado-Alta-Baja-Modificación Clientes</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="mantenimiento/mantenimiento_01.html" title="1. Partes de la pantallas">siguiente</a> |</li>
+        <li class="right" >
+          <a href="principal/principal_06.html" title="2.6. Ventanas"
+             >anterior</a> |</li>
+<li><a href="../manual.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

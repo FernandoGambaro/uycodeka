@@ -1,0 +1,256 @@
+body {
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.8em;
+	background-color:#fff;
+	color:#000;
+}
+
+td {
+	font-size:12px;
+}
+img {
+	border:0;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	color:red;
+}
+hr.line {
+	width:70%;
+	color:#74bff6;
+	background-color:#74bff6;
+	border:1px solid #74bff6;
+}
+p {
+	text-align:justify;
+}
+h2 {
+	color:#aa4929;
+}
+h3 {
+	color:#3f4782;
+}
+h4 {
+	color:#6c2d68;
+}
+dt {
+	font-weight:bold;
+}
+dd {
+	margin-left:10px;
+	margin-bottom:10px;
+}
+code {
+	font-family:courier;
+	font-size:1.2em;
+}
+br {
+	clear:both;
+}
+/*Forms*/
+.form-area label {
+	width:100px;
+	font-weight:bold;
+	float:left;
+}
+.form-area input {
+	float:left;
+}
+
+
+#header {
+	height:133px;
+	background:#f00 url(images/layout_images/header_gradient.png) repeat-x;
+}
+#main {
+	padding:0 5px 0 5px;
+	min-height:500px;
+}
+#content {
+	width:80%;
+	float:left;
+	padding-right:10px;
+	border-right:1px dashed #666;
+}
+#sidebar {
+	float:right;
+	width:17%;
+	padding:5px 0 0 10px;
+}
+#footer {
+	height:20px;
+	background:#f00 url(images/layout_images/footer_gradient.png) repeat-x;
+}
+#breadcrumbs {
+	white-space:nowrap;
+	font-weight:bold;
+	border-bottom:1px solid #eee;
+}
+#breadcrumbs a {
+	color:#00f;
+	font-weight:normal;
+}
+#logo,#tagline {
+	float:left;
+}
+#tagline {
+	font-weight:bold;
+	margin-left:-180px;
+	margin-top:60px;
+}
+/*Tab Control*/
+#tabs {
+	float:right;
+	margin-top:88px;
+}
+#tabs li {
+	display:inline;
+	text-align:center;
+	float:left;
+}
+#tabs li a {
+	display:block;
+	background:url(images/layout_images/tab.png) no-repeat;
+	height:30px;
+	width:85px;
+	padding-top:7px;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+}
+
+pre {
+	font-size:1.2em;
+	padding:0 0 15px 5px;
+	width:90%;
+	border-left:#666 1px solid; 
+	line-height:110%;
+	color:#666;
+	overflow:auto;
+	display:block;
+}
+pre .special {
+	color:#f00;
+}
+pre .highlight {
+	color:#080;
+}
+
+.test_evaluation_area textarea {
+	width:100%;
+}
+/*Navigator in tutorial pages */
+.multi-page-navigator-top {
+	margin-top:10px;
+	border-bottom:1px solid #333;
+	height:45px;
+}
+.multi-page-navigator-bottom {
+	border-top:1px solid #333;
+	height:30px;
+}
+.mpn-previous {
+	width:30%;
+	float:left;
+	height:30px;
+}
+.mpn-title {
+	width:38%;
+	float:left;
+	text-align:center;
+}
+.mpn-next {
+	width:30%;
+	float:right;
+	text-align:right;
+	height:30px;
+}
+/* Sidebar Stuff */
+#sidebar ul {
+	margin:0;
+	padding:0;
+	list-style:circle;
+}
+#sidebar h3 {
+	margin:10px 0 0 -10px;
+	padding:0;
+	border-bottom:1px solid #000;
+}
+#sidebar .page-info {
+	margin-left:-5px;
+}
+#sidebar form {
+	margin-left:-18px;
+}
+
+
+/*Formating*/
+strong.highlight {
+	font-weight:normal;
+	background-color:#ddd;
+}
+/*Decrypt Email */
+.email-encrypt {
+	unicode-bidi:bidi-override;
+	direction: rtl;
+}
+.email-encrypt .email-decrypt-message {
+	display:none;
+}
+
+#ad {
+	float:right;
+	margin-left:10px;
+}
+.message-success {
+	color:#006400;
+	font-weight:bold;
+}
+.message-error {
+	color:red;
+	font-weight:bold;
+}
+.message-info {
+	font-weight:bold;
+}
+
+/*Comments*/
+#comment_text {
+	width:99%;
+}
+#comments-area .field-row {
+	display:inline;
+}
+.comment {
+	background-color:#ddf0fc;
+	border:1px solid #85a3fc;
+	margin:5px;
+}
+.my-comment {
+	background-color:#b6bdff;
+	border:1px solid #85a3fc;
+}
+.comment-poster {
+	font-weight:bold;
+}
+#comments-area #replyto-message {
+	display:none;
+}
+#comment-pot {
+	display:none;
+}
+/*Nulifying the BR's inserted by the code inside <pre> element*/
+#comments-area pre br {
+	display:none;
+}
+
+
+.validation-error {
+	border:1px solid red;
+}
+.validation-success {
+	border:1px solid green;
+}

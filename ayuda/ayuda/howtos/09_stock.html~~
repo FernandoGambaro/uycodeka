@@ -1,0 +1,152 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>6. Stock &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../index.html" />
+    <link rel="next" title="1. ¿Cómo mover material de una sucursal a otra?" href="stock/stock_01.html" />
+    <link rel="prev" title="19. ¿Cómo crear y utilizar Centros de Costo?" href="cajaybancos/cajaybancos_19.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../index.html">
+      <img class="logo" src="../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="stock/stock_01.html" title="1. ¿Cómo mover material de una sucursal a otra?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos/cajaybancos_19.html" title="19. ¿Cómo crear y utilizar Centros de Costo?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../index.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="stock">
+<h1>6. Stock<a class="headerlink" href="#stock" title="Enlazar permanentemente con este título">¶</a></h1>
+<p id="index-0">Operaciones del módulo de Stock</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="stock/stock_01.html">1. ¿Cómo mover material de una sucursal a otra?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stock/stock_02.html">2. ¿Cómo registrar salidas/entradas manuales?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stock/stock_03.html">3. ¿Cómo llevar a cero el stock de una sucursal?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stock/stock_04.html">4. ¿Cómo visualizar los movimientos de un Libro?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stock/stock_05.html">5. ¿Cómo obtener un reporte de stock?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stock/stock_06.html">6. Toma de inventario mediante paquetes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="stock/stock_06.html#conteo-de-libros">6.1. Conteo de libros</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stock/stock_06.html#ajuste-de-stock">6.2. Ajuste de stock</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="stock/stock_07.html">7. Toma de inventario por ubicación</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="stock/stock_07.html#como-crear-un-inventario">7.1. ¿Cómo crear un inventario?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stock/stock_07.html#como-editar-un-inventario">7.2. ¿Cómo editar un inventario?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stock/stock_07.html#como-borrar-un-inventario">7.3. ¿Cómo borrar un inventario?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stock/stock_07.html#como-crear-una-toma-de-inventario">7.4. ¿Cómo crear una toma de inventario?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stock/stock_07.html#como-comparar-conteos-de-inventario">7.5. ¿Cómo comparar conteos de inventario?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stock/stock_07.html#generar-un-cargue-de-inventario-definitivo-con-informe-de-diferencias">7.6. Generar un cargue de inventario definitivo con informe de diferencias</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stock/stock_07.html#ajustes-de-stock">7.7. Ajustes de stock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stock/stock_07.html#cierre-de-un-inventario-unico">7.8. Cierre de un inventario único</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="stock/stock_08.html">8. Reducción de stock</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="stock/stock_08.html#pasos-para-crear-la-devolucion">8.1. Pasos para crear la devolución</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stock/stock_08.html#configuracion">8.2. Configuración</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="cajaybancos/cajaybancos_19.html"
+                        title="Capítulo anterior">19. ¿Cómo crear y utilizar Centros de Costo?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="stock/stock_01.html"
+                        title="Próximo capítulo">1. ¿Cómo mover material de una sucursal a otra?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="stock/stock_01.html" title="1. ¿Cómo mover material de una sucursal a otra?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos/cajaybancos_19.html" title="19. ¿Cómo crear y utilizar Centros de Costo?"
+             >anterior</a> |</li>
+<li><a href="../index.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

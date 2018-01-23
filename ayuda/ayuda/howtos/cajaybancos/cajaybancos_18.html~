@@ -1,0 +1,192 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>18. Transferencias de caja &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="5. Caja y Bancos" href="../08_cajaybancos.html" />
+    <link rel="next" title="19. ¿Cómo crear y utilizar Centros de Costo?" href="cajaybancos_19.html" />
+    <link rel="prev" title="17. ¿Cómo registrar un gasto?" href="cajaybancos_17.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_19.html" title="19. ¿Cómo crear y utilizar Centros de Costo?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_17.html" title="17. ¿Cómo registrar un gasto?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" accesskey="U">5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="transferencias-de-caja">
+<h1>18. Transferencias de caja<a class="headerlink" href="#transferencias-de-caja" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Esta funcionalidad de Fierro permite registrar movimientos manuales de
+dinero entre cajas, una de origen y otra de destino, y además decidir,
+mediante permisos (ver al final de esta sección), si se quiere que dichos
+movimientos se creen aceptados, queden pendientes de aceptación por la caja
+receptora, o el sistema pregunte al momento de ingresarlos.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Caja y Bancos ‣ Transferencias de caja</em>;</p>
+</li>
+<li><p class="first">En la pantalla que se presenta, pulsar el ícono <img alt="/icons/MovEntreCajas.png" class="inlinegraphic" src="../../_images/MovEntreCajas.png" />
+de la barra de herramientas. Se abrirá una ventana para ingresar los datos
+del movimiento (la caja de donde sale el dinero, la caja que lo recibe, el
+importe, la moneda, y una breve descripción:</p>
+<div class="figure">
+<img alt="../../_images/IngresarMovimiento.png" src="../../_images/IngresarMovimiento.png" />
+<p class="caption">Ingreso de movimiento</p>
+</div>
+</li>
+<li><p class="first">Dado que las transferencias pueden crearse Aceptadas o Pendientes, en este
+último caso, para que la caja receptora dé por aceptada una transferencia,
+debe buscarla mediante la pantalla de búsqueda (como se muestra a
+continuación), y una vez seleccionada pulsar el ícono
+<img alt="/icons/22validar.png" class="inlinegraphic" src="../../_images/22validar.png" /> de la barra de herramientas.</p>
+<div class="figure">
+<img alt="../../_images/AceptarTransferencia.png" src="../../_images/AceptarTransferencia.png" />
+<p class="caption">Aceptación de transferencia</p>
+</div>
+</li>
+<li><p class="first">Cuando se busque nuevamente esa transferencia, aparecerá como Aceptada:</p>
+<div class="figure">
+<img alt="../../_images/TransferenciaAceptada.png" src="../../_images/TransferenciaAceptada.png" />
+<p class="caption">Transferencia aceptada</p>
+</div>
+</li>
+<li><p class="first">Para visualizar las transferencias de caja realizadas, se debe ir a la opción
+de menú <em class="menuselection">Caja y Bancos ‣ Movimientos de caja</em>, donde es
+posible buscar por distintos filtros: rango de fechas, importes, etcétera.</p>
+<div class="figure">
+<img alt="../../_images/VistaMovimientos.png" src="../../_images/VistaMovimientos.png" />
+<p class="caption">Vista de los movimientos</p>
+</div>
+</li>
+</ol>
+<div class="section" id="permisos">
+<h2>18.1. Permisos<a class="headerlink" href="#permisos" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-2"></span><div class="admonition note" id="index-3">
+<p class="first admonition-title">Nota</p>
+<p class="last">A continuación se muestra la entrada del árbol de permisos (Permisos
+-&gt; Caja y Bancos -&gt; Transferencias de Caja) en la cual es posible
+definir el modo de transferencia que un grupo de usuarios podrá
+utilizar. Estos modos son: Crearla Aceptada, Crearla Pendiente,
+Preguntar.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/ModoTransferencia.png" src="../../_images/ModoTransferencia.png" />
+<p class="caption">Modo de transferencia</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">18. Transferencias de caja</a><ul>
+<li><a class="reference internal" href="#permisos">18.1. Permisos</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="cajaybancos_17.html"
+                        title="Capítulo anterior">17. ¿Cómo registrar un gasto?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="cajaybancos_19.html"
+                        title="Próximo capítulo">19. ¿Cómo crear y utilizar Centros de Costo?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_19.html" title="19. ¿Cómo crear y utilizar Centros de Costo?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_17.html" title="17. ¿Cómo registrar un gasto?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" >5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,187 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>7. ¿Cómo visualizar la Cuenta Corriente de un derecho habiente? &mdash; Fierro 20.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="Fierro 20.1 documentation" href="../../index.html" />
+    <link rel="up" title="11. Derechos de Autor" href="../14_ddaa.html" />
+    <link rel="next" title="8. ¿Cómo obtener un reporte de saldos de derecho habientes?" href="ddaa_7.html" />
+    <link rel="prev" title="6. Pago a Derecho Habientes" href="ddaa_5.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ddaa_7.html" title="8. ¿Cómo obtener un reporte de saldos de derecho habientes?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ddaa_5.html" title="6. Pago a Derecho Habientes"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../14_ddaa.html" accesskey="U">11. Derechos de Autor</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-visualizar-la-cuenta-corriente-de-un-derecho-habiente">
+<h1>7. ¿Cómo visualizar la Cuenta Corriente de un derecho habiente?<a class="headerlink" href="#como-visualizar-la-cuenta-corriente-de-un-derecho-habiente" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><p>La cuenta corriente de un derecho habiente puede visualizarse de tres formas
+distintas:</p>
+<ul class="simple">
+<li>Ordenada por débitos: muestra los movimientos agrupados por débitos, es decir,
+por cada liquidación del derecho habiente, se muestra con que documento se pago.</li>
+<li>Ordenada por créditos: muestra los movimientos agrupados por créditos, es
+decir, por cada orden de pago, se muestra que liquidación cancela.</li>
+<li>Ordenada por fecha: muestra todos los movimientos de la cuenta corriente en
+orden cronológico.</li>
+</ul>
+<p>Para visualizar la cuenta corriente de un derecho habiente realizar los siguientes
+pasos:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Derechos de autor ‣ Cuenta Corriente</em>.</p>
+</li>
+<li><p class="first">Seleccionar el modo de visualización en el menú de cuenta corriente</p>
+<div class="figure">
+<img alt="../../_images/Dautor_MenuCuentaCorriente.png" src="../../_images/Dautor_MenuCuentaCorriente.png" />
+<p class="caption">Menú Cuenta Corriente</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el derecho habiente:</p>
+<ul class="simple">
+<li>Ingresar el código en el campo derecho habiente.</li>
+<li>Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o <tt class="kbd docutils literal"><span class="pre">Tab</span></tt>.</li>
+<li>Si existe un derecho habiente con el código, se autocompleta el nombre a la
+derecha del código.</li>
+<li>Si no se conoce el código, presionar el bóton <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" />
+para buscar el derecho habiente.</li>
+</ul>
+</li>
+<li><p class="first">Completar los criterios de filtrado de los movimientos:</p>
+<ul class="simple">
+<li>Rango de fechas: intervalo de tiempo del resumen de la cuenta corriente.</li>
+<li>Saldo: pendiente, saldados o todos.</li>
+<li>Ver débitos: vencidos, a vencer, todos.</li>
+<li>Sucursal: filtrar sólo los movimientos de una sucursal.</li>
+<li>Saldo al: mostrar saldo a una fecha determinada.</li>
+</ul>
+</li>
+<li><p class="first">Presionar el botón <img alt="/icons/buscar.png" class="inlinegraphic" src="../../_images/buscar.png" /> de la barra de herramientas.
+Se mostrarán los movimientos de la cuenta corriente.</p>
+<div class="figure">
+<img alt="../../_images/Dautor_ConsultaCuentaCorriente.png" src="../../_images/Dautor_ConsultaCuentaCorriente.png" />
+<p class="caption">Movimientos de la cuenta corriente agrupado por fecha</p>
+</div>
+<div class="figure">
+<img alt="../../_images/Dautor_ConsultaCuentaCorrienteDebitos.png" src="../../_images/Dautor_ConsultaCuentaCorrienteDebitos.png" />
+<p class="caption">Movimientos de la cuenta corriente agrupado por débitos</p>
+</div>
+</li>
+<li><p class="first">En la lista de movimientos de la cuenta, es posible configurar la
+visualización de los mismos de manera que documentos vinculados (por ejemplo
+una liquidación a la cual se ha imputado un anticipo) aparezcan agrupados por
+bandas de color gris o blanco. Esto puede hacerse eligiendo el estilo de fila
+<em>Alternado</em> en la personalización de la vista actual (Ver <a class="reference internal" href="../../basics/busqueda/mantenimiento_14.html#basics-searchs-sec13"><em>Vistas
+personalizadas</em></a>):</p>
+<div class="figure">
+<img alt="../../_images/filasAlternadas.png" src="../../_images/filasAlternadas.png" />
+<p class="caption">Pantalla Edición Vista Personalizada</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ddaa_5.html"
+                        title="Capítulo anterior">6. Pago a Derecho Habientes</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ddaa_7.html"
+                        title="Próximo capítulo">8. ¿Cómo obtener un reporte de saldos de derecho habientes?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ddaa_7.html" title="8. ¿Cómo obtener un reporte de saldos de derecho habientes?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ddaa_5.html" title="6. Pago a Derecho Habientes"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../14_ddaa.html" >11. Derechos de Autor</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

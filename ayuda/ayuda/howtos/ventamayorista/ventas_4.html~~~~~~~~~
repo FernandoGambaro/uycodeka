@@ -1,0 +1,161 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4.7. Creación de remitos &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="4. Venta Mayorista" href="../07_ventamayorista.html" />
+    <link rel="next" title="4.8. Creación del pedido de baja" href="ventas_5.html" />
+    <link rel="prev" title="4.6. ¿Qué es el bloqueo de pedidos?" href="ventas_3.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-fierro.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_5.html" title="4.8. Creación del pedido de baja"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_3.html" title="4.6. ¿Qué es el bloqueo de pedidos?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" accesskey="U">4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <span class="target" id="index-0"></span><div class="section" id="creacion-de-remitos">
+<span id="index-1"></span><h1>4.7. Creación de remitos<a class="headerlink" href="#creacion-de-remitos" title="Enlazar permanentemente con este título">¶</a></h1>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Remitos</em>.</p>
+</li>
+<li><p class="first">Pulsar el ícono <img alt="/icons/IngresarRemitoVenta.png" class="inlinegraphic" src="../../_images/IngresarRemitoVenta.png" /> en la barra de
+herramientas. Se abrirá la pantalla de Nuevo Remito:</p>
+<div class="figure">
+<img alt="../../_images/NuevoRemitoVentas.png" src="../../_images/NuevoRemitoVentas.png" />
+<p class="caption">Pantalla Nuevo Remito</p>
+</div>
+</li>
+<li><p class="first">Una vez que se ha ingresado el cliente, es posible cargar en el remito un
+pedido pendiente de dicho cliente utilizando el ícono <img alt="/icons/22bpedido.png" class="inlinegraphic" src="../../_images/22bpedido.png" /> de la barra de herramientas. Sin embargo, no es
+obligatorio que exista un pedido previo para ingresar los libros; ello puede
+hacerse simplemente buscándolos en la base.</p>
+</li>
+<li><p class="first">En la primer columna, señalada como PE, el semáforo indica la
+vinculación de los libros que se envían con pedidos pendientes:</p>
+<ul class="simple">
+<li><img alt="/icons/semaforoVerde.png" class="inlinegraphic" src="../../_images/semaforoVerde.png" /> Indica una vinculación completa;</li>
+<li><img alt="/icons/semaforoAmarillo.png" class="inlinegraphic" src="../../_images/semaforoAmarillo.png" /> Indica una vinculación parcial;</li>
+<li><img alt="/icons/semaforoRojo.png" class="inlinegraphic" src="../../_images/semaforoRojo.png" /> Indica falta de vinculación con pedidos
+del cliente.</li>
+</ul>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Valorización de remitos</strong></p>
+<p>Los remitos son documentos no valorizados: por cada ítem se guarda la
+cantidad y el libro, no el precio y el descuento.</p>
+<p>Esto es así porque el precio y el descuento se determinan en la facturación,
+no en el momento en que se realiza el remito.</p>
+<p class="last">En la pantalla de creación de un nuevo remito, aunque se editen los precios
+y descuentos, estos no se guardan. Por esto, cuando se imprime el remito se
+mostrará el precio actual del libro y el descuento de la condición de venta
+del cliente, aunque en la pantalla se hayan modificado estos valores.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_3.html"
+                        title="Capítulo anterior">4.6. ¿Qué es el bloqueo de pedidos?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_5.html"
+                        title="Próximo capítulo">4.8. Creación del pedido de baja</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_5.html" title="4.8. Creación del pedido de baja"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_3.html" title="4.6. ¿Qué es el bloqueo de pedidos?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" >4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Lambda Sistemas.
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

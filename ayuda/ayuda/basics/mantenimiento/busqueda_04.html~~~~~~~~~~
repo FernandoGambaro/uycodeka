@@ -1,0 +1,147 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4. Cambiar la vista actual &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Búsquedas" href="../03_mantenimiento.html" />
+    <link rel="next" title="5. Ampliar la vista en una nueva ventana" href="mantenimiento_05.html" />
+    <link rel="prev" title="3. ¿Qué es una vista?" href="mantenimiento_03.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="mantenimiento_05.html" title="5. Ampliar la vista en una nueva ventana"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="mantenimiento_03.html" title="3. ¿Qué es una vista?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_mantenimiento.html" accesskey="U">3. Búsquedas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="cambiar-la-vista-actual">
+<span id="basics-searchs-sec4"></span><h1>4. Cambiar la vista actual<a class="headerlink" href="#cambiar-la-vista-actual" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><ol class="arabic" id="index-1">
+<li><p class="first">Realizar la búsqueda deseada.</p>
+</li>
+<li><p class="first">Seleccionar un elemento de la lista de resultados. En la parte inferior
+aparecerá una vista.</p>
+</li>
+<li><p class="first">Hacer click derecho sobre la vista. Aparecerá la lista de vistas disponibles.</p>
+<div class="figure">
+<img alt="../../_images/scrViewsSelectCursor.png" src="../../_images/scrViewsSelectCursor.png" />
+<p class="caption">Selección de una vista con el mouse</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la vista deseada.</p>
+</li>
+<li><p class="first">La selección de la vista también puede hacerse desde el menú
+<em class="menuselection">Ventana Activa ‣ Vistas</em>. Se desplegarán las vistas
+disponibles.</p>
+<div class="figure">
+<img alt="../../_images/scrViewsMenu.png" src="../../_images/scrViewsMenu.png" />
+<p class="caption">Selección de una vista a través del menú</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="mantenimiento_03.html"
+                        title="Capítulo anterior">3. ¿Qué es una vista?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="mantenimiento_05.html"
+                        title="Próximo capítulo">5. Ampliar la vista en una nueva ventana</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="mantenimiento_05.html" title="5. Ampliar la vista en una nueva ventana"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="mantenimiento_03.html" title="3. ¿Qué es una vista?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_mantenimiento.html" >3. Búsquedas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

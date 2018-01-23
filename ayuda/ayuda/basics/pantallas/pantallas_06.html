@@ -1,0 +1,156 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4.6. Ingreso de rangos de fecha &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="4. Pantallas estándares" href="../04_pantallas.html" />
+    <link rel="next" title="1. Catálogo" href="../../howtos/05_catalogo.html" />
+    <link rel="prev" title="4.5. Ingreso de códigos" href="pantallas_05.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../../howtos/05_catalogo.html" title="1. Catálogo"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="pantallas_05.html" title="4.5. Ingreso de códigos"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../04_pantallas.html" accesskey="U">4. Pantallas estándares</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="ingreso-de-rangos-de-fecha">
+<span id="basics-controls-daterange"></span><h1>4.6. Ingreso de rangos de fecha<a class="headerlink" href="#ingreso-de-rangos-de-fecha" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><p>Cuando en una pantalla aparecen dos campos de ingreso de fechas consecutivos,
+separados por la palabra &#8220;y&#8221;, significa que la pantalla espera el ingreso de un
+intervalo de tiempo.</p>
+<div class="figure">
+<img alt="../../_images/scrDateRange.png" src="../../_images/scrDateRange.png" />
+<p class="caption">Rango de fechas</p>
+</div>
+<p>El primer campo es el inicio del intervalo y el segundo el final. Ambas fechas
+se toman <em>inclusive</em>.</p>
+<ul>
+<li><p class="first">Si se completa el primer campo de fecha, y el segundo queda vacío, el
+intervalo se considera desde la fecha inicial en adelante, sin límite
+final.</p>
+<p>Por ejemplo, si ingreso la fecha 15/09/2004, se considera desde ese
+día en adelante.</p>
+</li>
+<li><p class="first">Se se completa el segundo campo, y el primero queda vacío, se considera que no
+hay fecha de inicio, y el límite es la fecha ingresada
+inclusive.</p>
+<p>Por ejemplo, si ingreso en el segundo campo el valor 15/09/2004, se
+considerán las operaciones realizadas hasta ese momento.</p>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Para completar la fecha de hoy en un campo de fecha,
+presionar las teclas <tt class="kbd docutils literal"><span class="pre">Ctrl</span></tt><tt class="kbd docutils literal"><span class="pre">H</span></tt>: se autocompleta la fecha actual.
+Una vez que hay una fecha en un campo de fecha, si se presiona
+la flecha <em>subir</em>, se aumenta un día la fecha cargada.
+Si se presiona la flecha <em>bajar</em>, disminuye un día la fecha cargada.
+Estas opciones de teclado evitan el ingreso de las fechas completas por teclado.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="pantallas_05.html"
+                        title="Capítulo anterior">4.5. Ingreso de códigos</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="../../howtos/05_catalogo.html"
+                        title="Próximo capítulo">1. Catálogo</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../../howtos/05_catalogo.html" title="1. Catálogo"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="pantallas_05.html" title="4.5. Ingreso de códigos"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../04_pantallas.html" >4. Pantallas estándares</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

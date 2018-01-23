@@ -1,0 +1,177 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>17. ¿Qué es la “creación intercalada”? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Búsquedas" href="../03_mantenimiento.html" />
+    <link rel="next" title="4. Pantallas estándares" href="../04_pantallas.html" />
+    <link rel="prev" title="16. Seleccionar una vista personalizada" href="mantenimiento_16.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../04_pantallas.html" title="4. Pantallas estándares"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="mantenimiento_16.html" title="16. Seleccionar una vista personalizada"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_mantenimiento.html" accesskey="U">3. Búsquedas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="que-es-la-creacion-intercalada">
+<span id="basics-controls-creacionintercalada"></span><h1>17. ¿Qué es la &#8220;creación intercalada&#8221;?<a class="headerlink" href="#que-es-la-creacion-intercalada" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="admonition note" id="index-0">
+<p class="first admonition-title">Nota</p>
+<p>** Entidades **</p>
+<p>La índole de las pantallas de búsqueda en Fierro, además de su función
+natural de consulta permite que, mediante botones en la barra de
+herramientas, se creen nuevas entidades del tipo que se está
+buscando.</p>
+<p>Ejemplos: en la pantalla de búsqueda de libros, mediante el botón <img alt="/icons/22nlibro.png" class="inlinegraphic" src="../../_images/22nlibro.png" />
+puede crearse un nuevo libro, en la pantalla de búsqueda de remitos de venta,
+mediante el botón <img alt="/icons/IngresarRemitoVenta.png" class="inlinegraphic" src="../../_images/IngresarRemitoVenta.png" /> es posible crear un nuevo remito,
+en la pantalla de búsqueda de gastos, mediante el botón <img alt="/icons/22ngasto.png" class="inlinegraphic" src="../../_images/22ngasto.png" />
+puede crearse un nuevo gasto, etcétera, etcétera.</p>
+<p class="last">Por lo mismo, la creación de entidades también es posible en casi toda
+operación del sistema que requiera aplicar búsquedas, como es el caso de la
+mayoría de las <em class="guilabel">pantallas de nuevo documento</em>.</p>
+</div>
+<p>En el ejemplo de la figura I.3-19, el ingreso de una nueva factura-remito de
+compras hace necesario identificar al proveedor:</p>
+<ul>
+<li><p class="first">Si no se conoce el código del proveedor o este aún no existe en el sistema,
+pulsando el botón  <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" /> se
+tendrá una pantalla de búsqueda similar, pero en escala menor,
+a la que se presenta en <em class="menuselection">Compras ‣ Proveedores</em>;</p>
+</li>
+<li><p class="first">En esa pantalla, el botón <img alt="/icons/22nuevo.png" class="inlinegraphic" src="../../_images/22nuevo.png" /> inicia el asistente de
+creación de un nuevo proveedor:</p>
+<div class="figure">
+<img alt="../../_images/creacionIntercalada.png" src="../../_images/creacionIntercalada.png" />
+<p class="caption">Creación en la búsqueda</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Todos los asistentes de creación en Fierro pueden finalizarse
+en cualquiera de sus pantallas con la combinación de teclas <tt class="kbd docutils literal"><span class="pre">Ctrl</span></tt><tt class="kbd docutils literal"><span class="pre">F</span></tt>,
+y más tarde completarse en la ficha los datos pendientes
+(<em>véase</em> <a class="reference internal" href="../pantallas/pantallas_03.html#basics-controls-wizards"><em>Asistente</em></a>).</p>
+</div>
+</li>
+<li><p class="first">Al cerrar el asistente, el sistema notificará la creación exitosa del proveedor, y éste aparecerá en la pantalla de búsqueda que quedó
+previamente abierta:</p>
+<div class="figure">
+<img alt="../../_images/nuevoProveedor.png" src="../../_images/nuevoProveedor.png" />
+<p class="caption">Nuevo proveedor</p>
+</div>
+</li>
+<li><p class="first">Con doble clic sobre el nuevo proveedor, o marcándolo y pulsando  <em class="guilabel">Aceptar</em>, su código ocupará el campo
+respectivo en la factura-remito:</p>
+<div class="figure">
+<img alt="../../_images/proveedorSeleccionado.png" src="../../_images/proveedorSeleccionado.png" />
+<p class="caption">Proveedor seleccionado</p>
+</div>
+</li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="mantenimiento_16.html"
+                        title="Capítulo anterior">16. Seleccionar una vista personalizada</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="../04_pantallas.html"
+                        title="Próximo capítulo">4. Pantallas estándares</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../04_pantallas.html" title="4. Pantallas estándares"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="mantenimiento_16.html" title="16. Seleccionar una vista personalizada"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_mantenimiento.html" >3. Búsquedas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

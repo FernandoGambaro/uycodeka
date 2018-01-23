@@ -1,0 +1,272 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>27. ¿Cómo trabajar con Kits? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="3. Compras" href="../07_compras.html" />
+    <link rel="prev" title="26. Venta a crédito" href="ventas_24.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../07_compras.html" title="3. Compras"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_24.html" title="26. Venta a crédito"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-trabajar-con-kits">
+<h1>27. ¿Cómo trabajar con Kits?<a class="headerlink" href="#como-trabajar-con-kits" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">El Kit es un conjunto de libros que se venden juntos, desde una misma ficha en el sistema. Esta herramienta permite crear, por ejemplo, el &#8216;Kit Mafalda&#8217; con un ejemplar de &#8216;Mafalda 1&#8217; y uno de &#8216;Mafalda 2&#8217;, asignar un precio y stock a ese kit (los títulos incluidos deben existir previamente en el sistema y pueden ser vendidos individualmente).</p>
+</div>
+<div class="section" id="crear-un-kit">
+<h2>27.1. Crear un Kit:<a class="headerlink" href="#crear-un-kit" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Crear una ficha de libro con el nombre del Kit y el precio de venta del mismo (<em>véase</em> <a class="reference internal" href="../catalogo/catalogo_03.html#howto-catalogo-sec3"><em>¿Cómo crear un Libro?</em></a>)</p>
+<div class="figure">
+<img alt="../../_images/KitCrearLibro.png" src="../../_images/KitCrearLibro.png" />
+<p class="caption">Crear ficha</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la ficha e ir al menú <em class="menuselection">Ventana Activa ‣ Crear/Editar Kit</em></p>
+</li>
+<li><p class="first">Se abrirá la edición de un nuevo paquete del tipo Componentes de un Kit, en donde se deben indicar los componentes que conforman el kit (cuales son los libros que forman el kit y que cantidad de cada uno de ellos)</p>
+<div class="figure">
+<img alt="../../_images/KitCrearKit.png" src="../../_images/KitCrearKit.png" />
+<p class="caption">Componentes del Kit</p>
+</div>
+</li>
+<li><p class="first">Aceptar la creación del Kit. Al buscar la ficha en la consulta de libros se puede ver que es un kit en la columna &#8220;kit&#8221; y sus componentes se ven en la vista de Kits. Si se buscan las fichas individuales de los libros, tanto en la columna &#8220;En Kits&#8221;, como en la vista de Kits se muestra en cual están incluidos</p>
+<div class="figure">
+<img alt="../../_images/KitVistaKit.png" src="../../_images/KitVistaKit.png" />
+<p class="caption">Vista de Kit</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="como-editar-un-kit">
+<h2>27.2. ¿Cómo editar un kit?<a class="headerlink" href="#como-editar-un-kit" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Seleccionar la ficha del Kit en la consulta de libros e ir al menú <em class="menuselection">Ventana Activa ‣ Crear/Editar Kit</em></li>
+<li>Ingresar los cambios en la ventana Componentes del kit</li>
+<li>Aceptar la modificación del Kit</li>
+</ol>
+</div>
+<div class="section" id="como-ingresar-stock-en-un-kit">
+<h2>27.3. ¿Cómo ingresar stock en un kit?<a class="headerlink" href="#como-ingresar-stock-en-un-kit" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Stock de los Kits</strong></p>
+<p class="last">Al ingresar stock de un Kit, se restara el stock de los libros que lo conforman. Por ejemplo si se indica que el stock del Kit Mafalda es 5, el stock de sus componentes (libros Mafalda 1 y Mafalda 2) disminuirá en 5 ejemplares cada uno (pasan a formar parte del stock del kit).</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la ficha del Kit en la consulta de libros e ir al menú <em class="menuselection">Ventana Activa ‣ Armar/desarmar kits</em></p>
+</li>
+<li><p class="first">Indicar el tipo de operación Armado, la cantidad de Kits y el deposito donde se encuentran los libros</p>
+<div class="figure">
+<img alt="../../_images/KitArmarKit.png" src="../../_images/KitArmarKit.png" />
+<p class="caption">Ingreso de stock en el Kit</p>
+</div>
+</li>
+</ol>
+<p>Al ingresar el stock de un Kit, se generan dos documentos de stock. Uno de entrada, que ingresa la cantidad de Kits. Y uno de salida, que disminuye el stock de los componentes del kit. Ambos documentos se pueden ver en la consulta de documentos de stock.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/KitKardexStock.png" src="../../_images/KitKardexStock.png" />
+<p class="caption">Documentos de stock generados al crear el Kit</p>
+</div>
+</div></blockquote>
+<p>Los movimientos serán registrados en el Kardex.</p>
+</div>
+<div class="section" id="como-facturar-un-kit">
+<h2>27.4. ¿Cómo facturar un Kit?<a class="headerlink" href="#como-facturar-un-kit" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Un Kit se factura del mismo modo que los libros individuales (<em>véase</em> <a class="reference internal" href="ventas_01.html#howto-ventas-sec1"><em>¿Cómo facturar una venta?</em></a>).</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/KitFacturaKit.png" src="../../_images/KitFacturaKit.png" />
+<p class="caption">Facturar un Kit</p>
+</div>
+</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">La venta se aplica al Kit disminuyendo el stock del mismo. El stock de los componentes disminuye al momento del armado del Kit.</p>
+</div>
+</div>
+<div class="section" id="como-desarmar-un-kit">
+<h2>27.5. ¿Cómo desarmar un Kit?<a class="headerlink" href="#como-desarmar-un-kit" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">En algunas ocasiones puede ser necesario desarmar un Kit, por ejemplo por falta de stock individual. Al desarmarlo, disminuye el stock del Kit y aumenta el stock de los libros que lo formaban.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la ficha del Kit en la consulta de libros e ir al menú <em class="menuselection">Ventana Activa ‣ Armar/desarmar kits</em></p>
+</li>
+<li><p class="first">Indicar el tipo de operación Desarmardo, la cantidad de Kits y el deposito donde se encuentra el Kit</p>
+<div class="figure">
+<img alt="../../_images/KitDesarmarKit.png" src="../../_images/KitDesarmarKit.png" />
+<p class="caption">Desarmar un Kit</p>
+</div>
+</li>
+</ol>
+<p>Al desarmar el kit, se genera un documento de stock de salida y uno de entrada. En ellos se refleja la disminución del stock del kit y el aumento del stock de cada uno de los componente individuales.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/KitDocumentoStock.png" src="../../_images/KitDocumentoStock.png" />
+<p class="caption">Documentos de stock generados al desarmar un Kit</p>
+</div>
+</div></blockquote>
+<p>En la consulta de libros se pueden visualizar los documentos de stock de armado y desarmado de Kits, seleccionando la vista Armado/desarmado de kits. Esta vista incluye la opción de borrar los documentos de stock haciendo click en el icono <img alt="/icons/22eliminar.png" class="inlinegraphic" src="../../_images/22eliminar.png" />. Al eliminar la operación de armado o desarmado del kit, se revierte el movimiento de stock.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/KitArmadoDesarmadoVista.png" src="../../_images/KitArmadoDesarmadoVista.png" />
+<p class="caption">Vista Armado/Desarmado de Kits</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="como-llevar-a-cero-el-stock-de-un-kit">
+<span id="howto-ventas-sec25-cerostockkit"></span><h2>27.6. ¿Cómo llevar a cero el stock de un kit?<a class="headerlink" href="#como-llevar-a-cero-el-stock-de-un-kit" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Seleccionar la ficha del Kit en la consulta de libros e ir al menú <em class="menuselection">Ventana Activa ‣ Llevar a cero el stock de un kit</em></li>
+<li>Indicar el deposito en el que se encuentran los Kits</li>
+</ol>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/KitCeroStock.png" src="../../_images/KitCeroStock.png" />
+<p class="caption">Llevar a cero el stock de un kit</p>
+</div>
+</div></blockquote>
+<p>Al llevar a cero el stock de un kit, se generan los documentos de stock de salida e ingreso para disminuir el stock del kit y aumentar el stock de los componentes del Kit</p>
+</div>
+<div class="section" id="como-deshacer-un-kit">
+<h2>27.7. ¿Cómo deshacer un Kit?<a class="headerlink" href="#como-deshacer-un-kit" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Algunos Kits se arman por días especiales o época de Fiestas y luego se deshacen. Esto sólo se puede realizar cuando el stock del kit es cero <em>véase</em> <a class="reference internal" href="#howto-ventas-sec25-cerostockkit"><em>¿Cómo llevar a cero el stock de un kit?</em></a>.</p>
+</div>
+<ol class="arabic simple">
+<li>Seleccionar la ficha del Kit en la consulta de libros e ir al menú <em class="menuselection">Ventana Activa ‣ Deshacer kit</em></li>
+<li>Aceptar y deshace el kit</li>
+</ol>
+<p>Al realizar esta operación, la ficha deja de ser un Kit pero no se puede borrar debido a que esta vinculada a los movimientos de armado, desarmado y/o facturación del Kit.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">27. ¿Cómo trabajar con Kits?</a><ul>
+<li><a class="reference internal" href="#crear-un-kit">27.1. Crear un Kit:</a></li>
+<li><a class="reference internal" href="#como-editar-un-kit">27.2. ¿Cómo editar un kit?</a></li>
+<li><a class="reference internal" href="#como-ingresar-stock-en-un-kit">27.3. ¿Cómo ingresar stock en un kit?</a></li>
+<li><a class="reference internal" href="#como-facturar-un-kit">27.4. ¿Cómo facturar un Kit?</a></li>
+<li><a class="reference internal" href="#como-desarmar-un-kit">27.5. ¿Cómo desarmar un Kit?</a></li>
+<li><a class="reference internal" href="#como-llevar-a-cero-el-stock-de-un-kit">27.6. ¿Cómo llevar a cero el stock de un kit?</a></li>
+<li><a class="reference internal" href="#como-deshacer-un-kit">27.7. ¿Cómo deshacer un Kit?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_24.html"
+                        title="Capítulo anterior">26. Venta a crédito</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="../07_compras.html"
+                        title="Próximo capítulo">3. Compras</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../07_compras.html" title="3. Compras"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_24.html" title="26. Venta a crédito"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

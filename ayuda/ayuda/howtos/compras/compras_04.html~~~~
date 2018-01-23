@@ -1,0 +1,212 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4. ¿Cómo ingresar un remito de consignación? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Compras" href="../07_compras.html" />
+    <link rel="next" title="5. ¿Cómo ingresar una factura de baja de consignación?" href="compras_05.html" />
+    <link rel="prev" title="3. ¿Cómo ingresar una factura remito de tipo reposición o firme?" href="compras_03.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="compras_05.html" title="5. ¿Cómo ingresar una factura de baja de consignación?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_03.html" title="3. ¿Cómo ingresar una factura remito de tipo reposición o firme?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" accesskey="U">3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-ingresar-un-remito-de-consignacion">
+<span id="howto-compras-sec4"></span><h1>4. ¿Cómo ingresar un remito de consignación?<a class="headerlink" href="#como-ingresar-un-remito-de-consignacion" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Stock consignado</strong></p>
+<p>El <em>stock consignado</em> de un proveedor es el stock ingresado a través de
+<em>remitos de consignación</em>.</p>
+<p>No es posible cambiar esta cantidad en ningún lugar del sistema.</p>
+<p class="last">El stock propio es la diferencia entre el stock físico y el consignado.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Compras ‣ Remitos</em>. Se abrirá
+la pantalla Búsqueda de Remitos.</p>
+<div class="figure">
+<img alt="../../_images/scrBusqRem.png" src="../../_images/scrBusqRem.png" />
+<p class="caption">Pantalla Búsqueda de Remitos</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el ícono <img alt="/icons/n_remitos.png" class="inlinegraphic" src="../../_images/n_remitos.png" /> de la barra de
+herramientas o las teclas <tt class="kbd docutils literal"><span class="pre">Ctrl</span></tt><tt class="kbd docutils literal"><span class="pre">N</span></tt>. Se abrirá la pantalla Nuevo
+Remito.</p>
+<div class="figure">
+<img alt="../../_images/scrNewRem.png" src="../../_images/scrNewRem.png" />
+<p class="caption">Pantalla Nuevo Remito</p>
+</div>
+</li>
+<li><p class="first">Para cambiar el proveedor de origen del remito:</p>
+<ul class="simple">
+<li>Ingresar el código en el campo Proveedor.</li>
+<li>Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o <tt class="kbd docutils literal"><span class="pre">Tab</span></tt>.</li>
+<li>Si existe un proveedor con el código, se autocompleta el nombre a la
+derecha del código.</li>
+<li>Si no se conoce el código, presionar el bóton <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" />
+para buscar el proveedor.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/scrRemitHeader.png" src="../../_images/scrRemitHeader.png" />
+<p class="caption">Cabecera del remito</p>
+</div>
+</li>
+<li><p class="first">Completar los datos generales del remito:    * <em>Tipo:</em> Consignación.</p>
+<ul class="simple">
+<li><em>Número de remito</em></li>
+<li><em>Fecha:</em> Fecha del remito. El sistema sugiere la fecha actual</li>
+<li><em>Sucursal:</em> Sucursal a la que corresponde el remito. El sistema sugiere la
+sucursal donde ingresó el usuario.</li>
+<li><em>Depósito:</em> Depósito a donde ingresan los libros. El sistema sugiere el
+depósito asociado a la sucursal donde ingresó el usuario.</li>
+</ul>
+</li>
+<li><p class="first">Por cada libro del remito:</p>
+<ul>
+<li><p class="first">En el campo Código de la solapa Detalle, ingresar el código del libro (por
+teclado o con el lector de código de barras) o realizar la búsqueda del
+libro presionando el botón <img alt="/icons/b_libro.png" class="inlinegraphic" src="../../_images/b_libro.png" />.</p>
+<div class="figure">
+<img alt="../../_images/scrEditAssignRemit.png" src="../../_images/scrEditAssignRemit.png" />
+<p class="caption">Opciones para modificar las asignaciones</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la opción Editar asignación a pedidos. Se abrirá la ventana
+Edición de asignación a pedidos.</p>
+<div class="figure">
+<img alt="../../_images/scrDlgEditAssignOrders.png" src="../../_images/scrDlgEditAssignOrders.png" />
+<p class="caption">Pantalla Edición de Asignación a Pedidos</p>
+</div>
+</li>
+<li><p class="first">Modificar las cantidades asociadas a los pedidos haciendo doble click sobre
+la columna Cantidad de la fila correspondiente al pedido.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<ul class="simple">
+<li>Si el remito corresponde a un <em>pedido</em>,
+presionar el botón <img alt="/icons/22bpedido.png" class="inlinegraphic" src="../../_images/22bpedido.png" /> .
+Se abrirá la pantalla Selección de Pedidos con la lista
+de los pedidos pendientes del proveedor.
+Seleccionar el pedido correspondiente. Los items
+del pedido se cargarán en la grilla del
+remito.</li>
+</ul>
+<p class="last"><em>De esta forma se ahorra el ingreso manual de los ítems del remito.</em></p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em> o la tecla <tt class="kbd docutils literal"><span class="pre">F9</span></tt> y confirmar.</p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="compras_03.html"
+                        title="Capítulo anterior">3. ¿Cómo ingresar una factura remito de tipo reposición o firme?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="compras_05.html"
+                        title="Próximo capítulo">5. ¿Cómo ingresar una factura de baja de consignación?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="compras_05.html" title="5. ¿Cómo ingresar una factura de baja de consignación?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_03.html" title="3. ¿Cómo ingresar una factura remito de tipo reposición o firme?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" >3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

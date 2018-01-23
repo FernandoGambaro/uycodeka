@@ -1,0 +1,455 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1.11. Importación masiva de libros &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="1. Catálogo" href="../05_catalogo.html" />
+    <link rel="next" title="1.17. Kardex" href="catalogo_12.html" />
+    <link rel="prev" title="1.10. ¿Cómo bajar la ficha de un libro de una fuente de datos externa?" href="catalogo_10.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="catalogo_12.html" title="1.17. Kardex"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_10.html" title="1.10. ¿Cómo bajar la ficha de un libro de una fuente de datos externa?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" accesskey="U">1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="importacion-masiva-de-libros">
+<span id="howto-catalogo-sec11"></span><h1>1.11. Importación masiva de libros<a class="headerlink" href="#importacion-masiva-de-libros" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Catálogo ‣ Importación masiva de libros</em>.
+Se abrirá la pantalla Importación de libros.</p>
+<div class="figure">
+<img alt="../../_images/scrImportBooks.png" src="../../_images/scrImportBooks.png" />
+<p class="caption">Pantalla Importación de libros</p>
+</div>
+<p>La pantalla se divide en tres partes:</p>
+<div class="figure">
+<img alt="../../_images/scrImportBooksExplain.png" src="../../_images/scrImportBooksExplain.png" />
+<p class="caption">Partes de la pantalla Importación de libros</p>
+</div>
+<ul>
+<li><p class="first"><em>Lista de libros encontrados</em>: muestra todos los libros encontrados en la
+búsqueda de la importación.</p>
+<p>Esta lista tiene las columnas configurables (ver <a class="reference internal" href="../../basics/busqueda/mantenimiento_14.html#basics-searchs-sec13"><em>Configurar las columnas del
+resultado</em></a>), donde pueden seleccionarse los atributos
+del libro a visualizar. Además, están las siguientes columnas especiales:</p>
+<ul>
+<li><p class="first"><em>Acción</em>: muestra la acción a realizar con el libro bajado. Estas
+acciones pueden ser: Crear nuevo libro o No hacer nada. Para cambiar la
+acción a realizar, seleccionar la fila del libro hacer click derecho, y
+elegir la opción del menú desplegable.</p>
+<p>La acción <em>Crear nuevo libro</em> también puede indicarse con el botón
+<img alt="/icons/validar.png" class="inlinegraphic" src="../../_images/validar.png" /> de la barra de herramientas.</p>
+</li>
+<li><p class="first"><em>Semejantes:</em> muestra la cantidad de libros semejantes en la base local.
+Para definir el criterio con que se buscan los libros semejantes,
+presionar el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" /></p>
+</li>
+<li><p class="first"><em>Conflictos:</em> muestra la cantidad de conflictos que tienen los atributos
+del libro.</p>
+</li>
+</ul>
+</li>
+<li><p class="first"><em>Atributos:</em> muestra todos los atributos del libro bajado, con el indicador
+de conflicto. Para resolver los conflictos, ver <a class="reference internal" href="catalogo_10.html#howto-catalogo-sec10"><em>¿Cómo bajar la ficha
+de un libro de una fuente de datos externa?</em></a></p>
+<p>A diferencia de la importación puntual, puede realizarse la importación sin
+resolver los conflictos uno por uno, simplemente indicando que se quieren
+resolver y crear los valores encontrados. Cuando se presiona el botón
+<em class="guilabel">Aceptar</em> o <em class="guilabel">Aplicar</em> el sistema pide esta
+confirmación.</p>
+</li>
+<li><p class="first"><em>Similares:</em> muestra la lista de libros semejantes en la base de datos local.</p>
+</li>
+</ul>
+</li>
+<li><p class="first">Seleccionar la fuente de donde se tomarán los datos (Cámara Argentina del
+Libro, ISBN español, Archivo CSV, etc.).</p>
+</li>
+<li><p class="first">Pulsar el botón <img alt="/icons/searchCopia.png" class="inlinegraphic" src="../../_images/searchCopia.png" /> (Criterios de semejanza).
+Se abrirá una pantalla en la cual es posible elegir, haciendo click en los
+corchetes, la relación de semejanza entre los libros importados y los de la
+base.</p>
+<p>Esto es útil para evitar la importación de libros duplicados. El sistema
+compara según el atributo elegido (por ej. ISBN) y si ya existe un libro con
+el mismo, lo muestra en la columna Semejantes.</p>
+<div class="figure">
+<img alt="../../_images/CriteriosSemejanza.png" src="../../_images/CriteriosSemejanza.png" />
+<p class="caption">Pantalla Criterios de semejanza</p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <img alt="/icons/buscar.png" class="inlinegraphic" src="../../_images/buscar.png" /> de la barra de herramientas o
+las teclas <tt class="kbd docutils literal"><span class="pre">Ctrl</span></tt><tt class="kbd docutils literal"><span class="pre">B</span></tt>. Según la fuente seleccionada, se abrirá una
+pantalla para el ingreso de los criterios de búsqueda.</p>
+<p>En la parte <em>Lista de libros encontrados</em> aparecerán los libros encontrados
+de la fuente.</p>
+</li>
+<li><p class="first">Por cada libro, pueden resolverse manualmente los conflictos.</p>
+</li>
+<li><p class="first">Asignar la acción <em>Crear nuevo libro</em> sobre los libros que se desean guardar
+en la base. Para esto, seleccionarlos y presionar el botón <img alt="/icons/validar.png" class="inlinegraphic" src="../../_images/validar.png" /> de la barra de herramientas, o hacer click derecho y
+seleccionar la opción Crear nuevo libro.</p>
+</li>
+<li><p class="first">Si no se desea resolver los conflictos, presionar el botón
+<em class="guilabel">Aceptar</em> o <em class="guilabel">Aplicar</em> (según si se quiere o no cerrar la
+pantalla). Los libros serán creados en la base.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Para ver los libros que se crearon, se puede realizar una búsqueda de
+libros por Transacción. Para esto, ir a la búsqueda de libros,
+seleccionar el panel de búsqueda Transacción, completar la fecha de hoy,
+seleccionar la transacción Creación, y presionar el botón <em class="guilabel">Buscar</em>.
+Se listarán todos los libros creados en la fecha de hoy.</p>
+</div>
+</li>
+</ol>
+<p>A continuación se listan las fuentes de donde se pueden importar los
+datos:</p>
+</div>
+<div class="section" id="importacion-desde-la-camara-argentina-del-libro">
+<h1>1.12. Importación desde la Cámara Argentina del Libro<a class="headerlink" href="#importacion-desde-la-camara-argentina-del-libro" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>La Cámara Argentina del Libro, a través de su portal www.librosar.com.ar,
+brinda un servicio web para poder bajar las fichas de todos los libros
+editados en Argentina.</p>
+<p>Cuando se selecciona esta fuente, se abre la pantalla Búsqueda Cámara
+Argentina del Libro</p>
+<div class="figure">
+<img alt="../../_images/scrImportBooksCal.png" src="../../_images/scrImportBooksCal.png" />
+<p class="caption">Pantalla Búsqueda Cámara Argentina del Libro</p>
+</div>
+<p>Pueden buscarse los libros por los criterios: título, autor, editorial,
+ISBN y fecha de modificación.</p>
+<p>La Cámara está desarrollando más criterios de búsqueda y la posibilidad de
+bajar más datos de cada libro (colección, fecha de publicación, etc.)</p>
+</div>
+<div class="section" id="importacion-desde-rilvi">
+<h1>1.13. Importación desde RILVI<a class="headerlink" href="#importacion-desde-rilvi" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Esta fuente es el sitio web del Repertorio Integrado de Libros en Venta en
+Iberoamérica, donde se encuentran los libros publicados en los siguientes
+países:</p>
+<ul class="simple">
+<li>Argentina</li>
+<li>Bolivia</li>
+<li>Brasil</li>
+<li>Chile</li>
+<li>Costa Rica</li>
+<li>Cuba</li>
+<li>Ecuador</li>
+<li>El Salvador</li>
+<li>Guatemala</li>
+<li>Honduras</li>
+<li>México</li>
+<li>Nicaragua</li>
+<li>Panamá</li>
+<li>Paraguay</li>
+<li>Perú</li>
+<li>República Dominicana</li>
+<li>Uruguay</li>
+<li>Venezuela</li>
+</ul>
+<p>La información en esta fuente no está actualizada como la Cámara Argentina
+del Libro ni el ISBN Español, donde los libros aparecen en el momento en que
+un editor registra el ISBN para publicar, sino que los países, cada
+determinado tiempo, envían los listados de libros publicados.</p>
+<p>Cuando se selecciona esta fuente, se abre la pantalla Búsqueda RILVI</p>
+<div class="figure">
+<img alt="../../_images/scrImportBooksRilvi.png" src="../../_images/scrImportBooksRilvi.png" />
+<p class="caption">Pantalla Búsqueda RILVI</p>
+</div>
+<p>Pueden buscarse los libros por los criterios: título, autor, editorial,
+ISBN, año y país de publicación.</p>
+</div>
+<div class="section" id="importacion-desde-amazon">
+<h1>1.14. Importación desde Amazon<a class="headerlink" href="#importacion-desde-amazon" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Esta fuente posibilita la búsqueda de libros que por su origen nacional no
+pueden hallarse en las fuentes anteriores.</p>
+<div class="figure">
+<img alt="../../_images/scrImportBooksAmazon.png" src="../../_images/scrImportBooksAmazon.png" />
+<p class="caption">Pantalla Búsqueda Amazon</p>
+</div>
+<p>Pueden buscarse los libros por título, editorial, autor y palabras clave
+(keywords).</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Cuando se buscan libros por autor o título, tener cuidado porque aparecen
+los libros editados en toda la lista de países. Es conveniente seleccionar
+también el país de publicación.</p>
+</div>
+</div>
+<div class="section" id="importacion-masiva-desde-una-planilla">
+<span id="howto-catalogo-sec9-archivo"></span><h1>1.15. Importación masiva desde una planilla<a class="headerlink" href="#importacion-masiva-desde-una-planilla" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p>Antes de ser procesada, la planilla Excel con los datos a importar debe
+convertirse al formato CSV <a class="footnote-reference" href="#id2" id="id1">[1]</a>. Para ello: abrir el Excel y, en su opción
+de menú <em class="menuselection">Archivo ‣ Guardar como ...</em>, en Tipo de archivo
+elegir <em class="guilabel">&gt;Texto CSV (.csv)</em>.</p>
+<blockquote class="last">
+<div><table class="docutils footnote" frame="void" id="id2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>El CSV -del inglés &#8220;Comma Separated Value&#8221;- es un formato de
+archivo estándar para intercambiar datos entre aplicaciones.
+Es un texto simple donde los datos se representan en forma de tabla,
+con los campos separados por comas (o punto y coma en países donde
+la coma es separador decimal), los valores de los campos por
+comillas dobles, y las filas por saltos de línea.</td></tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="figure">
+<img alt="../../_images/ImportacionLibros.png" src="../../_images/ImportacionLibros.png" />
+<p class="caption">Pantalla Importación de archivos</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Pulsar el botón <img alt="/icons/findBook.png" class="inlinegraphic" src="../../_images/findBook.png" /> para localizar el archivo CSV
+a importar. Pueden evitarse en la importación las columnas de título,
+descripción, etc., indicando desde qué línea empezar a importar.</p>
+</li>
+<li><p class="first">En la siguiente pantalla puede ingresarse el código de proveedor, en los
+casos en que se desee que los nuevos libros correspondan a determinado
+proveedor.</p>
+<div class="figure">
+<img alt="../../_images/ImportacionProveedor.png" src="../../_images/ImportacionProveedor.png" />
+<p class="caption">Pantalla de proveedor</p>
+</div>
+</li>
+<li><p class="first">En la última pantalla se establece, seleccionando atributo y columna y
+pulsando el botón  <img alt="/icons/22validar.png" class="inlinegraphic" src="../../_images/22validar.png" /> , el vínculo entre
+atributos y columnas de acuerdo con la visualización en la ventana inferior.</p>
+<div class="figure">
+<img alt="../../_images/ColumnasImportacion.png" src="../../_images/ColumnasImportacion.png" />
+<p class="caption">Pantalla de columnas a importar</p>
+</div>
+</li>
+<li><p class="first">Luego de oprimir Finalizar, se verá la pantalla en donde deben seleccionarse
+los libros a importar. Marcarlos en la lista (para marcar todo el listado,
+hacer click con el botón derecho del mouse sobre el área) y oprimir en la
+barra de herramientas el botón <img alt="/icons/22validar.png" class="inlinegraphic" src="../../_images/22validar.png" />. En la columna
+Acción aparecerá la frase Crear nuevo libro.</p>
+<div class="figure">
+<img alt="../../_images/ImportarNuevoLibro.png" src="../../_images/ImportarNuevoLibro.png" />
+<p class="caption">Pantalla de selección de libros a importar</p>
+</div>
+</li>
+<li><p class="first">Si los hubiera, resolver los conflictos que se pueden presentar entre
+atributos de libros importados y de libros prexistentes en la base. Para
+resolver los conflictos, ver <a class="reference internal" href="catalogo_10.html#howto-catalogo-sec10"><em>¿Cómo bajar la ficha de un libro de una
+fuente de datos externa?</em></a></p>
+</li>
+<li><p class="first">Pueden quitarse libros de la lista, por ejemplo los duplicados, marcándolos y
+oprimiendo <img alt="/icons/22eliminar.png" class="inlinegraphic" src="../../_images/22eliminar.png" />. Una vez decidido qué libros se
+desea importar, pulsar <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="actualizacion-masiva-desde-una-planilla">
+<h1>1.16. Actualización masiva desde una planilla<a class="headerlink" href="#actualizacion-masiva-desde-una-planilla" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><em class="guilabel">Modificación masiva</em></p>
+<p>Además de la posibilidad de crear libros nuevos con datos contenidos en
+planillas, desde éstas, también, es posible agregar o modificar atributos en
+libros existentes.</p>
+<p class="last">Una vez elegido el o los atributos que se desea actualizar, el sistema
+analiza qué libros similares hay en el catálogo y agrega o reemplaza los
+datos indicados.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Preparar una planilla CSV (<em>véase</em>   <a class="reference internal" href="#howto-catalogo-sec9-archivo"><em>¿Cómo ingresar libros masivamente
+desde una planilla?</em></a>) donde se cuente con -por
+lo menos- una columna de código del libro (interno, ISBN, de barras o de
+proveedor) y otra u otras con el valor o los valores a agregar o modificar.</p>
+</li>
+<li><p class="first">Importar la planilla en Fierro desde <em class="menuselection">Catálogo ‣ Importación
+masiva de libros ‣ Archivo CSV</em>.</p>
+</li>
+<li><p class="first">Cuando se termina de procesar, en la pantalla de resolución de conflictos
+deberían verse, en su columna <em>Semejantes</em>, números diferentes de cero para
+todos los títulos, puesto que se trata de libros ya existentes.</p>
+<div class="figure">
+<img alt="../../_images/semejantes.png" src="../../_images/semejantes.png" />
+<p class="caption">Semejantes</p>
+</div>
+</li>
+<li><p class="first">Con la pantalla abierta, pulsar el botón <em>Criterios de actualización</em>, el
+cual ejecuta un editor donde deben marcarse el o los atributos a actualizar.</p>
+<div class="figure">
+<img alt="../../_images/actualizar.png" src="../../_images/actualizar.png" />
+<p class="caption">Marcar atributos</p>
+</div>
+</li>
+<li><p class="first">Al pulsar <em class="guilabel">Aceptar</em> en dicho editor -con el o los atributos a
+modificar ya marcados-, los mismos se verán, en la solapa <em>Atributos</em> de la
+pantalla, señalados con un <em class="guilabel">semáforo</em>, y los restantes
+con <img alt="/icons/22cerrar.png" class="inlinegraphic" src="../../_images/22cerrar.png" />.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">El color del semáforo en los atributos a actualizar dependerá de si han
+sido o no resueltos los <em class="guilabel">conflictos</em> que los afectaban
+(<em>véase</em> <a class="reference internal" href="catalogo_10.html#howto-catalogo-sec10"><em>¿Cómo bajar la ficha de un libro de una fuente de datos
+externa?</em></a>).</p>
+</div>
+<div class="figure">
+<img alt="../../_images/atributos.png" src="../../_images/atributos.png" />
+<p class="caption">Atributos a actualizar</p>
+</div>
+</li>
+<li><p class="first">Colocar el puntero del mouse en el área del listado de libros y, con botón
+derecho, desplegar el menú de acciones y pulsar <em>Seleccionar todo</em>. La lista
+quedará coloreada en azul.</p>
+<div class="figure">
+<img alt="../../_images/seleccionar.png" src="../../_images/seleccionar.png" />
+<p class="caption">Seleccionar</p>
+</div>
+</li>
+<li><p class="first">Pulsar el botón <img alt="/icons/22validar.png" class="inlinegraphic" src="../../_images/22validar.png" /> en la barra de herramientas.
+En la columna Acción aparecerá la leyenda <em>Actualizar el libro</em>.</p>
+<div class="figure">
+<img alt="../../_images/accion.png" src="../../_images/accion.png" />
+<p class="caption">Acción</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Recuérdese que, si se tratara de una importación de libros <em>nuevos</em>,
+pulsar el tilde verde colocaría en la columna Acción la frase <em>Crear
+nuevo libro</em>.</p>
+</div>
+</li>
+<li><p class="first">Pulsar <em class="guilabel">Aceptar</em> en el ángulo inferior derecho de la pantalla: el
+sistema actualizará, en las fichas de libros existentes, los atributos
+elegidos.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Eventualmente, si entre los atributos a actualizar habían quedado
+conflictos, antes de completar la operación de actualización el sistema
+ofrecerá la oportunidad de resolverlos.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/conflicto.png" src="../../_images/conflicto.png" />
+<p class="caption">Resolución/confirmación</p>
+</div>
+<div class="figure">
+<img alt="../../_images/actualizacionExitosa.png" src="../../_images/actualizacionExitosa.png" />
+<p class="caption">Actualización exitosa</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">1.11. Importación masiva de libros</a></li>
+<li><a class="reference internal" href="#importacion-desde-la-camara-argentina-del-libro">1.12. Importación desde la Cámara Argentina del Libro</a></li>
+<li><a class="reference internal" href="#importacion-desde-rilvi">1.13. Importación desde RILVI</a></li>
+<li><a class="reference internal" href="#importacion-desde-amazon">1.14. Importación desde Amazon</a></li>
+<li><a class="reference internal" href="#importacion-masiva-desde-una-planilla">1.15. Importación masiva desde una planilla</a></li>
+<li><a class="reference internal" href="#actualizacion-masiva-desde-una-planilla">1.16. Actualización masiva desde una planilla</a></li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="catalogo_10.html"
+                        title="Capítulo anterior">1.10. ¿Cómo bajar la ficha de un libro de una fuente de datos externa?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="catalogo_12.html"
+                        title="Próximo capítulo">1.17. Kardex</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="catalogo_12.html" title="1.17. Kardex"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_10.html" title="1.10. ¿Cómo bajar la ficha de un libro de una fuente de datos externa?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" >1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

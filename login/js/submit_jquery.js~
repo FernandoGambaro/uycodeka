@@ -1,0 +1,76 @@
+$(document).ready(function() {
+// Submit form with id function.
+$("#btn_id").click(function() {
+var name = $("#nombre").val();
+var email = $("#password").val();
+if (validation()) // Calling validation function.
+{
+$("#form_id").submit(); // Form submission.
+alert(" Name : " + name + " \n Email : " + email + " \n Form id : " + $("#form_id").attr('id') + "\n\n Form Submitted Successfully......");
+}
+});
+
+// Submit form with name function.
+$("#btn_name").click(function() {
+var name = $("#nombre").val();
+var email = $("#password").val();
+if (validation()) // Calling validation function.
+{
+$("form[name='form_name']").submit(); // Form Submission
+alert(" Name : " + name + " \n Email : " + email + " \n Form name : " + $("form[name='form_name']").attr('name') + "\n\n Form Submitted Successfully......");
+}
+});
+
+// Submit form with class function.
+$("#btn_class").click(function() {
+var name = $("#nombre").val();
+var email = $("#password").val();
+if (validation()) // Calling validation function.
+{
+$(".form_class").submit(); // Form Submission.
+alert(" Name : " + name + " \n Email : " + email + " \n Form class : " + $(".form_class").attr('class') + "\n\n Form is Submitted Successfully......");
+}
+});
+
+$("#btn_tag").click(function() {
+var name = $("#nombre").val();
+var email = $("#password").val();
+if (validation()) // Calling validation function.
+{
+$("form").submit(); // Form submission.
+alert(" Name : " + name + " \n Email : " + email + " \n Tag : form\n\n Form Submitted Successfully......");
+}
+});
+
+// Submit form with Event Handler function.
+$("#btn_event").click(function() {
+var name = $("#name").val();
+var email = $("#email").val();
+if (validation()) // Calling validation function.
+{
+$("#form_id").submit(function() {
+alert('Form is submitting....');
+//or Do Something...
+return true;
+});
+$("#form_id").submit(); // Form Submission
+alert(" Name : " + name + " \n Email : " + email + "\n\n Form Submitted Successfully......");
+}
+});
+
+// Name and Email validation Function.
+function validation() {
+var name = $("#name").val();
+var email = $("#email").val();
+var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+if (name === '' || email === '') {
+alert("Please fill all fields...!!!!!!");
+return false;
+} else if (!(email).match(emailReg)) {
+alert("Invalid Email...!!!!!!");
+return false;
+} else {
+return true;
+}
+}
+});

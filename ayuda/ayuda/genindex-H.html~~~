@@ -1,0 +1,709 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Índice &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="index.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="index.html">
+      <img class="logo" src="_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+<li><a href="index.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+
+<h1 id="index">Índice &ndash; H</h1>
+
+<table style="width: 100%" class="indextable"><tr>
+  <td style="width: 33%" valign="top"><dl>
+      
+  <dt><a href="howtos/accounting/03_financialYears.html#index-1">howto.accounting</a>, <a href="howtos/accounting/01_intro.html#index-1">[1]</a>, <a href="howtos/accounting/05_reports.html#index-1">[2]</a>, <a href="howtos/accounting/02_accounts.html#index-1">[3]</a>, <a href="howtos/accounting/04_entries.html#index-1">[4]</a>, <a href="howtos/12_accounting.html#index-0">[5]</a>
+  </dt>
+
+      
+  <dt><a href="howtos/accounting/02_accounts.html#index-0">howto.accounting.accounts</a>
+  </dt>
+
+      
+  <dt><a href="howtos/accounting/04_entries.html#index-3">howto.accounting.consolidacionAsientos</a>
+  </dt>
+
+      
+  <dt><a href="howtos/accounting/04_entries.html#index-0">howto.accounting.entries</a>
+  </dt>
+
+      
+  <dt><a href="howtos/accounting/03_financialYears.html#index-0">howto.accounting.financialYears</a>
+  </dt>
+
+      
+  <dt><a href="howtos/accounting/04_entries.html#index-2">howto.accounting.importAsientosCSV:</a>
+  </dt>
+
+      
+  <dt><a href="howtos/accounting/01_intro.html#index-0">howto.accounting.intro</a>
+  </dt>
+
+      
+  <dt><a href="howtos/accounting/05_reports.html#index-0">howto.accounting.reports</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_10.html#index-0">howto.bookkeeping.cashBoxMovementBetweenCashboxes</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_19.html#index-2">howto.bookkeeping.CentrosCosto-estrategia</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_19.html#index-0">howto.bookkeeping.CentrosDeCosto</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_07.html#index-0">howto.bookkeeping.closeCashbox</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_02.html#index-0">howto.bookkeeping.createBank</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_03.html#index-0">howto.bookkeeping.createBankAccount</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_04.html#index-0">howto.bookkeeping.createCheckBooks</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_05.html#index-0">howto.bookkeeping.createCreditCard</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_06.html#index-0">howto.bookkeeping.createCreditCardPlan</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_08.html#index-0">howto.bookkeeping.creditCardPlanClose</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_11.html#index-0">howto.bookkeeping.depot</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_12.html#index-0">howto.bookkeeping.extraccion</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_17.html#index-0">howto.bookkeeping.newExpense</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_14.html#index-0">howto.bookkeeping.statement</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_01.html#index-0">howto.bookkeeping.TarjetasYCheques</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_18.html#index-0">howto.bookkeeping.transferenciasCaja</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_18.html#index-2">howto.bookkeeping.transferenciasCaja-permiso</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_16.html#index-0">howto.bookkeeping.verCartera</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_13.html#index-0">howto.bookkeeping.viewBankAccountMovements</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_09.html#index-0">howto.bookkeeping.viewCashboxMovements</a>
+  </dt>
+
+      
+  <dt><a href="howtos/cajaybancos/cajaybancos_15.html#index-0">howto.bookkeeping.viewChecks</a>
+  </dt>
+
+      
+  <dt><a href="howtos/catalogo/catalogo_13.html#index-0">howto.catalogo-sec13</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_01.html#index-0">howto.compras-sec1</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_12.html#index-0">howto.compras-sec10</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_13.html#index-2">howto.compras-sec11-sec1</a>, <a href="howtos/compras/compras_13.html#index-6">[1]</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_14.html#index-0">howto.compras-sec12</a>, <a href="howtos/compras/compras_13.html#index-0">[1]</a>, <a href="howtos/compras/compras_13.html#index-4">[2]</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_15.html#index-0">howto.compras-sec13</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_02.html#index-0">howto.compras-sec2</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_02.html#index-2">howto.compras-sec2-sec1</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_02.html#index-4">howto.compras-sec2-sec2</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_02.html#index-6">howto.compras-sec2-sec3</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_02.html#index-8">howto.compras-sec2-sec4</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_03.html#index-0">howto.compras-sec3</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_04.html#index-0">howto.compras-sec4</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_05.html#index-0">howto.compras-sec5</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_08.html#index-0">howto.compras-sec6</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_07.html#index-0">howto.compras-sec6.1</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_09.html#index-0">howto.compras-sec7</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_10.html#index-0">howto.compras-sec8</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_11.html#index-0">howto.compras-sec9</a>
+  </dt>
+
+      
+  <dt><a href="howtos/compras/compras_12.html#index-2">howto.compras.provider.unification</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ddaa/ddaa_1.html#index-0">howto.ddaa-sec1</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ddaa/ddaa_2.html#index-0">howto.ddaa-sec2</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ddaa/ddaa_5.html#index-0">howto.ddaa-sec5</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ddaa/ddaa_6.html#index-0">howto.ddaa-sec6</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ddaa/ddaa_3.html#index-0">howto.ddaa.-sec3</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ddaa/ddaa_4.html#index-0">howto.ddaa.-sec4</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ddaa/ddaa_7.html#index-0">howto.ddaa.-sec7</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ddaa/ddaa_5.html#index-2">howto.derechosdeautor-sec6</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_14.html#index-1">howto.others</a>, <a href="basics/busqueda/mantenimiento_13.html#index-1">[1]</a>, <a href="howtos/general/general_08.html#index-1">[2]</a>, <a href="howtos/general/general_02.html#index-1">[3]</a>, <a href="howtos/general/general_03.html#index-1">[4]</a>, <a href="howtos/general/general_01.html#index-1">[5]</a>, <a href="howtos/general/general_06.html#index-1">[6]</a>, <a href="howtos/general/general_07.html#index-1">[7]</a>, <a href="howtos/general/general_04.html#index-1">[8]</a>, <a href="howtos/general/general_05.html#index-1">[9]</a>, <a href="howtos/11_general.html#index-0">[10]</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_04.html#index-0">howto.others.attachs</a>, <a href="howtos/general/general_04.html#index-3">[1]</a>, <a href="howtos/general/general_04.html#index-7">[2]</a>, <a href="howtos/general/general_04.html#index-9">[3]</a>, <a href="howtos/general/general_04.html#index-11">[4]</a>, <a href="howtos/general/general_04.html#index-13">[5]</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_04.html#index-2">howto.others.attachs.add</a>, <a href="howtos/general/general_04.html#index-5">[1]</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_04.html#index-4">howto.others.attachs.add.text</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_04.html#index-6">howto.others.attachs.delete</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_04.html#index-8">howto.others.attachs.download</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_04.html#index-12">howto.others.attachs.edit</a>, <a href="howtos/general/general_04.html#index-15">[1]</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_04.html#index-14">howto.others.attachs.edit.text</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_04.html#index-10">howto.others.attachs.view</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_08.html#index-0">howto.others.BloqueoDocumentos</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_01.html#index-0">howto.others.createAddress</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_14.html#index-0">howto.others.customattribute</a>, <a href="howtos/general/general_14.html#index-3">[1]</a>, <a href="howtos/general/general_14.html#index-5">[2]</a>, <a href="howtos/general/general_14.html#index-7">[3]</a>, <a href="howtos/general/general_14.html#index-9">[4]</a>, <a href="howtos/general/general_14.html#index-11">[5]</a>, <a href="howtos/general/general_14.html#index-13">[6]</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_14.html#index-10">howto.others.customattribute.column</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_14.html#index-2">howto.others.customattribute.define</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_14.html#index-4">howto.others.customattribute.edit</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_14.html#index-12">howto.others.customattribute.report</a>
+  </dt>
+
+  </dl></td>
+  <td style="width: 33%" valign="top"><dl>
+      
+  <dt><a href="howtos/general/general_14.html#index-8">howto.others.customattribute.searchs</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_14.html#index-6">howto.others.customattribute.view</a>
+  </dt>
+
+      
+  <dt><a href="basics/busqueda/mantenimiento_13.html#index-0">howto.others.exportToCSV</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_11.html#index-0">howto.others.FierroOffline</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_07.html#index-0">howto.others.ImpresionDeReportes</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_05.html#index-0">howto.others.mailConfig</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_03.html#index-0">howto.others.notes</a>, <a href="howtos/general/general_03.html#index-3">[1]</a>, <a href="howtos/general/general_03.html#index-5">[2]</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_03.html#index-2">howto.others.notes.edit</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_03.html#index-4">howto.others.notes.view</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_06.html#index-0">howto.others.OtrasFormasDePago</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_02.html#index-0">howto.others.packet</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_10.html#index-0">howto.others.printHTMLviews</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_15.html#index-0">howto.others.tareas</a>, <a href="howtos/general/general_16.html#index-0">[1]</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_12.html#index-0">howto.others.tareasProgramadas</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_12.html#index-2">howto.others.tareasProgramadas-sugerencias</a>
+  </dt>
+
+      
+  <dt><a href="howtos/personal/personal_05.html#index-0">howto.personal-sec05</a>
+  </dt>
+
+      
+  <dt><a href="howtos/personal/personal_06.html#index-0">howto.personal-sec06</a>
+  </dt>
+
+      
+  <dt><a href="howtos/personal/personal_01.html#index-0">howto.personal-sec1</a>
+  </dt>
+
+      
+  <dt><a href="howtos/personal/personal_02.html#index-0">howto.personal-sec2</a>
+  </dt>
+
+      
+  <dt><a href="howtos/personal/personal_04.html#index-0">howto.personal-sec4</a>
+  </dt>
+
+      
+  <dt><a href="howtos/personal/personal_03.html#index-0">howto.personal-sec7</a>, <a href="howtos/personal/personal_07.html#index-0">[1]</a>, <a href="howtos/personal/personal_07.html#index-2">[2]</a>
+  </dt>
+
+      
+  <dt><a href="howtos/prensa/prensa_1.html#index-0">howto.prensa-sec1</a>
+  </dt>
+
+      
+  <dt><a href="howtos/seguridad/seguridad_04.html#index-0">howto.security.assignActions</a>
+  </dt>
+
+      
+  <dt><a href="howtos/seguridad/seguridad_05.html#index-0">howto.security.changePassword</a>
+  </dt>
+
+      
+  <dt><a href="howtos/seguridad/seguridad_07.html#index-0">howto.security.searchByTransaction</a>
+  </dt>
+
+      
+  <dt><a href="howtos/seguridad/seguridad_06.html#index-0">howto.security.viewTransaction</a>
+  </dt>
+
+      
+  <dt><a href="howtos/general/general_09.html#index-0">howto.stock.importCSV</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_03.html#index-0">howto.stock.llevarStockACero</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_01.html#index-0">howto.stock.moveStockBetweenSucursals</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_02.html#index-0">howto.stock.moveStockManual</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_08.html#index-0">howto.stock.reduceStock</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_08.html#index-2">howto.stock.reduceStock.steps</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_05.html#index-0">howto.stock.reportStock</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_06.html#index-0">howto.stock.stockTaking</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_06.html#index-2">howto.stock.stockTaking-sec1-sec1</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_06.html#index-4">howto.stock.stockTaking-sec1-sec2</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_07.html#index-0">howto.stock.stockTakingUbi</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_07.html#index-2">howto.stock.stockTakingUbi-sec1-sec1</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_07.html#index-4">howto.stock.stockTakingUbi-sec1-sec2</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_07.html#index-6">howto.stock.stockTakingUbi-sec3-sec3</a>
+  </dt>
+
+      
+  <dt><a href="howtos/stock/stock_04.html#index-0">howto.stock.viewBookMovements</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventamayorista/ventas_1.html#index-0">howto.ventamayorista-sec1</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventamayorista/ventas_2.html#index-0">howto.ventamayorista-sec2</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventamayorista/ventas_3.html#index-0">howto.ventamayorista-sec3</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventamayorista/ventas_4.html#index-0">howto.ventamayorista-sec4</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_01.html#index-0">howto.ventas-sec1</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_11.html#index-0">howto.ventas-sec10</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_12.html#index-0">howto.ventas-sec11</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_13.html#index-0">howto.ventas-sec12</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_02.html#index-0">howto.ventas-sec2</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_23.html#index-0">howto.ventas-sec22</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_03.html#index-0">howto.ventas-sec3</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_04.html#index-0">howto.ventas-sec4</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_05.html#index-0">howto.ventas-sec5</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_06.html#index-0">howto.ventas-sec6</a>, <a href="howtos/ventas/ventas_07.html#index-0">[1]</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_08.html#index-0">howto.ventas-sec7</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_09.html#index-0">howto.ventas-sec8</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_10.html#index-0">howto.ventas-sec9</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_20.html#index-0">howto.ventas.contrareembolso</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_24.html#index-0">howto.ventas.credito</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_15a.html#index-0">howto.ventas.importarprecios</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_25.html#index-0">howto.ventas.kit</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_16.html#index-0">howto.ventas.precios</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_22.html#index-0">howto.ventas.punto</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_15.html#index-0">howto.ventas.reservations</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_17.html#index-0">howto.ventas.revertirprecios</a>
+  </dt>
+
+      
+  <dt><a href="howtos/ventas/ventas_21.html#index-0">howto.ventas.tendencias</a>
+  </dt>
+
+      
+  <dt><a href="howtos/web/04_others.html#index-1">howto.web</a>, <a href="howtos/web/01_intro.html#index-1">[1]</a>, <a href="howtos/web/02_sections.html#index-1">[2]</a>, <a href="howtos/web/03_cart.html#index-1">[3]</a>
+  </dt>
+
+      
+  <dt><a href="howtos/web/03_cart.html#index-0">howto.web.cart</a>
+  </dt>
+
+      
+  <dt><a href="howtos/web/01_intro.html#index-0">howto.web.intro</a>
+  </dt>
+
+      
+  <dt><a href="howtos/web/02_sections.html#index-0">howto.web.sections</a>
+  </dt>
+
+      
+  <dt><a href="howtos/web/04_others.html#index-0">howto.web.seo</a>
+  </dt>
+
+  </dl></td>
+</tr></table>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+   <h4>Index</h4>
+   <p><a href="genindex-B.html"><strong>B</strong></a>
+     | <a href="genindex-C.html"><strong>C</strong></a>
+     | <a href="genindex-D.html"><strong>D</strong></a>
+     | <a href="genindex-E.html"><strong>E</strong></a>
+     | <a href="#"><strong>H</strong></a>
+     | <a href="genindex-I.html"><strong>I</strong></a>
+     | <a href="genindex-L.html"><strong>L</strong></a>
+     | <a href="genindex-M.html"><strong>M</strong></a>
+     | <a href="genindex-O.html"><strong>O</strong></a>
+     | <a href="genindex-P.html"><strong>P</strong></a>
+     | <a href="genindex-S.html"><strong>S</strong></a>
+     | <a href="genindex-T.html"><strong>T</strong></a>
+     | <a href="genindex-V.html"><strong>V</strong></a>
+     | <a href="genindex-W.html"><strong>W</strong></a>
+     </p>
+
+   <p><a href="genindex-all.html"><strong>Índice completo en una página</strong></a></p>
+   
+
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Índice General"
+             >índice</a></li>
+<li><a href="index.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

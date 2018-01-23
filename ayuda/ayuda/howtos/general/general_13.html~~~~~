@@ -1,0 +1,480 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>8.13. SINLI &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="8. General" href="../11_general.html" />
+    <link rel="next" title="8.14. ¿Qué son y para que se utilizan los atributos parametrizables?" href="general_14.html" />
+    <link rel="prev" title="8.12. ¿Cómo crear tareas programadas?" href="general_12.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-fierro.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="general_14.html" title="8.14. ¿Qué son y para que se utilizan los atributos parametrizables?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_12.html" title="8.12. ¿Cómo crear tareas programadas?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" accesskey="U">8. General</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="sinli">
+<h1>8.13. SINLI<a class="headerlink" href="#sinli" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>SINLI (Sistema de Información Normalizada para el Libro) es un conjunto de
+documentos normalizados que permite la distribución de los mismos a través de
+correo electrónico. Este es un sistema simple que permitirá ahorrar costos,
+tiempo y dinero. Abarca todos los documentos que fluyen entre las Librerías,
+Distribuidoras y Editoriales.</p>
+<div class="section" id="que-son-los-identificadores-sinli">
+<h2>8.13.1. ¿Qué son los identificadores SINLI?<a class="headerlink" href="#que-son-los-identificadores-sinli" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La empresa debe solicitar a la Cámara Argentina del Libro el código SINLI con el
+cual se identificará. También deberá registrar un mail para poder utilizar el
+servicio. Estos datos deben ser configurados en el Sistema para que sean los
+identificadores de la empresa.</p>
+<p>Para poder establecer la relación con los Proveedores o Clientes con los que van
+a intercambiar documentos SINLI se deben configurar campos adicionales con los
+códigos identificadores en la ficha de cada uno. De esta manera, cuando se envíe
+o se reciba un mensaje SINLI el sistema podrá saber, a través de este código
+nomalizado, a que Cliente o Proveedor refiere el mensaje.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Campos a configurar</strong></p>
+<ul class="last simple">
+<li>Código SINLIArg</li>
+<li>Código de Sucursal SINLIArg (sólo para Clientes)</li>
+<li>Email SINLIArg</li>
+</ul>
+</div>
+<div class="section" id="como-configurar-los-atributos-sinli-en-un-proveedor-o-cliente">
+<h3>8.13.1.1. ¿Cómo configurar los atributos SINLI en un Proveedor o Cliente?<a class="headerlink" href="#como-configurar-los-atributos-sinli-en-un-proveedor-o-cliente" title="Enlazar permanentemente con este título">¶</a></h3>
+<ol class="arabic simple">
+<li>Solicitar al Proveedor o al Cliente el código SINLI y el e-mail registrado.</li>
+<li>Ingresar al sistema Fierro e ir al menú correspondiente en cada caso:<ul>
+<li><em class="guilabel">Compras</em><em class="guilabel">Proveedores</em></li>
+<li><em class="guilabel">Ventas</em><em class="guilabel">Clientes</em></li>
+</ul>
+</li>
+<li>Buscar el Proveedor/Cliente al cual se desea asignar un código SINLI y seleccionarlo.</li>
+<li>Seleccionar el menú <em class="guilabel">Ventana Activa</em><em class="guilabel">Modificar</em>.</li>
+<li>Dentro de la ficha del Proveedor/Cliente, ir a la solapa <em class="guilabel">Campos Adicionales</em>.</li>
+<li>Seleccionar el atributo y hacer click en el botón <em class="guilabel">Modificar</em>.</li>
+</ol>
+</div>
+</div>
+<div class="section" id="bandeja-de-entrada-y-salida">
+<h2>8.13.2. Bandeja de Entrada y Salida<a class="headerlink" href="#bandeja-de-entrada-y-salida" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El sistema cuenta con una Bandeja de Entrada y de Salida, asociada a la
+dirección de e-mail de SINLI, para facilitar el envío y recepción de los
+documentos y mensajes que genera SINLI sin la necesidad de acceder al correo
+electrónico. El envío y recepción de los mensajes se hace automáticamente, a
+través de tareas programadas que se ejecutan con intervalo de 1 minuto.</p>
+<p>Para acceder debe ir al menú <em class="guilabel">Sistema</em><em class="guilabel">Bandeja E/S</em></p>
+<div class="figure">
+<img alt="../../_images/bandeja-E-S.jpg" src="../../_images/bandeja-E-S.jpg" />
+</div>
+<p>La pantalla cuenta con diferentes filtros de búsqueda:</p>
+<ul class="simple">
+<li>Remitente</li>
+<li>Destinatario</li>
+<li>Fecha del mensaje (Que indica cuándo se generó el mensaje)</li>
+<li>Fecha de env/rec (Que indica cuando se envió o recibió el mensaje)</li>
+<li>Descripción</li>
+<li>Bandeja: Bandeja de entrada; Bandeja de Salida; Todos</li>
+</ul>
+<p>Los mensajes SINLI pueden tener diferentes estados, según sea mensaje de
+Salida o Entrada.</p>
+<p>Los mensajes de <em class="guilabel">Salida</em> pueden estar en estado:</p>
+<ul class="simple">
+<li><em>Pendiente</em>: Cuando se genera un documento que aún no se ha enviado.</li>
+<li><em>Enviado</em>: Una vez que documento fue enviado con éxito al destinatario.</li>
+</ul>
+<p>Los mensajes de <em class="guilabel">Entrada</em> pueden estar en estado:</p>
+<ul class="simple">
+<li><em>Pendiente</em>: El documento al que refiere el mensaje no fue procesado aún.</li>
+<li><em>Procesado</em>: El mensaje SINLI que ingresó fue procesado, y el documento
+correspondiente fue creado.</li>
+</ul>
+<p>Cuando se recibe un mensaje SINLI se envía un mail con la notificación a una
+dirección de correo electrónico que debe ser configurada, para ello comunicarse
+al área de Soporte. Si hubo algún error en el proceso de recpeción de mensajes,
+se enviará un mail con el error a la dirección de correo que esté configurada en
+la Tarea Programada correspondiente.</p>
+<p>Las notificaciones tienen como Remitente a la cuenta de correo electrónico que
+tiene configurada el usuario para el envío de mails desde Fierro. En caso de que
+el usuario no tenga una cuenta configurada, se utilizará la predeterminada del
+sistema.</p>
+</div>
+<div class="section" id="cuales-son-los-documentos-que-contempla-sinli">
+<h2>8.13.3. ¿Cuáles son los documentos que contempla SINLI?<a class="headerlink" href="#cuales-son-los-documentos-que-contempla-sinli" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los documentos que estan contemplados son:</p>
+<ul class="simple">
+<li>Pedidos (Firme y en Consignación)</li>
+<li>Pedidos de Baja</li>
+<li>Factura Remito</li>
+<li>Remito</li>
+<li>Facturas de Baja</li>
+</ul>
+</div>
+<div class="section" id="como-generar-un-pedido-a-proveedor-con-sinli">
+<h2>8.13.4. ¿Cómo generar un Pedido a Proveedor con SINLI?<a class="headerlink" href="#como-generar-un-pedido-a-proveedor-con-sinli" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Crear un:guilabel:<cite>Pedido a Proveedor</cite> con alguna de las herramientas de
+Fierro (Manualmente, Generación automática, A múltiples proveedores, etc.).</p>
+<p><em>El Proveedor debe tener los datos SINLI completos en su ficha</em></p>
+</li>
+<li><p class="first">El Pedido genera un mensaje SINLI de salida en estado Pendiente.</p>
+<p>Este mensaje se puede ver en la <em class="guilabel">Bandeja de E/S</em>.</p>
+</li>
+<li><p class="first">El mensaje SINLI se envía automáticamente, cambiando de estado a Enviado.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="como-hacer-la-recepcion-de-pedidos-de-clientes-con-sinli">
+<h2>8.13.5. ¿Cómo hacer la recepción de Pedidos de Clientes con SINLI?<a class="headerlink" href="#como-hacer-la-recepcion-de-pedidos-de-clientes-con-sinli" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Recibirá un mensaje SINLI de entrada en la <em class="guilabel">Bandeja de E/S</em>
+proveniente de un Cliente.</p>
+<p>El mensaje informa que es un Pedido.</p>
+<p>También recibirá en el mail una notificación.</p>
+</li>
+<li><p class="first">Crear un nuevo <em class="guilabel">Pedido de Cliente</em>.</p>
+</li>
+<li><p class="first">Al asignarle el Cliente del cual provino el mensaje, se abrirá una ventana
+que le da la opción de seleccionar un mensaje SINLI para procesar.</p>
+</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/seleccionar-pedido.jpg" src="../../_images/seleccionar-pedido.jpg" />
+</div>
+<ol class="arabic simple">
+<li>Al seleccionar el mensaje SINLI se cargarán todos los ítems y datos del
+Cliente.</li>
+<li>Al guardar el Pedido, se abrirá un cartel para indicar que se procesó un
+mensaje SINLI.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/procesar-pedido.jpg" src="../../_images/procesar-pedido.jpg" />
+</div>
+<ol class="arabic simple">
+<li>Si selecciona la opción de procesar el mensaje, el mensaje en la
+<em class="guilabel">Bandeja de E/S</em> cambiará de estado a <em class="guilabel">Procesado</em> y en la
+columna <em class="guilabel">Documento</em> se verá el número de PE asociado al mensaje del
+Cliente.</li>
+</ol>
+</div>
+<div class="section" id="como-emitir-una-facturo-y-o-remito-para-un-cliente-con-sinli">
+<h2>8.13.6. ¿Cómo emitir una Facturo y/o Remito para un Cliente con SINLI?<a class="headerlink" href="#como-emitir-una-facturo-y-o-remito-para-un-cliente-con-sinli" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Generar una <em class="guilabel">Factura y/o Remito de venta</em> con cualquiera de las
+herramientas de Fierro (Manual, Desde pedidos, Desde cajas, etc).</li>
+<li>Al guardar la Factura/Remito se genera un mensaje SINLI de salida en estado
+<em>Pendiente</em>. Este mensaje se puede ver en la <em class="guilabel">Bandeja de E/S</em>.</li>
+<li>El mensaje SINLI se enviará automáticamente, cambiando de estado a <em>Enviado</em></li>
+</ol>
+</div>
+<div class="section" id="como-ingresar-una-factura-remito-de-un-proveedor-con-sinli">
+<h2>8.13.7. ¿Cómo ingresar una Factura/Remito de un Proveedor con SINLI?<a class="headerlink" href="#como-ingresar-una-factura-remito-de-un-proveedor-con-sinli" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Recibirá un mensaje SINLI de entrada en la <em class="guilabel">Bandeja de E/S</em>
+proveniente de un Proveedor.</p>
+<p>El mensaje informa el tipo de documento.</p>
+</li>
+<li><p class="first">Crear una <em class="guilabel">Factura/Remito de Compra</em> según corresponda.</p>
+</li>
+<li><p class="first">Al asignarle el Proveedor del cual provino el mensaje, se abrirá una ventana
+que le da la opción de seleccionar un mensaje SINLI para procesar.</p>
+</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/seleccionar-FR.jpg" src="../../_images/seleccionar-FR.jpg" />
+</div>
+<ol class="arabic simple">
+<li>Al seleccionar el mensaje SINLI se cargarán todos los ítems y datos del Proveedor.</li>
+<li>Luego de guardar la Factura/Remito, se abrirá un cartel para indicar que se
+procesó un mensaje SINLI.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/mensaje-procesado.jpg" src="../../_images/mensaje-procesado.jpg" />
+</div>
+<ol class="arabic simple">
+<li>Si selecciona la opción de procesar el mensaje, el mensaje en la
+<em class="guilabel">Bandeja de E/S</em> cambiará de estado a <em>Procesado</em> y en la columna
+<em class="guilabel">Documento</em> se verá el número de FR asociado al mensaje del
+Proveedor.</li>
+</ol>
+</div>
+<div class="section" id="como-generar-un-pedido-de-baja-a-un-proveedor-con-sinli">
+<h2>8.13.8. ¿Cómo generar un Pedido de Baja a un Proveedor con SINLI?<a class="headerlink" href="#como-generar-un-pedido-de-baja-a-un-proveedor-con-sinli" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Crear un <em class="guilabel">Pedido de Baja a Proveedor</em> con alguna de las
+herramientas de Fierro (Manualmente, Generación automática, A múltiples
+proveedores, etc.).</p>
+<p><em>El Proveedor debe tener los datos SINLI completos en su ficha.</em></p>
+</li>
+<li><p class="first">El Pedido de Baja genera un mensaje SINLI de salida en estado Pendiente.</p>
+<p>Este mensaje se puede ver en la <em class="guilabel">Bandeja de E/S</em>.</p>
+</li>
+<li><p class="first">El mensaje SINLI se envía automáticamente, cambiando de estado a <em>Enviado</em>.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="como-hacer-la-carga-de-pedidos-de-baja-de-clientes-con-sinli">
+<h2>8.13.9. ¿Cómo hacer la carga de Pedidos de Baja de Clientes con SINLI?<a class="headerlink" href="#como-hacer-la-carga-de-pedidos-de-baja-de-clientes-con-sinli" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Recibirá un mensaje SINLI de entrada en la:guilabel:<cite>Bandeja de E/S</cite>
+proveniente de un Cliente.</p>
+<p>El mensaje informa que es un Pedido de Baja.</p>
+<p>También recibirá en el mail una notificación.</p>
+</li>
+<li><p class="first">Crear un nuevo <em class="guilabel">Pedido de Baja de Cliente</em>.</p>
+</li>
+<li><p class="first">Al asignarle el Cliente del cual provino el mensaje, se abrirá una ventana que le da la opción de seleccionar un mensaje SINLI
+para procesar.</p>
+</li>
+<li><p class="first">Seleccionar el mensaje SINLI que se desea procesar y se cargarán todos los ítems y datos del Cliente.</p>
+</li>
+<li><p class="first">Luego de guardar el Pedido de Baja, se abrirá un cartel para indicar que se procesó un mensaje SINLI.</p>
+</li>
+<li><p class="first">Si selecciona la opción de procesar el mensaje, el mensaje en la Bandeja de E/S cambiará de estado a Procesado y en la columna
+Documento se verá el número del PB asociado al mensaje del
+Cliente.</p>
+</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/pedido-pedido-baja.png" src="../../_images/pedido-pedido-baja.png" />
+</div>
+</div>
+<div class="section" id="como-facturar-un-pedido-de-baja-de-cliente-con-sinli">
+<h2>8.13.10. ¿Cómo facturar un Pedido de Baja de Cliente con SINLI?<a class="headerlink" href="#como-facturar-un-pedido-de-baja-de-cliente-con-sinli" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Generar una nueva <em class="guilabel">Factura de venta sin movimiento de stock</em> desde
+cualquiera de las herramientas de Fierro (Manual, Desde Pedidos, Desde Cajas,
+etc).</p>
+</li>
+<li><p class="first">Al guardar la Factura/Remito se genera un mensaje SINLI de salida en estado
+<em>Pendiente</em>.</p>
+<p>Este mensaje se puede ver en la <em class="guilabel">Bandeja de E/S</em>.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="como-emitir-una-factura-de-compra-de-baja-de-consignacion-con-sinli">
+<h2>8.13.11. ¿Cómo emitir una Factura de Compra de Baja de Consignación con SINLI?<a class="headerlink" href="#como-emitir-una-factura-de-compra-de-baja-de-consignacion-con-sinli" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Recibirá un mensaje SINLI de entrada en la <em class="guilabel">Bandeja de E/S</em>
+proveniente de un Proveedor.</p>
+<p>El mensaje informa que es una Factura.</p>
+<p>También recibirá en el mail una notificación.</p>
+</li>
+<li><p class="first">Crear una nueva:guilabel:<cite>Factura de Compra</cite>.</p>
+</li>
+<li><p class="first">Al asignarle el Proveedor del cual provino el mensaje, se abrirá una ventana
+que le da la opción de seleccionar un mensaje SINLI para
+procesar.</p>
+</li>
+<li><p class="first">Al seleccionar el mensaje SINLI se cargarán todos los ítems y datos del
+Proveedor.</p>
+</li>
+<li><p class="first">El mensaje SINLI quedará asociado a la Factura del Cliente que se creó.</p>
+<p>Esto se puede ver en el mensaje SINLI desde la:guilabel:<cite>Bandeja de E/S</cite>.</p>
+</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/documento-compra-venta.png" src="../../_images/documento-compra-venta.png" />
+</div>
+</div>
+<div class="section" id="como-reenviar-un-mensaje">
+<h2>8.13.12. ¿Cómo reenviar un mensaje?<a class="headerlink" href="#como-reenviar-un-mensaje" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En caso de ser necesario enviar nuevamente un mensaje, ir al menú
+<em class="guilabel">Ventana Activa</em><em class="guilabel">Re-enviar mensaje</em>.</p>
+</div>
+<div class="section" id="que-sucede-si-en-el-pedido-se-agrego-un-libro-que-no-existe-en-el-catalogo-de-la-editorial-distribuidora">
+<h2>8.13.13. ¿Qué sucede si en el Pedido se agregó un libro que no existe en el catálogo de la Editorial/Distribuidora?<a class="headerlink" href="#que-sucede-si-en-el-pedido-se-agrego-un-libro-que-no-existe-en-el-catalogo-de-la-editorial-distribuidora" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Mientras que se procesa un Pedido, si hay un ítem que no está registrado en la
+base de datos de la Editorial o Distribuidora, se abrirá una ventana que indica
+<em class="guilabel">Error procesando mensaje</em>. Los ítems válidos se cargarán
+automáticamente en el documento.</p>
+<p>Los errores reportados en el mensaje se pueden guardar con el botón
+<em class="guilabel">Guardar errores...</em>. De esta manera le permitirá ver cuáles fueron
+los libros no encontrados.</p>
+<p>Los libros no encontrados los deberá cargar manualmente. Para eso seleccionar el
+botón <img alt="/icons/lupa.png" class="inlinegraphic" src="../../_images/lupa.png" /> . Se abrirá el <em class="guilabel">Panel de Selección de
+Libros</em>, donde tiene la posibilidad de buscar el libro en su catálogo, realizar
+una importación desde una fuente externa, o bien ingresarlo con la creación de
+un nuevo libro.</p>
+<p>Se deberá avisar a la librería por teléfono o por otro medio de comunicación que
+hubo un libro que no se pudo procesar.</p>
+</div>
+<div class="section" id="que-sucede-si-en-la-factura-remito-hay-libros-que-no-existen-en-el-catalogo-de-la-libreria">
+<h2>8.13.14. ¿Qué sucede si en la Factura/Remito hay libros que no existen en el catálogo de la Librería?<a class="headerlink" href="#que-sucede-si-en-la-factura-remito-hay-libros-que-no-existen-en-el-catalogo-de-la-libreria" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Al realizar la carga de la Factura/Remito, si hay un ítem que no existe en el
+catálogo de la Librería, se abrirá una ventana que indica <em class="guilabel">Error
+procesando mensaje</em>. Los ítems válidos se cargarán automáticamente en el
+documento.</p>
+<p>Los errores reportados en el mensaje se pueden guardar con el botón
+<em class="guilabel">Guardar errores...</em>. De esta manera le permitirá ver cuáles fueron
+los libros no encontrados.</p>
+<p>Los libros no encontrados los deberá cargar manualmente. Para eso seleccionar el
+botón <img alt="/icons/lupa.png" class="inlinegraphic" src="../../_images/lupa.png" /> . Se abrirá el <em class="guilabel">Panel de Selección de
+Libros</em>, donde tiene la posibilidad de buscar el libro en su catálogo, realizar
+una importación desde una fuente externa, o bien ingresarlo con la creación de
+un nuevo libro.</p>
+</div>
+<div class="section" id="como-se-genera-un-catalogo-sinli">
+<h2>8.13.15. ¿Cómo se genera un catálogo SINLI?<a class="headerlink" href="#como-se-genera-un-catalogo-sinli" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El catálogo SINLI permite el envío de un grupo de libros disponibles mediante el
+sistema SINLI de la editorial para su carga en la base del cliente.</p>
+<p>Dentro del sistema Fierro, se debe ir al menú Catálogo -&gt; Reportes, y generar el
+<em class="guilabel">Reporte de catálogo</em>. En la ventana que se abre, se debe seleccionar como
+opción de reporte <em class="guilabel">Catalogo de SINLI</em>. Luego, si se quiere, se puede filtrar
+qué libros serán comprendidos.</p>
+<div class="figure">
+<img alt="../../_images/catalogoSINLI.png" src="../../_images/catalogoSINLI.png" />
+</div>
+<p>Una vez aplicados los filtros, al hacer clic en <em class="guilabel">Aceptar</em>, se generará el
+catálogo y se abrirá la ventana de selección de salidas donde podrá elegir guardarlo
+o enviarlo por e-mail. Para enviar dicho catálogo
+a un cliente, seleccione la opción <em class="guilabel">Enviar por e-mail</em>, y llene el formulario
+con los datos que se le solicitan.</p>
+</div>
+<div class="section" id="como-se-importa-un-catalogo-sinli">
+<h2>8.13.16. ¿Cómo se importa un catálogo SINLI?<a class="headerlink" href="#como-se-importa-un-catalogo-sinli" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Dentro del sistema Fierro se debe ir a la pestaña <em class="guilabel">Catálogo</em>, y seleccionar
+la opción <em class="guilabel">Importación masiva de libros</em>. Allí, en la opción Fuente, se debe
+seleccionar <em class="guilabel">Archivo de catálogo (SINLI)</em>,
+y hacer clic en el ícono <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" />. En la ventana que se abre, se
+selecciona el archivo de extensión <em class="guilabel">.wsld</em> provisto por la editorial.</p>
+<p>Una vez ingresados los titulos, se los debe seleccionar todos, y hacer clic en el icono
+<img alt="/icons/22validar.png" class="inlinegraphic" src="../../_images/22validar.png" />. Hecho esto, al presionar el botón &#8216;Aceptar&#8217; se crearán
+los titulos en el sistema.</p>
+<div class="figure">
+<img alt="../../_images/catalogoSINLI2.png" src="../../_images/catalogoSINLI2.png" />
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../manual.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">8.13. SINLI</a><ul>
+<li><a class="reference internal" href="#que-son-los-identificadores-sinli">8.13.1. ¿Qué son los identificadores SINLI?</a><ul>
+<li><a class="reference internal" href="#como-configurar-los-atributos-sinli-en-un-proveedor-o-cliente">8.13.1.1. ¿Cómo configurar los atributos SINLI en un Proveedor o Cliente?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#bandeja-de-entrada-y-salida">8.13.2. Bandeja de Entrada y Salida</a></li>
+<li><a class="reference internal" href="#cuales-son-los-documentos-que-contempla-sinli">8.13.3. ¿Cuáles son los documentos que contempla SINLI?</a></li>
+<li><a class="reference internal" href="#como-generar-un-pedido-a-proveedor-con-sinli">8.13.4. ¿Cómo generar un Pedido a Proveedor con SINLI?</a></li>
+<li><a class="reference internal" href="#como-hacer-la-recepcion-de-pedidos-de-clientes-con-sinli">8.13.5. ¿Cómo hacer la recepción de Pedidos de Clientes con SINLI?</a></li>
+<li><a class="reference internal" href="#como-emitir-una-facturo-y-o-remito-para-un-cliente-con-sinli">8.13.6. ¿Cómo emitir una Facturo y/o Remito para un Cliente con SINLI?</a></li>
+<li><a class="reference internal" href="#como-ingresar-una-factura-remito-de-un-proveedor-con-sinli">8.13.7. ¿Cómo ingresar una Factura/Remito de un Proveedor con SINLI?</a></li>
+<li><a class="reference internal" href="#como-generar-un-pedido-de-baja-a-un-proveedor-con-sinli">8.13.8. ¿Cómo generar un Pedido de Baja a un Proveedor con SINLI?</a></li>
+<li><a class="reference internal" href="#como-hacer-la-carga-de-pedidos-de-baja-de-clientes-con-sinli">8.13.9. ¿Cómo hacer la carga de Pedidos de Baja de Clientes con SINLI?</a></li>
+<li><a class="reference internal" href="#como-facturar-un-pedido-de-baja-de-cliente-con-sinli">8.13.10. ¿Cómo facturar un Pedido de Baja de Cliente con SINLI?</a></li>
+<li><a class="reference internal" href="#como-emitir-una-factura-de-compra-de-baja-de-consignacion-con-sinli">8.13.11. ¿Cómo emitir una Factura de Compra de Baja de Consignación con SINLI?</a></li>
+<li><a class="reference internal" href="#como-reenviar-un-mensaje">8.13.12. ¿Cómo reenviar un mensaje?</a></li>
+<li><a class="reference internal" href="#que-sucede-si-en-el-pedido-se-agrego-un-libro-que-no-existe-en-el-catalogo-de-la-editorial-distribuidora">8.13.13. ¿Qué sucede si en el Pedido se agregó un libro que no existe en el catálogo de la Editorial/Distribuidora?</a></li>
+<li><a class="reference internal" href="#que-sucede-si-en-la-factura-remito-hay-libros-que-no-existen-en-el-catalogo-de-la-libreria">8.13.14. ¿Qué sucede si en la Factura/Remito hay libros que no existen en el catálogo de la Librería?</a></li>
+<li><a class="reference internal" href="#como-se-genera-un-catalogo-sinli">8.13.15. ¿Cómo se genera un catálogo SINLI?</a></li>
+<li><a class="reference internal" href="#como-se-importa-un-catalogo-sinli">8.13.16. ¿Cómo se importa un catálogo SINLI?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="general_12.html"
+                        title="Capítulo anterior">8.12. ¿Cómo crear tareas programadas?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="general_14.html"
+                        title="Próximo capítulo">8.14. ¿Qué son y para que se utilizan los atributos parametrizables?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="general_14.html" title="8.14. ¿Qué son y para que se utilizan los atributos parametrizables?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_12.html" title="8.12. ¿Cómo crear tareas programadas?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" >8. General</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

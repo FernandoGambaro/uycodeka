@@ -1,0 +1,150 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4.9. Facturación de la consignación &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="4. Venta Mayorista" href="../07_ventamayorista.html" />
+    <link rel="next" title="4.10. Creación de un pedido en firme" href="ventas_7.html" />
+    <link rel="prev" title="4.8. Creación del pedido de baja" href="ventas_5.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_7.html" title="4.10. Creación de un pedido en firme"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_5.html" title="4.8. Creación del pedido de baja"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" accesskey="U">4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="facturacion-de-la-consignacion">
+<h1>4.9. Facturación de la consignación<a class="headerlink" href="#facturacion-de-la-consignacion" title="Enlazar permanentemente con este título">¶</a></h1>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Facturas de venta</em>.</p>
+</li>
+<li><p class="first">Pulsar el ícono <img alt="/icons/CrearFacturaVenta.png" class="inlinegraphic" src="../../_images/CrearFacturaVenta.png" /> en la barra de
+herramientas. Se abrirá la pantalla de Nueva Factura:</p>
+<div class="figure">
+<img alt="../../_images/NuevaFacturaBaja.png" src="../../_images/NuevaFacturaBaja.png" />
+<p class="caption">Pantalla Nueva Factura</p>
+</div>
+</li>
+<li><p class="first">Una vez que se ingresa el cliente, puede buscarse un pedido de baja pendiente
+que corresponda al mismo, o bien agregar un remito, o también ingresar libros
+manualmente</p>
+</li>
+<li><p class="first">En la carga de la factura puede observarse que:</p>
+<ul class="simple">
+<li>El sistema asigna la factura a los pedidos de baja pendientes. Esto se
+muestra con el semáforo en la columna PB.</li>
+<li>El sistema asigna la factura a los remitos pendientes. Esto se muestra con
+el semáforo en la columna RE.</li>
+</ul>
+</li>
+<li><p class="first">Al pulsar <em class="guilabel">Aceptar</em> para cerrar la factura, el sistema sugiere
+enviarla a la cuenta corriente (crédito).</p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_5.html"
+                        title="Capítulo anterior">4.8. Creación del pedido de baja</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_7.html"
+                        title="Próximo capítulo">4.10. Creación de un pedido en firme</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_7.html" title="4.10. Creación de un pedido en firme"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_5.html" title="4.8. Creación del pedido de baja"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" >4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

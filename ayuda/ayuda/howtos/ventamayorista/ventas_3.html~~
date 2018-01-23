@@ -1,0 +1,195 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4.6. ¿Qué es el bloqueo de pedidos? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="4. Venta Mayorista" href="../07_ventamayorista.html" />
+    <link rel="next" title="4.7. Creación de remitos" href="ventas_4.html" />
+    <link rel="prev" title="4.5. ¿Cómo crear pedidos masivamente?" href="ventas_2.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_4.html" title="4.7. Creación de remitos"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_2.html" title="4.5. ¿Cómo crear pedidos masivamente?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" accesskey="U">4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <span class="target" ></span><div class="section" id="que-es-el-bloqueo-de-pedidos">
+<span id="index-1"></span><h1>4.6. ¿Qué es el bloqueo de pedidos?<a class="headerlink" href="#que-es-el-bloqueo-de-pedidos" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Criterios</strong></p>
+<p class="last">Dadas ciertas pautas o criterios, al momento de crear un pedido de
+cliente el sistema evalúa si el mismo ha de generarse o no bloqueado, es
+decir, habilitado o no para su cumplimiento mediante factura o
+remito.</p>
+</div>
+<p>La secuencia habitual es como sigue:</p>
+<ol class="arabic">
+<li><p class="first">En cada <em class="guilabel">condición de venta</em>, en su solapa <em>Bloqueo de pedidos</em>, se
+configuran los criterios de bloqueo que habrán de aplicarse
+(<em>véase</em> <a class="reference internal" href="../ventas/ventas_06.html#howto-ventas-sec6"><em>¿Cómo crear condiciones de venta?</em></a>).</p>
+</li>
+<li><p class="first">Cuando se crea un pedido, el sistema evalúa los criterios de bloqueo de
+acuerdo a la condición de venta del cliente. Según ello, el pedido se
+generará en dos posibles estados: o bien <em>Bloqueado</em>, o bien <em>Pendiente</em> (es
+decir, disponible para su cumplimiento).</p>
+</li>
+<li><p class="first">El responsable de decidir si un pedido ha de desbloquearse puede hacerlo en
+la consulta de pedidos, pulsando el botón <img alt="/icons/22cambiarEstado.png" class="inlinegraphic" src="../../_images/22cambiarEstado.png" /> en la barra de herramientas. Con ello, se
+presenta un editor con el cual se opta entre dos estados: <em>Pendiente</em> o
+<em>Cancelado</em>.</p>
+<div class="figure">
+<img alt="../../_images/desbloquearPedido.png" src="../../_images/desbloquearPedido.png" />
+<p class="caption">Cambio de estado</p>
+</div>
+<p>El mismo botón se encuentra además en la vista General del pedido, en su
+columna <em>Estado</em>, donde actúa individualmente a nivel de item. Allí, también,
+puede volverse atrás un bloqueo mediante el botón <img alt="/icons/undo.png" class="inlinegraphic" src="../../_images/undo.png" />.</p>
+<div class="figure">
+<img alt="../../_images/deshacerCambio.png" src="../../_images/deshacerCambio.png" />
+<p class="caption">Revertir cambio</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">El botón <img alt="/icons/22cambiarEstado.png" class="inlinegraphic" src="../../_images/22cambiarEstado.png" /> puede usarse, tanto sobre
+un pedido completo como sobre items específicos del mismo, para
+cambiarlos manualmente de <em>Pendiente</em> a <em>Bloqueado</em>.</p>
+</div>
+</li>
+<li><p class="first">Cuando Fierro crea un pedido bloqueado automáticamente, le agrega
+una <em class="guilabel">nota</em>, también en forma automática, con el motivo del bloqueo.</p>
+<div class="figure">
+<img alt="../../_images/notaBloqueo.png" src="../../_images/notaBloqueo.png" />
+<p class="caption">Nota automática</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Advertencia</p>
+<p class="last">Debe tenerse la precaución de eliminar estas notas automáticas si el
+pedido finalmente ha de cumplimentarse pues, en la impresión de remitos
+y facturas, se imprimirá la primera de ellas.</p>
+</div>
+<p>Existe un <em class="guilabel">reporte</em> que permite analizar el estado de los clientes
+en base al bloqueo de sus pedidos, y con ello anticipar dicha situación y
+darles aviso. De hecho, el reporte se desarrolló con la idea de
+proporcionarlo a los <em class="guilabel">vendedores</em> para que puedan informar a sus
+clientes.</p>
+<p>Se genera en <em class="menuselection">Ventas ‣ Reportes ‣ Clientes</em>, y allí, en
+<em>Estilo de reporte</em>, debe elegirse Listado de clientes, opción Reporte de
+bloqueos.</p>
+<p>Otro lugar que permite anticipar un bloqueo es la opción básica del <em>resumen
+de cuenta</em> (<em class="menuselection">Ventas ‣ Reportes ‣ Consignaciones y cuentas
+corrientes ‣ Resúmenes de cuenta</em>). Allí, se imprimen leyendas
+correspondientes a posibles motivos de bloqueo:</p>
+<div class="figure">
+<img alt="../../_images/leyendaResumen.png" src="../../_images/leyendaResumen.png" />
+<p class="caption">Leyenda en resumen</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_2.html"
+                        title="Capítulo anterior">4.5. ¿Cómo crear pedidos masivamente?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_4.html"
+                        title="Próximo capítulo">4.7. Creación de remitos</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_4.html" title="4.7. Creación de remitos"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_2.html" title="4.5. ¿Cómo crear pedidos masivamente?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" >4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

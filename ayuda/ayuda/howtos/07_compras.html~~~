@@ -1,0 +1,180 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>3. Compras &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../index.html" />
+    <link rel="next" title="1. ¿Cómo agregar una sugerencia de compra?" href="compras/compras_01.html" />
+    <link rel="prev" title="27. ¿Cómo trabajar con Kits?" href="ventas/ventas_25.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../index.html">
+      <img class="logo" src="../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="compras/compras_01.html" title="1. ¿Cómo agregar una sugerencia de compra?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas/ventas_25.html" title="27. ¿Cómo trabajar con Kits?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../index.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="compras">
+<h1>3. Compras<a class="headerlink" href="#compras" title="Enlazar permanentemente con este título">¶</a></h1>
+<p id="index-0">Operaciones del módulo de Compras</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_01.html">1. ¿Cómo agregar una sugerencia de compra?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_02.html">2. ¿Cómo generar pedidos?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_02.html#como-crear-manualmente-un-pedido-de-mercaderia">2.1. ¿Cómo crear manualmente un pedido de mercadería?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_02.html#como-crear-un-pedido-con-la-generacion-automatica-de-pedidos">2.2. ¿Cómo crear un pedido con la Generación automática de pedidos?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_02.html#como-generar-pedidos-a-varios-proveedores-en-una-misma-operacion">2.3. ¿Cómo generar pedidos a varios proveedores en una misma operación?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_02.html#como-generar-pedidos-a-multiples-proveedores">2.4. ¿Cómo generar pedidos a múltiples proveedores?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_03.html">3. ¿Cómo ingresar una factura remito de tipo reposición o firme?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_03.html#como-prorratear-gastos-en-el-precio-de-costo">3.1. ¿Cómo prorratear gastos en el precio de costo?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_04.html">4. ¿Cómo ingresar un remito de consignación?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_05.html">5. ¿Cómo ingresar una factura de baja de consignación?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_07.html">6. ¿Cómo ingresar una factura con precio de costo?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_08.html">7. ¿Cómo ingresar una Nota de Crédito?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_09.html">8. ¿Cómo crear una Devolución de Consignación?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_10.html">9. ¿Cómo crear una Devolución de material facturado?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_11.html">10. ¿Cómo visualizar la Cuenta Corriente de un Proveedor?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_12.html">11. ¿Cómo crear un nuevo Proveedor?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_12.html#datos-generales-de-la-organizacion">11.1. Datos generales de la organización.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_12.html#direccion-del-proveedor">11.2. Dirección del proveedor.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_12.html#editoriales-que-distribuye">11.3. Editoriales que distribuye</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_12.html#otros-libros-que-distribuye">11.4. Otros libros que distribuye</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_12.html#condicion-de-compra-y-descuentos">11.5. Condición de compra y descuentos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_12.html#factor-de-escalado-de-precios">11.6. Factor de escalado de precios</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_12.html#archivos-asociados-a-un-proveedor">11.7. Archivos asociados a un proveedor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_12.html#notas">11.8. Notas</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_13.html">12. Pago a Proveedores</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_13.html#como-crear-una-orden-de-pago-a-un-proveedor">12.1. ¿Cómo crear una Orden de Pago a un Proveedor?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_13.html#como-crear-un-recibo">12.2. ¿Cómo crear un recibo?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_13.html#que-pasa-cuando-se-paga-un-importe-distinto-a-los-debitos-seleccionados">12.3. ¿Qué pasa cuando se paga un importe distinto a los débitos seleccionados?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_14.html">13. ¿Cómo visualizar los pagos pendientes de un Proveedor?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_15.html">14. ¿Cómo visualizar los pedidos pendientes de un Proveedor?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_16.html">15. Otras operaciones</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_16.html#creacion-de-un-paquete-con-el-original-de-consignacion-de-un-proveedor">15.1. Creación de un paquete con el original de consignación de un proveedor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_16.html#comparacion-de-la-consignacion-del-sistema-contra-la-enviada-por-el-proveedor">15.2. Comparación de la consignación del sistema contra la enviada por el proveedor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_16.html#fusion-administrativa-de-proveedores">15.3. Fusión administrativa de proveedores</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="compras/compras_17.html">16. Costos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_17.html#tipos-de-costos">16.1. Tipos de costos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_17.html#como-se-modifican-los-costos">16.2. Cómo se modifican los costos:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_17.html#cambio-masivo-de-costos">16.3. Cambio masivo de costos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_17.html#regeneracion-de-costos">16.4. Regeneración de costos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_17.html#moneda-y-valorizacion-del-costo">16.5. Moneda y valorización del costo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_17.html#vistas-que-muestran-los-costos">16.6. Vistas que muestran los costos:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compras/compras_17.html#proveedores-que-utilizan-precio-de-costo">16.7. Proveedores que utilizan precio de costo</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas/ventas_25.html"
+                        title="Capítulo anterior">27. ¿Cómo trabajar con Kits?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="compras/compras_01.html"
+                        title="Próximo capítulo">1. ¿Cómo agregar una sugerencia de compra?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="compras/compras_01.html" title="1. ¿Cómo agregar una sugerencia de compra?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas/ventas_25.html" title="27. ¿Cómo trabajar con Kits?"
+             >anterior</a> |</li>
+<li><a href="../index.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>2. ¿Cómo crear un usuario? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="7. Seguridad" href="../10_seguridad.html" />
+    <link rel="next" title="3. ¿Cómo crear un grupo de usuarios?" href="seguridad_03.html" />
+    <link rel="prev" title="1. ¿Cómo crear sucursales y depósitos?" href="seguridad_01.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="seguridad_03.html" title="3. ¿Cómo crear un grupo de usuarios?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="seguridad_01.html" title="1. ¿Cómo crear sucursales y depósitos?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../10_seguridad.html" accesskey="U">7. Seguridad</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-un-usuario">
+<h1>2. ¿Cómo crear un usuario?<a class="headerlink" href="#como-crear-un-usuario" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><ol class="arabic" id="index-1">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Sistema ‣ Usuarios</em>. Se
+abrirá la pantalla Búsqueda de usuarios.</p>
+<div class="figure">
+<img alt="../../_images/scrUserSearch.png" src="../../_images/scrUserSearch.png" />
+<p class="caption">Pantalla Búsqueda de usuarios</p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Crear</em>.Se abrirá la pantalla Nuevo usuario.</p>
+<div class="figure">
+<img alt="../../_images/scrNewUsuario.png" src="../../_images/scrNewUsuario.png" />
+<p class="caption">Pantalla Nuevo usuario</p>
+</div>
+</li>
+<li><p class="first">Completar los siguientes datos:</p>
+<ul class="simple">
+<li><em>Nombre de Usuario</em>: Es el nombre que identifica al usuario y con el que
+ingresa al sistema.</li>
+<li><em>Nombre</em>: Nombre real del usuario.</li>
+<li><em>Apellido</em>: Apellido del usuario.</li>
+</ul>
+</li>
+<li><p class="first">Seleccione los grupos a los que pertenece el usuario. Si el usuario pertenece
+a más de un grupo, tendrá la <em>suma</em> de los permisos de los grupos.</p>
+</li>
+<li><p class="first">Precionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="seguridad_01.html"
+                        title="Capítulo anterior">1. ¿Cómo crear sucursales y depósitos?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="seguridad_03.html"
+                        title="Próximo capítulo">3. ¿Cómo crear un grupo de usuarios?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="seguridad_03.html" title="3. ¿Cómo crear un grupo de usuarios?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="seguridad_01.html" title="1. ¿Cómo crear sucursales y depósitos?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../10_seguridad.html" >7. Seguridad</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>20. ¿Cómo revertir un cambio de precio? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="21. ¿Cómo utilizar el sistema de puntos?" href="ventas_19.html" />
+    <link rel="prev" title="19. ¿Cómo copiar una lista de precios?" href="ventas_16.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_19.html" title="21. ¿Cómo utilizar el sistema de puntos?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_16.html" title="19. ¿Cómo copiar una lista de precios?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-revertir-un-cambio-de-precio">
+<h1>20. ¿Cómo revertir un cambio de precio?<a class="headerlink" href="#como-revertir-un-cambio-de-precio" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Revertir un cambio de precio</strong></p>
+<p class="last">El sistema Fierro cuenta con la opción de revertir un cambio de precios en caso de que sea neceario. Esta reversión  aplica a todos los cambios de precios que se hicieron en una importación. Es decir que no revierte el cambio para un solo título, sino para todos los libros incluidos en esa modificación (si se busca uno de las fichas a la que se le cambió el precio y se aplica la reversión, se van a revertir muchos precios en la misma operación).</p>
+</div>
+<p>Para realizar este proceso hay que seguir los siguiente pasos:</p>
+<ol class="arabic">
+<li><p class="first">Abrir la búsqueda de libros y buscar uno de los artículos incluidos en la modificación que se desea revertir.</p>
+</li>
+<li><p class="first">Seleccionar el título y la vista Historia de Precios.</p>
+<div class="figure">
+<img alt="../../_images/RevertirCambioPrecios1.png" src="../../_images/RevertirCambioPrecios1.png" />
+</div>
+</li>
+<li><p class="first">En el historial de precios, buscar el cambio a revertir.</p>
+</li>
+<li><p class="first">En la linea que corresponde a ese cambio, hacer click en la flecha amarilla.</p>
+<div class="figure">
+<img alt="../../_images/RevertirCambioPrecios2.png" src="../../_images/RevertirCambioPrecios2.png" />
+</div>
+</li>
+<li><p class="first">El sistema muestra un cartel consultando si realmente se desea revertir el cambio de precios e indicando la cantidad de artículos incluidos en esa moficación.</p>
+<div class="figure">
+<img alt="../../_images/RevertirCambioPrecios3.png" src="../../_images/RevertirCambioPrecios3.png" />
+</div>
+</li>
+<li><p class="first">Aceptar y búscar nuevamente el libro para ver la corrección.</p>
+<div class="figure">
+<img alt="../../_images/RevertirCambioPrecios4.png" src="../../_images/RevertirCambioPrecios4.png" />
+</div>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Esta herramienta se habilita mediante permisos, sobre el grupo de usuarios correspondiente, en el permiso Ventas -&gt; Listas de precios -&gt; Revertir cambios de precio.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_16.html"
+                        title="Capítulo anterior">19. ¿Cómo copiar una lista de precios?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_19.html"
+                        title="Próximo capítulo">21. ¿Cómo utilizar el sistema de puntos?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_19.html" title="21. ¿Cómo utilizar el sistema de puntos?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_16.html" title="19. ¿Cómo copiar una lista de precios?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>11. Limitar los resultados &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Búsquedas" href="../03_mantenimiento.html" />
+    <link rel="next" title="12. Anidar y unir búsquedas" href="busqueda_12.html" />
+    <link rel="prev" title="10. Ordenar los resultados de la búsqueda" href="busqueda_10.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="busqueda_12.html" title="12. Anidar y unir búsquedas"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="busqueda_10.html" title="10. Ordenar los resultados de la búsqueda"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_mantenimiento.html" accesskey="U">3. Búsquedas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="limitar-los-resultados">
+<h1>11. Limitar los resultados<a class="headerlink" href="#limitar-los-resultados" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><p id="index-1">Cuando se realiza una búsqueda, es posible limitar la cantidad de resultados
+que aparece en pantalla.</p>
+<p>En la parte inferior derecha de la pantalla de búsqueda, aparece el total de
+resultados visualizados. Si el valor aparece en rojo, indica que el resultado es
+mayor al límite configurado. En este caso, se están perdiendo valores de la
+búsqueda. Ante esta situación, se puede decidir afinar los criterios de
+búsqueda, o cambiar el límite de resultados.</p>
+<p>El límite de resultado puede cambiarse de una de las siguientes formas:</p>
+<ul>
+<li><p class="first">Utilizando el mouse:</p>
+<ol class="arabic">
+<li><p class="first">Posicionar el puntero del mouse sobre el valor del total de resultados mostrados.</p>
+</li>
+<li><p class="first">Realizar click derecho con el mouse.</p>
+<div class="figure">
+<img alt="../../_images/scrStdSearchLimit.png" src="../../_images/scrStdSearchLimit.png" />
+<p class="caption">Selección del límite de la búsqueda</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el valor del límite.</p>
+</li>
+<li><p class="first">Reiterar la búsqueda para obtener los resultados con el nuevo límite</p>
+</li>
+</ol>
+</li>
+<li><p class="first">Utilizando el menú:</p>
+<ol class="arabic simple">
+<li>Seleccionar la opción del menú <em class="menuselection">Ventana Activa ‣ Límite de la búsqueda</em>.</li>
+<li>Seleccionar el valor del límite.</li>
+<li>Reiterar la búsqueda para obtener los resultados con el nuevo límite</li>
+</ol>
+</li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="busqueda_10.html"
+                        title="Capítulo anterior">10. Ordenar los resultados de la búsqueda</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="busqueda_12.html"
+                        title="Próximo capítulo">12. Anidar y unir búsquedas</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="busqueda_12.html" title="12. Anidar y unir búsquedas"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="busqueda_10.html" title="10. Ordenar los resultados de la búsqueda"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_mantenimiento.html" >3. Búsquedas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

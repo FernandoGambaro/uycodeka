@@ -1,0 +1,318 @@
+<?php
+/**
+ * UYCODEKA
+ * Copyright (C) MCC (http://www.mcc.com.uy)
+ *
+ * Este programa es software libre: usted puede redistribuirlo y/o
+ * modificarlo bajo los términos de la Licencia Pública General Affero de GNU
+ * publicada por la Fundación para el Software Libre, ya sea la versión
+ * 3 de la Licencia, o (a su elección) cualquier versión posterior de la
+ * misma.
+ *
+ * Este programa se distribuye con la esperanza de que sea útil, pero
+ * SIN GARANTÍA ALGUNA; ni siquiera la garantía implícita
+ * MERCANTIL o de APTITUD PARA UN PROPÓSITO DETERMINADO.
+ * Consulte los detalles de la Licencia Pública General Affero de GNU para
+ * obtener una información más detallada.
+ *
+ * Debería haber recibido una copia de la Licencia Pública General Affero de GNU
+ * junto a este programa.
+ * En caso contrario, consulte <http://www.gnu.org/licenses/agpl.html>.
+ */
+ 
+session_start();
+require_once('../class/class_session.php');
+/*
+Instantiate a new session object. If session exists, it will be restored,
+otherwise, a new session will be created--placing a sid cookie on the user's
+computer.
+*/
+if (!$s = new session()) {
+  /*
+  There is a problem with the session! The class has a 'log' property that
+  contains a log of events. This log is useful for testing and debugging.
+  */
+  echo "<h2>Ocurrió un error al iniciar session!</h2>";
+  echo $s->log;
+  exit();
+}
+
+if((!$s->data['isLoggedIn']) || !($s->data['isLoggedIn']))
+{
+	/*/user is not logged in*/
+	echo "<script>location.href='../index.php'; </script>";
+   //header("Location:../index.php");	
+
+} else {
+   $loggedAt=$s->data['loggedAt'];
+   $timeOut=$s->data['timeOut'];
+   if(isset($loggedAt) && (time()-$loggedAt >$timeOut)){
+   	$s->data['act']="timeout";
+    	$s->save();  	
+  		//header("Location:../index.php");	
+		echo "<script>window.top.location.href='../index.php'; </script>";
+	   exit;
+   }
+   $s->data['loggedAt']= time();
+   $s->save();
+}
+
+$UserID=$s->data['UserID'];
+$UserNom=$s->data['UserNom'];
+$UserApe=$s->data['UserApe'];
+$UserTpo=$s->data['UserTpo'];
+
+
+include ("../conectar.php");
+include("../common/verificopermisos.php");
+include("../common/funcionesvarias.php");
+include ("../funciones/fechas.php"); 
+//header('Cache-Control: no-cache');
+//header('Pragma: no-cache'); 
+//header('Content-Type: text/html; charset=UTF-8');
+
+$codfactura=$_GET["codfactura"];
+$codproveedor=$_GET["codproveedor"];
+
+$baseimponible='';
+$tipocambio=''; 
+$modif='';
+$total_importe='';
+$codarticulo='';
+
+$sel_alb="SELECT * FROM facturasp WHERE codfactura='$codfactura' AND codproveedor='$codproveedor'";
+$rs_alb=mysqli_query($GLOBALS["___mysqli_ston"], $sel_alb);
+$codproveedor=mysqli_result($rs_alb, 0, "codproveedor");
+$iva=mysqli_result($rs_alb, 0, "iva");
+$fecha=mysqli_result($rs_alb, 0, "fecha");
+$moneda=mysqli_result($rs_alb, 0, "moneda");
+$tipo=mysqli_result($rs_alb, 0, "tipo");
+
+$sel_cliente="SELECT nombre,nif FROM proveedores WHERE codproveedor='$codproveedor'";
+$rs_cliente=mysqli_query($GLOBALS["___mysqli_ston"], $sel_cliente);
+$nombre=mysqli_result($rs_cliente, 0, "nombre");
+$nif=mysqli_result($rs_cliente, 0, "nif");
+
+
+$fechahoy=date("Y-m-d");
+$sel_albaran="INSERT INTO facturasptmp (codfactura,fecha,moneda) VALUE ('','$fechahoy','$moneda')";
+$rs_albaran=mysqli_query($GLOBALS["___mysqli_ston"], $sel_albaran);
+$codfacturatmp=((is_null($___mysqli_res = mysqli_insert_id($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
+
+$sel_lineas="SELECT * FROM factulineap WHERE codfactura='$codfactura' AND codproveedor='$codproveedor' ORDER BY numlinea ASC";
+$rs_lineas=mysqli_query($GLOBALS["___mysqli_ston"], $sel_lineas);
+$contador=0;
+while ($contador < mysqli_num_rows($rs_lineas)) {
+	$codfamilia=mysqli_result($rs_lineas, $contador, "codfamilia");
+	$codigo=mysqli_result($rs_lineas, $contador, "codigo");
+	$cantidad=mysqli_result($rs_lineas, $contador, "cantidad");
+	$precio=mysqli_result($rs_lineas, $contador, "precio");
+	$importe=mysqli_result($rs_lineas, $contador, "importe");
+	$baseimponible=$baseimponible+$importe;
+	$dcto=mysqli_result($rs_lineas, $contador, "dcto");
+	
+	if($codigo>0 and trim($codigo) !="" ) {
+	$sel_tmp="INSERT INTO factulineaptmp (codfactura,numlinea,codfamilia,codigo,cantidad,precio,importe,dcto) 
+	VALUES ('$codfacturatmp','','$codfamilia','$codigo','$cantidad','$precio','$importe','$dcto')";
+	$rs_tmp=mysqli_query($GLOBALS["___mysqli_ston"], $sel_tmp);
+	}
+	$contador++;
+}
+
+$baseimpuestos=$baseimponible*($iva/100);
+$preciototal=$baseimponible+$baseimpuestos;
+//$preciototal=number_format($preciototal,2);
+?>
+
+<html>
+	<head>
+		<title>Principal</title>
+		<link href="../estilos/estilos.css" type="text/css" rel="stylesheet">
+		<!-- iconos para los botones -->       
+<link rel="stylesheet" href="../css3/css/font-awesome.min.css">		
+		<script language="javascript">
+		
+		var cursor;
+		if (document.all) {
+		// Está utilizando EXPLORER
+		cursor='hand';
+		} else {
+		// Está utilizando MOZILLA/NETSCAPE
+		cursor='pointer';
+		}
+		
+		function aceptar(codfactura,codproveedor) {
+			location.href="guardar_factura.php?codfactura=" + codfactura + "&codproveedor=" + codproveedor + "&accion=baja";
+		}
+		function validar_cabecera()
+			{
+				var mensaje="";
+				if (document.getElementById("nombre").value=="") mensaje+="  - Nombre<br>";
+				if (document.getElementById("fecha").value=="") mensaje+="  - Fecha<br>";
+				if (document.getElementById("cfactura").value=="") mensaje+="  - Cod. Factura<br>";
+				if (mensaje!="") {
+					showWarningToast("Errores detectados:<br>"+mensaje);
+				} else {
+					document.getElementById("formulario").submit();
+				}
+			}		
+		
+		function cancelar() {
+			parent.$('idOfDomElement').colorbox.close();
+		}
+		
+		function inicio() {
+			document.getElementById("modif").value=1;
+			document.formulario_lineas.submit();
+			document.getElementById("modif").value=0;			
+			var fecha=$("#fecha").val();
+				$.post("busco_tipocambio.php?fecha="+fecha,  function(data){
+				$("#tipocambio").val(data);
+			})(jQuery);	
+		}		
+		</script>
+	</head>
+	<body onLoad="inicio();">
+		<div id="pagina">
+			<div id="zonaContenido">
+				<div align="center">
+				<div id="tituloForm" class="header">Eliminar FACTURA</div>
+				<div id="frmBusqueda">
+				<form id="formulario" name="formulario" method="post" action="guardar_factura.php">				
+				<table class="fuente8" width="98%" cellspacing="0" cellpadding="3" border="0">
+						<tr>
+							<td>C&oacute;digo&nbsp;Proveedor </td>
+					      <td><input name="codproveedor" type="text" class="cajaPequena" id="aProveedor" size="6" maxlength="5"  value="<?php echo $codproveedor;?>" data-index="1"></input>
+					        </td>					
+						  <td>Cod.&nbsp;Factura</td>
+						  <td><input name="cfactura" type="text" class="cajaMedia" id="cfactura" size="20" maxlength="20" value="<?php echo $codfactura;?>" data-index="2"></input></td>
+						<?php $hoy=date("d/m/Y"); ?>
+							<td>Fecha</td>
+						    <td width="27%"><input name="fecha" type="text" class="cajaPequena" id="fecha" size="10" maxlength="10" value="<?php echo implota($fecha);?>" readonly data-index="3">
+						    <img src="../img/calendario.png" name="Image1" id="Image1" width="16" height="16" border="0" id="Image1" onMouseOver="this.style.cursor='pointer'" style="vertical-align: middle; margin-top: -1px;">
+								<script type="text/javascript">
+						   Calendar.setup({
+						     inputField : "fecha",
+						     trigger    : "Image1",
+						     align		 : "Bl",
+						     onSelect   : function() { this.hide(); },
+						     dateFormat : "%d/%m/%Y"
+						   });
+						</script></td>
+						<td>Tipo</td>
+				            <td>
+				            <select id="tipo" name="atipo" class="cajaPequena" data-index="4">
+								<?php $tipof = array(0=>"Contado", 1=>"Credito", 2=>"Nota Credito");
+									if ($tipo==" ")
+									{
+										echo '<OPTION value="" selected>Selecione uno</option>';
+									}
+									$x=0;
+									$NoEstado=0;
+									foreach($tipof as $i) {
+								  		if ( $x==$tipo) {
+											echo "<OPTION value=$x selected>$i</option>";
+											$NoEstado=1;
+										} else {
+											echo "<OPTION value=$x>$i</option>";
+										}
+										$x++;
+									}
+								?>
+								</select></td>									
+				 		<td>Moneda</td><td width="26%">
+						 <select onchange="cambio();" name="amoneda" id="amoneda" class="cajaPequena2" data-index="5">
+							<?php if($moneda==1) { ?>						 
+								<option value="1" selected="selected">Pesos</option>
+								<option value="2">U$S</option>
+							<?php } else { ?>
+								<option value="1">Pesos</option>
+								<option value="2" selected="selected">U$S</option>
+							<?php } ?>						 
+
+  							</select></td>											  
+						</tr>
+						<tr>
+							<td>Nombre</td>
+						    <td><input name="nombre" type="text" class="cajaGrande" id="nombre" size="45" maxlength="45" value="<?php echo $nombre?>" readonly></td>
+				            <td>RUT</td>
+				            <td><input name="nif" type="text" class="cajaMedia" id="nif" size="20" maxlength="15" value="<?php echo $nif?>" readonly></td>
+							
+				            <td>IVA</td>
+				            <td><input name="iva" type="text" class="cajaPequena" id="iva" size="5" maxlength="5" value="<?php echo $iva;?>" onChange="cambio_iva();" data-index="6"> %</td>
+
+							<td colspan="4">Tipo&nbsp;cambio
+								<label>U$S -> $&nbsp;</label><span>
+								<input name="tipocambio" type="text" class="cajaPequena2" id="tipocambio" size="5" maxlength="5" value="<?php echo $tipocambio; ?>" readonly="" data-index="7"></span>
+							</td>
+						</tr>
+					</table>										
+			  </div>
+			  <input id="codfacturatmp" name="codfacturatmp" value="<?php echo $codfacturatmp;?>" type="hidden">
+			  <input id="codfactura" name="codfactura" value="<?php echo $codfactura;?>" type="hidden">
+			  <input id="baseimpuestos2" name="baseimpuestos" value="<?php echo $baseimpuestos;?>" type="hidden">
+			  <input id="baseimponible2" name="baseimponible" value="<?php echo $baseimponible;?>" type="hidden">
+			  <input id="preciototal2" name="preciototal" value="<?php echo $preciototal;?>" type="hidden">
+			  <input id="accion" name="accion" value="baja" type="hidden">			  
+			  </form>
+			  <br>
+				<div id="frmBusqueda">
+				<form id="formulario_lineas" name="formulario_lineas" method="post" action="frame_lineas.php" target="frame_lineas">
+				<input id="accion" name="accion" value="baja" type="hidden">
+				</div>
+				<input type="hidden" name="codarticulo" id="codarticulo" value="<?php echo $codarticulo?>">
+				<br>
+				<div id="frmBusqueda">
+
+					<iframe width="100%" height="200" id="frame_lineas" name="frame_lineas" frameborder="0">
+						<ilayer width="100%" height="200" id="frame_lineas" name="frame_lineas"></ilayer>
+					</iframe>				
+			  </div>
+			  <div id="frmBusqueda">
+			  
+	<div id="frmBusqueda">
+			<table width="25%" border=0 align="right" cellpadding=3 cellspacing=0 class="fuente8">
+			  <tr>
+			    <td width="27%" class="busqueda">Sub-total</td>
+				<td width="73%" align="right"><div align="center">
+				 <input type="text" class="cajaPequena2" id="monShow" readonly>
+			      <input class="cajaTotales" name="baseimponible" type="text" id="baseimponible" size="12" value=0 align="right" value="<?php echo number_format($baseimponible,2)?>" readonly> 
+		        </div></td>
+			  </tr>
+			  <tr>
+				<td class="busqueda">IVA</td>
+				<td align="right"><div align="center">
+				 <input type="text" class="cajaPequena2" id="monSho" readonly>
+			      <input class="cajaTotales" name="baseimpuestos" type="text" id="baseimpuestos" size="12" align="right"  value="<?php echo number_format($baseimpuestos,2)?>" readonly>
+		        </div></td>
+			  </tr>
+			  <tr>
+				<td class="busqueda">Precio Total</td>
+				<td align="right"><div align="center">
+				 <input type="text" class="cajaPequena2" id="monSh" readonly>
+			      <input class="cajaTotales" name="preciototal" type="text" id="preciototal" size="12" align="right" value="<?php echo number_format($preciototal,2)?>" readonly> 
+		        </div></td>
+			  </tr>
+		</table>
+			  </div>			  
+			
+			  </div>
+				<div>					
+				  <div align="center">
+				    <img id="botonBusqueda" src="../img/botonaceptar.jpg" width="85" height="22" onClick="validar_cabecera();" border="1" onMouseOver="style.cursor=cursor">
+					<img id="botonBusqueda" src="../img/botoncancelar.jpg" width="85" height="22" onClick="cancelar();" border="1" onMouseOver="style.cursor=cursor">
+				    <input id="codfamilia" name="codfamilia" value="<?php echo $codfamilia;?>" type="hidden">
+				    <input id="codfacturatmpa" name="codfacturatmpa" value="<?php echo $codfacturatmp;?>" type="hidden">
+					<input id="modif" name="modif" value="0" type="hidden">				    
+			      </div>
+				</div>
+			  		<iframe id="frame_datos" name="frame_datos" width="0" height="0" frameborder="0">
+					<ilayer width="0" height="0" id="frame_datos" name="frame_datos"></ilayer>
+					</iframe>
+			  </form>
+			 </div>
+		  </div>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,229 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>8. ¿Cómo crear una Devolución de Consignación? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Compras" href="../07_compras.html" />
+    <link rel="next" title="9. ¿Cómo crear una Devolución de material facturado?" href="compras_10.html" />
+    <link rel="prev" title="7. ¿Cómo ingresar una Nota de Crédito?" href="compras_08.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="compras_10.html" title="9. ¿Cómo crear una Devolución de material facturado?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_08.html" title="7. ¿Cómo ingresar una Nota de Crédito?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" accesskey="U">3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-una-devolucion-de-consignacion">
+<h1>8. ¿Cómo crear una Devolución de Consignación?<a class="headerlink" href="#como-crear-una-devolucion-de-consignacion" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Devolución de material</strong></p>
+<p>Las devoluciones de material se registran en el sistema de la siguiente
+forma:</p>
+<ul class="last simple">
+<li>Si la <em>devolución es en contra de un remito</em>, se genera una Devolución.
+Esto realiza el movimiento de stock pero no afecta la cuenta corriente del
+proveedor.</li>
+<li>Si la <em>devolución es en contra de una factura</em>, se genera un crédito o se
+ingresa una nota de crédito. Esto realiza el movimiento de stock y afecta
+la cuenta corriente del proveedor.</li>
+</ul>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Compras ‣ Devoluciones</em>. Se
+abrirá la pantalla Búsqueda de Devoluciones.</p>
+</li>
+<li><p class="first">Seleccionar el ícono <img alt="/icons/n_devoluciones.png" class="inlinegraphic" src="../../_images/n_devoluciones.png" /> de la barra de
+herramientas o presionar las teclas <tt class="kbd docutils literal"><span class="pre">Ctrl</span></tt><tt class="kbd docutils literal"><span class="pre">N</span></tt>. Se abrirá la
+pantalla Nueva Devolución.</p>
+<div class="figure">
+<img alt="../../_images/scrRemitReturn.png" src="../../_images/scrRemitReturn.png" />
+<p class="caption">Pantalla Nueva Devolución</p>
+</div>
+</li>
+<li><p class="first">Para cambiar el proveedor de origen de la devolución:</p>
+<ul class="simple">
+<li>Ingresar el código en el campo Proveedor.</li>
+<li>Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o <tt class="kbd docutils literal"><span class="pre">Tab</span></tt>.</li>
+<li>Si existe un proveedor con el código, se autocompleta el nombre a la
+derecha del código.</li>
+<li>Si no se conoce el código, presionar el bóton <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" />
+para buscar el proveedor.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/scrRemitReturnHeader.png" src="../../_images/scrRemitReturnHeader.png" />
+<p class="caption">Cabecera de la devolución</p>
+</div>
+</li>
+<li><p class="first">Completar los datos generales de la devolución:</p>
+<ul class="simple">
+<li><em>Motivo</em></li>
+<li><em>Número de devolución</em></li>
+<li><em>Fecha:</em> Fecha de la devolución. El sistema sugiere la fecha actual</li>
+<li><em>Sucursal:</em> Sucursal a la que corresponde la devolución.
+El sistema sugiere la sucursal donde ingresó el usuario.</li>
+<li><em>Depósito:</em> Depósito desde donde salen los libros.  El sistema sugiere el
+depósito asociado a la sucursal donde ingresó el usuario.</li>
+</ul>
+</li>
+<li><p class="first">Por cada libro de la devolución:</p>
+<ul>
+<li><p class="first">En el campo Código de la solapa Detalle, ingresar el código del libro
+(por teclado o con el lector de código de barras) o realizar la búsqueda
+del libro presionando el botón <img alt="/icons/b_libro.png" class="inlinegraphic" src="../../_images/b_libro.png" />.</p>
+<div class="figure">
+<img alt="../../_images/scrEditAssignRemitReturn.png" src="../../_images/scrEditAssignRemitReturn.png" />
+<p class="caption">Opciones para modificar las asignaciones</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la opción Editar asignación a remitos. Se abrirá la ventana
+Edición de asignación a remitos.</p>
+<div class="figure">
+<img alt="../../_images/scrDlgEditAssignRemits.png" src="../../_images/scrDlgEditAssignRemits.png" />
+<p class="caption">Pantalla Edición de Asignación a Remitos</p>
+</div>
+</li>
+<li><p class="first">Modificar las cantidades asociadas a los remitos haciendo doble click sobre
+la columna Cantidad de la fila correspondiente al remito.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<ul class="simple">
+<li>Si la devolución corresponde a un <em>remito</em>, presionar el
+botón <img alt="/icons/22nremitos.png" class="inlinegraphic" src="../../_images/22nremitos.png" />.
+Se abrirá la pantalla Selección de Remitos con la lista
+de los remitos pendientes del proveedor.
+Seleccionar el remito correspondiente. Los items
+que pueden devolverse se cargarán en la grilla.</li>
+</ul>
+<p class="last"><em>De esta forma se ahorra el ingreso manual de los ítems de la devolución.</em></p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em> o la tecla <tt class="kbd docutils literal"><span class="pre">F9</span></tt> y confirmar.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">El sistema impide devolver como consignación libros que no estén
+consignados. Dicho cambio no puede realizarse pues se perdería la
+consistencia de datos, ya que el control de la consignación es estricto
+y, si se permitiese devolver una cantidad superior a la consignada, ello
+resultaría en una consignación negativa.
+El ajuste a hacerse consiste en aumentar la cantidad consignada, para lo
+cual hay que generar un remito con numeración ficticia (por ejemplo
+9999-99999999). Pese a su nombre, el efecto de este remito &#8220;ficticio&#8221; en
+el sistema es el mismo que el de un remito real: aumenta el stock.  Por
+ello es necesario hacer luego una salida manual para compensarlo. Por
+cada remito de consignación de este tipo, se hará una salida de stock
+para evitar duplicaciones.</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="compras_08.html"
+                        title="Capítulo anterior">7. ¿Cómo ingresar una Nota de Crédito?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="compras_10.html"
+                        title="Próximo capítulo">9. ¿Cómo crear una Devolución de material facturado?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="compras_10.html" title="9. ¿Cómo crear una Devolución de material facturado?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_08.html" title="7. ¿Cómo ingresar una Nota de Crédito?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" >3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

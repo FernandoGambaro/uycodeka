@@ -1,0 +1,233 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1.10. ¿Cómo bajar la ficha de un libro de una fuente de datos externa? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="1. Catálogo" href="../05_catalogo.html" />
+    <link rel="next" title="1.11. Importación masiva de libros" href="catalogo_11.html" />
+    <link rel="prev" title="1.9. ¿Cómo importar precios de una planilla de cálculo?" href="catalogo_09.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="catalogo_11.html" title="1.11. Importación masiva de libros"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_09.html" title="1.9. ¿Cómo importar precios de una planilla de cálculo?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" accesskey="U">1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-bajar-la-ficha-de-un-libro-de-una-fuente-de-datos-externa">
+<span id="howto-catalogo-sec10"></span><h1>1.10. ¿Cómo bajar la ficha de un libro de una fuente de datos externa?<a class="headerlink" href="#como-bajar-la-ficha-de-un-libro-de-una-fuente-de-datos-externa" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Importación de libros</strong></p>
+<p>La importación de libros se utiliza para &#8220;bajar&#8221; los libros desde una
+fuente externa e incorporarlos a la base de datos local.</p>
+<p>Esta funcionalidad ahorra el trabajo manual de cargar las fichas de
+libros y, además, evita los errores de tipeo, ortografía, etc.,
+generados por la incorporación manual de los libros.</p>
+<p class="last">Los datos provienen de una fuente externa, y generalmente los datos
+bibliográficos son cargados por las propias editoriales, lo que asegura
+la exactitud de los mismos.</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Esta funcionalidad permite bajar UN libro a la vez, buscándolo por su ISBN o
+código de barras.  Para hacer bajadas masivas de libros, buscándolos por
+editorial, autor, fecha, etc., utilizar la funcionalidad <a class="reference internal" href="catalogo_11.html#howto-catalogo-sec11"><em>¿Cómo bajar
+un conjunto de libros de una fuente de datos externa (por ejemplo la Cámara
+Argentina del Libro) ?</em></a>.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Catálogo ‣ Libros</em> o el ícono
+<img alt="/icons/libro.png" class="inlinegraphic" src="../../_images/libro.png" /> de la barra de herramientas.
+Se abrirá la pantalla Búsqueda de Libros.</p>
+</li>
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventana Activa ‣ Importar ficha de un libro</em>
+o el ícono <img alt="/icons/importar.png" class="inlinegraphic" src="../../_images/importar.png" /> de la barra de herramientas.
+Se abrirá la pantalla Importar Libro.</p>
+<div class="figure">
+<img alt="../../_images/scrImportBook.png" src="../../_images/scrImportBook.png" />
+<p class="caption">Pantalla Importar Libro</p>
+</div>
+</li>
+<li><p class="first">Ingresar el ISBN o el código de barras (tipear o con el lector) en el campo
+ISBN a buscar.</p>
+</li>
+<li><p class="first">Seleccionar la fuente de donde se tomarán los datos.</p>
+</li>
+<li><p class="first">Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o presionar el botón <img alt="/icons/buscar.png" class="inlinegraphic" src="../../_images/buscar.png" />.
+Se buscará el libro en la fuente. Si se encuentra, se cargan los atributos
+importados. .. figure:: /imagen/scrImportBookData.png</p>
+<blockquote>
+<div><p>Pantalla Importar Libro con datos importados</p>
+</div></blockquote>
+</li>
+<li><p class="first">Con los datos que se obtienen se generará la ficha del libro.</p>
+<p>Hay atributos que ya están en la base de datos local. Por ejemplo, la
+editorial bajada puede ya estar creada. Por este motivo, cada atributo
+tiene un indicador para mostrar si el atributo bajado está en conflicto
+con los datos de la base local.</p>
+<ul>
+<li><p class="first"><img alt="/icons/semaforo_verde.png" class="inlinegraphic" src="../../_images/semaforo_verde.png" /> Si el indicador está en verde,
+significa que el atributo se incorpora sin problemas.</p>
+</li>
+<li><p class="first"><img alt="/icons/semaforo_amarillo.png" class="inlinegraphic" src="../../_images/semaforo_amarillo.png" /> Si el indicador está en amarillo,
+significa que se encontró un valor similar en la base. Para poder hacer la
+importación, hay que <em>confirmar</em> si ese valor encontrado corresponde al
+valor bajado. Para esto, seleccionar el atributo y presionar el botón
+<em class="guilabel">Resolver</em>.</p>
+<p>Por ejemplo, si la editorial importada se llama &#8220;Catálogos
+SRL&#8221;, y el valor local se llama &#8220;Catálogo&#8221;, hay que confirmar
+que son la misma editorial.</p>
+<p>Este mapeo queda guardado: la próxima vez que se baje un libro
+con esa editorial, no aparecerá el conflicto, ya aparecerá en
+verde.</p>
+</li>
+<li><p class="first"><img alt="/icons/semaforo_rojo.png" class="inlinegraphic" src="../../_images/semaforo_rojo.png" /> Si el indicador está en rojo, significa
+que no se encontró en la base local un valor que se corresponda con el
+valor importado. En este caso, hay que <em>resolver</em> el conflicto, presionando
+el botón <em class="guilabel">Resolver</em>. Se abrirá la pantalla Conflicto.</p>
+<div class="figure">
+<img alt="../../_images/scrImportBookConflict.png" src="../../_images/scrImportBookConflict.png" />
+<p class="caption">Pantalla Conflicto</p>
+</div>
+<p>El conflicto se puede resolver de dos formas: buscando un valor similar en
+la base local o creando uno nuevo con los datos importados.</p>
+<p>Como en el caso anterior, la resolución queda guardada y la próxima vez ya
+no habrá conflicto.</p>
+<ul class="simple">
+<li>Para buscar en la base local el valor correspondiente al valor importado,
+presionar el botón <img alt="/icons/buscar.png" class="inlinegraphic" src="../../_images/buscar.png" /> en
+<em>Buscar en la base de datos local</em>.</li>
+<li>Para crear un nuevo valor en la base local, presionar el botón
+<img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" /> en <em>Crear un nuevo valor con el dato de la
+importación</em>.</li>
+</ul>
+<p>Después de resolver el conflicto, presionar el botón <em class="guilabel">Cerrar</em>.</p>
+</li>
+</ul>
+</li>
+<li><p class="first">Si no se desea importar un atributo, seleccionarlo y presionar el botón
+<em class="guilabel">Quitar</em>. El atributo quedará marcado con el indicador
+<img alt="/icons/cerrar.png" class="inlinegraphic" src="../../_images/cerrar.png" /></p>
+<p>Para volver a agregar el atributo quitado, seleccionarlo y presionar el botón
+<em class="guilabel">Agregar</em>.</p>
+</li>
+<li><p class="first">Cuando se resolvieron todos los conflictos, presionar el botón
+<em class="guilabel">Aceptar</em>. Se abrirá la pantalla Edición del Libro.</p>
+</li>
+<li><p class="first">Completar los datos del libro creado en la ficha y presionar el botón
+<em class="guilabel">Aceptar</em>.El nuevo libro se creará en la base.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Para verificar si el libro ya existe en la base, presionar el
+botón <img alt="/icons/refrescar.png" class="inlinegraphic" src="../../_images/refrescar.png" /> , con lo cual se comprueba si ya
+hay un libro con esos códigos.</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="catalogo_09.html"
+                        title="Capítulo anterior">1.9. ¿Cómo importar precios de una planilla de cálculo?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="catalogo_11.html"
+                        title="Próximo capítulo">1.11. Importación masiva de libros</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="catalogo_11.html" title="1.11. Importación masiva de libros"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_09.html" title="1.9. ¿Cómo importar precios de una planilla de cálculo?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" >1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

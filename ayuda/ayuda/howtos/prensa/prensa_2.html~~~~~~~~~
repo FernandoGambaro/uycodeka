@@ -1,0 +1,289 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>12.6. ¿Cómo enviar libros a Periodistas? &mdash; Fierro 20.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="Fierro 20.1 documentation" href="../../index.html" />
+    <link rel="up" title="12. Prensa" href="../15_prensa.html" />
+    <link rel="next" title="13. Web" href="../16_web.html" />
+    <link rel="prev" title="12.1. ¿Cómo buscar un periodista?" href="prensa_1.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../16_web.html" title="13. Web"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="prensa_1.html" title="12.1. ¿Cómo buscar un periodista?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../15_prensa.html" accesskey="U">12. Prensa</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-enviar-libros-a-periodistas">
+<span id="index-0"></span><h1>12.6. ¿Cómo enviar libros a Periodistas?<a class="headerlink" href="#como-enviar-libros-a-periodistas" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Envíos a Periodistas</strong></p>
+<p class="last">El envío de libros a periodistas se realiza mediante documentos de stock con remitente. Estos documentos pueden crearse de forma manual o automática con la herramienta de generación de servicio de novedades.</p>
+</div>
+<div class="section" id="documento-de-stock-con-remitente">
+<h2>12.6.1. Documento de stock con Remitente<a class="headerlink" href="#documento-de-stock-con-remitente" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los documentos de stock que se utilizan para enviar libros a un periodista son de tipo salida (Ver <a class="reference internal" href="../stock/stock_02.html#howto-stock-movestockmanual"><em>¿Cómo registrar salidas/entradas manuales?</em></a>).</p>
+<p>Para agregar el remitente:</p>
+<ol class="arabic">
+<li><p class="first">Hacer click en el icono <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" />, se abrirá la ventana de búsqueda de Personas y Organizaciones</p>
+</li>
+<li><p class="first">Buscar el periodista en el Panel de Filtros General y el tipo Periodista</p>
+<div class="figure">
+<img alt="../../_images/Prensapersonasyorganizaciones.png" src="../../_images/Prensapersonasyorganizaciones.png" />
+<p class="caption">Consulta de personas y organizaciones</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el periodista y aceptar</p>
+<div class="figure">
+<img alt="../../_images/Prensadocdestockremitente.png" src="../../_images/Prensadocdestockremitente.png" />
+<p class="caption">Consulta de personas y organizaciones</p>
+</div>
+</li>
+<li><p class="first">Agregar los libros a enviar y aceptar</p>
+</li>
+</ol>
+</div>
+<div class="section" id="servicio-de-novedades">
+<h2>12.6.2. Servicio de novedades<a class="headerlink" href="#servicio-de-novedades" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Generación de servicios de novedades</strong></p>
+<p class="last">La herramienta de generación de servicios de novedades permite crear en forma masiva documentos de stock con determinados libros, para un conjunto de periodistas.</p>
+</div>
+<p>La generación de servicios de novedades se compone de dos pasos:</p>
+<ol class="arabic simple">
+<li><em>Definición de los libros y cantidades a enviar:</em> en este paso se deciden los libros y cantidades que se van a enviar, indicando dicho valor para cada modelo.</li>
+<li><em>Definicion de los periodistas a los que se les envía el servicio:</em> en este paso se eligen los periodistas a los que se les envía el servicio de novedad.</li>
+</ol>
+<p>Para generar un servicio de novedad, los pasos son los siguientes:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Prensa ‣ Servicio de Novedades</em>. Se abrirá la pantalla de Generación automática de lote de novedades en la solapa <em>Modelos</em>.  En ella se determinan los libros y cantidades a enviar. También es posible crear modelos en la misma pantalla.</p>
+<div class="figure">
+<img alt="../../_images/Prensaservicionovedades.png" src="../../_images/Prensaservicionovedades.png" />
+<p class="caption">Pantalla Generación automática de lote de novedades</p>
+</div>
+</li>
+<li><p class="first">La pantalla muestra un grilla donde por cada libro, se debe ingresar la cantidad a enviar en cada modelo. Para agregar un modelo presionar el botón <em class="guilabel">Agregar Modelo</em>. Se abrirá la pantalla para ingresar el nombre del modelo.</p>
+<div class="figure">
+<img alt="../../_images/Prensaservicionovedades4.png" src="../../_images/Prensaservicionovedades4.png" />
+<p class="caption">Pantalla Generación automática de lote de novedades - Agregar Modelos</p>
+</div>
+</li>
+<li><p class="first">Agregar los libros que se desean enviar presionando el botón <em class="guilabel">Agregar Libro</em>.</p>
+</li>
+<li><p class="first">Completar las cantidades a ingresar de cada libro para cada modelo.</p>
+<div class="figure">
+<img alt="../../_images/Prensaservicionovedades3.png" src="../../_images/Prensaservicionovedades3.png" />
+<p class="caption">Edición de las cantidades a enviar por libro por modelo</p>
+</div>
+</li>
+<li><p class="first">Si desea crear otra combinación de libros y cantidades, puede crear un nuevo modelo. Luego de crear el modelo, aparece una nueva columna para completar las cantidades a enviar por libro.</p>
+<div class="figure">
+<img alt="../../_images/Prensaservicionovedades5.png" src="../../_images/Prensaservicionovedades5.png" />
+<p class="caption">Nuevo modelo</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la solapa Periodistas. Se mostrará una grilla donde se visualizarán los periodistas a los que se envía el servicio de novedad (código, nombre, dirección, código postal, localidad), el modelo y los libros con las cantidades que se enví­an, uno por columna.</p>
+</li>
+<li><p class="first">Agregar los periodistas a los que se les enviará el servicio de novedad.</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p class="first">Presionar el botón <em class="guilabel">Agregar Periodistas</em>. Se abrirá la pantalla de selección de periodistas.</p>
+</li>
+<li><p class="first">Seleccionar los periodistas. Puede seleccionar varios periodistas presionando la tecla Ctrl.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+<li><p class="first">Seleccionar el modelo que desea aplicar a los periodistas seleccionados.</p>
+<div class="figure">
+<img alt="../../_images/Prensaservicioperiodistas2.png" src="../../_images/Prensaservicioperiodistas2.png" />
+<p class="caption">Selección del modelo para los periodistas</p>
+</div>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first">Para cambiar el modelo asignado a un periodista, seleccionar la celda Modelo de la fila del periodista y la opción deseada. Luego del cambio, las  cantidades de los libros se modificarán a las correspondientes a dicho modelo.</p>
+<div class="figure">
+<img alt="../../_images/Prensaservicioperiodistas3.png" src="../../_images/Prensaservicioperiodistas3.png" />
+<p class="caption">Cambio de modelo de un periodista</p>
+</div>
+</li>
+<li><p class="first">Para cambiar la cantidad particular a enviar de un libro a un periodista, modificar el valor en la celda del libro en la fila del periodista.</p>
+</li>
+<li><p class="first">Para visualizar la cantidad de libros a enviar, seleccionar la solapa Totales. Se mostrarán los totales a enviar por libro y por modelo.</p>
+<div class="figure">
+<img alt="../../_images/Prensaserviciototales.png" src="../../_images/Prensaserviciototales.png" />
+<p class="caption">Solapa Totales</p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>. Se generarán los documentos de stock correspondientes al servicio de novedad.</p>
+<div class="figure">
+<img alt="../../_images/Prensaserviciodocumento.png" src="../../_images/Prensaserviciodocumento.png" />
+<p class="caption">Generar servicio de novedades</p>
+</div>
+</li>
+<li><p class="first">Luego de generar los documentos, el sistema propone abrir la pantalla con los documentos generados.</p>
+<div class="figure">
+<img alt="../../_images/Prensaserviciodocumentos3.png" src="../../_images/Prensaserviciodocumentos3.png" />
+<p class="caption">Documentos generados para el servicio de novedades</p>
+</div>
+</li>
+<li><p class="first">Los documentos generados se pueden ver desde el menú <em class="menuselection">Stock ‣ Documentos de Stock</em></p>
+</li>
+<li><p class="first">Para imprimir los documentos generados hay que seleccionarlos en la consulta de documentos de stock y hacer click en el ícono <img alt="/icons/22imprimir.png" class="inlinegraphic" src="../../_images/22imprimir.png" /></p>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="como-ver-los-libros-enviados-a-un-periodista">
+<h1>12.7. ¿Cómo ver los libros enviados a un periodista?<a class="headerlink" href="#como-ver-los-libros-enviados-a-un-periodista" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Los libros enviados a los periodistas se pueden ver desde la consulta de periodistas (<em class="menuselection">Prensa ‣ Periodistas</em>) seleccionando la vista Libros enviados (Ver <a class="reference internal" href="../../basics/busqueda/busqueda_03.html#basics-searchs-sec3"><em>¿Qué es una vista?</em></a>)</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Prensalibrosenviados.png" src="../../_images/Prensalibrosenviados.png" />
+<p class="caption">Libros enviados a periodistas</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="como-registrar-la-critica-o-comentario-del-periodista">
+<h1>12.8. ¿Cómo registrar la crítica o comentario del periodista?<a class="headerlink" href="#como-registrar-la-critica-o-comentario-del-periodista" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Desde la consulta de periodistas, en la vista Libros enviados es posible registrar, por cada envío, una observación, comentario o crítica realizada por el periodista.</p>
+<ol class="arabic">
+<li><p class="first">Ir a la opción del menú <em class="menuselection">Prensa ‣ Periodistas</em></p>
+</li>
+<li><p class="first">Buscar el periodista y seleccionar la vista Libros Enviados</p>
+</li>
+<li><p class="first">Hacer click en el icono <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" />, en la línea correspendiente al envío que se quiere comentar. Se abrira la ventana Resultado</p>
+<div class="figure">
+<img alt="../../_images/Prensaresultado.png" src="../../_images/Prensaresultado.png" />
+<p class="caption">Ventana Resultado</p>
+</div>
+</li>
+<li><p class="first">Redactar el comentario y aceptar. La observación ingresada se puede visualizar en la columna Resultado de la vista Libros enviados</p>
+</li>
+</ol>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Prensaresultadocomentado.png" src="../../_images/Prensaresultadocomentado.png" />
+<p class="caption">Comentario al libro enviado</p>
+</div>
+</div></blockquote>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">12.6. ¿Cómo enviar libros a Periodistas?</a><ul>
+<li><a class="reference internal" href="#documento-de-stock-con-remitente">12.6.1. Documento de stock con Remitente</a></li>
+<li><a class="reference internal" href="#servicio-de-novedades">12.6.2. Servicio de novedades</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#como-ver-los-libros-enviados-a-un-periodista">12.7. ¿Cómo ver los libros enviados a un periodista?</a></li>
+<li><a class="reference internal" href="#como-registrar-la-critica-o-comentario-del-periodista">12.8. ¿Cómo registrar la crítica o comentario del periodista?</a></li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="prensa_1.html"
+                        title="Capítulo anterior">12.1. ¿Cómo buscar un periodista?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="../16_web.html"
+                        title="Próximo capítulo">13. Web</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../16_web.html" title="13. Web"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="prensa_1.html" title="12.1. ¿Cómo buscar un periodista?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../15_prensa.html" >12. Prensa</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Lambda Sistemas.
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

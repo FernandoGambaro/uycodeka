@@ -1,0 +1,207 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1. Servicio de suscripciones &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="14. Suscripciones" href="../18_suscripciones.html" />
+    <link rel="next" title="2. Generación automática de pedidos" href="suscripciones_2.html" />
+    <link rel="prev" title="14. Suscripciones" href="../18_suscripciones.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="suscripciones_2.html" title="2. Generación automática de pedidos"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="../18_suscripciones.html" title="14. Suscripciones"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../18_suscripciones.html" accesskey="U">14. Suscripciones</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="servicio-de-suscripciones">
+<h1>1. Servicio de suscripciones<a class="headerlink" href="#servicio-de-suscripciones" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="admonition note" id="index-0">
+<p class="first admonition-title">Nota</p>
+<p><strong>Objetivo</strong></p>
+<p class="last">Este módulo permite la gestión de suscripciones para envíos de publicaciones periódicas,
+generando pedidos en función de los suscriptores activos, su facturación y el seguimiento
+de todo el proceso hasta la entrega.</p>
+</div>
+<div class="section" id="creacion-de-una-nueva-suscripcion">
+<h2>1.1. Creación de una nueva suscripción<a class="headerlink" href="#creacion-de-una-nueva-suscripcion" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Suscripciones ‣ Suscripciones</em>.
+Se abrirá la pantalla de consulta, para crear una nueva suscripción deben presionar el botón <img alt="/icons/22subscription.png" class="inlinegraphic" src="../../_images/22subscription.png" />
+o desde el menú <em class="menuselection">Ventana activa ‣ Nueva Suscripción</em>.</p>
+</li>
+<li><p class="first">Se abrirá el editor de nueva suscripción.</p>
+<div class="figure">
+<img alt="../../_images/NuevaSuscripcion.png" src="../../_images/NuevaSuscripcion.png" />
+</div>
+</li>
+</ol>
+<p>Campos a completar:</p>
+<ul class="simple">
+<li>Número: Desde el menú Sistema &#8211;&gt; Secuencias pueden manipular la numeración.</li>
+<li>Fecha: Asignará la fecha del día de manera automática, se puede cambiar a mano.</li>
+<li>Cliente: Seleccionar el cliente de la base de datos, en caso de no estar registrado se puede crear desde la misma pantalla.</li>
+<li>Colección: Cada publicación será una colección, las mismas se asignan a las editoriales desde el menú <em class="menuselection">Catálogo ‣ Editoriales ‣ Colecciones</em>.</li>
+<li>Tipo de suscripción: Prepaga, Débito automático, Sin cargo.</li>
+<li>Estados de Suscripción: Activa – Pendiente de activación.</li>
+<li>Cantidad limitada de números: Meses para las suscripciones prepagas.</li>
+<li>Cantidad de ejemplares: Cantidad a enviar.</li>
+<li>Envío: Toma las formas de envío precargadas desde el menú <em class="menuselection">Ventas → Otros → Formas de envío</em>.</li>
+<li>Vincular a factura: En caso de una suscripción prepaga, se vincula a una factura que debe estar creada previamente.</li>
+<li>Estados: Pendiente de activación, activa, suspendida, anulada y finalizada.</li>
+</ul>
+</div>
+<div class="section" id="consulta-de-suscripciones">
+<h2>1.2. Consulta de suscripciones<a class="headerlink" href="#consulta-de-suscripciones" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul class="simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Suscripciones ‣ Suscripciones</em>.</li>
+<li>Para modificar el estado de una suscripción pulsar <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" /></li>
+<li>Para borrar una suscripción que no tenga movimientos pulsar <img alt="/icons/22eliminar.png" class="inlinegraphic" src="../../_images/22eliminar.png" /></li>
+<li>Para cambiar la cantidad de ediciones suscriptas pulsar <img alt="/icons/22cambiarCantidad.png" class="inlinegraphic" src="../../_images/22cambiarCantidad.png" /></li>
+</ul>
+<p>Para las suscripciones con estado &#8220;Pendiente de activación&#8221;, pueden cambiar el estado a Activa, o bien finalizar la misma.
+Si un cliente no pagó, o se recibió el rechazo de la tarjeta, pueden suspender la suscripción.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/SuscripcionConsulta.png" src="../../_images/SuscripcionConsulta.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="datos-de-la-tarjeta-del-cliente">
+<h2>1.3. Datos de la tarjeta del cliente<a class="headerlink" href="#datos-de-la-tarjeta-del-cliente" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul>
+<li><p class="first">Al momento de crear un nuevo cliente vinculado a una suscripción o bien al modificar la ficha de un cliente previamente creado, desde la solapa de &#8220;Tarjeta de crédito&#8221; se cargan los datos de la tarjeta.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/suscripciones_tarjeta.png" src="../../_images/suscripciones_tarjeta.png" />
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="informacion-de-suscripcion-en-vista-general-de-clientes">
+<h2>1.4. Información de suscripción en vista general de clientes<a class="headerlink" href="#informacion-de-suscripcion-en-vista-general-de-clientes" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul class="simple">
+<li>Desde la consulta de clientes → Vista “General” → se agrega una nota con el detalle de las suscripciones activas y datos de la tarjeta del mismo.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/SuscripcionVistaGeneralCliente.png" src="../../_images/SuscripcionVistaGeneralCliente.png" />
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">1. Servicio de suscripciones</a><ul>
+<li><a class="reference internal" href="#creacion-de-una-nueva-suscripcion">1.1. Creación de una nueva suscripción</a></li>
+<li><a class="reference internal" href="#consulta-de-suscripciones">1.2. Consulta de suscripciones</a></li>
+<li><a class="reference internal" href="#datos-de-la-tarjeta-del-cliente">1.3. Datos de la tarjeta del cliente</a></li>
+<li><a class="reference internal" href="#informacion-de-suscripcion-en-vista-general-de-clientes">1.4. Información de suscripción en vista general de clientes</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="../18_suscripciones.html"
+                        title="Capítulo anterior">14. Suscripciones</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="suscripciones_2.html"
+                        title="Próximo capítulo">2. Generación automática de pedidos</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="suscripciones_2.html" title="2. Generación automática de pedidos"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="../18_suscripciones.html" title="14. Suscripciones"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../18_suscripciones.html" >14. Suscripciones</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

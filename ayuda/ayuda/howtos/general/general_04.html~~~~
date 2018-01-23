@@ -1,0 +1,288 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>8.4. Archivos adjuntos &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="8. General" href="../11_general.html" />
+    <link rel="next" title="8.5. Configuración del envío por mail" href="general_05.html" />
+    <link rel="prev" title="8.3. ¿Cómo agregar notas a los libros, clientes, proveedores o documentos?" href="general_03.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="general_05.html" title="8.5. Configuración del envío por mail"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_03.html" title="8.3. ¿Cómo agregar notas a los libros, clientes, proveedores o documentos?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" accesskey="U">8. General</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="archivos-adjuntos">
+<span id="howto-others-attachs"></span><h1>8.4. Archivos adjuntos<a class="headerlink" href="#archivos-adjuntos" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><p>Esta sección muestra cómo manejar los archivos adjuntos para cualquier parte del
+sistema (clientes, proveeodres, libros, documentos, etc.).</p>
+<p>Las distintas fichas pueden tener archivos adjuntos. Por ejemplo, un libro puede
+tener adjunto la imagen de tapa y la reseña. Un proveedor puede tener adjunto
+una planilla con su catálogo, y una factura puede tener la imagen escaneada.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Archivos Adjuntos</strong></p>
+<p>Los <em>archivos adjuntos</em> se utilizan para agregar a las fichas información
+extra.</p>
+<p>Cada adjunto es de un <em>tipo</em> predefinido, como por ejemplo: imagen de tapa,
+reseña, resumen, comentario periodístico, etc.</p>
+<p>Si el adjunto es de <em>texto</em>, puede crearse y editarse el contenido desde la
+pantalla de adjuntos. Los otros tipos de archivos (imágenes, documentos,
+planillas, etc.) se adjuntan ya creados, seleccionándolos de un directorio.</p>
+<p class="last">Los archivos adjuntados se guardan en la <em>Base de Datos del Sistema</em>. Esto
+implica que no se guardan en un directorio local, sino que son administrados
+por el motor de base de datos, junto al resto de los datos del sistema.</p>
+</div>
+<p>El manejo de los archivos adjuntos se hace desde la solapa &#8220;Adjuntos&#8221; de la
+ficha.</p>
+<div class="figure">
+<img alt="../../_images/scrAttachPage.png" src="../../_images/scrAttachPage.png" />
+<p class="caption">Solapa Adjuntos</p>
+</div>
+<div class="figure">
+<img alt="../../_images/attachs.png" src="../../_images/attachs.png" />
+<p class="caption">Solapa Adjuntos explicada</p>
+</div>
+<div class="section" id="agregar-un-archivo-adjunto">
+<h2>8.4.1. Agregar un archivo adjunto<a class="headerlink" href="#agregar-un-archivo-adjunto" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-2"></span><p id="index-3">Para agregar un archivo adjunto, seguir los siguentes pasos:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar el tipo de adjunto en Tipo de adjunto.</p>
+</li>
+<li><p class="first">Presionar el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" /> para seleccionar el archivo a
+adjuntar. Se abrirá la ventana de selección de archivos.</p>
+<div class="figure">
+<img alt="../../_images/scrAttachSearchAttach.png" src="../../_images/scrAttachSearchAttach.png" />
+<p class="caption">Selección de archivos</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el archivo que se desea adjuntar y presionar el botón
+<em class="guilabel">OK</em>.</p>
+</li>
+<li><p class="first">Completar la descripción del adjunto en el campo Descripción (opcional).</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Agregar</em>. El adjunto se agrega en la lista
+inferior.</p>
+</li>
+</ol>
+<p>Si se quiere adjuntar un texto directamente, que no está en un archivo ya
+existente, se puede crear el adjunto en esta misma pantalla. Ver <a class="reference internal" href="#howto-others-attachs-add-text"><em>Agregar
+un archivo adjunto de texto</em></a>.</p>
+<div class="section" id="agregar-un-archivo-adjunto-de-texto">
+<span id="howto-others-attachs-add-text"></span><h3>8.4.1.1. Agregar un archivo adjunto de texto<a class="headerlink" href="#agregar-un-archivo-adjunto-de-texto" title="Enlazar permanentemente con este título">¶</a></h3>
+<span class="target" id="index-4"></span><p id="index-5">Para crear un archivo de texto y adjuntarlo seguir los siguientes
+pasos:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar el tipo de adjunto en Tipo de adjunto.</p>
+</li>
+<li><p class="first">Presionar el botón <img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" /> para abrir la pantalla Nuevo
+Archivo de texto.</p>
+<div class="figure">
+<img alt="../../_images/scrAttachNewText.png" src="../../_images/scrAttachNewText.png" />
+<p class="caption">Pantalla Nuevo Archivo de texto</p>
+</div>
+</li>
+<li><p class="first">Escribir el contenido del archivo.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+<p>El archivo creado se agregará automáticamente a la lista
+de adjuntos.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="quitar-un-archivo-adjunto">
+<h2>8.4.2. Quitar un archivo adjunto<a class="headerlink" href="#quitar-un-archivo-adjunto" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-6"></span><p id="index-7">Para quitar un adjunto de la ficha, seguir los siguientes pasos:</p>
+<ol class="arabic simple">
+<li>Seleccionar el adjunto de la lista.</li>
+<li>Presionar el botón <em class="guilabel">Quitar</em>.</li>
+</ol>
+</div>
+<div class="section" id="bajar-un-archivo-adjunto">
+<h2>8.4.3. Bajar un archivo adjunto<a class="headerlink" href="#bajar-un-archivo-adjunto" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-8"></span><div class="admonition tip" id="index-9">
+<p class="first admonition-title">Truco</p>
+<p class="last"><em>&#8220;Bajar un archivo&#8221;</em> es obtener una <em>copia</em> del adjunto almacenado en el
+sistema y guardarlo en un directorio de la máquina local.</p>
+</div>
+<p>Para bajar un archivo adjunto seguir los siguientes pasos:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar el adjunto que se quiere visualizar.</p>
+</li>
+<li><p class="first">Presionar el botón <img alt="/icons/22guardar.png" class="inlinegraphic" src="../../_images/22guardar.png" /> . Se abrirá la pantalla de
+Guardar archivos, donde se selecciona el directorio y el nombre del archivo a
+guardar. El sistema sugiere el nombre original del archivo.</p>
+<div class="figure">
+<img alt="../../_images/scrAttachSaveAttach.png" src="../../_images/scrAttachSaveAttach.png" />
+<p class="caption">Pantalla Guardar Archivo</p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">OK</em>.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="ver-un-archivo-adjunto">
+<h2>8.4.4. Ver un archivo adjunto<a class="headerlink" href="#ver-un-archivo-adjunto" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-10"></span><p id="index-11">Para visualizar un archivo adjunto, realizar los siguientes pasos:</p>
+<ol class="arabic simple">
+<li>Seleccionar el adjunto de la lista.</li>
+<li>Presionar el botón <img alt="/icons/ampliar_vista.png" class="inlinegraphic" src="../../_images/ampliar_vista.png" />. Se abrirá el archivo
+adjunto con el programa asociado a ese tipo de archivo.</li>
+</ol>
+<p>Si el tipo de archivo no tiene asociado un programa para visualizarlo,
+aparecerá un mensaje de error.</p>
+<div class="figure">
+<img alt="../../_images/scrAttachViewError.png" src="../../_images/scrAttachViewError.png" />
+<p class="caption">Mensaje al visualizar un adjunto</p>
+</div>
+<p>Cuando no existe un programa asociado para visualizar el adjunto, se selecciona
+el programa deseado. Esta selección se realiza sólo la primera vez que se
+visualiza un archivo de ese tipo.</p>
+</div>
+<div class="section" id="modificar-un-archivo-adjunto">
+<h2>8.4.5. Modificar un archivo adjunto<a class="headerlink" href="#modificar-un-archivo-adjunto" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-12"></span><p id="index-13">La modificación del contenido de un adjunto, se realiza en los programas
+específicos según el tipo de adjunto, ya sean gráficos, fotos, documentos,
+planillas, etc.</p>
+<p>En la pantalla de adjuntos, sólo pueden modificarse archivos de texto.</p>
+<p>Para modificar el contenido de un adjunto que no es de texto, debe quitarse el
+adjunto, y agregarse nuevamente el archivo modificado en el programa externo.</p>
+<div class="section" id="modificar-un-archivo-adjunto-de-texto">
+<h3>8.4.5.1. Modificar un archivo adjunto de Texto<a class="headerlink" href="#modificar-un-archivo-adjunto-de-texto" title="Enlazar permanentemente con este título">¶</a></h3>
+<span class="target" id="index-14"></span><p id="index-15">Para modificar un adjunto de tipo texto, seguir los siguientes pasos:</p>
+<ol class="arabic simple">
+<li>Seleccionar el adjunto de la lista.</li>
+<li>Presionar el botón <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" />. Se abrirá la pantalla de
+modificación de un archivo de texto, con el contenido del archivo.</li>
+<li>Escribir el contenido del archivo.</li>
+<li>Presionar el botón <em class="guilabel">Aceptar</em>.</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">8.4. Archivos adjuntos</a><ul>
+<li><a class="reference internal" href="#agregar-un-archivo-adjunto">8.4.1. Agregar un archivo adjunto</a><ul>
+<li><a class="reference internal" href="#agregar-un-archivo-adjunto-de-texto">8.4.1.1. Agregar un archivo adjunto de texto</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#quitar-un-archivo-adjunto">8.4.2. Quitar un archivo adjunto</a></li>
+<li><a class="reference internal" href="#bajar-un-archivo-adjunto">8.4.3. Bajar un archivo adjunto</a></li>
+<li><a class="reference internal" href="#ver-un-archivo-adjunto">8.4.4. Ver un archivo adjunto</a></li>
+<li><a class="reference internal" href="#modificar-un-archivo-adjunto">8.4.5. Modificar un archivo adjunto</a><ul>
+<li><a class="reference internal" href="#modificar-un-archivo-adjunto-de-texto">8.4.5.1. Modificar un archivo adjunto de Texto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="general_03.html"
+                        title="Capítulo anterior">8.3. ¿Cómo agregar notas a los libros, clientes, proveedores o documentos?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="general_05.html"
+                        title="Próximo capítulo">8.5. Configuración del envío por mail</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="general_05.html" title="8.5. Configuración del envío por mail"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_03.html" title="8.3. ¿Cómo agregar notas a los libros, clientes, proveedores o documentos?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" >8. General</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,350 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1.18. ¿Cómo trabajar con libros usados? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="1. Catálogo" href="../05_catalogo.html" />
+    <link rel="next" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="prev" title="1.17. Kardex" href="catalogo_12.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../06_ventas.html" title="2. Ventas"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_12.html" title="1.17. Kardex"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" accesskey="U">1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-trabajar-con-libros-usados">
+<h1>1.18. ¿Cómo trabajar con libros usados?<a class="headerlink" href="#como-trabajar-con-libros-usados" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Nuevos y usados</strong></p>
+<p>El sistema permite utilizar libros usados y administrar su venta. Tal
+como ocurre en los hechos, para Fierro el mismo libro, pero en una
+edición nueva y otra usada, son dos libros distintos, con diferentes
+fichas, atributos, etcétera.</p>
+<p class="last">La ventaja de uso consiste en que, si se tiene el libro nuevo, a
+partir de éste puede crearse el usado y viceversa. Ambos libros &#8220;pares&#8221;,
+el nuevo y el usado, quedarán vinculados, lo cual podrá observarse
+rápidamente de distintas formas, que se enumeran a continuación.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/vistaNuevoUsado.png" src="../../_images/vistaNuevoUsado.png" />
+<p class="caption">Vista nuevo-usado</p>
+</div>
+<p><em class="guilabel">Formas de ver el vínculo nuevo-usado:</em></p>
+<ul>
+<li><p class="first">En la pantalla de búsqueda de libros, cambiar el criterio de filtrado a
+General - Usados. Esto permite utilizar el botón Nuevos/Usados, cuyas opciones
+son: Todos, Nuevos, Usados.</p>
+</li>
+<li><p class="first">En la personalización de vistas (Ver <a class="reference internal" href="../../basics/busqueda/busqueda_14.html#basics-searchs-sec13"><em>Configurar las columnas del
+resultado</em></a>), elegir el ícono Nuevo/Usado, para poder
+observar el tipo de libro mediante las iniciales N ó U.</p>
+<div class="figure">
+<img alt="../../_images/iconoFilas.png" src="../../_images/iconoFilas.png" />
+<p class="caption">None</p>
+</div>
+</li>
+<li><p class="first">La vista inferior, en su ángulo superior derecho y en letra pequeña,  muestra
+detalles del libro &#8220;par&#8221;. En la imagen de ejemplo: Usado, MKF (esto se explica
+más abajo), semáforo de stock, cantidad.</p>
+</li>
+<li><p class="first">Similar información puede obtenerse en la lista de resultados con las columnas
+Stock y Tipo. (La columna Activo se explica más abajo.)</p>
+</li>
+</ul>
+<div class="section" id="como-crear-un-libro-usado">
+<h2>1.18.1. ¿Cómo crear un libro usado?<a class="headerlink" href="#como-crear-un-libro-usado" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Cuando se recibe un libro usado (del cual no se tiene en el sistema su &#8220;par&#8221;
+nuevo) y se desea ingresarlo en Fierro, la pantalla inicial de creación de
+libros permite elegir qué tipo de libro crear:</p>
+<div class="figure">
+<img alt="../../_images/crearNuevoUsado.png" src="../../_images/crearNuevoUsado.png" />
+<p class="caption">Crear Nuevo o Usado</p>
+</div>
+</li>
+<li><p class="first">Cuando ya se tiene en Fierro el libro nuevo, a partir del mismo puede crearse
+el usado como sigue:</p>
+<ul>
+<li><p class="first">Buscar el libro nuevo. Seleccionarlo y pulsar en la barra de herramientas
+el botón  <img alt="/icons/22validar.png" class="inlinegraphic" src="../../_images/22validar.png" />.</p>
+<div class="figure">
+<img alt="../../_images/activarLibro.png" src="../../_images/activarLibro.png" />
+<p class="caption">Activar libro</p>
+</div>
+</li>
+<li><p class="first">El sistema emite un aviso de que el libro usado se ha creado (activado).
+Ver <a class="reference internal" href="#howto-catalogo-sec13-sec4"><em>¿Cómo funciona la activación?</em></a></p>
+<div class="figure">
+<img alt="../../_images/activacionExitosa.png" src="../../_images/activacionExitosa.png" />
+<p class="caption">Activación exitosa</p>
+</div>
+</li>
+<li><p class="first">Luego del mensaje anterior, el libro usado aparecerá  creado, y la columna
+Activo (tanto para el libro nuevo como para el usado) tendrá ahora el valor
+&#8220;Sí&#8221;.</p>
+<div class="figure">
+<img alt="../../_images/libroActivado.png" src="../../_images/libroActivado.png" />
+<p class="caption">Libro usado creado</p>
+</div>
+</li>
+</ul>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Cabe aclarar que la activación puede efectuarse <em>a la inversa</em>: a partir del
+libro <em class="guilabel">usado</em>, crear el <em class="guilabel">nuevo</em>.  Tal como se observa en
+la figura anterior, el libro usado fue creado automáticamente con
+un <em class="guilabel">precio</em>. ¿De dónde se obtiene? El precio del libro usado puede,
+al igual que en los nuevos, colocarse manualmente, o bien mediante
+una <em class="guilabel">Regla de precios</em>.</p>
+</div>
+</div>
+<div class="section" id="como-crear-una-regla-de-precios">
+<h2>1.18.2. ¿Cómo crear una regla de precios?<a class="headerlink" href="#como-crear-una-regla-de-precios" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Ir al menú <em class="menuselection">Ventas ‣ Otros ‣ Configuración de cambios de
+precios</em>. En la pantalla que se abre, pulsar el botón <em class="guilabel">Crear</em>.</p>
+</li>
+<li><p class="first">Se presenta un editor para crear una nueva regla de precios o modificar una
+existente:</p>
+<div class="figure">
+<img alt="../../_images/reglaDePrecios.png" src="../../_images/reglaDePrecios.png" />
+<p class="caption">Crear regla de precios</p>
+</div>
+</li>
+<li><p class="first">La cifra (porcentaje) que se coloque como predeterminada establecerá una
+sincronización entre los precios de libros &#8220;pares&#8221; (nuevo y usado) en base a
+una relación porcentual.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">En una imagen anterior se vio cómo, al crear <em>La naranja mecánica</em> usado
+a partir del nuevo, el libro usado se generó automáticamente con el
+precio 45,50 en razón de que el porcentaje predeterminado fue 65. Precio
+del nuevo: 70 * 65 % = 45,50.  En la condición de usado, el porcentaje
+se refiere a la actualización del precio del usado cuando se modifica el
+del nuevo. Al <em class="guilabel">procesar listas de precios</em> se actualizan los
+de los libros nuevos; si algunos de los que están en la lista a procesar
+solo existen como usados, el sistema activa (crea) el nuevo y modifica
+el precio del usado siguiendo el porcentaje. Si el libro que se
+actualiza sólo está como nuevo, no se hace ninguna activación de usado.</p>
+</div>
+</li>
+<li><p class="first">En el mismo editor se observa una solapa Reglas, con la cual pueden aplicarse
+<em>excepciones</em> al porcentaje predeterminado. Al pulsar el
+botón <em class="guilabel">Agregar</em>, se presenta un asistente para crear excepciones
+mediante grupos de libros. Ver <a class="reference internal" href="catalogo_07.html#howto-catalogo-sec7"><em>¿Cómo crear un Grupo de Libros?</em></a></p>
+</li>
+</ol>
+</div>
+<div class="section" id="como-utilizar-el-mapeo-precios-letras">
+<h2>1.18.3. ¿Cómo utilizar el mapeo Precios/Letras?<a class="headerlink" href="#como-utilizar-el-mapeo-precios-letras" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Valores</strong></p>
+<p class="last">Para codificar el precio de un libro, se pueden elegir letras de
+distinta denominación, por ejemplo con los valores que tienen los
+billetes argentinos. La codificación funciona como si se convirtiera un
+precio a billetes. Ejemplo: $165 sería $100 (K), $50 (J), $10 (H), $5
+(G) = KJHG. Cuando se quiere hacer un aumento de precios generalizado
+sobre los usados únicamente, se cambian los valores de las
+letras.</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">En la vista general mostrada más arriba se aprecia, entre los detalles del
+libro usado, la codificación MKF, que significa: M = $26 + K = $6,50 + F =
+3,25 = $35,75.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">En el editor de reglas de precio, utilizar la solapa Mapeo Precios/Letras
+para establecer la relación, y pulsar el botón <em class="guilabel">Agregar</em>.</p>
+<div class="figure">
+<img alt="../../_images/mapeoPreciosLetras.png" src="../../_images/mapeoPreciosLetras.png" />
+<p class="caption">Mapeo Precios/Letras</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="como-funciona-la-activacion">
+<span id="howto-catalogo-sec13-sec4"></span><h2>1.18.4. ¿Cómo funciona la activación?<a class="headerlink" href="#como-funciona-la-activacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Activos/Inactivos</strong></p>
+<p>Los libros pueden marcarse como activos o no. Este estado no tiene
+influencia en el sistema, pero mediante los permisos de seguridad puede
+indicarse que no se visualicen los libros inactivos para que no
+aparezcan en las búsquedas. Los libros se activan con el botón
+<img alt="/icons/22validar.png" class="inlinegraphic" src="../../_images/22validar.png" /> y se desactivan con el
+botón <img alt="/icons/22no_valido.png" class="inlinegraphic" src="../../_images/22no_valido.png" />.</p>
+<p class="last">En la búsqueda de libros, mediante el panel Activación pueden buscarse
+los libros por dicho estado.</p>
+</div>
+<ul class="simple">
+<li>Si un libro -nuevo o usado- <em>no</em> tiene su par,  el botón de activación lo crea
+-usado o nuevo-;</li>
+<li>Si un libro -nuevo o usado- tiene su par pero  <em>inactivo</em>, el botón de
+activación lo activa;</li>
+<li>Si un libro -nuevo o usado- tiene su par  <em>activo</em>, el botón de desactivación
+pasa a inactivo (pero NO borra) el libro par.</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">La <em>desactivación</em> de libros es útil para <em class="guilabel">aligerar las búsquedas</em>
+(por ejemplo desactivando libros que ya no se consiguen).  Esto representará
+un ahorro de tiempo y exigencia del sistema en las consultas.  Es posible
+ingresar en el árbol de permisos de usuario de Fierro y filtrar la búsqueda
+de libros sólo para Activos o Inactivos.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/filtroActivo.png" src="../../_images/filtroActivo.png" />
+<p class="caption">Filtro de búsqueda en permisos de usuario</p>
+</div>
+</div>
+<div class="section" id="como-limitar-por-estado-una-busqueda-en-cargas-de-comprobantes">
+<h2>1.18.5. ¿Cómo limitar por estado una búsqueda en cargas de comprobantes?<a class="headerlink" href="#como-limitar-por-estado-una-busqueda-en-cargas-de-comprobantes" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Estado de libros</strong></p>
+<p class="last">En la carga de remitos, facturas, devoluciones y documentos de stock,
+si el usuario sabe que va a trabajar sólo con un estado de libros (por
+ejemplo, libros nuevos en facturas de compras), puede limitar la
+aparición de aquellos libros que no utilizará.</p>
+</div>
+<ul>
+<li><p class="first">Pulsar el botón <img alt="/icons/22findProductTypeNew.png" class="inlinegraphic" src="../../_images/22findProductTypeNew.png" /> para incluir en la
+búsqueda sólo libros nuevos.</p>
+</li>
+<li><p class="first">Pulsar el botón <img alt="/icons/22findProductTypeUsed.png" class="inlinegraphic" src="../../_images/22findProductTypeUsed.png" /> para incluir en la
+búsqueda sólo libros usados.</p>
+</li>
+<li><p class="first">En ambos casos, el botón &#8220;realzado&#8221; actuará como filtro. El botón que
+permanece sin realce estará inactivo.</p>
+<div class="figure">
+<img alt="../../_images/botonRealzado.png" src="../../_images/botonRealzado.png" />
+<p class="caption">None</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../manual.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">1.18. ¿Cómo trabajar con libros usados?</a><ul>
+<li><a class="reference internal" href="#como-crear-un-libro-usado">1.18.1. ¿Cómo crear un libro usado?</a></li>
+<li><a class="reference internal" href="#como-crear-una-regla-de-precios">1.18.2. ¿Cómo crear una regla de precios?</a></li>
+<li><a class="reference internal" href="#como-utilizar-el-mapeo-precios-letras">1.18.3. ¿Cómo utilizar el mapeo Precios/Letras?</a></li>
+<li><a class="reference internal" href="#como-funciona-la-activacion">1.18.4. ¿Cómo funciona la activación?</a></li>
+<li><a class="reference internal" href="#como-limitar-por-estado-una-busqueda-en-cargas-de-comprobantes">1.18.5. ¿Cómo limitar por estado una búsqueda en cargas de comprobantes?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="catalogo_12.html"
+                        title="Capítulo anterior">1.17. Kardex</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="../06_ventas.html"
+                        title="Próximo capítulo">2. Ventas</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../06_ventas.html" title="2. Ventas"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_12.html" title="1.17. Kardex"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" >1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

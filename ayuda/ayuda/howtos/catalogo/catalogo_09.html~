@@ -1,0 +1,209 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1.9. ¿Cómo importar precios de una planilla de cálculo? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="1. Catálogo" href="../05_catalogo.html" />
+    <link rel="next" title="1.10. ¿Cómo bajar la ficha de un libro de una fuente de datos externa?" href="catalogo_10.html" />
+    <link rel="prev" title="1.8. ¿Cómo crear una Editorial?" href="catalogo_08.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="catalogo_10.html" title="1.10. ¿Cómo bajar la ficha de un libro de una fuente de datos externa?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_08.html" title="1.8. ¿Cómo crear una Editorial?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" accesskey="U">1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-importar-precios-de-una-planilla-de-calculo">
+<h1>1.9. ¿Cómo importar precios de una planilla de cálculo?<a class="headerlink" href="#como-importar-precios-de-una-planilla-de-calculo" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><p>La importación de precios permite actualizar los precios del catálogo desde
+una planilla de cálculo con la lista de libros y precios.</p>
+<p>Los proveedores suelen enviar sus listas en planillas Excel, cuyo formato no
+es soportado por este sistema. Se debe abrir el archivo Excel y en la opción de
+menú <em class="menuselection">Archivo ‣ Guardar como ...</em> Guardar como Texto CSV (.csv).</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Listas de precios</em>.
+Se abrirá la pantalla de Listas de precios.</p>
+</li>
+<li><p class="first">Seleccionar la lista de precios en la cual van a aplicar los cambios.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Precios</em>. Se abrirá la pantalla de cambios de
+precio.</p>
+</li>
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventana Activa ‣ Importar Precios</em>
+o el ícono <img alt="/icons/importar.png" class="inlinegraphic" src="../../_images/importar.png" /> de la barra de herramientas. Se
+abrirá el asistente de importación de precios. Ver
+<a class="reference internal" href="../../basics/pantallas/pantallas_03.html#basics-controls-wizards"><em>Asistente</em></a>.</p>
+</li>
+<li><p class="first">En el primer paso del asistente, seleccionar el archivo a importar presionando
+el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" /></p>
+<div class="figure">
+<img alt="../../_images/scrImportPricesFile.png" src="../../_images/scrImportPricesFile.png" />
+<p class="caption">Asistente para importar precios - Selección del archivo a importar</p>
+</div>
+</li>
+<li><p class="first"><em>Empezar desde línea:</em> Indica en qué fila se empieza a procesar el archivo,
+dado que éste puede tener líneas de títulos o de descripción que no se
+necesiten.</p>
+</li>
+<li><p class="first"><em>Formato del archivo:</em> El botón <img alt="/icons/refrescar.png" class="inlinegraphic" src="../../_images/refrescar.png" /> permite
+visualizar el contenido del archivo según el formato elegido, lo cual se
+mostrará en la parte inferior de la pantalla. Si las columnas no se vieran
+correctamente, elegir la opción Personalizado; así puede, por ejemplo,
+colocarse una coma en el campo Separador, para ordenar un formato Excel.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Siguiente</em> para pasar al próximo paso del asistente.</p>
+</li>
+<li><p class="first">En el siguiente paso se define qué columna del archivo tiene el código para
+vincular los libros del archivo con los del catálogo. Ingresar el número de
+columna, visualizándolo en el paso anterior.</p>
+</li>
+<li><p class="first">Si el código elegido es el de proveedor, ingresar el código de proveedor o
+buscarlo presionando el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" />.</p>
+<div class="figure">
+<img alt="../../_images/scrImportPricesCode.png" src="../../_images/scrImportPricesCode.png" />
+<p class="caption">Asistente para importar precios - Selección de la columna código</p>
+</div>
+</li>
+<li><p class="first">En el siguiente paso se define en qué columna del archivo está el precio y
+cómo es su formato. Ingresar el número de columna, el carácter usado para
+separar los decimales y las decenas de mil, y la moneda.</p>
+<div class="figure">
+<img alt="../../_images/scrImportPricesPrice.png" src="../../_images/scrImportPricesPrice.png" />
+<p class="caption">Asistente para importar precios - Selección de la columna precio</p>
+</div>
+</li>
+<li><p class="first">Dentro de todos los libros contenidos en el archivo, puede filtrarse los
+libros a importar. Por ejemplo, puedo definir que solo se importen los libros
+con stock, o los libros de alguna editorial determinada. Para esto, presionar
+el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" /> . Se abrirá la pantalla de filtro de
+libros.</p>
+</li>
+<li><p class="first">Ingresar los criterios de filtrado de los libros que se quieren importar.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Finalizar</em> para comenzar el procesamiento del archivo.</p>
+</li>
+<li><p class="first">Se abrirá la pantalla de Resultados de la importación de precios donde se
+muestra la cantidad de líneas procesadas, la cantidad de precios actualizados
+y la cantidad de errores.</p>
+<p>Si hubo errores, se muestra la lista de los mismos. Estos errores pueden
+guardarse para volver a procesar el archivo con otros criterios de
+configuración.</p>
+<div class="figure">
+<img alt="../../_images/scrImportPricesErrors.png" src="../../_images/scrImportPricesErrors.png" />
+<p class="caption">Asistente para importar precios - Resultado de la importación</p>
+</div>
+</li>
+<li><p class="first">Los libros que pudieron ser importados aparecerán en la parte inferior de la
+pantalla de importación de precios.</p>
+<p>Presionar el botón <em class="guilabel">Aceptar</em> para guardar los cambios de precios y
+cerrar la ventana o <em class="guilabel">Aplicar</em> para guardar los cambios y seguir en
+la pantalla.</p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="catalogo_08.html"
+                        title="Capítulo anterior">1.8. ¿Cómo crear una Editorial?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="catalogo_10.html"
+                        title="Próximo capítulo">1.10. ¿Cómo bajar la ficha de un libro de una fuente de datos externa?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="catalogo_10.html" title="1.10. ¿Cómo bajar la ficha de un libro de una fuente de datos externa?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_08.html" title="1.8. ¿Cómo crear una Editorial?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" >1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

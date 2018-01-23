@@ -1,0 +1,184 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>6. ¿Cómo ver quién, cuándo y dónde se realizó una acción en el sistema? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="7. Seguridad" href="../10_seguridad.html" />
+    <link rel="next" title="7. ¿Cómo encontrar las operaciones según quién, dónde y cuándo se realizaron?" href="seguridad_07.html" />
+    <link rel="prev" title="5. ¿Cómo cambiar la contraseña de un usuario?" href="seguridad_05.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="seguridad_07.html" title="7. ¿Cómo encontrar las operaciones según quién, dónde y cuándo se realizaron?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="seguridad_05.html" title="5. ¿Cómo cambiar la contraseña de un usuario?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../10_seguridad.html" accesskey="U">7. Seguridad</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-ver-quien-cuando-y-donde-se-realizo-una-accion-en-el-sistema">
+<h1>6. ¿Cómo ver quién, cuándo y dónde se realizó una acción en el sistema?<a class="headerlink" href="#como-ver-quien-cuando-y-donde-se-realizo-una-accion-en-el-sistema" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Transacción</strong></p>
+<p>El sistema registra qué usuario, en qué fecha, y desde qué sucursal se
+realizan las operaciones. Esto se denomina <em>Transacción.</em></p>
+<p>Luego se puede visualizar esta información para el control de la
+gestión.</p>
+<p class="last">También se pueden realizar búsquedas en base a la transacción; por
+ejemplo, buscar todas las facturas cargadas por el usuario Roberto en la
+sucursal Thames, entre el 01-11-2010 y el 05-11-2010.</p>
+</div>
+<div class="section" id="columnas">
+<h2>6.1. Columnas<a class="headerlink" href="#columnas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En todas las búsquedas del sistema, hay tres columnas que pueden configurarse
+para ver la información de quién, cuándo y dónde se realizó la operación de
+crear el elemento seleccionado.</p>
+<p>Por ejemplo, en la búsqueda de Remitos puedo visualizar qué usuario lo creó, en
+qué sucursal, y en qué fecha.</p>
+<p>Las columnas son:</p>
+<ul>
+<li><p class="first"><em>Usuario</em>: nombre del usuario que realizó la operación.</p>
+<p><em>Sucursal alta</em>: sucursal donde se realizó la
+operación.</p>
+<p><em>Fecha alta</em>: fecha en que se realizó la
+operación.</p>
+</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/scrTransactionColumns.png" src="../../_images/scrTransactionColumns.png" />
+<p class="caption">Columnas de transacción</p>
+</div>
+</div>
+<div class="section" id="vista-transaccion">
+<h2>6.2. Vista Transacción<a class="headerlink" href="#vista-transaccion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Todas las entidades del sistema tienen una vista llamada Transacción. Esta
+vista muestra el usuario, la sucursal, y la fecha en que se realizó la
+operación.</p>
+<div class="figure">
+<img alt="../../_images/scrTransactionView.png" src="../../_images/scrTransactionView.png" />
+<p class="caption">Vista Transacción</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">No confundir la fecha de transacción con la fecha de un documento. Por
+ejemplo, una factura puede ser del día 14-05-2009 pero fue cargada el día
+01-06-2009. Lo mismo pasa con la sucursal: una factura correspondiente a
+una sucursal pudo haber sido cargada en otra. El sistema muestra los datos
+en distintas columnas, y los datos de transacción se llaman Fecha Alta y
+Sucursal Alta.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">6. ¿Cómo ver quién, cuándo y dónde se realizó una acción en el sistema?</a><ul>
+<li><a class="reference internal" href="#columnas">6.1. Columnas</a></li>
+<li><a class="reference internal" href="#vista-transaccion">6.2. Vista Transacción</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="seguridad_05.html"
+                        title="Capítulo anterior">5. ¿Cómo cambiar la contraseña de un usuario?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="seguridad_07.html"
+                        title="Próximo capítulo">7. ¿Cómo encontrar las operaciones según quién, dónde y cuándo se realizaron?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="seguridad_07.html" title="7. ¿Cómo encontrar las operaciones según quién, dónde y cuándo se realizaron?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="seguridad_05.html" title="5. ¿Cómo cambiar la contraseña de un usuario?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../10_seguridad.html" >7. Seguridad</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

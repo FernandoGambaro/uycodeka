@@ -1,0 +1,139 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1.6. ¿Cómo crear un Autor? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="1. Catálogo" href="../05_catalogo.html" />
+    <link rel="next" title="1.7. ¿Cómo crear un grupo de libros?" href="catalogo_07.html" />
+    <link rel="prev" title="1.5. Uso del Puesto de Consulta para salón de ventas" href="catalogo_05.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="catalogo_07.html" title="1.7. ¿Cómo crear un grupo de libros?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_05.html" title="1.5. Uso del Puesto de Consulta para salón de ventas"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" accesskey="U">1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-un-autor">
+<span id="howto-catalogo-sec6"></span><h1>1.6. ¿Cómo crear un Autor?<a class="headerlink" href="#como-crear-un-autor" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Catálogo ‣ Autores</em>.
+Se abrirá la pantalla de Autores.</li>
+<li>Presionar el botón <em class="guilabel">Crear</em>. Se abrirá la pantalla de Nuevo Autor.</li>
+<li>Completar el nombre y apellido del autor. El apellido es el único campo obligatorio.</li>
+<li>Completar la fecha de nacimiento, muerte, lugar de nacimiento y país de origen.</li>
+<li>Seleccionar la tendencia del autor presionando el botón
+<img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" /> del campo Tendencia.</li>
+<li>En la solapa Archivos Adjuntos, agregar los archivos del autor.</li>
+<li>Presionar el botón <em class="guilabel">Aceptar</em>.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/scrCrearAutor.png" src="../../_images/scrCrearAutor.png" />
+<p class="caption">Pantalla Nuevo Autor</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="catalogo_05.html"
+                        title="Capítulo anterior">1.5. Uso del Puesto de Consulta para salón de ventas</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="catalogo_07.html"
+                        title="Próximo capítulo">1.7. ¿Cómo crear un grupo de libros?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="catalogo_07.html" title="1.7. ¿Cómo crear un grupo de libros?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_05.html" title="1.5. Uso del Puesto de Consulta para salón de ventas"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" >1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

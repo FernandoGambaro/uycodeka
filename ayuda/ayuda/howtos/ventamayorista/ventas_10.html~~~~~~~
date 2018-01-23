@@ -1,0 +1,260 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4.2. Lotes de Devolución &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="4. Venta Mayorista" href="../07_ventamayorista.html" />
+    <link rel="next" title="4.3. Cobranzas" href="ventas_11.html" />
+    <link rel="prev" title="4.1. ¿Cómo crear pedidos de cliente?" href="ventas_1.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_11.html" title="4.3. Cobranzas"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_1.html" title="4.1. ¿Cómo crear pedidos de cliente?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" accesskey="U">4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="lotes-de-devolucion">
+<h1>4.2. Lotes de Devolución<a class="headerlink" href="#lotes-de-devolucion" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="admonition note" id="index-0">
+<p class="first admonition-title">Nota</p>
+<p><strong>Lotes de devolución</strong>
+Esta herramienta simplifica, el registro de las devoluciones de clientes, sea de libros consignados o facturados. Un
+lote de devolución representa un conteo de libros devueltos, que puede ser ingresado desde el depósito al contar los
+libros.</p>
+<p class="last">Al ingresar el lote de devolución, se crearan automáticamente las devoluciones de los libros consignados, regresando
+los ejemplares al stock y detectando las diferencias entre los remitos y las cantidades recibidas.
+Para los libros no consignados, se habilita la generación de la nota de crédito desde la consulta de lotes de devolución.</p>
+</div>
+<p>Los objetivos del trabajo con lotes de devolución son:</p>
+<ol class="arabic simple">
+<li>Simplificar la carga de las devoluciones de clientes</li>
+<li>Permitir el rápido ingreso de los libros al stock al realizar automáticamente la devolución</li>
+<li>Registrar las diferencias entre el remito que envió el cliente y la cantidad que efectivamente llegó</li>
+</ol>
+<div class="section" id="creacion-del-lote-de-devolucion">
+<h2>4.2.1. Creación del lote de devolución<a class="headerlink" href="#creacion-del-lote-de-devolucion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los lotes de devolución se ingresan desde el menú <em class="menuselection">Ventas ‣ Lotes de Devolución</em></p>
+<div class="figure">
+<img alt="../../_images/LD1.png" src="../../_images/LD1.png" />
+<p class="caption">Ingreso de Lote de Devolución</p>
+</div>
+<p>Desde la consulta de Lotes de devolución, seleccionar el icono <img alt="/icons/22nuevo.png" class="inlinegraphic" src="../../_images/22nuevo.png" /> o seleccionar <em class="menuselection">Nuevo Lote de Devolución</em>.</p>
+<div class="figure">
+<img alt="../../_images/LD2.png" src="../../_images/LD2.png" />
+<p class="caption">Ingreso de Lote de Devolución</p>
+</div>
+<p>En la ventana para ingresar un nuevo lote de devolución, se debe indicar los siguientes datos:</p>
+<ul class="simple">
+<li>Datos de documento: fecha, sucursal, etc.</li>
+<li>Cliente</li>
+<li>Número</li>
+<li>Número de remito del cliente</li>
+<li>Items: por cada item se ingresa la cantidad física recibida y la que figura en el remito del cliente</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/LD3.png" src="../../_images/LD3.png" />
+<p class="caption">Ingreso de Lote de Devolución</p>
+</div>
+<p>Al guardar el lote de devolución, se crearán las devoluciones teniendo en cuenta la consignación. Los libros del lote se asignan, primero a la consignacion, y los sobrantes quedan a la espera del análisis para realizar las notas de crédito correspondientes.</p>
+<div class="figure">
+<img alt="../../_images/LD4.png" src="../../_images/LD4.png" />
+<p class="caption">Remito del Cliente en el Lote de Devolución</p>
+</div>
+<p>Desde la consulta de Lotes de Devolución es posible acceder al remito de devolución generado (desde el vinculo, que lo abrirá en una nueva solapa) y a la vista del remito del cliente (click derecho, Vista Remito del Cliente)</p>
+<div class="figure">
+<img alt="../../_images/LD5.png" src="../../_images/LD5.png" />
+<p class="caption">Remito de Devolución generado por lote de devolución</p>
+</div>
+</div>
+<div class="section" id="busqueda-de-lotes-de-devolucion">
+<h2>4.2.2. Búsqueda de Lotes de Devolución<a class="headerlink" href="#busqueda-de-lotes-de-devolucion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En la consulta de lote de devolución se puede ver:</p>
+<ul>
+<li><p class="first">Cliente</p>
+</li>
+<li><p class="first">Número de Lote</p>
+</li>
+<li><p class="first">Número de remito del cliente</p>
+</li>
+<li><p class="first">Fecha de remito del cliente</p>
+</li>
+<li><p class="first">Devoluciones asociadas</p>
+</li>
+<li><p class="first">Notas de Credito asociadas</p>
+</li>
+<li><p class="first">Status: Pendiente, Cerrado (se considerea cerrado si TODOS sus ítems están incluídos devoluciones, notas de crédito o están rechazados.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Por cada ítem:</dt>
+<dd><ul class="first last simple">
+<li>Libro</li>
+<li>Cantidad (puede ser 0)</li>
+<li>Cantidad en el remito del cliente (puede ser 0)</li>
+<li>Cantidad rechazada (siempre menor a cantidad, inicialmente 0)</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/LD6.png" src="../../_images/LD6.png" />
+<p class="caption">Lote de Devolución</p>
+</div>
+</div>
+<div class="section" id="nueva-nota-de-credito-a-partir-de-un-lote">
+<h2>4.2.3. Nueva Nota de Crédito a partir de un lote<a class="headerlink" href="#nueva-nota-de-credito-a-partir-de-un-lote" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Desde la búsqueda de Lotes de Devolución se pueden generar las Notas de Créditos, seleccionando un lote de devolución y haciendo click en el botón de la barra de herramientas <img alt="/icons/NuevaNotaCredito.png" class="inlinegraphic" src="../../_images/NuevaNotaCredito.png" /> (se abrirá una pantalla de creación de Notas de Crédito en cuenta corriente con todos los datos posibles cargados).</p>
+<div class="figure">
+<img alt="../../_images/LD7.png" src="../../_images/LD7.png" />
+<p class="caption">Nueva Nota de Crédito</p>
+</div>
+<p>Al guardar las Notas de Crédito se actualiza el estado del Lote de Devolución si ya se asignaron todos sus ítems.</p>
+<div class="figure">
+<img alt="../../_images/LD8.png" src="../../_images/LD8.png" />
+<p class="caption">Vista del lote de devolución despues de generar la nota de crédito</p>
+</div>
+</div>
+<div class="section" id="listado-de-reubicacion">
+<h2>4.2.4. Listado de reubicación<a class="headerlink" href="#listado-de-reubicacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Al crear el lote de devolucion, se puede imprimir el listado de reubicación. Este reporte muestra los libros incluidos en el lote, que están en condiciones de ingresar al stock, ordenados por Ubicación y código.</p>
+<div class="figure">
+<img alt="../../_images/LD10.png" src="../../_images/LD10.png" />
+<p class="caption">Listado de Reubicación</p>
+</div>
+</div>
+<div class="section" id="modificar-cantidad-del-remito-del-cliente">
+<h2>4.2.5. Modificar cantidad del remito del cliente<a class="headerlink" href="#modificar-cantidad-del-remito-del-cliente" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La cantidad del remito del cliente se puede modificar desde las vistas en la busqueda de Lotes de Devolución.</p>
+<div class="figure">
+<img alt="../../_images/LD11.png" src="../../_images/LD11.png" />
+<p class="caption">Modificar la cantidad del remito del cliente</p>
+</div>
+</div>
+<div class="section" id="modificar-cantidad-rechazada">
+<h2>4.2.6. Modificar cantidad rechazada<a class="headerlink" href="#modificar-cantidad-rechazada" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La cantidad de ejemplares rechazadas, en los libro que todavía no fueron asignados, también se puede modificar desde las vistas en la búsqueda de Lotes de Devolución. Este cambio actualiza el estado del Lote de Devolución, cerrandolo si ya no quedan items.</p>
+<div class="figure">
+<img alt="../../_images/LD12.png" src="../../_images/LD12.png" />
+<p class="caption">Modificar la cantidad rechazada</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">4.2. Lotes de Devolución</a><ul>
+<li><a class="reference internal" href="#creacion-del-lote-de-devolucion">4.2.1. Creación del lote de devolución</a></li>
+<li><a class="reference internal" href="#busqueda-de-lotes-de-devolucion">4.2.2. Búsqueda de Lotes de Devolución</a></li>
+<li><a class="reference internal" href="#nueva-nota-de-credito-a-partir-de-un-lote">4.2.3. Nueva Nota de Crédito a partir de un lote</a></li>
+<li><a class="reference internal" href="#listado-de-reubicacion">4.2.4. Listado de reubicación</a></li>
+<li><a class="reference internal" href="#modificar-cantidad-del-remito-del-cliente">4.2.5. Modificar cantidad del remito del cliente</a></li>
+<li><a class="reference internal" href="#modificar-cantidad-rechazada">4.2.6. Modificar cantidad rechazada</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_1.html"
+                        title="Capítulo anterior">4.1. ¿Cómo crear pedidos de cliente?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_11.html"
+                        title="Próximo capítulo">4.3. Cobranzas</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_11.html" title="4.3. Cobranzas"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_1.html" title="4.1. ¿Cómo crear pedidos de cliente?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" >4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

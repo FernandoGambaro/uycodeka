@@ -1,0 +1,359 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1. ¿Cómo crear un nuevo Derecho Habiente? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="11. Derechos de Autor" href="../14_ddaa.html" />
+    <link rel="next" title="3. ¿Cómo crear una Relación de Responsable?" href="ddaa_2.html" />
+    <link rel="prev" title="11. Derechos de Autor" href="../14_ddaa.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ddaa_2.html" title="3. ¿Cómo crear una Relación de Responsable?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="../14_ddaa.html" title="11. Derechos de Autor"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../14_ddaa.html" accesskey="U">11. Derechos de Autor</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-un-nuevo-derecho-habiente">
+<h1>1. ¿Cómo crear un nuevo Derecho Habiente?<a class="headerlink" href="#como-crear-un-nuevo-derecho-habiente" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Derecho habientes</strong></p>
+<p class="last">Esta entidad esta separada de los &#8220;Autores&#8221; desde el punto de vista bibliográfico, ya
+que puede no existir coincidencia. Las regalías correspondientes a la venta de las obras pueden ser
+percibidas por el autor, por los herederos del mismo, por la editorial, entre otros, de
+aquí la asignación del nombre: derecho habiente.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Desde la pantalla de consulta de derecho habientes opción de
+menú <em class="menuselection">Derechos de autor ‣ Derecho habientes</em> seleccionar el
+ícono <img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" /> . Se abrirá el asistente para crear un
+nuevo derecho habiente. Ver <a class="reference internal" href="../../basics/pantallas/pantallas_03.html#basics-controls-wizards"><em>Asistente</em></a>.</p>
+<div class="figure">
+<img alt="../../_images/Dautor_Asistente.png" src="../../_images/Dautor_Asistente.png" />
+<p class="caption">Asistente para crear un derecho habiente</p>
+</div>
+</li>
+<li><p class="first">En el primer paso del asistente debe indicarse si el nuevo derecho habiente es Persona
+u Organización.</p>
+</li>
+<li><p class="first">Dependiendo de qué se haya indicado, en el segundo paso aparecen los campos
+para identificar a un individuo o a una empresa. El único campo obligatorio
+allí es <em>Nombre</em> o <em>Nombre Fantasía</em>.</p>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">A lo largo del asistente sólo se presenta una diferencia más según el
+tipo de derecho habiente, y es la de <em>Datos personales</em> (Fecha de nacimiento,
+Profesión, Sexo) cuando se trata de Persona.</p>
+</div>
+<p>Las secciones de la creación de un derecho habiente son:</p>
+<div class="section" id="datos-personales-para-el-tipo-organizacion">
+<h2>1.1. Datos personales para el tipo: Organización<a class="headerlink" href="#datos-personales-para-el-tipo-organizacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul>
+<li><p class="first">Código: código del derecho habiente con el que se referencia en el sistema. Ver
+<a class="reference internal" href="../../basics/pantallas/pantallas_05.html#basics-controls-sequences"><em>Ingreso de códigos</em></a>.</p>
+</li>
+<li><p class="first">Nombre Fantasía.</p>
+</li>
+<li><p class="first">Razón Social.</p>
+</li>
+<li><p class="first">Tipo de IVA.</p>
+</li>
+<li><p class="first">CUIT.</p>
+</li>
+<li><p class="first">Contacto: nombre de la persona dentro de la empresa con quien se trata
+habitualmente.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_NuevaOrganizacion.png" src="../../_images/Dautor_NuevaOrganizacion.png" />
+<p class="caption">Datos personales para el tipo organización</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="datos-personales-para-el-tipo-persona">
+<h2>1.2. Datos personales para el tipo: Persona<a class="headerlink" href="#datos-personales-para-el-tipo-persona" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul>
+<li><p class="first">Código: Código del derecho habiente con el que se referencia en el sistema. Ver
+<a class="reference internal" href="../../basics/pantallas/pantallas_05.html#basics-controls-sequences"><em>Ingreso de códigos</em></a>.</p>
+</li>
+<li><p class="first">Nombre.</p>
+</li>
+<li><p class="first">Apellido.</p>
+</li>
+<li><p class="first">Tipo de documento.</p>
+</li>
+<li><p class="first">N° de documento.</p>
+</li>
+<li><p class="first">Tipo de IVA.</p>
+</li>
+<li><p class="first">CUIT.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_NuevaPersona.png" src="../../_images/Dautor_NuevaPersona.png" />
+<p class="caption">Datos personales para el tipo persona</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="datos-generales">
+<h2>1.3. Datos generales<a class="headerlink" href="#datos-generales" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul>
+<li><p class="first">Autor: seleccionar de la lista de autores el nombre indicado, si es la misma persona o bien
+a quien el derecho habiente representa.</p>
+</li>
+<li><p class="first">Relación: el tipo de relación con el autor, por ejemplo autor (cuando es la misma persona), administrador, heredero, editorial.</p>
+</li>
+<li><p class="first">Tipo de Retención: se puede asignar la retención que se aplica del listado de retenciones precargada del sistema.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_DatosGenerales.png" src="../../_images/Dautor_DatosGenerales.png" />
+<p class="caption">Datos generales</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="direccion-del-derecho-habiente">
+<h2>1.4. Dirección del derecho habiente.<a class="headerlink" href="#direccion-del-derecho-habiente" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Datos de contacto del derecho habiente.</p>
+<ul>
+<li><p class="first">Domicilio.</p>
+</li>
+<li><p class="first">Código Postal.</p>
+</li>
+<li><p class="first">País.</p>
+</li>
+<li><p class="first">Provincia.</p>
+</li>
+<li><p class="first">Localidad.</p>
+</li>
+<li><p class="first">Teléfono.</p>
+</li>
+<li><p class="first">Email.</p>
+</li>
+<li><p class="first">Página Web.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_Direccion.png" src="../../_images/Dautor_Direccion.png" />
+<p class="caption">Datos de dirección</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="archivos-asociados">
+<h2>1.5. Archivos asociados<a class="headerlink" href="#archivos-asociados" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La ficha del derecho habiente puede tener archivos adjuntos.</p>
+<p>Para agregar un archivo adjunto:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar el tipo de archivo.</p>
+</li>
+<li><p class="first">Buscar el archivo a adjuntar presionando el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" />.</p>
+</li>
+<li><p class="first">Complete la descripción del archivo (opcional).</p>
+</li>
+<li><p class="first">Presione el botón <em class="guilabel">Agregar</em></p>
+<div class="figure">
+<img alt="../../_images/Dautor_Adjuntos.png" src="../../_images/Dautor_Adjuntos.png" />
+<p class="caption">Datos adjuntos</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="notas">
+<h2>1.6. Notas<a class="headerlink" href="#notas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El derecho habiente puede tener notas asociadas.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last"><strong>¿Qué son?</strong>
+Las <em>notas</em> son comentarios que pueden guardarse para
+variadas utilidades.</p>
+</div>
+<p>Las notas quedan registradas y todos los usuarios pueden leer el contenido,
+quién las escribió, en qué fecha y sucursal.</p>
+<p>Ver <a class="reference internal" href="../general/general_03.html#howto-others-notes"><em>¿Cómo agregar notas a los libros, clientes, proveedores o
+documentos?</em></a>.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_Notas.png" src="../../_images/Dautor_Notas.png" />
+<p class="caption">Notas</p>
+</div>
+</div></blockquote>
+<ol class="arabic">
+<li><p class="first">Completar los pasos del asistente. Para finalizar en un paso intermedio
+presionar las teclas <tt class="kbd docutils literal"><span class="pre">Ctrl</span></tt><tt class="kbd docutils literal"><span class="pre">F</span></tt>.</p>
+<p>Presionar el botón <em class="guilabel">Finish (Terminar )</em> para crear el derecho habiente.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="busqueda-edicion-y-borrado-de-un-derecho-habiente">
+<h1>2. Búsqueda, edición y borrado de un Derecho Habiente<a class="headerlink" href="#busqueda-edicion-y-borrado-de-un-derecho-habiente" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="como-buscar-un-derecho-habiente">
+<h2>2.1. ¿Cómo buscar un Derecho Habiente?<a class="headerlink" href="#como-buscar-un-derecho-habiente" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Derechos de autor ‣ Derecho habientes</em>. Se abrirá
+la pantalla de búsqueda de derecho habientes.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_ConsultaDerechoHabiente.png" src="../../_images/Dautor_ConsultaDerechoHabiente.png" />
+<p class="caption">Búsqueda de derecho habientes</p>
+</div>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="como-modificar-la-ficha-de-un-derecho-habiente">
+<h2>2.2. ¿Cómo modificar la ficha de un Derecho habiente?<a class="headerlink" href="#como-modificar-la-ficha-de-un-derecho-habiente" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Buscar el derecho habiente del que se quiere ver la ficha.</li>
+<li>Seleccionar el derecho habiente y pulsar el ícono <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" />
+o la opción a través del menú <em class="menuselection">Ventana Activa ‣ Modificar Derecho Habiente</em></li>
+<li>Se abrirá la ficha del mismo, en donde pueden hacerse las modificaciones
+deseadas.</li>
+</ol>
+</div>
+<div class="section" id="como-eliminar-a-un-derecho-habiente">
+<h2>2.3. ¿Cómo eliminar a un Derecho habiente?<a class="headerlink" href="#como-eliminar-a-un-derecho-habiente" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">No se podrán borrar la ficha de un derecho habiente si este tiene asociado algún
+documento en el sistema, este puede ser un contrato, una OP,
+una liquidación, etc.</p>
+</div>
+<ol class="arabic simple">
+<li>Buscar el derecho habiente del que se quiere borrar la ficha.</li>
+<li>Seleccionar el derecho habiente y pulsar el ícono <img alt="/icons/eliminar.png" class="inlinegraphic" src="../../_images/eliminar.png" />
+o la opción a través del menú <em class="menuselection">Ventana Activa ‣ Eliminar derecho habiente</em></li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">1. ¿Cómo crear un nuevo Derecho Habiente?</a><ul>
+<li><a class="reference internal" href="#datos-personales-para-el-tipo-organizacion">1.1. Datos personales para el tipo: Organización</a></li>
+<li><a class="reference internal" href="#datos-personales-para-el-tipo-persona">1.2. Datos personales para el tipo: Persona</a></li>
+<li><a class="reference internal" href="#datos-generales">1.3. Datos generales</a></li>
+<li><a class="reference internal" href="#direccion-del-derecho-habiente">1.4. Dirección del derecho habiente.</a></li>
+<li><a class="reference internal" href="#archivos-asociados">1.5. Archivos asociados</a></li>
+<li><a class="reference internal" href="#notas">1.6. Notas</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#busqueda-edicion-y-borrado-de-un-derecho-habiente">2. Búsqueda, edición y borrado de un Derecho Habiente</a><ul>
+<li><a class="reference internal" href="#como-buscar-un-derecho-habiente">2.1. ¿Cómo buscar un Derecho Habiente?</a></li>
+<li><a class="reference internal" href="#como-modificar-la-ficha-de-un-derecho-habiente">2.2. ¿Cómo modificar la ficha de un Derecho habiente?</a></li>
+<li><a class="reference internal" href="#como-eliminar-a-un-derecho-habiente">2.3. ¿Cómo eliminar a un Derecho habiente?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="../14_ddaa.html"
+                        title="Capítulo anterior">11. Derechos de Autor</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ddaa_2.html"
+                        title="Próximo capítulo">3. ¿Cómo crear una Relación de Responsable?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ddaa_2.html" title="3. ¿Cómo crear una Relación de Responsable?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="../14_ddaa.html" title="11. Derechos de Autor"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../14_ddaa.html" >11. Derechos de Autor</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

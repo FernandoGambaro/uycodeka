@@ -1,0 +1,227 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>8. ¿Cómo crear condiciones de venta? &mdash; Fierro 20.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="Fierro 20.1 documentation" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="9. ¿Cómo crear una Nota de Crédito?" href="ventas_07.html" />
+    <link rel="prev" title="7. ¿Cómo visualizar la cuenta corriente de un cliente?" href="ventas_05.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_07.html" title="9. ¿Cómo crear una Nota de Crédito?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_05.html" title="7. ¿Cómo visualizar la cuenta corriente de un cliente?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-condiciones-de-venta">
+<span id="howto-ventas-sec6"></span><h1>8. ¿Cómo crear condiciones de venta?<a class="headerlink" href="#como-crear-condiciones-de-venta" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Condiciones</strong></p>
+<p class="last">Son uno de los cimientos de las operaciones con clientes mayoristas, ya
+que afectan a varios aspectos del circuito de ventas desde su inicio mismo
+-el pedido de mercadería- hasta la cobranza.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Otros ‣ Condiciones de venta</em>.</p>
+</li>
+<li><p class="first">En la pantalla que se presenta, pulsar el botón <em class="guilabel">Crear</em>. Se abrirá
+el editor para una nueva condición de venta:</p>
+<div class="figure">
+<img alt="../../_images/nuevaCondicion.png" src="../../_images/nuevaCondicion.png" />
+<p class="caption">Editor de nueva condición</p>
+</div>
+</li>
+<li><p class="first">Los campos de creación son:</p>
+<ol class="arabic simple">
+<li><em>Código</em>: campo alfanumérico (de hasta 4 caracteres) que identifica la
+condición. Por ejemplo, una condición para clientes Librerías con un
+descuento del 40% podría codificarse como LI40;</li>
+<li><em>Nombre</em>: por ejemplo, &#8220;Librerías 40%&#8221;;</li>
+<li><em>Condición base</em>: una condición de venta, previamente creada, de la cual
+la nueva hereda sus atributos;</li>
+<li><em>Descuento predeterminado</em>: en el ejemplo, 40%. Porcentaje que se aplicará
+automáticamente a cada item en la carga de pedidos y facturas del cliente;</li>
+<li><em>Descuento pago en fecha</em>: porcentaje especial con que puede bonificarse
+al cliente por pagos en término. Es sólo referencial;</li>
+<li><em>Vencimiento predeterminado</em>: a efectos de la cuenta corriente, ofrece una
+lista desplegable con las condiciones habituales: Contado, Semana y X
+días, Mes y X días, etcétera. Se completa con el campo numérico a su
+derecha;</li>
+</ol>
+</li>
+<li><p class="first">La sección inferior del editor muestra una serie de solapas:</p>
+<ol class="arabic">
+<li><p class="first"><em>Descuento</em>: porcentajes excepcionales al Descuento predeterminado.
+Al pulsar <em class="guilabel">Agregar</em> se eligen el o los libros sobre los que
+actuará, en forma puntual o dinámica, cada descuento especial
+(<em>véase</em> <a class="reference internal" href="../catalogo/catalogo_07.html#howto-catalogo-sec7"><em>¿Cómo crear un Grupo de Libros?</em></a>):</p>
+<div class="figure">
+<img alt="../../_images/reglaDescuento.png" src="../../_images/reglaDescuento.png" />
+<p class="caption">Regla de descuento</p>
+</div>
+<div class="figure">
+<img alt="../../_images/descuentoEspecial.png" src="../../_images/descuentoEspecial.png" />
+<p class="caption">Excepción</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Siguiendo el ejemplo usado arriba, y según la imagen previa, la
+condición LI40 (40%) tendrá una excepción del 45% sobre libros de
+cierta editorial. Pueden agregarse varias excepciones en una misma
+condición de venta, las que, al igual que el descuento general,
+actuarán en forma automática sobre pedidos y facturas.</p>
+</div>
+</li>
+<li><p class="first"><em>Descuento máximo</em>: porcentajes según <em class="guilabel">forma de pago</em> (Efectivo,
+Tarjeta y Otras formas...). Si se agrega la forma de pago pero sin
+indicarle un porcentaje máximo, el descuento general de la condición
+actuará únicamente cuando el cliente utilice esa forma:</p>
+<div class="figure">
+<img alt="../../_images/descuentoMaximo.png" src="../../_images/descuentoMaximo.png" />
+<p class="caption">Descuento máximo</p>
+</div>
+</li>
+<li><p class="first"><em>Vencimientos</em>: al igual que con los descuentos, y haciendo uso también de
+los grupos de libros, pueden agregarse excepciones al Vencimiento
+predeterminado:</p>
+<div class="figure">
+<img alt="../../_images/reglaVencimiento.png" src="../../_images/reglaVencimiento.png" />
+<p class="caption">Vencimientos</p>
+</div>
+</li>
+<li><p class="first"><em>Bloqueo de pedidos</em>: lista seleccionable de criterios por cuya ocurrencia
+la condición bloqueará -es decir, impedirá su cumplimiento-
+automáticamente los pedidos del cliente;</p>
+<div class="figure">
+<img alt="../../_images/bloqueoPedidos.png" src="../../_images/bloqueoPedidos.png" />
+<p class="caption">Criterios de bloqueo</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Los criterios <em>Excede...</em> se originan en el dato respectivo en la
+ficha del cliente (<em>véase</em> <a class="reference internal" href="ventas_04.html#howto-ventas-sec4"><em>¿Cómo crear un nuevo cliente?</em></a>), mientras que los de &#8220;X días&#8221; se indican en el
+campo numérico a su derecha. El casillero <em>Deshabilitado</em> permite
+señalar si un bloqueo se aplicará o no a la condición.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/bloqueoDeshabilitado.png" src="../../_images/bloqueoDeshabilitado.png" />
+<p class="caption">Bloqueo deshabilitado</p>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Advertencia</p>
+<p class="last">Si a una condición de venta se la crea a partir de
+una <em class="guilabel">condición base</em>, la que a su vez ya poseía sus propios
+criterios de bloqueo, estos serán heredados por la nueva condición.</p>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_05.html"
+                        title="Capítulo anterior">7. ¿Cómo visualizar la cuenta corriente de un cliente?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_07.html"
+                        title="Próximo capítulo">9. ¿Cómo crear una Nota de Crédito?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_07.html" title="9. ¿Cómo crear una Nota de Crédito?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_05.html" title="7. ¿Cómo visualizar la cuenta corriente de un cliente?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

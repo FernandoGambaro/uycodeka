@@ -1,0 +1,199 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>9.1. Módulo contable en Fierro &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="9. Contabilidad" href="../12_accounting.html" />
+    <link rel="next" title="9.2. Plan de cuentas" href="02_accounts.html" />
+    <link rel="prev" title="9. Contabilidad" href="../12_accounting.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="02_accounts.html" title="9.2. Plan de cuentas"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="../12_accounting.html" title="9. Contabilidad"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../12_accounting.html" accesskey="U">9. Contabilidad</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="modulo-contable-en-fierro">
+<span id="howto-accounting-intro"></span><h1>9.1. Módulo contable en Fierro<a class="headerlink" href="#modulo-contable-en-fierro" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="section" id="introduccion">
+<span id="index-1"></span><h2>9.1.1. Introducción<a class="headerlink" href="#introduccion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El módulo contable de Fierro permite llevar la contabilidad <em>on-line</em>. Además de las características comunes de los sistemas contables (libros contables, plan de cuentas, centros de costos, etc.), posee la misma integración que todos los módulos de Fierro, brindando la gran facilidad de operación, navegación de los datos e intuición.</p>
+<p>Uno de los objetivos en el diseño del módulo es que su implementación no modifique la operación habitual del sistema ni que requiera conocimientos específicos de los operadores, sino que por el contrario la información contable se vaya generando automáticamente por detrás en base a reglas preconfiguradas.</p>
+</div>
+<div class="section" id="caracteristicas">
+<h2>9.1.2. Características<a class="headerlink" href="#caracteristicas" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="online">
+<h3>9.1.2.1. Online<a class="headerlink" href="#online" title="Enlazar permanentemente con este título">¶</a></h3>
+<p id="howto-accounting-intro-cars-online">En cada operación que se realiza en el sistema (facturas, pagos, etc.), se genera automáticamente el correspondiente asiento contable. Técnicamente, ambas operaciones se generan en una única <em>transacción</em>, por lo tanto se genera el documento con su asiento y en caso de falla, no se genera ninguno de los dos. Este mecanismo asegura la integridad entre los datos de gestión y los asientos contables.</p>
+</div>
+<div class="section" id="transparente">
+<h3>9.1.2.2. Transparente<a class="headerlink" href="#transparente" title="Enlazar permanentemente con este título">¶</a></h3>
+<p id="howto-accounting-intro-cars-transparente">Para el usuario que opera el sistema, el hecho de que se estén generando los asientos contables mientras genera operaciones no implica ningún cambio en su forma de trabajo, ya que el sistema no solicita ninguna intervención para generar el respectivo asiento.
+El asiento se generará de acuerdo a la parametrización realizada de antemano en el sistema.</p>
+</div>
+<div class="section" id="multiples-libros">
+<h3>9.1.2.3. Múltiples libros<a class="headerlink" href="#multiples-libros" title="Enlazar permanentemente con este título">¶</a></h3>
+<p id="howto-accounting-intro-cars-multiplebooks">Cada asiento se genera en un libro contable cargado en el sistema.
+En algunas empresas generan todos los asientos en un único libro, denominado libro diario. En otras empresas, la mayoría, no desean tener un libro diario tan extenso (considerar que por cada factura de venta se genera un asiento). En estos casos, se crean varios libros, por ejemplo, el libro de compras, de ventas y el diario.
+De esta forma, cada asiento se genera en su respectivo libro y con la frecuencia deseada, se resumen los asientos de un libro en otro. Por ejemplo, las ventas se pueden generar en el libro de ventas y mensualmente se genera un asiento resumen en el libro diario. De esta forma, el libro diario queda más pequeño y el detalle de las ventas se conserva en el libro de ventas.</p>
+</div>
+<div class="section" id="regeneracion-de-asientos">
+<h3>9.1.2.4. Regeneración de asientos<a class="headerlink" href="#regeneracion-de-asientos" title="Enlazar permanentemente con este título">¶</a></h3>
+<p id="howto-accounting-intro-cars-regenerate">El sistema brinda la posibilidad de volver a generar los asientos existentes. Con este mecanismo, pueden realizarse cambios en la lógica de la generación de asientos o en la estructura del plan de cuentas y luego volver a generar todos los asientos.
+La regeneración de asientos permite trabajar con la tranquilidad de saber que durante la puesta a punto de la contabilidad, se pueden ajustar los parámetros y volver a generar la misma hasta asegurarse que se realiza en forma correcta. Así mismo, se puede comenzar a trabajar con Fierro sin el módulo contable y en algún momento implementarlo. Se podrá regenerar la contabilidad en los datos ya cargados.</p>
+</div>
+</div>
+<div class="section" id="puesta-en-marcha">
+<h2>9.1.3. Puesta en marcha<a class="headerlink" href="#puesta-en-marcha" title="Enlazar permanentemente con este título">¶</a></h2>
+<p id="howto-accounting-intro-puestaenmarcha">La puesta en marcha del módulo contable implica un trabajo en conjunto entre el equipo de Lambda Sistemas y el responsable contable de la empresa. En una primera instancia, se relevarán las características de la contabilidad de la empresa, se configurará el sistema y luego el responsable contable validará que la contabilidad que se genera es acorde a sus necesidades. En todo momento, se trabajará ajustando y mejorando la generación de asientos.</p>
+<div class="section" id="plan-de-cuentas">
+<h3>9.1.3.1. Plan de cuentas<a class="headerlink" href="#plan-de-cuentas" title="Enlazar permanentemente con este título">¶</a></h3>
+<p id="howto-accounting-intro-puestaenmarcha-plandecuentas">El primer paso para la puesta en marcha es incorporar a Fierro el plan de cuentas de la empresa. El responsable contable proveerá el plan en una planilla y el equipo de Lambda lo importará a Fierro para evitar la carga manual del mismo.</p>
+</div>
+<div class="section" id="adecuacion-de-los-asientos">
+<h3>9.1.3.2. Adecuación de los asientos<a class="headerlink" href="#adecuacion-de-los-asientos" title="Enlazar permanentemente con este título">¶</a></h3>
+<p id="howto-accounting-intro-puestaenmarcha-adecuacion">Con la información recogida del responsable contable, el equipo de Lambda programa la generación de los asientos para cada documento del sistema (facturas de venta y compras, gastos, recibos, pagos, movimientos de banco, cierres de caja y de tarjetas, etc.).
+Una vez realizada esta configuración, se regeneran los asientos de los documentos ya cargados en el sistema y a partir de este momento, todas las operaciones que se hagan en Fierro tendrán su asiento contable.
+El responsable contable de la empresa deberá monitorear que la contabilidad generada sea correcta y trabajará en conjunto con Lambda realizando los ajustes necesarios.</p>
+</div>
+<div class="section" id="otros-datos-necesarios">
+<h3>9.1.3.3. Otros datos necesarios<a class="headerlink" href="#otros-datos-necesarios" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="docutils" id="howto-accounting-intro-puestaenmarcha-otrosdatos">
+<dt>Para configurar la contabilidad, además del plan de cuentas y la lógica de generación de los asientos, es necesario definir:</dt>
+<dd><ul class="first last simple">
+<li>Rango de fechas de los ejercicios contables.</li>
+<li>Libros contables.</li>
+<li>Cuentas a utilizar para redondeo y diferencias de arqueo</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">9.1. Módulo contable en Fierro</a><ul>
+<li><a class="reference internal" href="#introduccion">9.1.1. Introducción</a></li>
+<li><a class="reference internal" href="#caracteristicas">9.1.2. Características</a><ul>
+<li><a class="reference internal" href="#online">9.1.2.1. Online</a></li>
+<li><a class="reference internal" href="#transparente">9.1.2.2. Transparente</a></li>
+<li><a class="reference internal" href="#multiples-libros">9.1.2.3. Múltiples libros</a></li>
+<li><a class="reference internal" href="#regeneracion-de-asientos">9.1.2.4. Regeneración de asientos</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#puesta-en-marcha">9.1.3. Puesta en marcha</a><ul>
+<li><a class="reference internal" href="#plan-de-cuentas">9.1.3.1. Plan de cuentas</a></li>
+<li><a class="reference internal" href="#adecuacion-de-los-asientos">9.1.3.2. Adecuación de los asientos</a></li>
+<li><a class="reference internal" href="#otros-datos-necesarios">9.1.3.3. Otros datos necesarios</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="../12_accounting.html"
+                        title="Capítulo anterior">9. Contabilidad</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="02_accounts.html"
+                        title="Próximo capítulo">9.2. Plan de cuentas</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="02_accounts.html" title="9.2. Plan de cuentas"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="../12_accounting.html" title="9. Contabilidad"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../12_accounting.html" >9. Contabilidad</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

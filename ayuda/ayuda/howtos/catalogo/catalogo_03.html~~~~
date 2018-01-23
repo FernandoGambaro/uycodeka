@@ -1,0 +1,407 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1.3. ¿Cómo crear un Libro? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="1. Catálogo" href="../05_catalogo.html" />
+    <link rel="next" title="1.4. ¿Cómo modificar la ficha de un libro?" href="catalogo_04.html" />
+    <link rel="prev" title="1.2. ¿Cómo buscar Libros por tema?" href="catalogo_02.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="catalogo_04.html" title="1.4. ¿Cómo modificar la ficha de un libro?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_02.html" title="1.2. ¿Cómo buscar Libros por tema?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" accesskey="U">1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-un-libro">
+<span id="howto-catalogo-sec3"></span><h1>1.3. ¿Cómo crear un Libro?<a class="headerlink" href="#como-crear-un-libro" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><ol class="arabic" id="index-1">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Catálogo ‣ Libros</em> o el ícono
+<img alt="/icons/libro.png" class="inlinegraphic" src="../../_images/libro.png" /> de la barra de herramientas. Se abrirá la
+pantalla de Búsqueda de Libros.</p>
+</li>
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventana Activa ‣ Nuevo Libro</em>
+o el ícono <img alt="/icons/n_libro.png" class="inlinegraphic" src="../../_images/n_libro.png" /> de la barra de herramientas. Se
+abrirá el <em>asistente de creación de libros</em>. Ver <a class="reference internal" href="../../basics/pantallas/pantallas_03.html#basics-controls-wizards"><em>Asistente</em></a>.</p>
+<div class="figure">
+<img alt="../../_images/scrCrearNuevoLibro.png" src="../../_images/scrCrearNuevoLibro.png" />
+<p class="caption">Asistente para crear un libro.</p>
+</div>
+</li>
+<li><p class="first">Completar los pasos del asistente, avanzando mediante Next (Siguiente).</p>
+<p>Los únicos campos obligatorios son el de Título y el de
+Editorial.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Finish (Terminar)</em> para crear el libro.</p>
+</li>
+</ol>
+<p>Los pasos de la creación de un libro son:</p>
+<div class="section" id="general">
+<h2>1.3.1. General<a class="headerlink" href="#general" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Contiene los códigos y títulos del libro. Los campos son:</p>
+<ul class="simple">
+<li>ISBN: Se autocompleta si se ingresa el código de barras.</li>
+<li>Código de Barras: Se autocompleta con el ingreso del ISBN.</li>
+<li>Título: Título del libro.</li>
+<li>Subtítulo: Subtítulo del libro.</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Si completa el ISBN del libro y las editoriales tienen cargados los prefijos
+correspondientes, se autocompletará la editorial en la ficha.  El campo de
+ISBN se verá amarillo mientras los números ingresados no respeten una
+estructura válida para ISBN.</p>
+</div>
+<p>El botón <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" /> permite agregar otros ISBN
+al libro, por ejemplo si el libro tiene un ISBN en su exterior y otro u
+otros en su interior. El sistema valida ISBN de 10 y 13 dígitos.</p>
+<p>El botón <img alt="/icons/validar.png" class="inlinegraphic" src="../../_images/validar.png" /> verifica si existe otro libro
+en la base con los mismos códigos.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Unicidad de los códigos</strong></p>
+<p>El sistema permite tener libros con los mismos códigos, ya sea código
+interno, ISBN, código de barras o código de proveedor.</p>
+<p>Cuando se realiza una búsqueda de libros por código, el sistema avisa
+si encuentra más de un libro con el código buscado.</p>
+<p class="last">Ningún código es obligatorio.</p>
+</div>
+</div>
+<div class="section" id="autores">
+<h2>1.3.2. Autores<a class="headerlink" href="#autores" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Luego de completar la ficha General, al pulsar Next se pasa a la ficha de
+Autores. El libro puede tener varios autores. Cada autor tiene un rol:
+autor, ilustrador, traductor, etc.</p>
+<p>Además, la ficha tiene un campo llamado Nombre Visible que se utiliza para
+mostrar los autores en los listados. Este campo lo sugiere el sistema pero
+puede modificarse.</p>
+<p>Para asignar los autores seguir los siguientes pasos:</p>
+<ol class="arabic simple">
+<li>Presionar el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" /> . Se abrirá la pantalla
+Búsqueda de Autores.</li>
+<li>Seleccionar el autor y presionar <em class="guilabel">Aceptar</em>. Si el autor no existe,
+crearlo. <a class="reference internal" href="catalogo_06.html#howto-catalogo-sec6"><em>¿Cómo crear un Autor?</em></a>.</li>
+<li>Seleccionar el tipo de autor.</li>
+<li>Presionar el botón <em class="guilabel">Agregar</em>.</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Si no desea realizar una búsqueda por cada autor del libro, completar el
+nombre o parte del nombre del autor en el campo Autor y presionar la
+tecla <tt class="kbd docutils literal"><span class="pre">Tab</span></tt>.  El sistema realizará una búsqueda del autor ingresado.
+Si lo encuentra, completa el nombre completo en el campo. Si encuentra más
+de una coincidencia, abre la pantalla de búsqueda para seleccionar el autor
+correcto.</p>
+</div>
+</div>
+<div class="section" id="editorial-coleccion">
+<h2>1.3.3. Editorial/Colección<a class="headerlink" href="#editorial-coleccion" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Presionar el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" /> del campo Editorial.</li>
+<li>Seleccionar la editorial. Si en el primer paso del asistente se ingresó el
+ISBN y están cargados los prefijos ISBN, este campo ya está completo.</li>
+<li>Seleccionar la colección del combo Colección. Si no encuentra la colección,
+puede crearla presionando el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" /> del campo
+Colección.</li>
+<li>Completar el número de edición.</li>
+<li>Completar la fecha de edición.</li>
+<li>Seleccionar el país de origen del libro.</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Si no desea realizar la búsqueda de editorial, completar el nombre o parte
+del nombre en el campo Editorial y presionar la tecla <tt class="kbd docutils literal"><span class="pre">Tab</span></tt>.  El
+sistema realizará una búsqueda del nombre ingresado. Si lo encuentra,
+completa el nombre de la editorial en el campo. Si encuentra más de una
+coincidencia, abre la pantalla de búsqueda para seleccionar la editorial
+correcta.</p>
+</div>
+</div>
+<div class="section" id="proveedores">
+<span id="howto-catalogo-sec3-sec4"></span><h2>1.3.4. Proveedores<a class="headerlink" href="#proveedores" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En este paso se completa el proveedor principal del libro y los códigos
+con que los proveedores identifican a los libros.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Proveedores del libro</strong></p>
+<p>El <em>proveedor principal</em> es el proveedor al cual se
+le pide más frecuentemente el libro. No es obligatorio que un libro
+tenga un proveedor principal.</p>
+<p>El sistema acepta varios proveedores para un mismo libro, manteniendo
+una misma ficha.</p>
+<p class="last">En esta sección el sistema propone la lista de proveedores que
+distribuyen la editorial del libro. El objetivo es indicar los códigos
+internos de los proveedores, no definir quienes son proveedores del
+libro, por lo cual no hace falta quitar aquellos proveedores que el
+sistema sugiera.</p>
+</div>
+<p>Para completar el proveedor principal:</p>
+<ul class="simple">
+<li>Si el proveedor principal está en la lista de proveedores de la pantalla,
+seleccionarlo y presionar el botón <em class="guilabel">Prov. Principal</em>.</li>
+<li>Completar el código del proveedor en el campo Proveedor o buscarlo presionando
+el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" /> .</li>
+</ul>
+<p>Para completar el código con que un proveedor identifica el libro:</p>
+<ul class="simple">
+<li>Si el proveedor principal está en la lista de proveedores de la pantalla,
+seleccionarlo, presionar el botón <em class="guilabel">Modificar</em> y completar el código.</li>
+<li>Si no está en la lista, presionar el botón <em class="guilabel">Agregar</em>, seleccionar el
+proveedor, presionar el botón <em class="guilabel">Aceptar</em> y completar el código.</li>
+</ul>
+<p>Para quitar un proveedor de la lista, seleccionarlo y presionar el botón
+<em class="guilabel">Quitar</em></p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Muchas veces los proveedores envían facturas, remitos, notas de crédito,
+etc. con sus propios códigos de libros.  Por este motivo, tener cargado
+estos códigos ahorra mucho trabajo en la carga de documentos ya que en lugar
+de buscar los libros por título se puede ingresar el código que viene en el
+comprobante, evitando hacer gran cantidad de búsquedas.</p>
+</div>
+</div>
+<div class="section" id="precio">
+<h2>1.3.5. Precio<a class="headerlink" href="#precio" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Este paso contiene la información de venta.</p>
+<ol class="arabic simple">
+<li>Seleccionar el carácter del libro. Este atributo es una clasificación
+comercial.</li>
+<li>Ingresar el precio del libro y seleccionar la moneda.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Precios</strong></p>
+<p>El precio del libro puede estar en cualquier moneda existente en el
+sistema.</p>
+<p>Cuando se factura un libro, el precio se convierte a la moneda
+predeterminada en base a las cotizaciones registradas en el sistema.</p>
+<p class="last">En la Búsqueda de libros puede visualizarse el precio en la moneda
+original (columna Precio) y en la predeterminada (columna Precio $).</p>
+</div>
+</div>
+<div class="section" id="materias">
+<h2>1.3.6. Materias<a class="headerlink" href="#materias" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En esta sección se completa la clasificación temática (materias) del
+libro. Por cada materia realizar los siguientes pasos:</p>
+<ol class="arabic simple">
+<li>Presionar el botón <em class="guilabel">Agregar</em>.</li>
+<li>Seleccionar la materia.</li>
+<li>Presionar el botón <em class="guilabel">Aceptar</em>.</li>
+</ol>
+</div>
+<div class="section" id="palabras-clave">
+<h2>1.3.7. Palabras clave<a class="headerlink" href="#palabras-clave" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En este paso se agregan palabras clave al libro.</p>
+<ol class="arabic simple">
+<li>Presionar el botón <img alt="/icons/btnElbAdd.png" class="inlinegraphic" src="../../_images/btnElbAdd.png" /> .</li>
+<li>Ingresar la palabra clave y la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt>.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Utilidad de las palabras clave</strong></p>
+<p>El libro Diarios de Motocicleta narra un viaje de Ernesto Che Guevara. Si
+alguien desea buscar libros del Che, no lo encontraría si realiza una
+búsqueda por el título Che.</p>
+<p class="last">Si se agregan al libro las palabras clave Che, Guevara, Viaje, se encontrará
+el libro aunque estas palabras no estén en el título.</p>
+</div>
+</div>
+<div class="section" id="caracteristicas-fisicas">
+<h2>1.3.8. Características físicas<a class="headerlink" href="#caracteristicas-fisicas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Ingresar los atributos físicos del libro:</p>
+<ul class="simple">
+<li>Cantidad de páginas</li>
+<li>Formato</li>
+<li>Peso</li>
+<li>Encuadernación</li>
+<li>Cantidad de tomos</li>
+</ul>
+</div>
+<div class="section" id="ubicacion">
+<h2>1.3.9. Ubicación<a class="headerlink" href="#ubicacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En esta sección se completa la ubicación física del libro.</p>
+<p>Por cada sucursal:</p>
+<ol class="arabic simple">
+<li>Seleccionar la sucursal.</li>
+<li>Presionar el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" /> del campo Ubicación en salón
+y seleccionar la ubicación.</li>
+<li>Presionar el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" /> del campo Ubicación en
+depósito y seleccionar la ubicación.</li>
+</ol>
+<p>Para agregar un subnivel o un nivel equivalente, tanto en Ubicación lógica
+(salón) como en Ubicación física (depósito), luego de pulsar <em class="guilabel">Agregar</em>
+se abrirá una nueva ventana. Seleccionar la ubicación que desea ampliarse, y
+pulsar uno de los botones con figura de escalera.</p>
+</div>
+<div class="section" id="archivos-adjuntos">
+<h2>1.3.10. Archivos adjuntos<a class="headerlink" href="#archivos-adjuntos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La ficha del libro puede tener archivos adjuntos. Por ejemplo, puede tener
+la imagen de tapa o algún documento con un comentario del mismo.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Archivos Adjuntos</strong></p>
+<p>Los <em>archivos adjuntos</em> se utilizan para agregar a la ficha del libro
+información extra.</p>
+<p>Cada adjunto es de un <em>tipo</em> predefinido, como por ejemplo: imagen de tapa,
+reseña, resumen, comentario periodístico, etc.</p>
+<p class="last">Si el adjunto es de <em>texto</em>, puede crearse y editarse el contenido desde la
+pantalla de adjuntos. Los otros tipos de archivos (imágenes, documentos,
+planillas, etc.) se adjuntan ya creados, seleccionándolos de un directorio.</p>
+</div>
+<p>Para ver cómo manejar los archivos adjuntos, ir a
+<a class="reference internal" href="../general/general_04.html#howto-others-attachs"><em>Archivos Adjuntos</em></a>.</p>
+</div>
+<div class="section" id="notas">
+<h2>1.3.11. Notas<a class="headerlink" href="#notas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El libro puede tener notas asociadas.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Notas</strong></p>
+<p>Las <em>notas</em> son comentarios sobre el libro, que
+pueden hacerse para variadas utilidades.</p>
+<p class="last">Las notas quedan registradas y todos los usuarios pueden leer el
+contenido, quién las escribió, en que fecha y sucursal.</p>
+</div>
+<p>Para agregar una nota:</p>
+<ol class="arabic">
+<li><p class="first">Presionar el botón <img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" />.
+Se abrirá la pantalla Nueva Nota.</p>
+<div class="figure">
+<img alt="../../_images/scrNewNote.png" src="../../_images/scrNewNote.png" />
+<p class="caption">Pantalla Nueva Nota</p>
+</div>
+</li>
+<li><p class="first">Completar el título (Asunto) y el texto de la nota.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ol>
+<p>Para ver en detalle cómo agregar notas, y sugerencias de sus posibles
+usos, ir a <a class="reference internal" href="../general/general_03.html#howto-others-notes"><em>¿Cómo agregar notas a los
+libros, clientes, proveedores o documentos?</em></a>.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">1.3. ¿Cómo crear un Libro?</a><ul>
+<li><a class="reference internal" href="#general">1.3.1. General</a></li>
+<li><a class="reference internal" href="#autores">1.3.2. Autores</a></li>
+<li><a class="reference internal" href="#editorial-coleccion">1.3.3. Editorial/Colección</a></li>
+<li><a class="reference internal" href="#proveedores">1.3.4. Proveedores</a></li>
+<li><a class="reference internal" href="#precio">1.3.5. Precio</a></li>
+<li><a class="reference internal" href="#materias">1.3.6. Materias</a></li>
+<li><a class="reference internal" href="#palabras-clave">1.3.7. Palabras clave</a></li>
+<li><a class="reference internal" href="#caracteristicas-fisicas">1.3.8. Características físicas</a></li>
+<li><a class="reference internal" href="#ubicacion">1.3.9. Ubicación</a></li>
+<li><a class="reference internal" href="#archivos-adjuntos">1.3.10. Archivos adjuntos</a></li>
+<li><a class="reference internal" href="#notas">1.3.11. Notas</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="catalogo_02.html"
+                        title="Capítulo anterior">1.2. ¿Cómo buscar Libros por tema?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="catalogo_04.html"
+                        title="Próximo capítulo">1.4. ¿Cómo modificar la ficha de un libro?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="catalogo_04.html" title="1.4. ¿Cómo modificar la ficha de un libro?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_02.html" title="1.2. ¿Cómo buscar Libros por tema?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" >1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

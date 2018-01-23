@@ -1,0 +1,395 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1. ¿Cómo facturar una venta? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="2. ¿Cómo facturar a partir de una búsqueda de libros?" href="ventas_02.html" />
+    <link rel="prev" title="2. Ventas" href="../06_ventas.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_02.html" title="2. ¿Cómo facturar a partir de una búsqueda de libros?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="../06_ventas.html" title="2. Ventas"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-facturar-una-venta">
+<span id="howto-ventas-sec1"></span><h1>1. ¿Cómo facturar una venta?<a class="headerlink" href="#como-facturar-una-venta" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><ol class="arabic" id="index-1">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Nueva Factura de
+Venta</em> o el ícono <img alt="/icons/n_vta_factura.png" class="inlinegraphic" src="../../_images/n_vta_factura.png" /> de la barra de
+herramientas. Se abrirá la pantalla Nueva Factura de Venta.</p>
+<div class="figure">
+<img alt="../../_images/scrSaleBill.png" src="../../_images/scrSaleBill.png" />
+<p class="caption">Pantalla Nueva Factura de Venta</p>
+</div>
+</li>
+<li><p class="first">Para cambiar el cliente a quien se le realiza la factura:</p>
+<ul class="simple">
+<li>Ingresar el código en el campo Cliente.</li>
+<li>Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o <tt class="kbd docutils literal"><span class="pre">Tab</span></tt>.</li>
+<li>Si existe un cliente con el código ingresado, se autocompleta el nombre a
+la derecha del código.</li>
+<li>Si no se conoce el código, presionar el bóton <img alt="/icons/buscar.png" class="inlinegraphic" src="../../_images/buscar.png" />
+para buscar el cliente.
+Ver <a class="reference internal" href="ventas_03.html#howto-ventas-sec3"><em>¿Cómo buscar un cliente?</em></a>.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/scrSaleBillHeader.png" src="../../_images/scrSaleBillHeader.png" />
+<p class="caption">Cabecera de la factura</p>
+</div>
+</li>
+<li><p class="first">Completar los datos generales de la factura:</p>
+<ul class="simple">
+<li>Ingresar la fecha de la factura: el campo de fecha aparece grisado, lo cual
+significa que el sistema dará automáticamente a la factura la fecha de hoy.
+Si se desea colocar otra fecha, tildar el casillero a la izquierda de
+&#8220;Fecha&#8221;. Esto habilitará el campo, sobre el cual ahora puede ubicarse el
+puntero del mouse y colocar la fecha correspondiente.</li>
+<li>Seleccionar el punto de venta donde se realiza la facturación. El sistema
+sugiere el punto de venta asociado a la sucursal donde ingresó el usuario.</li>
+<li>Seleccionar el depósito de donde salen los libros. El sistema sugiere el
+depósito asociado a la sucursal donde ingresó el usuario.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Número de factura</strong></p>
+<p class="last">En la pantalla se visualiza el probable número de factura. Si
+mientras se está creando la factura se crea otra factura, el
+número de la que se está creando no será el visualizado en
+pantalla, ya que éste ya ha sido utilizado. Para visualizar el
+próximo número de factura, presionar el botón <img alt="/icons/refrescar.png" class="inlinegraphic" src="../../_images/refrescar.png" />.</p>
+</div>
+</li>
+<li><p class="first">Por cada libro a facturar:</p>
+<ul>
+<li><p class="first">En el campo Código de la solapa Detalle, ingresar el código del libro a
+facturar (por teclado o con el lector de código de barras) o realizar la
+búsqueda del libro presionando el botón <img alt="/icons/22b_libro.png" class="inlinegraphic" src="../../_images/22b_libro.png" />.</p>
+<div class="figure">
+<img alt="../../_images/scrNewItem.png" src="../../_images/scrNewItem.png" />
+<p class="caption">Panel de ingreso de libros</p>
+</div>
+</li>
+<li><p class="first">Ingresar la cantidad de libros a facturar, el descuento y si es necesario
+el precio.</p>
+</li>
+<li><p class="first">Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o el botón <em class="guilabel">Agregar</em>. El libro se
+agregará a la grilla de la parte inferior, donde pueden editarse los
+valores ingresados haciendo doble click sobre el mismo.</p>
+</li>
+<li><p class="first">Si desea sacar de la factura un libro ingresado, seleccionar el libro en la
+grilla y presionar el botón <em class="guilabel">Quitar</em>.</p>
+</li>
+</ul>
+</li>
+<li><p class="first">Seleccionar la forma de pago:</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Una nueva factura de venta puede pagarse de varias formas, las cuales se
+pueden acceder mediante los botones de la solapa <em>Formas de pago</em>,
+también algunas de ellas en la barra de herramientas, y en el
+menú <em class="menuselection">Ventana Activa</em>.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/solapaFormasDePago.png" src="../../_images/solapaFormasDePago.png" />
+<p class="caption">Formas de pago</p>
+</div>
+<ul>
+<li><p class="first"><em>Efectivo</em></p>
+<ul>
+<li><p class="first">Pulsar el botón <img alt="/icons/22efectivo.png" class="inlinegraphic" src="../../_images/22efectivo.png" /> en la barra de
+herramientas o en la solapa <em>Formas de pago</em>, o seleccionar la opción de
+menú <em class="menuselection">Ventana Activa ‣ Pago en Efectivo</em>, o pulsar la
+tecla <em class="guilabel">F3</em>. Se abrirá el editor de pago en efectivo:</p>
+<div class="figure">
+<img alt="../../_images/efectivo.png" src="../../_images/efectivo.png" />
+<p class="caption">Pago en Efectivo</p>
+</div>
+</li>
+<li><p class="first">Completar el importe a pagar en efectivo y la moneda. El sistema sugiere
+el importe pendiente de la factura (sea éste el importe total, o el
+restante luego de haber colocado parte del pago en otra forma: tarjeta,
+etcétera).</p>
+</li>
+<li><p class="first">Opcional: ingresar el importe entregado por el cliente en el campo <em>Paga
+con</em>; en el campo <em>Vuelto</em> se mostrará el monto a devolver.</p>
+</li>
+<li><p class="first">Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ul>
+</li>
+<li><p class="first"><em>Tarjeta</em></p>
+<ul>
+<li><p class="first">Pulsar el botón <img alt="/icons/22tarjeta.png" class="inlinegraphic" src="../../_images/22tarjeta.png" /> en la barra de
+herramientas o en la solapa <em>Formas de pago</em>, o seleccionar la opción de
+menú <em class="menuselection">Ventana Activa ‣ Pago con tarjeta</em>, o pulsar la
+tecla <em class="guilabel">F4</em>. Se abrirá el editor de pago con tarjeta:</p>
+<div class="figure">
+<img alt="../../_images/tarjeta.png" src="../../_images/tarjeta.png" />
+<p class="caption">Pago con tarjeta</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la tarjeta y el plan. En la pantalla se muestra -si lo
+hubiera- el interés del plan, y el importe que deberá abonar el cliente
+en cada cuota.</p>
+</li>
+<li><p class="first">Completar el importe a abonar. El sistema sugiere el importe pendiente de
+la factura (sea éste el importe total, o el restante luego de haber
+colocado parte del pago en otra forma: efectivo, etcétera).</p>
+</li>
+<li><p class="first">Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ul>
+</li>
+<li><p class="first"><em>Cuenta corriente</em></p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Esta forma de pago se aplica a clientes a quienes se ha creado con
+cuenta corriente (ver <a class="reference internal" href="ventas_04.html#howto-ventas-sec4"><em>¿Cómo crear un nuevo cliente?</em></a>), o bien, debe irse a la ficha del cliente y
+habilitarle dicha cuenta.</p>
+</div>
+<ul>
+<li><p class="first">Pulsar el botón <img alt="/icons/22clientes.png" class="inlinegraphic" src="../../_images/22clientes.png" /> en la barra de
+herramientas o en la solapa <em>Formas de pago</em>, o seleccionar la opción de
+menú <em class="menuselection">Ventana Activa ‣ Cuenta corriente</em>, o pulsar la
+tecla <em class="guilabel">F5</em>. Se abrirá el editor de pago en cuenta corriente:</p>
+<div class="figure">
+<img alt="../../_images/pagoCuentaCorriente.png" src="../../_images/pagoCuentaCorriente.png" />
+<p class="caption">Pago en cuenta corriente</p>
+</div>
+</li>
+<li><p class="first">Para obtener el estado de la cuenta corriente de un cliente, ver
+<a class="reference internal" href="ventas_05.html#howto-ventas-sec5"><em>¿Cómo visualizar la cuenta corriente de un cliente?</em></a></p>
+</li>
+</ul>
+</li>
+<li><p class="first"><em>Aplicación de cuenta corriente</em></p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">En esta forma de pago, el cliente con cuenta corriente
+utiliza <em class="guilabel">documentos pendientes</em> para aplicarlos al pago de
+una factura, por ejemplo cuando tiene una nota de crédito a su favor.</p>
+</div>
+<ul>
+<li><p class="first">Pulsar en la solapa <em>Formas de pago</em> el botón
+<img alt="/icons/22docSaleAccountPayment.png" class="inlinegraphic" src="../../_images/22docSaleAccountPayment.png" />.
+Se abrirá la pantalla de selección de documentos:</p>
+<div class="figure">
+<img alt="../../_images/seleccionDocumentosPendientes.png" src="../../_images/seleccionDocumentosPendientes.png" />
+<p class="caption">Selección de documentos pendientes</p>
+</div>
+</li>
+<li><p class="first">En el ejemplo de la figura, la cuenta corriente del cliente presenta dos
+documentos, uno de los cuales es una nota de crédito a su favor.</p>
+</li>
+<li><p class="first">Si se marca la nota de crédito y luego se pulsa <em class="guilabel">Aceptar</em>, se
+presenta un editor para determinar si se aplicará total o parcialmente el
+importe del crédito al pago de la presente factura:</p>
+<div class="figure">
+<img alt="../../_images/aplicacionDocumento.png" src="../../_images/aplicacionDocumento.png" />
+<p class="caption">Aplicación de documentos pendientes</p>
+</div>
+</li>
+</ul>
+</li>
+<li><p class="first"><em>Cheque de terceros</em></p>
+<ul>
+<li><p class="first">Pulsar en la solapa <em>Formas de pago</em> el botón
+<img alt="/icons/22thirdPartCheck.png" class="inlinegraphic" src="../../_images/22thirdPartCheck.png" />.
+Se abrirá el editor de pago mediante cheque de terceros.</p>
+<div class="figure">
+<img alt="../../_images/pagoChequeTerceros.png" src="../../_images/pagoChequeTerceros.png" />
+<p class="caption">Pago con cheque de terceros</p>
+</div>
+</li>
+<li><p class="first">En dicho editor deben ingresarse los datos del cheque que el cliente
+entrega (banco, número, tipo, importe, fecha, etcétera), con lo cual, el
+cheque pasará a estar disponible en la <em class="guilabel">cartera de cheques</em> de
+Fierro (ver <a class="reference internal" href="../cajaybancos/cajaybancos_16.html#howto-bookkeeping-vercartera"><em>¿Cómo visualizar la cartera de cheques?</em></a>).</p>
+</li>
+</ul>
+</li>
+<li><p class="first"><em>Depósito o transferencia bancaria</em></p>
+<ul>
+<li><p class="first">Pulsar en la solapa <em>Formas de pago</em> el botón <img alt="/icons/22banco.png" class="inlinegraphic" src="../../_images/22banco.png" />.
+Se abrirá el editor de pago mediante depósito o transferencia.</p>
+<div class="figure">
+<img alt="../../_images/pagoDepositoTransferencia.png" src="../../_images/pagoDepositoTransferencia.png" />
+<p class="caption">Pago con cuotas</p>
+</div>
+</li>
+</ul>
+</li>
+<li><p class="first"><em>Cuotas</em></p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Esta modalidad de pago, para la cual se debe contar con
+la <em class="guilabel">funcionalidad de cuotas</em> y sus planes instalados en el
+sistema, se habilita mediante la entrada respectiva en el árbol de
+permisos de Fierro.</p>
+</div>
+</li>
+<li><p class="first"><em>Contrareembolso</em></p>
+<ul>
+<li><p class="first">Pulsar en la solapa <em>Formas de pago</em> el botón
+<img alt="/icons/22correoArgentino.png" class="inlinegraphic" src="../../_images/22correoArgentino.png" />.
+Se abrirá el editor de pago contrareembolso.</p>
+<div class="figure">
+<img alt="../../_images/pagoContrareembolso.png" src="../../_images/pagoContrareembolso.png" />
+<p class="caption">Pago contrareembolso</p>
+</div>
+</li>
+<li><p class="first">Completar el importe a pagar y la moneda. El sistema sugiere el importe
+pendiente de la factura.</p>
+</li>
+<li><p class="first">Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+<li><p class="first">El seguimiento de esta operación de pago se explica en <a class="reference internal" href="ventas_20.html#howto-ventas-contrareembolso"><em>¿Cómo se
+completa la operación de pago contrareembolso?</em></a>.</p>
+</li>
+</ul>
+</li>
+<li><p class="first"><em>Otras formas de pago</em></p>
+<p>Estas formas de pago se utilizan cuando el pago no es en efectivo ni con
+tarjeta.</p>
+<ul>
+<li><p class="first">Pulsar el botón <img alt="/icons/22otros_descuentos.png" class="inlinegraphic" src="../../_images/22otros_descuentos.png" /> en la barra de
+herramientas o en la solapa <em>Formas de pago</em>, o seleccionar la opción de
+menú <em class="menuselection">Ventana Activa ‣ Otras formas de pago</em>, o pulsar
+la tecla <em class="guilabel">F6</em>. Se abrirá la pantalla respectiva:</p>
+<div class="figure">
+<img alt="../../_images/scrOtherPayment.png" src="../../_images/scrOtherPayment.png" />
+<p class="caption">Pantalla Otras formas de pago</p>
+</div>
+</li>
+<li><p class="first">Completar el importe a abonar. El sistema sugiere el importe pendiente de
+la factura (sea éste el importe total, o el restante luego de haber
+colocado parte del pago en otra forma: efectivo, tarjeta, etcétera).</p>
+</li>
+<li><p class="first">Seleccionar la forma de pago.</p>
+</li>
+<li><p class="first">Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o el botón <em class="guilabel">Aceptar</em></p>
+</li>
+</ul>
+</li>
+</ul>
+<p>En la solapa Formas de Pago se listan los distintos pagos de la factura. Para
+eliminar un pago ingresado, seleccionarlo de la lista y presionar el botón
+<img alt="/icons/eliminar.png" class="inlinegraphic" src="../../_images/eliminar.png" />.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em> o la tecla <tt class="kbd docutils literal"><span class="pre">F9</span></tt>. Se mostrará un
+mensaje indicando que la factura se ha creado y si desea imprimirla.</p>
+<div class="figure">
+<img alt="../../_images/scrSaleBillToPrint.png" src="../../_images/scrSaleBillToPrint.png" />
+<p class="caption">Mensaje que pregunta por la impresión de la factura</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="../06_ventas.html"
+                        title="Capítulo anterior">2. Ventas</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_02.html"
+                        title="Próximo capítulo">2. ¿Cómo facturar a partir de una búsqueda de libros?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_02.html" title="2. ¿Cómo facturar a partir de una búsqueda de libros?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="../06_ventas.html" title="2. Ventas"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

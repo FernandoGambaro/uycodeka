@@ -1,0 +1,230 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4.1. ¿Cómo crear pedidos de cliente? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="4. Venta Mayorista" href="../07_ventamayorista.html" />
+    <link rel="next" title="4.2. Lotes de Devolución" href="ventas_10.html" />
+    <link rel="prev" title="4. Venta Mayorista" href="../07_ventamayorista.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_10.html" title="4.2. Lotes de Devolución"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="../07_ventamayorista.html" title="4. Venta Mayorista"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" accesskey="U">4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <span class="target" id="index-0"></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Ventas mayoristas</strong></p>
+<p class="last">En líneas generales, este circuito se inicia con un <em class="guilabel">pedido</em> de
+cliente, sigue con el envío de la mercadería mediante <em class="guilabel">remitos</em>
+o <em class="guilabel">facturas</em>, y se completa con la <em class="guilabel">devolución</em>
+o <em class="guilabel">facturación</em> de items y el posterior registro de
+la <em class="guilabel">cobranza</em>.</p>
+</div>
+<div class="section" id="como-crear-pedidos-de-cliente">
+<h1>4.1. ¿Cómo crear pedidos de cliente?<a class="headerlink" href="#como-crear-pedidos-de-cliente" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<blockquote>
+<div>Los pedidos pueden crearse <em>individualmente</em>, o en forma <em>masiva</em> mediante
+una planilla. En la ficha de cada cliente (<em>véase</em> <a class="reference internal" href="../ventas/ventas_04.html#howto-ventas-sec4"><em>¿Cómo crear un
+nuevo cliente?</em></a>), se ingresan oportunamente datos que
+afectarán la creación de pedidos:</div></blockquote>
+<ul class="last simple">
+<li><em>Descuento</em>: se indica en la solapa Condición de venta
+(<em>véase</em> <a class="reference internal" href="../ventas/ventas_06.html#howto-ventas-sec6"><em>¿Cómo crear condiciones de venta?</em></a>);</li>
+<li><em>Límite de consignación</em>: se ingresa en la solapa Cuenta corriente;</li>
+<li><em>Lista de precios</em>: se asigna en la solapa Distribución, si el cliente utiliza
+una lista diferente de la predeterminada.</li>
+</ul>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Pedidos de clientes</em>.</p>
+</li>
+<li><p class="first">En la pantalla que se presenta pulsar el botón <img alt="/icons/NewCustomerOrder.png" class="inlinegraphic" src="../../_images/NewCustomerOrder.png" /> de la barra de herramientas: se abrirá una
+ventana de nuevo pedido.</p>
+<div class="figure">
+<img alt="../../_images/nuevoPedidoCliente.png" src="../../_images/nuevoPedidoCliente.png" />
+<p class="caption">Nuevo pedido</p>
+</div>
+</li>
+<li><p class="first">En esta ventana puede observarse:</p>
+<ul>
+<li><p class="first">Un campo Tipo en el cual se puede elegir entre <em>Baja</em>, <em>Consig./Baja</em>,
+<em>Consignación</em> o <em>Firme</em>;</p>
+</li>
+<li><p class="first">Según el cliente que se haya colocado, su descuento predeterminado y su
+lista de precios;</p>
+</li>
+<li><p class="first">El semáforo de stock que indica, para cada item que se agregue, si hay
+disponibilidad para cumplir el pedido.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Advertencia</p>
+<p class="last">Un semáforo rojo indicará falta total de stock; en cambio, uno amarillo
+podrá significar tanto la falta parcial de stock como la reserva de
+cierta cantidad en un pedido previo.</p>
+</div>
+</li>
+</ul>
+</li>
+<li><p class="first">En caso de que se elija el tipo <em>Consig./Baja</em>, por cada item ingresado en el
+pedido puede diferenciarse su condición particular, con lo cual es posible
+guardar un solo pedido con tipos distintos por item:</p>
+<div class="figure">
+<img alt="../../_images/seleccionTipo.png" src="../../_images/seleccionTipo.png" />
+<p class="caption">Selección de tipos</p>
+</div>
+<div class="figure">
+<img alt="../../_images/pedidoDiferenciado.png" src="../../_images/pedidoDiferenciado.png" />
+<p class="caption">Pedido diferenciado</p>
+</div>
+</li>
+<li><p class="first">Cuando se pulse <em class="guilabel">Aceptar</em> para guardar el pedido, el sistema
+advertirá si se están registrando bajas superiores a cantidades consignadas
+-en cuyo caso deberá modificarse la cantidad inválida- y preguntará si se
+desea obtener un reporte de pedidos pendientes del cliente:</p>
+<div class="figure">
+<img alt="../../_images/bajasSuperiores.png" src="../../_images/bajasSuperiores.png" />
+<p class="caption">None</p>
+</div>
+<div class="figure">
+<img alt="../../_images/reportePendientes.png" src="../../_images/reportePendientes.png" />
+<p class="caption">None</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Este reporte también puede obtenerse en el menú <em class="menuselection">Ventas
+‣ Reportes ‣ Pedidos pendientes</em>, con varias opciones de salidas
+entre las cuales <em>Agrupado por cliente (resumido para Despachos)</em> es muy
+útil en el <em class="guilabel">circuito de Cajas y Despachos</em>, que se explica más
+abajo en esta sección.</p>
+</div>
+</li>
+<li><p class="first">Luego de guardado, el pedido ingresa como pendiente y es posible visualizarlo
+en el menú <em class="menuselection">Ventas ‣ Pedidos de clientes</em>, localizándolo,
+por ejemplo, mediante filtros de <em>Cliente</em> y <em>Estado</em>:</p>
+<div class="figure">
+<img alt="../../_images/vistaPedido.png" src="../../_images/vistaPedido.png" />
+<p class="caption">None</p>
+</div>
+</li>
+<li><p class="first">En el ejemplo de la ilustración, en su vista inferior General puede notarse
+cómo un pedido con distintos tipos se ha desglosado según sus cantidades y
+condición.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Los pedidos se guardan <em class="guilabel">valorizados</em> (columna <em>Importe</em> en el
+ejemplo). En caso de que el cliente tenga asignada una lista de precios
+en moneda extranjera, el sistema aplicará la cotización del momento en
+que se crea el pedido.</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="../07_ventamayorista.html"
+                        title="Capítulo anterior">4. Venta Mayorista</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_10.html"
+                        title="Próximo capítulo">4.2. Lotes de Devolución</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_10.html" title="4.2. Lotes de Devolución"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="../07_ventamayorista.html" title="4. Venta Mayorista"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" >4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Lambda Sistemas.
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

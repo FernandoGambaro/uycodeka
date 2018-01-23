@@ -1,0 +1,234 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>6. Liquidación de sueldos &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="10. Personal" href="../13_personal.html" />
+    <link rel="next" title="7. Pago a Empleados" href="personal_07.html" />
+    <link rel="prev" title="5. ¿Cómo obtener un reporte de Jornadas Laborales?" href="personal_05.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="personal_07.html" title="7. Pago a Empleados"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="personal_05.html" title="5. ¿Cómo obtener un reporte de Jornadas Laborales?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../13_personal.html" accesskey="U">10. Personal</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="liquidacion-de-sueldos">
+<span id="howto-personal-sec06"></span><h1>6. Liquidación de sueldos<a class="headerlink" href="#liquidacion-de-sueldos" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p class="last">Liquidación de sueldos es el cálculo de la remuneración correspondiente a un trabajador que mantiene una relación de dependencia con su empleador. La liquidación también tiene en cuenta la asistencia, el tiempo trabajado, los eventuales premios y otros componentes.</p>
+</div>
+<div class="section" id="como-crear-una-liquidacion-de-sueldo">
+<h2>6.1. ¿Cómo crear una liquidación de sueldo?<a class="headerlink" href="#como-crear-una-liquidacion-de-sueldo" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt>Seleccionar la opción de menú <em class="menuselection">Personal ‣ Salarios</em>.</dt>
+<dd><p class="first last">Se abrirá la pantalla de búsqueda de Salarios.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Para realizar una nueva liquidación de sueldo deben presionar el botón <img alt="/icons/22nuevaliquidacion.png" class="inlinegraphic" src="../../_images/22nuevaliquidacion.png" />.</dt>
+<dd><blockquote class="first">
+<div><p>Se abrirá la pantalla de Generación automática de liquidación de sueldos.</p>
+</div></blockquote>
+<div class="last figure">
+<img alt="../../_images/liquidacionSueldo.png" src="../../_images/liquidacionSueldo.png" />
+<p class="caption">Pantalla de Generación automática de liquidación de sueldos</p>
+</div>
+</dd>
+</dl>
+</li>
+<li><p class="first">Seleccionar el período que se va a liquidar (ej. Semestral, Bimestral, Mensual, Anual).</p>
+</li>
+<li><p class="first">Seleccionar el subperíodo que se va a liquidar, las opciones dependen del período previamente seleccionado (ej período Mensual &gt; Subperíodo Enero).</p>
+</li>
+<li><p class="first">Seleccionar el año al que corresponde la liquidación.</p>
+</li>
+<li><p class="first">Seleccionar si se desea valores del período extraordinarios haciendo click en el botón <em class="guilabel">Agregar...</em>.</p>
+</li>
+<li><p class="first">La liquidación puede generarse para todos o acotarse a un conjunto de empleados, utilizando las solapas de filtro o grupo de empleados.</p>
+<p>Para que la liquidación de sueldo sea filtrada, presionar el botón <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" /> . Se abrirá la pantalla de ingreso de filtros de la
+búsqueda de empleados. Ingresar el criterio de búsqueda y presionar el botón <em class="guilabel">Aceptar</em>. En el campo inferior al botón se muestra la descripción
+del criterio de búsqueda a aplicar.</p>
+</li>
+<li><p class="first">Una vez que se haya seleccionado cada campo , hacer click en el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Es importante destacar que en esta instancia aún no está generada la liquidación, se pueden editar los datos y asignar pagos.</p>
+</div>
+<ul>
+<li><p class="first">Se abrirá la pantalla de Liquidación de sueldos.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/sueldo.png" src="../../_images/sueldo.png" />
+<p class="caption">Solapa liquidación de sueldos.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Haciendo click en el ícono <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" /> se podrá editar tanto los valores del período extraordinarios como la plantilla de sueldo que tiene asignada el empleado(esto no modificará la plantila original, sólo afectara a la liquidación que se esta realizando).</p>
+<p>Al modificar se abrirá la pantalla de edición previa de la liquidación de sueldos.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/editarLiquidacionSueldo.png" src="../../_images/editarLiquidacionSueldo.png" />
+<p class="caption">Pantalla de edición de liquidación de sueldos.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Haciendo click en el ícono <img alt="/icons/22eliminar.png" class="inlinegraphic" src="../../_images/22eliminar.png" /> y teniendo seleccionada una liquidación podrá eliminarla.</p>
+</li>
+<li><p class="first">Haciendo click en el ícono <img alt="/icons/22cambiar_importe.png" class="inlinegraphic" src="../../_images/22cambiar_importe.png" /> y teniendo una liquidación seleccionada podrá definir la forma de pago.
+Si la misma ya está asignada, desde este mismo ícono se podrá editar. En esta pantalla se agregan las formas de pago cuenta corriente cancelando saldos, cheque de terceros y otras formas de pago.En caso de que el pago sea en efectivo moneda extranjera , desde esta misma pantalla se puede modificar la moneda (ej. Pesos &gt; Euro)</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/formaPago.png" src="../../_images/formaPago.png" />
+<p class="caption">Pantalla de modificación de formas de pago.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Haciendo click en el ícono <img alt="/icons/22efectivo.png" class="inlinegraphic" src="../../_images/22efectivo.png" /> se le otorgará la forma de pago en efectivo a la/las liquidaciones que están seleccionadas. Deberá seleccionar la caja de la cual saldrá el dinero.</p>
+</li>
+<li><p class="first">Haciendo click en el ícono <img alt="/icons/22clientes.png" class="inlinegraphic" src="../../_images/22clientes.png" /> se le otorgará la forma de pago a cuenta a la/las liquidaciones que están seleccionadas.</p>
+</li>
+<li><p class="first">Haciendo click en el ícono <img alt="/icons/transferencia.png" class="inlinegraphic" src="../../_images/transferencia.png" /> se le otorgará la forma de pago por transferencia a la/las liquidaciones que están seleccionadas.</p>
+</li>
+<li><p class="first">Una vez determinada la forma de pago de la/las liquidaciones hacer click en <em class="guilabel">Aceptar</em> para finalizar la liquidación de sueldo.</p>
+<p>En este punto la liquidación de sueldos ya se generó y debe proceder a imprimir los recibos de sueldo.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/reciboSueldo.png" src="../../_images/reciboSueldo.png" />
+<p class="caption">Modelo de recibo de sueldo del empleado.</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<ol class="arabic">
+<li><p class="first">Desde la pantalla de búsqueda de Salarios (<em class="menuselection">Personal ‣ Salarios</em>) realizando la búsqueda de la liquidación ,
+en la vista general se podrá observar como está compuesta la liquidación.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/vistaLiquidacionSueldo.png" src="../../_images/vistaLiquidacionSueldo.png" />
+<p class="caption">Vista general de la liquidación de un empleado.</p>
+</div>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">6. Liquidación de sueldos</a><ul>
+<li><a class="reference internal" href="#como-crear-una-liquidacion-de-sueldo">6.1. ¿Cómo crear una liquidación de sueldo?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="personal_05.html"
+                        title="Capítulo anterior">5. ¿Cómo obtener un reporte de Jornadas Laborales?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="personal_07.html"
+                        title="Próximo capítulo">7. Pago a Empleados</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="personal_07.html" title="7. Pago a Empleados"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="personal_05.html" title="5. ¿Cómo obtener un reporte de Jornadas Laborales?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../13_personal.html" >10. Personal</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<?php
+date_default_timezone_set("America/Montevideo"); 
+
+function implota($fecha) /*/ bd2local*/
+{
+	if (($fecha == "") || ($fecha == "0000-00-00"))
+		return "";
+	$vector_fecha = explode("-",$fecha);
+	$aux = @$vector_fecha[2];
+	$vector_fecha[2] = $vector_fecha[0];
+	$vector_fecha[0] = $aux;
+	return implode("/",$vector_fecha);
+}
+
+function explota($fecha) /*/ local2bd*/
+{
+	$vector_fecha = explode("/",$fecha);
+	$aux = @$vector_fecha[2];
+	$vector_fecha[2] = $vector_fecha[0];
+	$vector_fecha[0] = $aux;
+	return implode("-",$vector_fecha);
+};
+
+/** Actual month last day **/
+  function data_last_month_day($fecha) { 
+      $month = date('m',strtotime($fecha));
+      $year = date('Y',strtotime($fecha));
+      $day = date("d", mktime(0,0,0, $month+1, 0, $year));
+ 
+      return date('Y-m-d', mktime(0,0,0, $month, $day, $year));
+  };
+  /** Actual month first day **/
+  function data_first_month_day($fecha) {
+      $month = date('m',strtotime($fecha));
+      $year = date('Y',strtotime($fecha));
+      return date('Y-m-d', mktime(0,0,0, $month, 1, $year));
+  }
+
+function genMonth_Text($m) {
+	$month_text='';
+ switch ($m) {
+  case 1: $month_text = "Enero"; break;
+  case 2: $month_text = "Febrero"; break;
+  case 3: $month_text = "Marzo"; break;
+  case 4: $month_text = "Abril"; break;
+  case 5: $month_text = "Mayo"; break;
+  case 6: $month_text = "Junio"; break;
+  case 7: $month_text = "Julio"; break;
+  case 8: $month_text = "Agosto"; break;
+  case 9: $month_text = "Septiembre"; break;
+  case 10: $month_text = "Octubre"; break;
+  case 11: $month_text = "Noviembre"; break;
+  case 12: $month_text = "Diciembre"; break;
+ }
+ return ($month_text);
+}   
+  
+function genMonthAb_Text($m) {
+ switch ($m) {
+  case 1: $month_text = "Ene"; break;
+  case 2: $month_text = "Feb"; break;
+  case 3: $month_text = "Mar"; break;
+  case 4: $month_text = "Abr"; break;
+  case 5: $month_text = "May"; break;
+  case 6: $month_text = "Jun"; break;
+  case 7: $month_text = "Jul"; break;
+  case 8: $month_text = "Ago"; break;
+  case 9: $month_text = "Sep"; break;
+  case 10: $month_text = "Oct"; break;
+  case 11: $month_text = "Nov"; break;
+  case 12: $month_text = "Dic"; break;
+ }
+ return ($month_text);
+}   
+
+function diasemana($date) {
+	$days = array('Domingo', 'Lunes', 'Martes', 'Miércoles','Jueves','Viernes', 'Sábado');
+	$day=date("w", strtotime($date));
+	return $days[$day];
+	}
+?>

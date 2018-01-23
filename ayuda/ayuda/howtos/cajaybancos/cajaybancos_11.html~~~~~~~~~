@@ -1,0 +1,157 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>11. ¿Cómo depositar efectivo en una cuenta de banco? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="5. Caja y Bancos" href="../08_cajaybancos.html" />
+    <link rel="next" title="12. ¿Cómo extraer efectivo de una caja?" href="cajaybancos_12.html" />
+    <link rel="prev" title="10. ¿Cómo transferir dinero de una caja a otra?" href="cajaybancos_10.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_12.html" title="12. ¿Cómo extraer efectivo de una caja?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_10.html" title="10. ¿Cómo transferir dinero de una caja a otra?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" accesskey="U">5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-depositar-efectivo-en-una-cuenta-de-banco">
+<h1>11. ¿Cómo depositar efectivo en una cuenta de banco?<a class="headerlink" href="#como-depositar-efectivo-en-una-cuenta-de-banco" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><ol class="arabic" id="index-1">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Caja y Bancos ‣ Movimientos
+de caja</em> o <em class="menuselection">Caja y Bancos ‣ Movimientos de banco</em>.</p>
+</li>
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventana Activa ‣ Ingresar
+depósito</em> o el ícono <img alt="/icons/deposito.png" class="inlinegraphic" src="../../_images/deposito.png" /> de la barra de
+herramientas. Se abrirá la pantalla Depósito.</p>
+<div class="figure">
+<img alt="../../_images/scrDepot.png" src="../../_images/scrDepot.png" />
+<p class="caption">Pantalla Depósito</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la caja de donde sale el dinero en el campo Caja Origen.</p>
+</li>
+<li><p class="first">Seleccionar la cuenta de banco a donde ingresa el dinero en el campo Cuenta
+Destinto.</p>
+</li>
+<li><p class="first">Ingresar el importe y la moneda del depósito.</p>
+</li>
+<li><p class="first">Completar la fecha del depósito.</p>
+</li>
+<li><p class="first">Ingresar el número de comprobante emitido por el banco (opcional).</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ol>
+<p>El ingreso de un depósito genera un movimiento de salida en la caja origen y un
+movimiento de entrada en la cuenta destino. El movimiento de caja se verá
+reflejado en la <a class="reference internal" href="cajaybancos_07.html#howto-bookkeeping-closecashbox"><em>Consolidación de caja</em></a> y
+en los <a class="reference internal" href="cajaybancos_09.html#howto-bookkeeping-viewcashboxmovements"><em>listados de movimientos de caja</em></a>.</p>
+<p>El movimiento de banco se verá reflejado en los <a class="reference internal" href="cajaybancos_13.html#howto-bookkeeping-viewbankaccountmovements"><em>listados de movimientos
+de banco</em></a> y en el <a class="reference internal" href="cajaybancos_14.html#howto-bookkeeping-statement"><em>Estado
+de cuentas</em></a>.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="cajaybancos_10.html"
+                        title="Capítulo anterior">10. ¿Cómo transferir dinero de una caja a otra?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="cajaybancos_12.html"
+                        title="Próximo capítulo">12. ¿Cómo extraer efectivo de una caja?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_12.html" title="12. ¿Cómo extraer efectivo de una caja?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_10.html" title="10. ¿Cómo transferir dinero de una caja a otra?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" >5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,316 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>3. ¿Cómo ingresar una factura remito de tipo reposición o firme? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Compras" href="../07_compras.html" />
+    <link rel="next" title="4. ¿Cómo ingresar un remito de consignación?" href="compras_04.html" />
+    <link rel="prev" title="2. ¿Cómo generar pedidos?" href="compras_02.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="compras_04.html" title="4. ¿Cómo ingresar un remito de consignación?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_02.html" title="2. ¿Cómo generar pedidos?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" accesskey="U">3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-ingresar-una-factura-remito-de-tipo-reposicion-o-firme">
+<span id="howto-compras-sec3"></span><h1>3. ¿Cómo ingresar una factura remito de tipo reposición o firme?<a class="headerlink" href="#como-ingresar-una-factura-remito-de-tipo-reposicion-o-firme" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Tipos de documentos de compras</strong></p>
+<ul class="last simple">
+<li>RE son los <em>remitos de consignación,</em> documentos que envía el proveedor
+con los libros consignados.  <em>No son facturas.</em> A partir de estos remitos
+es que se sabe la cantidad consignada.</li>
+<li>FC son las <em>facturas</em> que se aplican contra remitos preexistentes. Estas
+facturas NO mueven stock, y en general son de baja de consignación. El
+sistema valida que haya remitos pendientes de facturación.</li>
+<li>FR son las <em>facturas remito,</em> facturas que vienen con los libros y por lo
+tanto mueven stock. Se usan para compras en firme (cuando viene sólo la
+factura y no el remito), y para reposiciones (cuando con la factura vienen
+ítems de reposición).</li>
+</ul>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Compras ‣ Facturas</em>. Se
+abrirá la pantalla Búsqueda de Facturas.</p>
+</li>
+<li><p class="first">Seleccionar el ícono <img alt="/icons/n_factura_remito.png" class="inlinegraphic" src="../../_images/n_factura_remito.png" /> de la barra de
+herramientas. Se abrirá la pantalla Nueva Factura-Remito.</p>
+<p>En la pantalla Búsqueda de Remitos también se puede acceder a Nueva
+Factura-Remito.</p>
+<div class="figure">
+<img alt="../../_images/scrNewFacRem.png" src="../../_images/scrNewFacRem.png" />
+<p class="caption">Pantalla Nueva Factura-Remito</p>
+</div>
+</li>
+<li><p class="first">Para cambiar el proveedor de origen de la factura-remito:</p>
+<ul class="simple">
+<li>Ingresar el código en el campo Proveedor.</li>
+<li>Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o <tt class="kbd docutils literal"><span class="pre">Tab</span></tt>.</li>
+<li>Si existe un proveedor con el código, se autocompleta el nombre a la
+derecha del código.</li>
+<li>Si no se conoce el código, presionar el bóton <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" />
+para buscar el proveedor.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/scrFacRemHeader.png" src="../../_images/scrFacRemHeader.png" />
+<p class="caption">Cabecera de la factura-remito</p>
+</div>
+</li>
+<li><p class="first">Completar los datos generales de la factura-remito:</p>
+<ul class="simple">
+<li><em>Tipo:</em> Reposición o Firme según corresponda.</li>
+<li><em>Bloqueda para Pagos:</em> Si la factura tiene algún problema, puede bloquearse
+para que no se realizen pagos sobre la misma. En otro momento puede
+desbloquearse.</li>
+<li><em>Número de factura</em></li>
+<li><em>Número de remito:</em> Si la factura está acompañada de un remito, marcar la
+opción Número de Remito e ingresar el número.</li>
+<li><em>Fecha:</em> Fecha de la factura-remito. El sistema sugiere la fecha actual</li>
+<li><em>Vencimiento:</em> Fecha de vencimiento de la factura. El sistema sugiere la
+fecha actual</li>
+<li><em>Sucursal:</em> Sucursal a la que corresponde la factura-remito. El sistema
+sugiere la sucursal donde ingresó el usuario.</li>
+<li><em>Depósito:</em> Depósito a donde ingresan los libros. El sistema sugiere el
+depósito asociado a la sucursal donde ingresó el usuario.</li>
+<li><em>Moneda:</em> Moneda de la factura.</li>
+</ul>
+</li>
+<li><p class="first">Por cada libro de la factura-remito:</p>
+<ul>
+<li><p class="first">En el campo Código de la solapa Detalle, ingresar el código del libro (por
+teclado o con el lector de código de barra) o realizar la búsqueda del
+libro presionando el botón <img alt="/icons/b_libro.png" class="inlinegraphic" src="../../_images/b_libro.png" /></p>
+<div class="figure">
+<img alt="../../_images/scrEditAssignBillRemit.png" src="../../_images/scrEditAssignBillRemit.png" />
+<p class="caption">Opciones para modificar las asignaciones</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la opción Editar asignación a pedidos. Se abrirá la ventana
+Edición de asignación a pedidos.</p>
+<div class="figure">
+<img alt="../../_images/scrDlgEditAssignOrders.png" src="../../_images/scrDlgEditAssignOrders.png" />
+<p class="caption">Pantalla Edición de Asignación a Pedidos</p>
+</div>
+</li>
+<li><p class="first">Modificar las cantidades asociadas a los pedidos haciendo doble click sobre
+la columna Cantidad de la fila correspondiente al pedido.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<ul class="simple">
+<li>Si la factura-remito corresponde a un <em>pedido</em>, presionar el botón
+<img alt="/icons/22bpedido.png" class="inlinegraphic" src="../../_images/22bpedido.png" />.  Se abrirá la pantalla Selección de
+Pedidos con la lista de los pedidos pendientes del proveedor.
+Seleccionar el pedido correspondiente.  Los items del pedido se
+cargarán en la grilla de la factura-remito.</li>
+<li>Si la factura-remito corresponde a un <em>pedido de baja</em>, presionar el
+botón <img alt="/icons/22bpedidobaja.png" class="inlinegraphic" src="../../_images/22bpedidobaja.png" />.  Se abrirá la pantalla
+Selección de Pedidos de Baja con la lista de los pedidos de baja
+pendientes del proveedor.  Seleccionar el pedido correspondiente.  Los
+items del pedido se cargarán en la grilla de la factura-remito.</li>
+</ul>
+<p class="last"><em>De esta forma se ahorra el ingreso manual de los ítems de la
+factura-remito.</em></p>
+</div>
+</li>
+<li><p class="first">Si el importe de la factura es distinto al importe calculado por el sistema
+en base a los precios, cantidades y descuentos, modificar el total en el
+campo Total de la parte inferior derecha de la pantalla.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em> o la tecla <tt class="kbd docutils literal"><span class="pre">F9</span></tt> y confirmar.</p>
+</li>
+</ol>
+<div class="section" id="como-prorratear-gastos-en-el-precio-de-costo">
+<h2>3.1. ¿Cómo prorratear gastos en el precio de costo?<a class="headerlink" href="#como-prorratear-gastos-en-el-precio-de-costo" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Traslado</strong></p>
+<p class="last">De existir gastos asociados a la compra de libros (fletes, etcétera),
+éstos pueden trasladarse al costo de los mismos.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la factura (o las facturas) en la búsqueda de facturas de compra
+y pulsar la opción <em class="menuselection">Ventana Activa ‣ Prorratear costos</em>.</p>
+<div class="figure">
+<img alt="../../_images/ventanaActivaProrratear.png" src="../../_images/ventanaActivaProrratear.png" />
+<p class="caption">Ventana activa</p>
+</div>
+</li>
+<li><p class="first">El paso anterior permite buscar gastos, registrados en Caja y Bancos,
+asociados a la compra documentada por esa/s factura/s:</p>
+<div class="figure">
+<img alt="../../_images/seleccionarGasto.png" src="../../_images/seleccionarGasto.png" />
+<p class="caption">Seleccionar gasto</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Pueden seleccionarse a la vez <em>varias facturas</em> y <em>varios gastos</em> en una
+operación de prorrateo.</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el/los gasto/s y pulsar <em class="guilabel">Aceptar</em>. El sistema emite la
+siguiente validación:</p>
+<div class="figure">
+<img alt="../../_images/aceptarProrrateo.png" src="../../_images/aceptarProrrateo.png" />
+<p class="caption">Aceptar prorrateo</p>
+</div>
+</li>
+<li><p class="first">Al aceptar, se actualiza el costo de todos los libros incluidos en la/s
+factura/s, distribuyendo entre ellos el/los gasto/s seleccionado en forma
+proporcional a la participación de cada libro en el total de la/las
+factura/s.</p>
+</li>
+<li><p class="first">Luego de ello, pueden o no actualizarse los precios de venta a partir de los
+costos modificados por el prorrateo.</p>
+<div class="figure">
+<img alt="../../_images/actualizarPrecios.png" src="../../_images/actualizarPrecios.png" />
+<p class="caption">Actualizar precios</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Se agrega además en las fichas de libros una vista inferior <em>Historial
+de costos</em>, que permite visualizar los cambios tanto manuales como
+calculados -entre los últimos, los producidos por un prorrateo-. En el
+caso de éstos, la vista presenta links a los documentos que
+intervinieron en la conformación del costo.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/historiaCostos.png" src="../../_images/historiaCostos.png" />
+<p class="caption">Historial de costos</p>
+</div>
+<div class="figure">
+<img alt="../../_images/libroConProrrateo.png" src="../../_images/libroConProrrateo.png" />
+<p class="caption">Links a documentos</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Asimismo, la vista <em>General</em> de las respectivas facturas de compra
+muestra los documentos relacionados al prorrateo de costos.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/facturaConProrrateo.png" src="../../_images/facturaConProrrateo.png" />
+<p class="caption">Vista de factura</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">3. ¿Cómo ingresar una factura remito de tipo reposición o firme?</a><ul>
+<li><a class="reference internal" href="#como-prorratear-gastos-en-el-precio-de-costo">3.1. ¿Cómo prorratear gastos en el precio de costo?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="compras_02.html"
+                        title="Capítulo anterior">2. ¿Cómo generar pedidos?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="compras_04.html"
+                        title="Próximo capítulo">4. ¿Cómo ingresar un remito de consignación?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="compras_04.html" title="4. ¿Cómo ingresar un remito de consignación?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_02.html" title="2. ¿Cómo generar pedidos?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" >3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

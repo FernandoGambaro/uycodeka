@@ -1,0 +1,151 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4.13. Facturación en firme &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="4. Venta Mayorista" href="../07_ventamayorista.html" />
+    <link rel="next" title="5. Caja y Bancos" href="../08_cajaybancos.html" />
+    <link rel="prev" title="4.11. Servicio de novedades" href="ventas_8.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../08_cajaybancos.html" title="5. Caja y Bancos"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_8.html" title="4.11. Servicio de novedades"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" accesskey="U">4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="facturacion-en-firme">
+<h1>4.13. Facturación en firme<a class="headerlink" href="#facturacion-en-firme" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Para los pedidos en firme, puede crearse una factura que realice también el
+movimiento de stock. En este caso, se crea una factura remito.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Facturas de venta</em>.</p>
+</li>
+<li><p class="first">Pulsar el ícono <img alt="/icons/NuevaFacturaRemitoVentas.png" class="inlinegraphic" src="../../_images/NuevaFacturaRemitoVentas.png" /> en la barra de
+herramientas. Se abrirá la pantalla de Nueva Factura Remito:</p>
+<div class="figure">
+<img alt="../../_images/NuevaFacturaRemito.png" src="../../_images/NuevaFacturaRemito.png" />
+<p class="caption">Pantalla Nueva Factura Remito</p>
+</div>
+</li>
+<li><p class="first">En la carga de la factura puede observarse que:</p>
+<ul class="simple">
+<li>El sistema muestra si la factura remito corresponde a un pedido del cliente
+en el semáforo de la columna PE.</li>
+<li>El sistema muestra si la factura remito corresponde a un pedido de baja en
+la columna PB. En este caso, como es una venta en Firme, el semáforo
+aparece en rojo.</li>
+<li>Si la reposición de la consignación se hace con facturas remito y se cargó
+el pedido de baja, el semáforo aparecerá en verde.</li>
+</ul>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_8.html"
+                        title="Capítulo anterior">4.11. Servicio de novedades</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="../08_cajaybancos.html"
+                        title="Próximo capítulo">5. Caja y Bancos</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../08_cajaybancos.html" title="5. Caja y Bancos"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_8.html" title="4.11. Servicio de novedades"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" >4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

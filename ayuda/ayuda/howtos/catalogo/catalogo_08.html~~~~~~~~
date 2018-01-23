@@ -1,0 +1,149 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1.8. ¿Cómo crear una Editorial? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="1. Catálogo" href="../05_catalogo.html" />
+    <link rel="next" title="1.9. ¿Cómo importar precios de una planilla de cálculo?" href="catalogo_09.html" />
+    <link rel="prev" title="1.7. ¿Cómo crear un grupo de libros?" href="catalogo_07.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="catalogo_09.html" title="1.9. ¿Cómo importar precios de una planilla de cálculo?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_07.html" title="1.7. ¿Cómo crear un grupo de libros?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" accesskey="U">1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-una-editorial">
+<span id="howto-catalogo-sec8"></span><h1>1.8. ¿Cómo crear una Editorial?<a class="headerlink" href="#como-crear-una-editorial" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><ol class="arabic simple" id="index-1">
+<li>Seleccionar la opción de menú <em class="menuselection">Catálogo ‣ Editoriales</em>.
+Se abrirá la pantalla Editoriales.</li>
+<li>Presionar el botón <em class="guilabel">Crear</em>. Se abrirá la pantalla Nueva Editorial.</li>
+<li>Completar el código, nombre y país de la editorial.</li>
+<li>Ingresar los prefijos ISBN de la editorial. Para esto, hacer click en el
+botón <img alt="/icons/btnElbAdd.png" class="inlinegraphic" src="../../_images/btnElbAdd.png" /> y completar el prefijo.</li>
+<li>Presionar el botón <em class="guilabel">Aceptar</em>.</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p>El ingreso de los prefijos ISBN de las editoriales ahorra esfuerzo en la
+carga de libros ya que el sistema puede deducir la editorial a partir del
+ISBN.
+Este ahorro de trabajo se obtiene:</p>
+<ul class="last simple">
+<li>En la carga de la ficha del libro se evita la carga de la editorial.</li>
+<li>En la importación de libros de la Cámara Argentina del Libro se evita la
+asociación de la editorial.</li>
+</ul>
+</div>
+<div class="figure">
+<img alt="../../_images/scrEditoriales.png" src="../../_images/scrEditoriales.png" />
+<p class="caption">Crear una Editorial.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="catalogo_07.html"
+                        title="Capítulo anterior">1.7. ¿Cómo crear un grupo de libros?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="catalogo_09.html"
+                        title="Próximo capítulo">1.9. ¿Cómo importar precios de una planilla de cálculo?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="catalogo_09.html" title="1.9. ¿Cómo importar precios de una planilla de cálculo?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_07.html" title="1.7. ¿Cómo crear un grupo de libros?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" >1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

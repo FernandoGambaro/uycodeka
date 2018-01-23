@@ -1,0 +1,198 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>26. Venta a crédito &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="27. ¿Cómo trabajar con Kits?" href="ventas_25.html" />
+    <link rel="prev" title="25. Vendedores" href="ventas_23.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_25.html" title="27. ¿Cómo trabajar con Kits?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_23.html" title="25. Vendedores"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="venta-a-credito">
+<span id="howto-ventas-credito"></span><h1>26. Venta a crédito<a class="headerlink" href="#venta-a-credito" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Venta a crédito</strong></p>
+<p class="last">El sistema Fierro posibilita la gestión de ventas a crédito. La venta a crédito permite dividir en
+cuotas las obligaciones de pago de una factura.
+Este módulo es un adicional del sistema, se debe solicitar presupuesto para su instalación.</p>
+</div>
+<div class="section" id="como-asignar-pago-en-cuotas-a-una-factura-de-venta">
+<h2>26.1. ¿Cómo asignar pago en cuotas a una factura de venta?<a class="headerlink" href="#como-asignar-pago-en-cuotas-a-una-factura-de-venta" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Nueva Factura de
+Venta</em> o el ícono <img alt="/icons/n_vta_factura.png" class="inlinegraphic" src="../../_images/n_vta_factura.png" /> de la barra de
+herramientas. Se abrirá la pantalla Nueva Factura de Venta.</p>
+<p>Una vez ingresados los items a la factura, en la solapa Formas de pago se habilitará el ícono <img alt="/icons/22saleQuota.png" class="inlinegraphic" src="../../_images/22saleQuota.png" />. Al seleccionarlo se abrirá
+un cuadro con los diferentes Planes de Cuotas (los mismos son cargados previamente por el área de soporte de Fierro). Al seleccionar un plan de cuotas, debajo se muestra el detalle del valor de cada cuota y la comisión para el vendedor,  si la tuviera.</p>
+<div class="figure">
+<img alt="../../_images/PagoCuotas.png" src="../../_images/PagoCuotas.png" />
+<p class="caption">Selección de cuotas</p>
+</div>
+</div>
+<div class="section" id="consulta-de-las-cuotas">
+<h2>26.2. Consulta de las cuotas<a class="headerlink" href="#consulta-de-las-cuotas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El sistema permite consultar las cuotas según diferentes criterios, como Fecha de vencimiento, Número, Estado (Pendientes, Pagadas, Todas), Plan, Zona y Cliente.
+La consulta se realiza desde la opción de menú <em class="menuselection">Ventas ‣ Cuotas</em>.</p>
+<div class="figure">
+<img alt="../../_images/ConsultaCuotas.png" src="../../_images/ConsultaCuotas.png" />
+<p class="caption">Consulta de cuotas</p>
+</div>
+</div>
+<div class="section" id="cuentas-corrientes">
+<h2>26.3. Cuentas corrientes<a class="headerlink" href="#cuentas-corrientes" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>También es posible visualizar la cuenta corriente de un cliente determinado, con la respectiva descripción de facturas y cuotas. Ver <a class="reference internal" href="ventas_05.html#howto-ventas-sec5"><em>¿Cómo visualizar la cuenta corriente de un cliente?</em></a></p>
+<div class="figure">
+<img alt="../../_images/CuentaCorrienteCuotas.png" src="../../_images/CuentaCorrienteCuotas.png" />
+<p class="caption">Consulta de cuenta corriente</p>
+</div>
+</div>
+<div class="section" id="cobro-de-las-cuotas">
+<h2>26.4. Cobro de las cuotas<a class="headerlink" href="#cobro-de-las-cuotas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Para la gestión de cobranza de las cuotas, se emite el listados de cupones de cuotas por vendedor/cobrador, donde se detalla el Nombre del Cliente, Monto, Vencimiento, entre otros datos importantes para gestionar el pago de las cuotas. Saldrá impreso el logo de la empresa.</p>
+<div class="figure">
+<img alt="../../_images/TalonCuotas.png" src="../../_images/TalonCuotas.png" />
+<p class="caption">Impresión de talón de cuotas</p>
+</div>
+</div>
+<div class="section" id="cartas-de-intimacion-a-morosos">
+<h2>26.5. Cartas de intimación a morosos<a class="headerlink" href="#cartas-de-intimacion-a-morosos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Fierro permite imprimir cartas de intimación dirigidas a clientes en mora. Las mismas se generan desde <cite>Ventas &#8211;&gt; Reportes &#8211;&gt; Cuotas &#8211;&gt; Reporte: Cartas de intimación a morosos</cite>. Saldrá impreso el logo de la empresa.</p>
+<div class="figure">
+<img alt="../../_images/CartaCuotas.png" src="../../_images/CartaCuotas.png" />
+<p class="caption">Impresión de carta de intimación por mora</p>
+</div>
+</div>
+<div class="section" id="carga-de-recibos">
+<h2>26.6. Carga de recibos<a class="headerlink" href="#carga-de-recibos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Cuando el cobrador/vendedor vuelve con el listado de lo cobradado, desde la opción de menú <em class="menuselection">Ventas ‣ Cuotas</em> se pasa el código de barras del talón por el campo <cite>Número</cite> para encontrar la cuota cobrada, luego deben seleccionar el ícono <img alt="/icons/22efectivo.png" class="inlinegraphic" src="../../_images/22efectivo.png" /> para crear el recibo, se abrirá el siguiente editor donde deben indicar quien realizó la operación y la caja donde ingresará el dinero.
+Se pueden seleccionar varias cuotas juntas.</p>
+<div class="figure">
+<img alt="../../_images/CuotasRecibo.png" src="../../_images/CuotasRecibo.png" />
+<p class="caption">Creación de recibo</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">26. Venta a crédito</a><ul>
+<li><a class="reference internal" href="#como-asignar-pago-en-cuotas-a-una-factura-de-venta">26.1. ¿Cómo asignar pago en cuotas a una factura de venta?</a></li>
+<li><a class="reference internal" href="#consulta-de-las-cuotas">26.2. Consulta de las cuotas</a></li>
+<li><a class="reference internal" href="#cuentas-corrientes">26.3. Cuentas corrientes</a></li>
+<li><a class="reference internal" href="#cobro-de-las-cuotas">26.4. Cobro de las cuotas</a></li>
+<li><a class="reference internal" href="#cartas-de-intimacion-a-morosos">26.5. Cartas de intimación a morosos</a></li>
+<li><a class="reference internal" href="#carga-de-recibos">26.6. Carga de recibos</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_23.html"
+                        title="Capítulo anterior">25. Vendedores</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_25.html"
+                        title="Próximo capítulo">27. ¿Cómo trabajar con Kits?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_25.html" title="27. ¿Cómo trabajar con Kits?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_23.html" title="25. Vendedores"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

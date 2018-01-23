@@ -1,0 +1,149 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>8.5. Configuración del envío por mail &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="8. General" href="../11_general.html" />
+    <link rel="next" title="8.6. ¿Cómo crear y utilizar otras formas de pago?" href="general_06.html" />
+    <link rel="prev" title="8.4. Archivos adjuntos" href="general_04.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="general_06.html" title="8.6. ¿Cómo crear y utilizar otras formas de pago?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_04.html" title="8.4. Archivos adjuntos"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" accesskey="U">8. General</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="configuracion-del-envio-por-mail">
+<span id="howto-others-mailconfig"></span><h1>8.5. Configuración del envío por mail<a class="headerlink" href="#configuracion-del-envio-por-mail" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><p>A continuación se explica la configuración para poder enviar mails desde el
+sistema.</p>
+<p>Esta configuración queda guardada en el usuario del sistema, por lo tanto se
+realiza una única vez.</p>
+<p>El envío de mails es una opción de salida cuando se generan reportes o se
+imprime. En esta pantalla, en el botón Configurar, se accede a la configuración
+del envío de mails. Esta configuración también puede realizarse en el menú
+<em class="menuselection">Sistema -&gt; Enviar email</em>.</p>
+<div class="figure">
+<img alt="../../_images/scrMailConfig.png" src="../../_images/scrMailConfig.png" />
+<p class="caption">Pantalla Configuración del mail</p>
+</div>
+<p>Las datos a completar son los siguientes:</p>
+<ol class="arabic simple">
+<li><em>Servidor:</em> servidor de mail. Si ya tiene configurado su mail en algún
+programa de correo (Outlook, Evolution, etc.), el servidor se puede obtener
+tomándolo de la configuración de su cuenta. El servidor debe buscarse dentro
+del Correo Saliente.</li>
+<li><em>Usuario:</em> usuario de la cuenta de correo.</li>
+<li><em>Contraseña:</em> contraseña de la cuenta de correo.</li>
+<li><em>E-mail:</em> dirección de correo electrónico que se utilizará para enviar el
+correo desde el sistema.</li>
+<li><em>Nombre:</em> nombre descriptivo del usuario de la cuenta. Este es el nombre que
+se visualiza cuando alguien recibe el correo.</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="general_04.html"
+                        title="Capítulo anterior">8.4. Archivos adjuntos</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="general_06.html"
+                        title="Próximo capítulo">8.6. ¿Cómo crear y utilizar otras formas de pago?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="general_06.html" title="8.6. ¿Cómo crear y utilizar otras formas de pago?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_04.html" title="8.4. Archivos adjuntos"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" >8. General</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

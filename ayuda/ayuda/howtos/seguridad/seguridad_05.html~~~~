@@ -1,0 +1,152 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>5. ¿Cómo cambiar la contraseña de un usuario? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="7. Seguridad" href="../10_seguridad.html" />
+    <link rel="next" title="6. ¿Cómo ver quién, cuándo y dónde se realizó una acción en el sistema?" href="seguridad_06.html" />
+    <link rel="prev" title="4. ¿Cómo asignar permisos?" href="seguridad_04.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="seguridad_06.html" title="6. ¿Cómo ver quién, cuándo y dónde se realizó una acción en el sistema?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="seguridad_04.html" title="4. ¿Cómo asignar permisos?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../10_seguridad.html" accesskey="U">7. Seguridad</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-cambiar-la-contrasena-de-un-usuario">
+<h1>5. ¿Cómo cambiar la contraseña de un usuario?<a class="headerlink" href="#como-cambiar-la-contrasena-de-un-usuario" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><ol class="arabic" id="index-1">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Sistema ‣ Usuarios</em>. Se
+abrirá la pantalla Búsqueda de usuarios.</p>
+<div class="figure">
+<img alt="../../_images/scrUserSearch.png" src="../../_images/scrUserSearch.png" />
+<p class="caption">Pantalla Búsqueda de usuarios</p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Buscar</em> en la parte superior derecha de la pantalla.</p>
+<p>Se listarán todos los usuarios existentes.</p>
+<p>Para buscar un usuario determinado, pueden completarse los filtros de búsqueda:</p>
+<ul class="simple">
+<li><em>Usuario</em>: completar el nombre de usuario, nombre real o apellido (o partes
+de ellos) del usuario a buscar.</li>
+<li><em>Grupo</em>: seleccionar el grupo de usuarios del cual se quiere listar los
+usuarios.</li>
+<li><em>Sucursal</em>: seleccionar la sucursal de la cual se quieren obtener los usuarios.</li>
+</ul>
+</li>
+<li><p class="first">Seleccionar el usuario.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Modificar</em>. Se abrirá la pantalla Edición de
+usuario.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Limpiar</em>. La nueva contraseña será la que
+ingrese el usuario la próxima vez que ingrese al sistema.</p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="seguridad_04.html"
+                        title="Capítulo anterior">4. ¿Cómo asignar permisos?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="seguridad_06.html"
+                        title="Próximo capítulo">6. ¿Cómo ver quién, cuándo y dónde se realizó una acción en el sistema?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="seguridad_06.html" title="6. ¿Cómo ver quién, cuándo y dónde se realizó una acción en el sistema?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="seguridad_04.html" title="4. ¿Cómo asignar permisos?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../10_seguridad.html" >7. Seguridad</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

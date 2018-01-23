@@ -1,0 +1,233 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1.7. ¿Cómo crear un grupo de libros? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="1. Catálogo" href="../05_catalogo.html" />
+    <link rel="next" title="1.8. ¿Cómo crear una Editorial?" href="catalogo_08.html" />
+    <link rel="prev" title="1.6. ¿Cómo crear un Autor?" href="catalogo_06.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="catalogo_08.html" title="1.8. ¿Cómo crear una Editorial?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_06.html" title="1.6. ¿Cómo crear un Autor?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" accesskey="U">1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-un-grupo-de-libros">
+<span id="howto-catalogo-sec7"></span><h1>1.7. ¿Cómo crear un grupo de libros?<a class="headerlink" href="#como-crear-un-grupo-de-libros" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Conjuntos</strong></p>
+<p>Los grupos de libros en Fierro son conjuntos predefinidos de títulos a los
+que se ha unido para referenciarlos en forma asociada.</p>
+<p>A modo de ejemplo: podrían existir grupos de libros llamados
+<em>Destacados del mes</em>, <em>Fuera de distribución</em>, <em>No consignables</em>, etcétera.</p>
+<p class="last">Además de las operaciones con grupos por parte del usuario, mediante
+parámetros configurables en Lambda Sistemas puede hacerse, por ejemplo, que
+libros incluidos en cierto grupo no puedan ser enviados en consignación o
+facturados.</p>
+</div>
+<p>Existen tres tipos de grupos:</p>
+<ul>
+<li><p class="first"><em>Grupo de libros estático</em>: se crean mediante libros puntuales que se
+seleccionan mediante una búsqueda directa en el catálogo, y que pasan a
+integrar el grupo sólo por designación del usuario.</p>
+</li>
+<li><p class="first"><em>Grupo de libros estático ordenado</em>: se crean como el tipo anterior pero con
+un orden predeterminado, y en general se utilizan para mostrar libros en
+páginas web.</p>
+</li>
+<li><p class="first"><em>Grupo de libros dinámico</em>: se forman mediante criterios de filtrado que los
+libros deberán cumplir; podrían ser todos los libros de cierta materia, o de
+cierta editorial, o que están en cierto rango de precios, o cuyo proveedor
+principal es..., etcétera.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Cada vez que a un libro existente o recién ingresado se le coloque
+esa materia, o un precio en ese rango, o se lo asigne a ese
+proveedor, etcétera, automáticamente pasará a integrar el
+grupo.</p>
+</div>
+</li>
+</ul>
+<p>Para crear un grupo de libros:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Catálogo ‣ Grupos de libros</em>;</p>
+</li>
+<li><p class="first">En la pantalla que se presenta, presionar el botón <em class="guilabel">Crear</em>.
+Se iniciará el asistente para la creación de un nuevo grupo de libros
+(<em>véase</em> <a class="reference internal" href="../../basics/pantallas/pantallas_03.html#basics-controls-wizards"><em>Asistente</em></a>).</p>
+<div class="figure">
+<img alt="../../_images/grupoLibros.png" src="../../_images/grupoLibros.png" />
+<p class="caption">Asistente de creación de grupos de libros</p>
+</div>
+</li>
+<li><p class="first">En el primer paso del asistente se elige el <em class="guilabel">tipo</em> de grupo a
+crear. Si el tipo elegido es <em>estático</em>, en el siguiente paso se utilizará
+el botón <em class="guilabel">Agregar</em> para buscar los títulos en el catálogo:</p>
+<ul class="simple">
+<li>En la pantalla de búsqueda, marcar el libro a incluir en el grupo y pulsar
+<em class="guilabel">Aceptar</em>. El libro aparecerá en la ventana de ingreso del
+asistente;</li>
+<li>Repetir con cada título la operación de búsqueda, selección y agregado.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/grupoEstatico.png" src="../../_images/grupoEstatico.png" />
+<p class="caption">Grupo estático</p>
+</div>
+</li>
+<li><p class="first">Si el tipo elegido es <em>estático ordenado</em> el paso siguiente es idéntico al
+del tipo previo, excepto porque la ventana de ingreso de títulos presenta las
+flechas <img alt="/icons/22flecha_arriba.png" class="inlinegraphic" src="../../_images/22flecha_arriba.png" />
+<img alt="/icons/22flecha_abajo.png" class="inlinegraphic" src="../../_images/22flecha_abajo.png" /> para disponer la lista de libros en
+determinado orden dentro del grupo:</p>
+<div class="figure">
+<img alt="../../_images/grupoEstaticoOrdenado.png" src="../../_images/grupoEstaticoOrdenado.png" />
+<p class="caption">Grupo estático ordenado</p>
+</div>
+</li>
+<li><p class="first">Si el tipo elegido es <em>dinámico</em>, el paso siguiente presenta un botón
+<img alt="/icons/22b_libro.png" class="inlinegraphic" src="../../_images/22b_libro.png" /> para decidir qué <em class="guilabel">filtro</em> agrupará
+los libros. En el ejemplo de la imagen siguiente, se ha utilizado el criterio
+<em>General</em> para que el filtro que reúna los libros sea &#8220;sin editorial&#8221;:</p>
+<div class="figure">
+<img alt="../../_images/grupoDinamico.png" src="../../_images/grupoDinamico.png" />
+<p class="caption">Grupo dinámico</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Para ser seleccionable, el atributo &#8220;Sin Editorial&#8221; tiene que existir
+como un nombre más en la base de editoriales de Fierro
+(<em>véase</em> <a class="reference internal" href="catalogo_08.html#howto-catalogo-sec8"><em>¿Cómo crear una Editorial?</em></a>).</p>
+</div>
+<div class="figure">
+<img alt="../../_images/filtroDinamico.png" src="../../_images/filtroDinamico.png" />
+<p class="caption">Filtro dinámico aplicado</p>
+</div>
+</li>
+<li><p class="first">Pulsar <em class="guilabel">Finish</em> para culminar la creación. El nuevo grupo de libros
+aparecerá en la pantalla principal. En ella, además, se encuentran los
+botones <em class="guilabel">Modificar</em> y <em class="guilabel">Eliminar</em>, que se utilizan
+marcando previamente el grupo a editar o borrar.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Es posible además crear grupos dinámicos desde la consulta de libros:
+con el resultado en pantalla, se sigue la opción de
+menú <em class="menuselection">Ventana Activa ‣ Crear grupo con la búsqueda</em>.</p>
+</div>
+</li>
+</ol>
+<p>Los libros de determinado grupo pueden recuperarse mediante el panel <em>Grupos</em> de
+la consulta de libros. Allí, se selecciona el nombre del grupo y se pulsa
+<em class="guilabel">Buscar</em>:</p>
+<div class="figure">
+<img alt="../../_images/panelGrupos.png" src="../../_images/panelGrupos.png" />
+<p class="caption">Panel Grupos</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="catalogo_06.html"
+                        title="Capítulo anterior">1.6. ¿Cómo crear un Autor?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="catalogo_08.html"
+                        title="Próximo capítulo">1.8. ¿Cómo crear una Editorial?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="catalogo_08.html" title="1.8. ¿Cómo crear una Editorial?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo_06.html" title="1.6. ¿Cómo crear un Autor?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" >1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

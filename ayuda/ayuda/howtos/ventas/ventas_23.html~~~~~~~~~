@@ -1,0 +1,417 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>25. Vendedores &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="26. Venta a crédito" href="ventas_24.html" />
+    <link rel="prev" title="24. ¿Cómo crear puntos de facturación?" href="ventas_22.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_24.html" title="26. Venta a crédito"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_22.html" title="24. ¿Cómo crear puntos de facturación?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="vendedores">
+<span id="howto-ventas-sec22"></span><h1>25. Vendedores<a class="headerlink" href="#vendedores" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">La creación en Fierro de una ficha de vendedor -persona u organización-,
+además de dar entidad al nuevo vendedor influye en varias operaciones del
+módulo de Ventas, que son afectadas por los datos de la ficha.
+Es importante resaltar que el uso de los vendedores difiere completamente si se utiliza el sistema para venta mayorista o minorista.
+Para <em>venta mayorista</em>, se asigna un vendedor al cliente y todas las operaciones del cliente quedan vinculadas al vendedor asignado. El sistema supone que la empresa asigna los clientes a los vendedores y toda la relación con los clientes pasa por el vendedor asignado, independientemente que eventualmente una venta la haya realizada otro vendedor o directamente la editorial.
+Para <em>venta minorista</em>, se asigna el vendedor en cada operación (factura, seña, etc), suponiendo que cada venta realizada en el salón de ventas debe quedar asociada al vendedor que la realizó.</p>
+</div>
+<div class="section" id="como-crear-un-vendedor">
+<h2>25.1. ¿Cómo crear un vendedor?<a class="headerlink" href="#como-crear-un-vendedor" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>La consulta de Vendedores se encuentra en <em class="menuselection">Ventas ‣ Otros
+‣ Vendedores</em>. Allí pulsar el botón <img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" /> o la
+opción de menú <em class="menuselection">Ventana Activa ‣ Nuevo Vendedor</em>. Se iniciará
+el asistente de creación (<em>véase</em> <a class="reference internal" href="../../basics/pantallas/pantallas_03.html#basics-controls-wizards"><em>Asistente</em></a>):</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/crearVendedor.png" src="../../_images/crearVendedor.png" />
+<p class="caption">Asistente para crear un vendedor</p>
+</div>
+<ol class="arabic">
+<li><p class="first">En el primer paso del asistente debe indicarse si el nuevo vendedor es Persona
+u Organización.</p>
+</li>
+<li><p class="first">Dependiendo de qué se haya indicado, en el segundo paso aparecen los campos
+para identificar a un individuo o a una empresa. El único campo obligatorio
+allí es <em>Nombre</em> o <em>Nombre Fantasía</em>.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">A lo largo del asistente sólo se presenta una diferencia más según el
+tipo de cliente, y es la de <em>Datos personales</em> (Fecha de nacimiento,
+Profesión, Sexo) cuando se trata de Persona.</p>
+</div>
+</li>
+<li><p class="first">El siguiente paso puede variar dependiendo de la configuración requerida.
+Hay dos modos de configurar y obtener las comisiones de los vendedores (<strong>solo mayoristas</strong>):</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>1: En cada vendedor se carga el % predeterminado de comisión sobre ventas y cobranzas</dt>
+<dd><p class="first last">y excepciones en función a Grupos de Libros.</p>
+</dd>
+<dt>2: En cada vendedor se carga el % de comisiones en función a los porcentajes de descuento</dt>
+<dd><p class="first last">que se aplican en las facturas de venta.</p>
+</dd>
+</dl>
+</div></blockquote>
+<p><strong>Con la opción 1</strong> se deberá completar con la Zona que debe estar previamente
+cargada en <em class="menuselection">Ventas ‣ Otros ‣ Zonas</em>. También en esta pantalla
+se deberá determinar las comisiones del vendedor discriminando los porcentajes en
+Comisión predeterminada sobre Ventas y Comisión predeterminada sobre Cobranzas
+teniendo la posibilidad de agregar reglas sobre estos porcentajes en grupos de
+libros dinámicos o estáticos.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Las reglas para determinar las comisiones van a afectar el grupo de libro que se haya
+especificado. Como la imagen se puede ver la Comisión predeterminada sobre Ventas es de
+10% pero la Regla para determinar las comisiones sobre la condición de libros que sean del
+Proveedor Colihue según Ventas es de 13%.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/reglasVendedores.png" src="../../_images/reglasVendedores.png" />
+<p class="caption">Asistente para cargar las comisiones opción 1</p>
+</div>
+<p><strong>Con la opción 2</strong> se deberá completar con la Zona y agregar los Porcentajes sobre ventas
+en función de los descuentos aplicados y los Porcentajes sobre cobranzas en función de los
+descuentos aplicados.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<blockquote>
+<div><p>Como se puede ver en la siguiente imagen la comisión del 10% se le computará cuando realice
+una venta a un cliente que tenga un descuento entre el 40 y el 59.99. En cambio si el descuento
+del cliente es entre 60 y 80 la comisión sería del 5%. Ocurre lo mismo con los recibos de
+los clientes. Se debe tener cuidado a la hora de definir los rangos de los porcentajes de
+descuentos de los clientes para no dejar algun valor sin contemplar.</p>
+</div></blockquote>
+<div class="last figure">
+<img alt="../../_images/comisionesVendedores.png" src="../../_images/comisionesVendedores.png" />
+<p class="caption">Asistente para cargar las comisiones opción 2</p>
+</div>
+</div>
+</li>
+<li><p class="first">A continuación se podrán completar con los datos del vendedor como
+<em>Dirección</em>, <em>Teléfono</em>, <em>Email</em> y <em>Página Web</em>.</p>
+</li>
+<li><p class="first"><em>Notas del vendedor</em>: al igual que la mayoría de las entidades en Fierro, un
+vendedor puede tener <em class="guilabel">notas asociadas</em> en las cuales se registre
+información interna para el negocio, o datos que no puedan colocarse en otros
+campos del asistente (<em>véase</em> <a class="reference internal" href="../general/general_03.html#howto-others-notes"><em>¿Cómo agregar notas a los libros,
+clientes, proveedores o documentos?</em></a>).</p>
+</li>
+</ol>
+</div>
+<div class="section" id="como-modificar-la-ficha-de-un-vendedor">
+<span id="howto-ventas-sec22-sec11"></span><h2>25.2. ¿Cómo modificar la ficha de un vendedor?<a class="headerlink" href="#como-modificar-la-ficha-de-un-vendedor" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Otros ‣
+Vendedores</em>. Se abrirá la pantalla Vendedores.</li>
+<li>Buscar el vendedor del que se quiere ver la ficha.</li>
+<li>Seleccionar el vendedor y pulsar el ícono <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" />
+o la opción a través del menú <em class="menuselection">Ventana Activa ‣ Modificar Vendedor</em></li>
+<li>Se abrirá la ficha del vendedor, en donde pueden hacerse las modificaciones
+deseadas.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/fichaVendedor.png" src="../../_images/fichaVendedor.png" />
+<p class="caption">Pantalla Ficha de Vendedor</p>
+</div>
+</div>
+<div class="section" id="como-eliminar-a-un-vendedor">
+<h2>25.3. ¿Cómo eliminar a un vendedor?<a class="headerlink" href="#como-eliminar-a-un-vendedor" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">No se podrán borrar la ficha de un vendedor si este tiene asociado algún
+documento en el sistema, este puede ser una factura de venta, un recibo,
+la ficha de un cliente, etc.</p>
+</div>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Otros ‣
+Vendedores</em>. Se abrirá la pantalla Vendedores.</li>
+<li>Buscar el vendedor del que se quiere borrar la ficha.</li>
+<li>Seleccionar el vendedor y pulsar el ícono <img alt="/icons/eliminar.png" class="inlinegraphic" src="../../_images/eliminar.png" />
+o la opción a través del menú <em class="menuselection">Ventana Activa ‣ Eliminar Vendedor</em></li>
+</ol>
+</div>
+<div class="section" id="como-asignar-un-vendedor-a-un-cliente-para-mayoristas">
+<h2>25.4. ¿Cómo asignar un vendedor a un cliente? (para mayoristas)<a class="headerlink" href="#como-asignar-un-vendedor-a-un-cliente-para-mayoristas" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last"><strong>Vendedores en mayoristas</strong>
+Fierro diferencia herramientas para la gestión de los vendedores en editoriales
+y en librerías.</p>
+</div>
+<p>Para asignar el vendedor al cliente se configura desde la ficha del cliente. Luego de buscar
+y seleccionar el cliente (<em>véase</em> <a class="reference internal" href="ventas_03.html#howto-ventas-sec3"><em>¿Cómo buscar un cliente?</em></a>),
+la ficha la podremos encontrar clickeando sobre <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" /> o en el menú
+<em class="menuselection">Ventana Activa ‣ Modificar Cliente</em>, en la solapa Distribución se podrá ver
+el campo para completar el vendedor. Se podrá escribir el código de vendedor o se podrá clickear
+en los tres puntos como se vé en la siguiente imagen que llevará a la consulta de vendedores
+(<em>véase</em> <a class="reference internal" href="../../basics/busqueda/mantenimiento_17.html#basics-controls-creacionintercalada"><em>¿Qué es la &#8220;creación intercalada&#8221;?</em></a>).</p>
+<div class="figure">
+<img alt="../../_images/vendedorFichaCliente.png" src="../../_images/vendedorFichaCliente.png" />
+<p class="caption">Pantalla Ficha de Cliente</p>
+</div>
+<p>Cada vez que se cargue una factura remito <img alt="/icons/22nfacturaremito.png" class="inlinegraphic" src="../../_images/22nfacturaremito.png" /> o un recibo <img alt="/icons/22n_recibo.png" class="inlinegraphic" src="../../_images/22n_recibo.png" />
+a algún cliente que tenga en su ficha al vendedor se irá sumando la comisión del mismo.</p>
+</div>
+<div class="section" id="como-sacar-reportes-de-comisiones-para-mayoristas">
+<h2>25.5. ¿Cómo sacar reportes de comisiones? (para mayoristas)<a class="headerlink" href="#como-sacar-reportes-de-comisiones-para-mayoristas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los reportes de las comisiones los podrán encontrar en <em class="menuselection">Ventas ‣ Reportes ‣ Comisiones</em>.
+Podrán encontrar dos tipos de comisiones:</p>
+<div class="section" id="comision-de-vendedores-sobre-recibos">
+<h3>25.5.1. Comisión de vendedores sobre recibos<a class="headerlink" href="#comision-de-vendedores-sobre-recibos" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last"><strong>Comisión sobre recibos</strong>
+Para realizar el cálculo de las comisiones y mostrar los resultados, Fierro consulta los recibos cargados de los clientes
+del vendedor y el porcentaje de comisión de cobranzas de la ficha del vendedor. La comisión que se muestra en el reporte
+es el porcentaje del total de los recibos de los clientes que tienen asignados al vendedor en el periodo.</p>
+</div>
+<p>Este reporte tiene como opciones <strong>Solo saldos</strong> y <strong>Detallada</strong>, se pueden ver donde seleccionarlos en la imagen
+que se ve a continuación.
+La salida de cualquiera de estos reportes es en formato PDF.</p>
+<p>Se deben completar los parámetros del reporte:</p>
+<blockquote>
+<div><ul class="simple">
+<li><em>Fecha</em>: Rango de fechas que usa para buscar los recibos</li>
+<li><em>Sucursal</em>: Sucursal de donde toma los recibos</li>
+<li><em>Filtro de clientes</em>: Permite filtrar por alguna característica común entre clientes</li>
+<li><em>Grupo de clientes</em>: Permite seleccionar determinados clientes para el reporte</li>
+</ul>
+</div></blockquote>
+<div class="figure">
+<img alt="../../_images/reporteVendedoresRecibo.png" src="../../_images/reporteVendedoresRecibo.png" />
+<p class="caption">Pantalla Reporte de Comisiones de vendedores sobre recibos</p>
+</div>
+<p>En la siguiente imagen se puede ver un ejemplo del reporte con la opción <em>Solo saldos</em>, donde se remarca el nombre
+del vendedor y en recuadro el detalle y el total de la comisión. El reporte saldrá con un vendedor por hoja.</p>
+<div class="figure">
+<img alt="../../_images/reporteComisionRecibos.png" src="../../_images/reporteComisionRecibos.png" />
+<p class="caption">Pantalla Reporte Recibos</p>
+</div>
+</div>
+<div class="section" id="comision-de-vendedores-sobre-facturas-y-recibos">
+<h3>25.5.2. Comisión de vendedores sobre facturas y recibos<a class="headerlink" href="#comision-de-vendedores-sobre-facturas-y-recibos" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last"><strong>Comisión sobre facturas y recibos</strong>
+Los resultados de las comisiones se calculan de la misma forma que en el reporte anterior, sólo que a los recibos se le agregan las facturas
+de los clientes del vendedor y los porcentajes de comisiones que se asignaron en la ficha del vendedor. La diferencia es que se muestran los
+porcentajes calculados para las facturas de venta y los recibos de los clientes del vendedor. El primer porcentaje es la comisión
+según Venta y el segundo porcentaje es la comisión según Pagos.</p>
+</div>
+<p>Este reporte tiene las siguientes opciones: <strong>Detallada (clientes y documentos)</strong>, <strong>Detallada (clientes)</strong>
+y <strong>Solo Totales</strong>, se pueden ver donde seleccionarlos en la imagen que se ve a continuación.
+La salida de cualquiera de estos reportes es en formato PDF.</p>
+<p>Además se deben completar los siguientes parámetros:</p>
+<blockquote>
+<div><ul class="simple">
+<li><em>Fecha</em>: Rango de fechas que usa para buscar en los documentos</li>
+<li><em>Sucursal</em>: Sucursal de donde toma los documentos</li>
+<li><em>Calcular comisiones sobre</em>: Ventas o Cobranzas</li>
+<li><em>Vendedor</em>: Te da la opción de personalizar el reporte con un sólo vendedor</li>
+<li><em>Filtro de clientes</em>: Permite filtrar por alguna característica común entre clientes</li>
+<li><em>Grupo de clientes</em>: Permite seleccionar determinados clientes para el reporte</li>
+<li><em>Filtro de facturas</em>: Permite incluir criterios de selección para las facturas</li>
+<li><em>Grupo de facturas</em>: Permite seleccionar determinadas facturas</li>
+<li><em>Filtro de Notas de crédito</em>: Permite incluir criterios de selección para las notas de crédito</li>
+<li><em>Grupo de Notas de crédito</em>: Permite seleccionar determinadas notas de crédito</li>
+</ul>
+</div></blockquote>
+<div class="figure">
+<img alt="../../_images/reporteVendedoresFactRec.png" src="../../_images/reporteVendedoresFactRec.png" />
+<p class="caption">Pantalla Reporte de Comisiones de vendedores sobre facturas y recibos</p>
+</div>
+<p>A continuación, se verá en la siguiente imagen un ejemplo del reporte con la opción <em>Detallada (clientes y documentos)</em>,
+donde se puede ver en el recuadro el total de la comisión del vendedor. El reporte si no se parametriza con un vendedor,
+saldrá un vendedor por hoja.</p>
+<div class="figure">
+<img alt="../../_images/reporteComisionFacturas.png" src="../../_images/reporteComisionFacturas.png" />
+<p class="caption">Pantalla Reporte Recibos</p>
+</div>
+</div>
+</div>
+<div class="section" id="como-asignar-un-vendedor-a-una-factura-para-librerias">
+<h2>25.6. ¿Cómo asignar un vendedor a una factura? (para librerías)<a class="headerlink" href="#como-asignar-un-vendedor-a-una-factura-para-librerias" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Vendedores en librerías</strong>
+Fierro puede asociar una factura minorista con un vendedor sólo completando el campo vendedor. Esta opción
+tiene que estar configurada, es por esto que tienen que comunicarse con soporte si es que requieren de este dato.</p>
+<p class="last">También es posible asignar una nota de crédito minorista, una seña o una reserva con un vendedor. Tienen que
+comunicarse con soporte para realizar las configuraciones.</p>
+</div>
+<dl class="docutils">
+<dt>La configuración para que se deba o no seleccionar el vendedor en la factura tiene las siguientes opciones:</dt>
+<dd><ul class="first last simple">
+<li>0: No se muestra</li>
+<li>1: Se muestra y se debe seleccionar (obligatorio seleccionar el vendedor)</li>
+<li>2: Se muestra y es opcional</li>
+</ul>
+</dd>
+</dl>
+<p>Al abrir una nueva factura (<em>véase</em> <a class="reference internal" href="ventas_01.html#howto-ventas-sec1"><em>¿Cómo facturar una venta?</em></a>) se podrá ver la siguiente imagen
+si la configuración está con la opción 1 o 2.</p>
+<div class="figure">
+<img alt="../../_images/facturarConVendedor.png" src="../../_images/facturarConVendedor.png" />
+<p class="caption">Pantalla Nueva Factura con Vendedor</p>
+</div>
+<p>De la misma forma se verá en notas de crédito o en señas y reservas si sus respectivas configuraciones están con la opción 1 o 2.</p>
+</div>
+<div class="section" id="como-buscar-facturas-por-vendedor-para-librerias">
+<h2>25.7. ¿Cómo buscar facturas por vendedor? (para librerías)<a class="headerlink" href="#como-buscar-facturas-por-vendedor-para-librerias" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Se puede obtener un reporte desde el menú menuselection:<cite>Ventas &#8211;&gt; Reportes &#8211;&gt; Facturas (ventas por forma de pago)</cite>. Seleccionando el
+reporte <strong>Facturas de venta resumidas por vendedor</strong>.</p>
+<div class="figure">
+<img alt="../../_images/reporteSeleccionarVendedor.png" src="../../_images/reporteSeleccionarVendedor.png" />
+<p class="caption">Pantalla Selección de Reporte</p>
+</div>
+<p>Se obtiene un reporte similar al que se ve a continuación:</p>
+<div class="figure">
+<img alt="../../_images/reporteVendedorMinorista.png" src="../../_images/reporteVendedorMinorista.png" />
+<p class="caption">Pantalla Reporte con Vendedor</p>
+</div>
+<p>El <em>Importe</em> que se ve en el reporte es el resultado de las facturas y las notas de crédito asociadas con el vendedor correspondiente.
+Es una ecuación donde las facturas suman y las notas de crédito restan.</p>
+<p>Otra forma de realizar un reporte es realizando una búsqueda de Facturas de Venta (<em>véase</em> <a class="reference internal" href="ventas_07.html#howto-ventas-sec7"><em>¿Cómo buscar una Factura de Venta?</em></a>),
+agregando la columna Vendedor o Vendedor de la factura (<em>véase</em> <a class="reference internal" href="../../basics/busqueda/mantenimiento_14.html#basics-searchs-sec13"><em>Configurar las columnas del resultado</em></a>).</p>
+<div class="figure">
+<img alt="../../_images/consultaFacturaVendedor.png" src="../../_images/consultaFacturaVendedor.png" />
+<p class="caption">Pantalla Consulta de Facturas de Venta con Vendedor</p>
+</div>
+<p>Estos resultados se pueden exportar a una planilla de cálculo (<em>véase</em> <a class="reference internal" href="../../basics/busqueda/mantenimiento_14.html#basics-searchs-sec13"><em>Configurar las columnas del resultado</em></a>).
+donde se pueden manipular los valores y guardar el registro.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../manual.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">25. Vendedores</a><ul>
+<li><a class="reference internal" href="#como-crear-un-vendedor">25.1. ¿Cómo crear un vendedor?</a></li>
+<li><a class="reference internal" href="#como-modificar-la-ficha-de-un-vendedor">25.2. ¿Cómo modificar la ficha de un vendedor?</a></li>
+<li><a class="reference internal" href="#como-eliminar-a-un-vendedor">25.3. ¿Cómo eliminar a un vendedor?</a></li>
+<li><a class="reference internal" href="#como-asignar-un-vendedor-a-un-cliente-para-mayoristas">25.4. ¿Cómo asignar un vendedor a un cliente? (para mayoristas)</a></li>
+<li><a class="reference internal" href="#como-sacar-reportes-de-comisiones-para-mayoristas">25.5. ¿Cómo sacar reportes de comisiones? (para mayoristas)</a><ul>
+<li><a class="reference internal" href="#comision-de-vendedores-sobre-recibos">25.5.1. Comisión de vendedores sobre recibos</a></li>
+<li><a class="reference internal" href="#comision-de-vendedores-sobre-facturas-y-recibos">25.5.2. Comisión de vendedores sobre facturas y recibos</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#como-asignar-un-vendedor-a-una-factura-para-librerias">25.6. ¿Cómo asignar un vendedor a una factura? (para librerías)</a></li>
+<li><a class="reference internal" href="#como-buscar-facturas-por-vendedor-para-librerias">25.7. ¿Cómo buscar facturas por vendedor? (para librerías)</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_22.html"
+                        title="Capítulo anterior">24. ¿Cómo crear puntos de facturación?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_24.html"
+                        title="Próximo capítulo">26. Venta a crédito</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_24.html" title="26. Venta a crédito"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_22.html" title="24. ¿Cómo crear puntos de facturación?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

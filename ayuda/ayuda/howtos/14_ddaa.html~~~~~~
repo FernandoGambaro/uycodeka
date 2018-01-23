@@ -1,0 +1,169 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>11. Derechos de Autor &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../index.html" />
+    <link rel="next" title="1. ¿Cómo crear un nuevo Derecho Habiente?" href="ddaa/ddaa_1.html" />
+    <link rel="prev" title="7. Pago a Empleados" href="personal/personal_07.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../manual.html">
+      <img class="logo" src="../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ddaa/ddaa_1.html" title="1. ¿Cómo crear un nuevo Derecho Habiente?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="personal/personal_07.html" title="7. Pago a Empleados"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../manual.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="derechos-de-autor">
+<h1>11. Derechos de Autor<a class="headerlink" href="#derechos-de-autor" title="Enlazar permanentemente con este título">¶</a></h1>
+<p >Operaciones del módulo de Derechos de Autor</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ddaa/ddaa_1.html">1. ¿Cómo crear un nuevo Derecho Habiente?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_1.html#datos-personales-para-el-tipo-organizacion">1.1. Datos personales para el tipo: Organización</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_1.html#datos-personales-para-el-tipo-persona">1.2. Datos personales para el tipo: Persona</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_1.html#datos-generales">1.3. Datos generales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_1.html#direccion-del-derecho-habiente">1.4. Dirección del derecho habiente.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_1.html#archivos-asociados">1.5. Archivos asociados</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_1.html#notas">1.6. Notas</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ddaa/ddaa_1.html#busqueda-edicion-y-borrado-de-un-derecho-habiente">2. Búsqueda, edición y borrado de un Derecho Habiente</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_1.html#como-buscar-un-derecho-habiente">2.1. ¿Cómo buscar un Derecho Habiente?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_1.html#como-modificar-la-ficha-de-un-derecho-habiente">2.2. ¿Cómo modificar la ficha de un Derecho habiente?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_1.html#como-eliminar-a-un-derecho-habiente">2.3. ¿Cómo eliminar a un Derecho habiente?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ddaa/ddaa_2.html">3. ¿Cómo crear una Relación de Responsable?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ddaa/ddaa_3.html">4. Contratos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_3.html#como-crear-un-nuevo-contrato">4.1. ¿Cómo crear un nuevo contrato?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_3.html#como-consultar-un-contrato">4.2. ¿Cómo consultar un contrato?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_3.html#como-modificar-un-contrato">4.3. ¿Cómo modificar un contrato?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_3.html#como-copiar-un-contrato">4.4. ¿Cómo copiar un contrato?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ddaa/ddaa_4.html">5. Liquidación de derechos de autor</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_4.html#como-crear-una-nueva-liquidacion-manual">5.1. ¿Cómo crear una nueva liquidación manual?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_4.html#como-crear-una-nueva-liquidacion-manual-extraordinaria">5.2. ¿Cómo crear una nueva liquidación manual extraordinaria?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_4.html#como-crear-liquidaciones-por-lote">5.3. ¿Cómo crear liquidaciones por lote?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_4.html#consulta-de-liquidaciones">5.4. Consulta de liquidaciones</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_4.html#como-borrar-una-liquidacion">5.5. ¿Cómo borrar una liquidación?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_4.html#como-reimprimir-una-liquidacion">5.6. ¿Cómo reimprimir una liquidación?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_4.html#envio-de-las-liquidaciones-por-mail">5.7. Envío de las liquidaciones por mail</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ddaa/ddaa_5.html">6. Pago a Derecho Habientes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_5.html#como-crear-un-anticipo">6.1. ¿Cómo crear un Anticipo ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_5.html#como-crear-una-orden-de-pago">6.2. ¿Cómo crear una Orden de Pago ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_5.html#como-buscar-una-orden-de-pago-anticipo">6.3. ¿Cómo buscar una Orden de Pago/ Anticipo ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_5.html#como-asignar-pagos-a-una-orden-de-pago">6.4. ¿Cómo asignar pagos a una Orden de Pago ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ddaa/ddaa_5.html#como-cerrar-una-orden-de-pago">6.5. ¿Cómo cerrar una Orden de Pago ?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ddaa/ddaa_6.html">7. ¿Cómo visualizar la Cuenta Corriente de un derecho habiente?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ddaa/ddaa_7.html">8. ¿Cómo obtener un reporte de saldos de derecho habientes?</a></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="personal/personal_07.html"
+                        title="Capítulo anterior">7. Pago a Empleados</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ddaa/ddaa_1.html"
+                        title="Próximo capítulo">1. ¿Cómo crear un nuevo Derecho Habiente?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ddaa/ddaa_1.html" title="1. ¿Cómo crear un nuevo Derecho Habiente?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="personal/personal_07.html" title="7. Pago a Empleados"
+             >anterior</a> |</li>
+<li><a href="../manual.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

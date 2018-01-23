@@ -1,0 +1,331 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>9.5. Reportes &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="9. Contabilidad" href="../12_accounting.html" />
+    <link rel="next" title="10. Personal" href="../13_personal.html" />
+    <link rel="prev" title="9.4. Asientos" href="04_entries.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../13_personal.html" title="10. Personal"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="04_entries.html" title="9.4. Asientos"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../12_accounting.html" accesskey="U">9. Contabilidad</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="reportes">
+<span id="howto-accounting-reports"></span><h1>9.5. Reportes<a class="headerlink" href="#reportes" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="section" id="libro-diario">
+<span></span><h2>9.5.1. Libro diario<a class="headerlink" href="#libro-diario" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note" id="howto-accounting-reports-diario">
+<p class="first admonition-title">Nota</p>
+<p class="last"><strong>Libro Diario</strong>
+El reporte Libro Diario muestra los asientos de un libro contable en un rango de fechas. Existen distintas variantes del reporte. Todas las variantes se pueden obtener en PDF o en planilla.</p>
+</div>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Contabilidad ‣ Reportes ‣Reporte de Diario</em>. Se abrirá la pantalla de ingreso de parámetros del reporte.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/reporteDiario.png" src="../../_images/reporteDiario.png" />
+<p class="caption">Reporte Libro Diario</p>
+</div>
+<ol class="arabic simple">
+<li>Seleccionar el estilo del reporte. Cuando seleccione el Reporte, en las listas de Opción se desplegarán los formatos disponibles.</li>
+<li>Seleccionar el libro contable del cual se quiere emitir el reporte.</li>
+<li>Ingresar el rango de fechas.</li>
+<li>Presionar el botón <em class="guilabel">Aceptar</em>.</li>
+</ol>
+<p>A continuación se muestran las variantes del reporte Libro Diario.</p>
+<div class="section" id="ordenado-por-fecha-renumerando">
+<h3>9.5.1.1. Ordenado por fecha renumerando<a class="headerlink" href="#ordenado-por-fecha-renumerando" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last"><strong>Numeración de asientos</strong>
+A medida que se generan los asientos en el sistema, se les asigna un número secuencial. Al momento de imprimir el libro diario, puede ser que esa numeración no se corresponda con el ordenamiento cronológico, ya que algún documento se puede haber cargado en un orden distinto o se regeneraron los asientos. Para poder presentar los asientos ordenados por fecha, se dispone de este reporte que asigna otro número secuencial de acuerdo al orden cronológico. De esta forma, el reporte se puede presentar con la coherencia de la fecha y la numeración. El número de asiento asignado no se guarda en el asiento, solo se genera para la impresión.</p>
+</div>
+<dl class="docutils">
+<dt>Este reporte se obtienen seleccionando el siguiente estilo:</dt>
+<dd><ul class="first last simple">
+<li>Reporte: Reporte de Diario</li>
+<li>Opción: Ordenado por fecha renumerando</li>
+<li>Opción: Impresión</li>
+</ul>
+</dd>
+</dl>
+<p>En esta opción, el reporte se presenta para imprimir, con la cabecera del asiento resaltada y sin la observación de las partidas.</p>
+<div class="figure">
+<img alt="../../_images/reporteDiarioImpresion.png" src="../../_images/reporteDiarioImpresion.png" />
+<p class="caption">Reporte Libro Diario para impresión</p>
+</div>
+</div>
+<div class="section" id="ordenado-por-numero-de-asiento-para-manipular-en-planilla">
+<h3>9.5.1.2. Ordenado por número de asiento para manipular en planilla<a class="headerlink" href="#ordenado-por-numero-de-asiento-para-manipular-en-planilla" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="docutils">
+<dt>Este reporte se obtienen seleccionando el siguiente estilo:</dt>
+<dd><ul class="first last simple">
+<li>Reporte: Reporte de Diario</li>
+<li>Opción: Ordenado por Número de asiento</li>
+<li>Opción: Planilla</li>
+</ul>
+</dd>
+</dl>
+<p>En esta opción, el reporte se presenta para poder manipular. Cada fila muestra una partida del asiento correspondiente y los datos de cada asiento se repiten.</p>
+<div class="figure">
+<img alt="../../_images/reporteDiarioPlanilla.png" src="../../_images/reporteDiarioPlanilla.png" />
+<p class="caption">Reporte Libro Diario planilla</p>
+</div>
+<p>Los asientos se ordenan por su número original.</p>
+</div>
+<div class="section" id="ordenado-por-numero-de-asiento-para-impresion">
+<h3>9.5.1.3. Ordenado por número de asiento para impresión<a class="headerlink" href="#ordenado-por-numero-de-asiento-para-impresion" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="docutils">
+<dt>Este reporte se obtienen seleccionando el siguiente estilo:</dt>
+<dd><ul class="first last simple">
+<li>Reporte: Reporte de Diario</li>
+<li>Opción: Ordenado por Número de asiento</li>
+<li>Opción: Impresión</li>
+</ul>
+</dd>
+</dl>
+<p>En esta opción, el formato está preparado para imprimir, con la cabecera de los asientos resaltada. Los mismos se ordenan por su número original.</p>
+</div>
+<div class="section" id="ordenado-por-fecha">
+<h3>9.5.1.4. Ordenado por fecha<a class="headerlink" href="#ordenado-por-fecha" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="docutils">
+<dt>Este reporte se obtienen seleccionando el siguiente estilo:</dt>
+<dd><ul class="first last simple">
+<li>Reporte: Reporte de Diario</li>
+<li>Opción: Ordenado por fecha</li>
+<li>Opción: Impresión</li>
+</ul>
+</dd>
+</dl>
+<p>En esta opción, el formato está preparado para imprimir, con la cabecera de los asientos resaltada. Los mismos se ordenan por fecha.</p>
+</div>
+</div>
+<div class="section" id="mayor">
+<h2>9.5.2. Mayor<a class="headerlink" href="#mayor" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple" id="howto-accounting-reports-mayor">
+<li>Seleccionar la opción de menú <em class="menuselection">Contabilidad ‣ Reportes ‣Reporte de Mayor</em>. Se abrirá la pantalla de ingreso de parámetros del reporte.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/reporteMayor.png" src="../../_images/reporteMayor.png" />
+<p class="caption">Reporte de Mayor, ingreso de parámetros</p>
+</div>
+<ol class="arabic simple">
+<li>Seleccionar el estilo del reporte. Cuando seleccione el Reporte, en las listas de Opción se desplegarán los formatos disponibles.</li>
+<li>Seleccionar el libro contable del cual se quiere emitir el reporte.</li>
+<li>Ingresar el rango de fechas.</li>
+<li>Seleccionar la cuenta de la cual se quiera emitir el reporte.</li>
+<li>Presionar el botón <em class="guilabel">Aceptar</em>.</li>
+</ol>
+<p>Las columnas que muestra el reporte son:</p>
+<div class="figure">
+<img alt="../../_images/reporteMayorPlanilla.png" src="../../_images/reporteMayorPlanilla.png" />
+<p class="caption">Reporte de Mayor</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last"><strong>Moneda extranjera</strong>
+Si la cuenta seleccionada está configurada en una moneda distinta a la predeterminada, se agregan las columnas para mostrar el valor de cada partida en la moneda extranjera.</p>
+</div>
+<p>Es importante tener en cuenta que el sistema no guarda el valor de la partida en la moneda extranjera, sino que lo recalcula en base al valor de la partida y la cotización de la moneda en la fecha del mismo.
+Si se modificó el valor de la cotización histórica, es necesario regenerar los asientos.</p>
+</div>
+<div class="section" id="balance">
+<h2>9.5.3. Balance<a class="headerlink" href="#balance" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple" id="howto-accounting-reports-balance">
+<li>Seleccionar la opción de menú <em class="menuselection">Contabilidad ‣ Reportes ‣Reporte de Balance</em>. Se abrirá la pantalla de ingreso de parámetros del reporte.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/reporteBalance.png" src="../../_images/reporteBalance.png" />
+<p class="caption">Reporte de Balance, ingreso de parámetros</p>
+</div>
+<ol class="arabic simple">
+<li>Seleccionar el libro contable del cual se quiere emitir el reporte.</li>
+<li>Ingresar el rango de fechas.</li>
+<li>Indicar si se desea incluir el asiento de cierre en el reporte.</li>
+<li>Presionar el botón <em class="guilabel">Aceptar</em>.</li>
+</ol>
+<p>A continuación se muestran las variantes del reporte Libro Diario.</p>
+<div class="section" id="balance-de-sumas-y-saldos">
+<h3>9.5.3.1. Balance de sumas y saldos<a class="headerlink" href="#balance-de-sumas-y-saldos" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="docutils">
+<dt>Este reporte se obtienen seleccionando el siguiente estilo:</dt>
+<dd><ul class="first last simple">
+<li>Reporte: Reporte de Diario</li>
+<li>Opción: Balance de Sumas y Saldos</li>
+<li>Opción: Planilla</li>
+</ul>
+</dd>
+</dl>
+<div class="figure">
+<img alt="../../_images/reporteBalanceSumasYSaldos.png" src="../../_images/reporteBalanceSumasYSaldos.png" />
+<p class="caption">Reporte Balance de Sumas y Saldos</p>
+</div>
+<p>En este reporte se muestran todas las cuentas con las columnas Débitos y Créditos. Además se muestran las columnas Saldo Débitos y Saldo Créditos con el saldo de la cuenta.</p>
+</div>
+<div class="section" id="balance-de-presentacion">
+<h3>9.5.3.2. Balance de presentación<a class="headerlink" href="#balance-de-presentacion" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="docutils">
+<dt>Este reporte se obtienen seleccionando el siguiente estilo:</dt>
+<dd><ul class="first last simple">
+<li>Reporte: Reporte de Diario</li>
+<li>Opción: Balance de Presentación</li>
+<li>Opción: Planilla</li>
+</ul>
+</dd>
+</dl>
+<div class="figure">
+<img alt="../../_images/reporteBalancePresentacion.png" src="../../_images/reporteBalancePresentacion.png" />
+<p class="caption">Reporte Balance de Presentación</p>
+</div>
+<p>En este reporte se muestra el saldo de cada cuenta en una columna distinta, dependiendo del nivel de profundidad de la cuenta en el árbol del plan de cuentas. Las cuentas que agrupan otras cuentas (y por eso no son imputables), se muestran con el saldo compuesto por la sumatoria de sus subcuentas.</p>
+<p>Este reporte es muy útil por ejemplo para ver el saldo total de todos los gastos agrupados. También es útil para ver el saldo total de las pérdidas y ganancias, ya que se muestran los totales de esas cuentas.</p>
+</div>
+<div class="section" id="balance-comparativo">
+<h3>9.5.3.3. Balance comparativo<a class="headerlink" href="#balance-comparativo" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="docutils">
+<dt>Este reporte se obtienen seleccionando el siguiente estilo:</dt>
+<dd><ul class="first last simple">
+<li>Reporte: Reporte de Diario</li>
+<li>Opción: Balance Comparativo</li>
+<li>Opción: Planilla</li>
+</ul>
+</dd>
+</dl>
+<div class="figure">
+<img alt="../../_images/reporteBalanceComparativo.png" src="../../_images/reporteBalanceComparativo.png" />
+<p class="caption">Reporte Balance Comparativo</p>
+</div>
+<p>Este reporte muestra las columnas Débito y Crédito de cada cuenta y sus saldos. En las dos columnas anteriores, muestra el valor de la cuenta al inicio del intervalo solicitado en el reporte. Con esta información se puede comparar el valor de la cuenta en ambos momentos.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">9.5. Reportes</a><ul>
+<li><a class="reference internal" href="#libro-diario">9.5.1. Libro diario</a><ul>
+<li><a class="reference internal" href="#ordenado-por-fecha-renumerando">9.5.1.1. Ordenado por fecha renumerando</a></li>
+<li><a class="reference internal" href="#ordenado-por-numero-de-asiento-para-manipular-en-planilla">9.5.1.2. Ordenado por número de asiento para manipular en planilla</a></li>
+<li><a class="reference internal" href="#ordenado-por-numero-de-asiento-para-impresion">9.5.1.3. Ordenado por número de asiento para impresión</a></li>
+<li><a class="reference internal" href="#ordenado-por-fecha">9.5.1.4. Ordenado por fecha</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#mayor">9.5.2. Mayor</a></li>
+<li><a class="reference internal" href="#balance">9.5.3. Balance</a><ul>
+<li><a class="reference internal" href="#balance-de-sumas-y-saldos">9.5.3.1. Balance de sumas y saldos</a></li>
+<li><a class="reference internal" href="#balance-de-presentacion">9.5.3.2. Balance de presentación</a></li>
+<li><a class="reference internal" href="#balance-comparativo">9.5.3.3. Balance comparativo</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="04_entries.html"
+                        title="Capítulo anterior">9.4. Asientos</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="../13_personal.html"
+                        title="Próximo capítulo">10. Personal</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../13_personal.html" title="10. Personal"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="04_entries.html" title="9.4. Asientos"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../12_accounting.html" >9. Contabilidad</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

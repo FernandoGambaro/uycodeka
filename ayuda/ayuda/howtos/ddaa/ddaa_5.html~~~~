@@ -1,0 +1,242 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>6. Pago a Derecho Habientes &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="11. Derechos de Autor" href="../14_ddaa.html" />
+    <link rel="next" title="7. ¿Cómo visualizar la Cuenta Corriente de un derecho habiente?" href="ddaa_6.html" />
+    <link rel="prev" title="5. Liquidación de derechos de autor" href="ddaa_4.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ddaa_6.html" title="7. ¿Cómo visualizar la Cuenta Corriente de un derecho habiente?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ddaa_4.html" title="5. Liquidación de derechos de autor"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../14_ddaa.html" accesskey="U">11. Derechos de Autor</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="pago-a-derecho-habientes">
+<h1>6. Pago a Derecho Habientes<a class="headerlink" href="#pago-a-derecho-habientes" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Órdenes de pago y Anticipos</strong></p>
+<p class="last">El pago a derecho habientes se registra en el sistema mediante <em>órdenes de pago</em> y
+<em>anticipos.</em> Los mismos aplican contra las liquidaciones generadas y la cuenta corriente.</p>
+</div>
+<div class="section" id="como-crear-un-anticipo">
+<h2>6.1. ¿Cómo crear un Anticipo ?<a class="headerlink" href="#como-crear-un-anticipo" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Anticipos</strong></p>
+<p class="last">El documento &#8220;Anticipo&#8221; en Fierro es un pago a cuenta vinculado a un único contrato. Si el pago anticipado corresponde a varios contratos,
+se debe generar una OP, que se verá reflejada también como un pago a cuenta en la cuenta corriente del derecho habiente.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Opción de menú <em class="menuselection">Derechos de Autor ‣ Órdenes de Pago</em>.</p>
+</li>
+<li><p class="first">En la barra de herramientas pulsar el ícono <img alt="/icons/22n_anticipo_ddaa.png" class="inlinegraphic" src="../../_images/22n_anticipo_ddaa.png" />. Se abrirá la pantalla Anticipos.</p>
+<div class="figure">
+<img alt="../../_images/Dautor_CrearAnticipo.png" src="../../_images/Dautor_CrearAnticipo.png" />
+<p class="caption">Pantalla de creación de Anticipos.</p>
+</div>
+</li>
+<li><p class="first">Se deberán completar los campos de:</p>
+<ul class="simple">
+<li>Derecho habiente.</li>
+<li>Contrato.</li>
+<li>Fecha.</li>
+<li>Sucursal.</li>
+<li>Forma de pago correspondiente.</li>
+</ul>
+</li>
+<li><p class="first">Una vez generado el anticipo puede ser impreso.</p>
+</li>
+<li><p class="first">Luego de crear la liquidación correspondiente al contrato que se vinculo al anticipo se aplicará el mismo desde la creación de una nueva OP.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="como-crear-una-orden-de-pago">
+<h2>6.2. ¿Cómo crear una Orden de Pago ?<a class="headerlink" href="#como-crear-una-orden-de-pago" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-2"></span><ol class="arabic" id="index-3">
+<li><p class="first">Opción de menú <em class="menuselection">Derechos de Autor ‣ Órdenes de Pago</em>.</p>
+</li>
+<li><p class="first">En la barra de herramientas pulsar el ícono <img alt="/icons/22n_orden_de_pago.png" class="inlinegraphic" src="../../_images/22n_orden_de_pago.png" />. Se abrirá la pantalla Órdenes de Pago.</p>
+<div class="figure">
+<img alt="../../_images/Dautor_CreacionOP.png" src="../../_images/Dautor_CreacionOP.png" />
+<p class="caption">Pantalla de Órdenes de Pago.</p>
+</div>
+</li>
+<li><p class="first">Al ingresar el código del derecho habiente, automáticamente se verán en el panel
+intermedio los débitos a cancelar, de los cuales pueden
+seleccionarse todos o algunos, como también el pago total o parcial.</p>
+</li>
+<li><p class="first">Con el botón <em class="guilabel">Agregar</em> incluirlos en la orden. Se verán en el panel inferior.</p>
+</li>
+<li><p class="first">Desde la solapa de Formas de pago se asigna la forma de pago deseada.</p>
+</li>
+<li><p class="first">Si al guardar la orden no se le asigna todavía una forma de pago, quedará
+guardada con el estado Sin asignar pagos.</p>
+</li>
+<li><p class="first">Al terminar la generación el sistema sugiere imprimir el documento.</p>
+<div class="figure">
+<img alt="../../_images/Dautor_ImpresionOP.png" src="../../_images/Dautor_ImpresionOP.png" />
+<p class="caption">Impresión de OP</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="como-buscar-una-orden-de-pago-anticipo">
+<h2>6.3. ¿Cómo buscar una Orden de Pago/ Anticipo ?<a class="headerlink" href="#como-buscar-una-orden-de-pago-anticipo" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Derechos de autor ‣ Ordenes de pago</em>.</p>
+<div class="figure">
+<img alt="../../_images/Dautor_ConsultaOP.png" src="../../_images/Dautor_ConsultaOP.png" />
+<p class="caption">Pantalla Órdenes de Pago.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="como-asignar-pagos-a-una-orden-de-pago">
+<h2>6.4. ¿Cómo asignar pagos a una Orden de Pago ?<a class="headerlink" href="#como-asignar-pagos-a-una-orden-de-pago" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Una vez creada una órden de pago con estado &#8216;Sin asignar pagos&#8217; desde la consulta de
+menú <em class="menuselection">Derechos de Autor ‣ Órdenes de Pago</em>, deben buscar y
+seleccionar el documento, luego y pulsar el ícono <img alt="/icons/22cambiar_importe.png" class="inlinegraphic" src="../../_images/22cambiar_importe.png" /> en la barra de herramientas.
+Se abrirá la pantalla Órdenes de Pago donde se debe asignar la forma de pago deseada y aceptar para guardar los cambios.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_AsignarPago.png" src="../../_images/Dautor_AsignarPago.png" />
+<p class="caption">Pantalla asignación de pagos.</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="como-cerrar-una-orden-de-pago">
+<h2>6.5. ¿Cómo cerrar una Orden de Pago ?<a class="headerlink" href="#como-cerrar-una-orden-de-pago" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Cuando viene el derecho habiente con el recibo, desde la consulta de
+menú <em class="menuselection">Derechos de Autor ‣ Órdenes de Pago</em> deben buscar y seleccionar el documento, luego
+pulsar el ícono <cite>Cerrar orden de pago y asignar número de recibo</cite>.
+En este momento se concreta el pago.</p>
+<div class="figure">
+<img alt="../../_images/Dautor_CerrarOP.png" src="../../_images/Dautor_CerrarOP.png" />
+<p class="caption">Cerrar órden de pago</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">6. Pago a Derecho Habientes</a><ul>
+<li><a class="reference internal" href="#como-crear-un-anticipo">6.1. ¿Cómo crear un Anticipo ?</a></li>
+<li><a class="reference internal" href="#como-crear-una-orden-de-pago">6.2. ¿Cómo crear una Orden de Pago ?</a></li>
+<li><a class="reference internal" href="#como-buscar-una-orden-de-pago-anticipo">6.3. ¿Cómo buscar una Orden de Pago/ Anticipo ?</a></li>
+<li><a class="reference internal" href="#como-asignar-pagos-a-una-orden-de-pago">6.4. ¿Cómo asignar pagos a una Orden de Pago ?</a></li>
+<li><a class="reference internal" href="#como-cerrar-una-orden-de-pago">6.5. ¿Cómo cerrar una Orden de Pago ?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ddaa_4.html"
+                        title="Capítulo anterior">5. Liquidación de derechos de autor</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ddaa_6.html"
+                        title="Próximo capítulo">7. ¿Cómo visualizar la Cuenta Corriente de un derecho habiente?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ddaa_6.html" title="7. ¿Cómo visualizar la Cuenta Corriente de un derecho habiente?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ddaa_4.html" title="5. Liquidación de derechos de autor"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../14_ddaa.html" >11. Derechos de Autor</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

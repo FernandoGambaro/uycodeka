@@ -1,0 +1,168 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>15. Guardar las vistas personalizadas &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Búsquedas" href="../03_mantenimiento.html" />
+    <link rel="next" title="16. Seleccionar una vista personalizada" href="mantenimiento_16.html" />
+    <link rel="prev" title="14. Configurar las columnas del resultado" href="mantenimiento_14.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="mantenimiento_16.html" title="16. Seleccionar una vista personalizada"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="mantenimiento_14.html" title="14. Configurar las columnas del resultado"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_mantenimiento.html" accesskey="U">3. Búsquedas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="guardar-las-vistas-personalizadas">
+<h1>15. Guardar las vistas personalizadas<a class="headerlink" href="#guardar-las-vistas-personalizadas" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Utilidad de las vistas personalizadas</strong></p>
+<p>Cada usuario puede tener varias vistas personalizadas. El objetivo de las
+mismas es disponer de diferentes combinaciones de columnas que sean útiles
+para realizar distintas tareas. Por ejemplo, para atención al público se
+puede tener una vista personalizada llamada &#8216;Atención al público&#8217;, que
+muestre las columnas Título, Autor, Editorial, Precio y Stock. Para atender
+a los proveedores, se puede tener otra vista personalizada llamada
+&#8216;Proveedores&#8217;, que muestre las columnas Título, Código, Proveedor Principal,
+Proveedor Última Compra, Stock, Consignado y Faltante. De esta forma, en
+cada situación sólo se visualiza la información útil.</p>
+<p class="last">Las vistas personalizadas se guardan en la configuración personal del
+usuario. Cada vez que el usuario ingrese al sistema, independientemente de
+la máquina que sea, tendrá sus propias vistas.</p>
+</div>
+<p>Para crear, modificar o borrar una vista personalizada, realizar los
+siguientes pasos:</p>
+<ol class="arabic">
+<li><p class="first">Hacer click derecho sobre la cabecera de la lista de resultados.</p>
+<div class="figure">
+<img alt="../../_images/scrListViewMenu.png" src="../../_images/scrListViewMenu.png" />
+<p class="caption">Menú Vistas Personalizadas sobre las columnas</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la opción <em class="guilabel">Vistas personalizadas</em>. Se abrirá la pantalla Vistas Personalizadas.</p>
+<div class="figure">
+<img alt="../../_images/scrListViewSelection.png" src="../../_images/scrListViewSelection.png" />
+<p class="caption">Pantalla Vistas Personalizadas</p>
+</div>
+</li>
+<li><p class="first">Para crear una nueva vista personalizada, presionar el botón   <em class="guilabel">Crear</em>. Se abrirá la pantalla Nueva Vista
+Personalizada. Ver <a class="reference internal" href="mantenimiento_14.html#basics-searchs-sec13"><em>Configurar las
+columnas del resultado</em></a>.</p>
+</li>
+<li><p class="first">Para modificar una vista personalizada, seleccionarla de la lista y presionar el botón <em class="guilabel">Modificar</em>. Se abrirá la
+pantalla Edición Vista Personalizada. Ver <a class="reference internal" href="mantenimiento_14.html#basics-searchs-sec13"><em>Configurar las columnas del
+resultado</em></a>.</p>
+</li>
+<li><p class="first">Para borrar una vista personalizada, seleccionarla de la lista y presionar el botón <em class="guilabel">Eliminar</em>.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="mantenimiento_14.html"
+                        title="Capítulo anterior">14. Configurar las columnas del resultado</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="mantenimiento_16.html"
+                        title="Próximo capítulo">16. Seleccionar una vista personalizada</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="mantenimiento_16.html" title="16. Seleccionar una vista personalizada"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="mantenimiento_14.html" title="14. Configurar las columnas del resultado"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_mantenimiento.html" >3. Búsquedas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,611 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>9.4. Asientos &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="9. Contabilidad" href="../12_accounting.html" />
+    <link rel="next" title="9.5. Reportes" href="05_reports.html" />
+    <link rel="prev" title="9.3. Ejercicios y libros" href="03_financialYears.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="05_reports.html" title="9.5. Reportes"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="03_financialYears.html" title="9.3. Ejercicios y libros"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../12_accounting.html" accesskey="U">9. Contabilidad</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="asientos">
+<span id="howto-accounting-entries"></span><h1>9.4. Asientos<a class="headerlink" href="#asientos" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="section" id="tipos-de-asientos">
+<span id="index-1"></span><h2>9.4.1. Tipos de asientos<a class="headerlink" href="#tipos-de-asientos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p id="howto-accounting-entries-tipos">Existen distintos tipos de asientos. En esta sección se explicarán los tres tipos principales.</p>
+<div class="section" id="asientos-automaticos">
+<h3>9.4.1.1. Asientos automáticos<a class="headerlink" href="#asientos-automaticos" title="Enlazar permanentemente con este título">¶</a></h3>
+<p id="howto-accounting-entries-tipos-automaticos">Estos asientos son los que se generan automáticamente luego de generar una operación en el sistema. Por ejemplo, luego de crear una factura de ventas, el sistema genera su respectivo asiento contable.</p>
+</div>
+<div class="section" id="asientos-manuales">
+<h3>9.4.1.2. Asientos manuales<a class="headerlink" href="#asientos-manuales" title="Enlazar permanentemente con este título">¶</a></h3>
+<p id="howto-accounting-entries-tipos-manuales">Son los asientos ingresados manualmente por el usuario, ver  <a class="reference internal" href="#como-cargar-un-asiento-manual">¿Cómo cargar un asiento manual?</a>.</p>
+</div>
+<div class="section" id="asientos-resumen">
+<h3>9.4.1.3. Asientos resumen<a class="headerlink" href="#asientos-resumen" title="Enlazar permanentemente con este título">¶</a></h3>
+<p id="howto-accounting-entries-tipos-resumen">Estos asientos contienen la información totalizada de un conjunto de asientos de otro libro contable. Por ejemplo, se puede crear un asiento resumen de ventas en el libro diario que contenga la información de todos los asientos mensuales del libro de ventas. Ver <a class="reference internal" href="01_intro.html#howto-accounting-intro-cars-multiplebooks"><em>Múltiples libros</em></a> y <a class="reference internal" href="#como-resumir-asientos">¿Cómo resumir asientos?</a>.</p>
+</div>
+</div>
+<div class="section" id="asientos-de-apertura-y-cierre-del-ejercicio">
+<h2>9.4.2. Asientos de Apertura y Cierre del Ejercicio<a class="headerlink" href="#asientos-de-apertura-y-cierre-del-ejercicio" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los asientos de apertura y cierre deben realizarse en el siguiente orden:</p>
+<blockquote>
+<div><ul class="simple">
+<li>asiento de cierre de resultados (deja en cero solo las cuentas de resultado)</li>
+<li>asiento de apertura (copia los saldos del ejercicio anterior al siguiente)</li>
+<li>asiento de cierre final (deja en cero todas las cuentas)</li>
+</ul>
+</div></blockquote>
+<div class="section" id="asiento-de-apertura">
+<h3>9.4.2.1. Asiento de Apertura<a class="headerlink" href="#asiento-de-apertura" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Al iniciar un ejercicio se debe crear un asiento de apertura para indicar los saldos de las cuentas.
+Para el primer ejercicio gestionado en el sistema, ese asiento de apertura debe ser manual, ingresando los saldos iniciales de cada cuenta a la fecha de inicio de la contabilidad en Fierro (ver: <a class="reference internal" href="#como-cargar-un-asiento-manual">¿Cómo cargar un asiento manual?</a>). Esa también debe ser la fecha del asiento y en descripción se indica que corresponde a un asiento de apertura.</p>
+<p>En los siguientes ejercicios, el asiento de apertura se genera automáticamente desde el menú <em class="menuselection">Contabilidad -&gt; Asiento de Apertura</em>. En la ventana de generación del asiento de apertura se selecciona:</p>
+<ul>
+<li><p class="first">Libro anterior (de qué libro toma los datos)</p>
+</li>
+<li><p class="first">Nuevo libro (en qué libro se va a crear el asiento)</p>
+</li>
+<li><p class="first">Descripción del asiento y sus items</p>
+</li>
+<li><p class="first">Fecha del asiento</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/AsientoApertura1.png" src="../../_images/AsientoApertura1.png" />
+<p class="caption">Generación de Asiento de Apertura</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="asiento-de-cierre-de-resultados">
+<h3>9.4.2.2. Asiento de Cierre de Resultados<a class="headerlink" href="#asiento-de-cierre-de-resultados" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Al finalizar el ejercicio, se debe realizar un asiento de cierre que lleva a cero las cuentas de resultado positivo y negativo seleccionadas e ingresa en la cuenta &#8220;resultado del ejercicio&#8221; la diferencia entre el total de resultado positivo y el total de resultado negativo.</p>
+<p>Este asiento se realiza automáticamente desde el menú <em class="menuselection">Contabilidad -&gt; Asiento de Cierre de Resultados</em>. En la solapa de generación del Asiento de Cierre de Resultados se debe indicar:</p>
+<ul>
+<li><p class="first">Libro que se cierra</p>
+</li>
+<li><p class="first">Cuenta de resultados negativos</p>
+</li>
+<li><p class="first">Cuenta de resultados positivos</p>
+</li>
+<li><p class="first">Cuenta de resultado del ejercicio</p>
+</li>
+<li><p class="first">Descripción del asiento y sus ítems</p>
+</li>
+<li><p class="first">Fecha del asiento</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/AsientodeCierre1.png" src="../../_images/AsientodeCierre1.png" />
+<p class="caption">Generación de Asiento de Cierre de Resultados</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<p>Las cuentas de resultado negativo, positivo y del ejercicio deben ser seleccionas por la empresa o el contador.</p>
+<p>Una vez generados los asientos, es posible verlos desde la consulta de asientos</p>
+</div>
+<div class="section" id="asiento-de-cierre-final">
+<h3>9.4.2.3. Asiento de Cierre Final<a class="headerlink" href="#asiento-de-cierre-final" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Junto con el asiento de cierre de resultados, al finalizar el ejercicio debe realizarse el asiento de cierre de las cuentas patrimoniales que lleva a cero todas las cuentas patrimoniales.</p>
+<p>Este asiento se realiza automáticamente desde el menú <em class="menuselection">Contabilidad -&gt; Asiento de Cierre Final</em>. En la solapa de generación del Asiento de Cierre Final se debe indicar:</p>
+<ul>
+<li><p class="first">Libro que se cierra</p>
+</li>
+<li><p class="first">Descripción del asiento</p>
+</li>
+<li><p class="first">Descripción de los ítems</p>
+</li>
+<li><p class="first">Fecha del asiento (debe corresponder al ejercicio que se cierra)</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/AsientodeCierre2.png" src="../../_images/AsientodeCierre2.png" />
+<p class="caption">Generación de Asiento de Cierre Final</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<p>Una vez generados los asientos, es posible verlos desde la consulta de asientos</p>
+</div>
+</div>
+<div class="section" id="donde-visualizar-los-asientos">
+<h2>9.4.3. ¿Dónde visualizar los asientos?<a class="headerlink" href="#donde-visualizar-los-asientos" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note" id="howto-accounting-entries-ver">
+<p class="first admonition-title">Nota</p>
+<p><strong>Consulta de asientos</strong></p>
+<p class="last">El sistema brinda mecanismos rápidos para acceder a la información de los asientos. Estos mecanismos son los propios de todo el sistema, por eso la utilización del módulo contable es amigable como el resto de la funcionalidad de Fierro.</p>
+</div>
+<div class="section" id="desde-la-consulta-de-cada-tipo-de-documento">
+<h3>9.4.3.1. Desde la consulta de cada tipo de documento<a class="headerlink" href="#desde-la-consulta-de-cada-tipo-de-documento" title="Enlazar permanentemente con este título">¶</a></h3>
+<p id="howto-accounting-entries-ver-endocumento">Cada asiento automático puede visualizarse desde el documento que lo originó. Por ejemplo, si desea ver el asiento que generó un recibo de cliente, debe realizar los siguientes pasos:</p>
+<ol class="arabic">
+<li><p class="first">Ir a la consulta de recibos.</p>
+</li>
+<li><p class="first">Buscar el recibo.</p>
+</li>
+<li><p class="first">Hacer click derecho sobre la vista inferior y seleccionar la vista <em>Contabilidad</em>. Allí se desplegará el asiento del documento seleccionado.</p>
+<div class="figure">
+<img alt="../../_images/vistaAsiento.png" src="../../_images/vistaAsiento.png" />
+<p class="caption">Vista Contabilidad en consulta de documentos</p>
+</div>
+</li>
+</ol>
+<p>Todos los documentos que tienen asientos contables tienen su respectiva vista <em>Contabilidad</em>.</p>
+</div>
+<div class="section" id="desde-la-consulta-de-asientos">
+<h3>9.4.3.2. Desde la consulta de asientos<a class="headerlink" href="#desde-la-consulta-de-asientos" title="Enlazar permanentemente con este título">¶</a></h3>
+<p id="howto-accounting-entries-ver-enconsulta">Los asientos también pueden consultarse desde la búsqueda de asientos. Para buscar asientos, realizar los siguientes pasos:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Contabilidad ‣ Asientos</em>. Se desplagará la pantalla de consulta de asientos.</p>
+<div class="figure">
+<img alt="../../_images/consultaAsientos.png" src="../../_images/consultaAsientos.png" />
+<p class="caption">Pantalla Consulta de asientos</p>
+</div>
+</li>
+<li><p class="first">Allí podrá buscar los asientos por los distintos criterios ofrecidos en los filtros: rango de fechas, cuenta, libro, número, tipo y descripción.</p>
+</li>
+<li><p class="first">Observar en la vista del asiento el link al documento que originó el asiento: desde allí puede acceder a la vista del documento.</p>
+<div class="figure">
+<img alt="../../_images/linkAsientoDocument.png" src="../../_images/linkAsientoDocument.png" />
+<p class="caption">Link al documento</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="cuando-se-generan-los-asientos">
+<h2>9.4.4. ¿Cuándo se generan los asientos?<a class="headerlink" href="#cuando-se-generan-los-asientos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p id="howto-accounting-entries-cuandosegeneran">Los asientos automáticos se generan cuando se crea el documento original. Por ejemplo, al cargar un gasto inmediatamente se crea su asiento.</p>
+<p>Existen algunas excepciones a este comportamiento:</p>
+<blockquote>
+<div><ul class="simple">
+<li><em>Órdenes de pago</em>: el asiento correspondiente a una orden de pago no se genera cuando se crea el documento, sino cuando este se cierra.</li>
+<li><em>Transferencias de cajas</em>: el asiento se genera cuando se acepta la transferencia.</li>
+<li><em>Movimientos de banco</em>: el asiento se genera cuando se consolida el movimiento de la cuenta bancaria.</li>
+</ul>
+</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Si el documento se crea con una fecha contable que no está incluida en ningún ejercicio, el asiento correspondiente NO se crea.</p>
+</div>
+</div>
+<div class="section" id="borrado-de-asientos">
+<h2>9.4.5. Borrado de asientos<a class="headerlink" href="#borrado-de-asientos" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note" id="howto-accounting-entries-borrado">
+<p class="first admonition-title">Nota</p>
+<dl class="docutils">
+<dt><strong>Integridad de los datos y borrado de asientos</strong></dt>
+<dd>Para mantener la integridad de los datos entre la contabilidad y los datos de gestión, el sistema restringe la posibilidad de borrar determinados tipos de asientos.</dd>
+</dl>
+<ul class="last simple">
+<li>Los <em>asientos automáticos</em> no se pueden borrar. Si desea borrar un asiento automático, debe borrar el documento que lo generó.</li>
+<li>Los <em>asientos automáticos incluidos en un asiento resumen</em> no se pueden borrar (caso contrario, el asiento resumen no sería consistente con la sumatoria de asientos que lo componen). Si desea borrar un asiento automático, debe borrar el asiento resumen que lo contiene y luego el documento que lo generó.</li>
+<li>Los <em>asientos manuales</em> se pueden borrar y modificar.</li>
+<li>Los <em>asientos resumen</em> se pueden borrar.</li>
+</ul>
+</div>
+<p>Para borrar un asiento realizar los siguientes pasos:</p>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Contabilidad ‣ Asientos</em>.</li>
+<li>Buscar el asiento que desea borrar y seleccionarlo.</li>
+<li>Presionar el ícono <img alt="/icons/22eliminar.png" class="inlinegraphic" src="../../_images/22eliminar.png" /></li>
+</ol>
+</div>
+<div class="section" id="como-cargar-un-asiento-manual">
+<h2>9.4.6. ¿Cómo cargar un asiento manual?<a class="headerlink" href="#como-cargar-un-asiento-manual" title="Enlazar permanentemente con este título">¶</a></h2>
+<p id="howto-accounting-entries-asientomanual">Para cargar un asiento manual realizar los siguientes pasos:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Contabilidad ‣ Asientos</em>.</p>
+</li>
+<li><p class="first">Presionar el ícono <img alt="/icons/22nuevo.png" class="inlinegraphic" src="../../_images/22nuevo.png" />. Se abrirá la pantalla de creación de asientos manuales.</p>
+<div class="figure">
+<img alt="../../_images/asientoManual.png" src="../../_images/asientoManual.png" />
+<p class="caption">Pantalla Nuevo asiento</p>
+</div>
+</li>
+<li><p class="first">Ingresar los datos del asiento:</p>
+<blockquote>
+<div><ul class="simple">
+<li><em>Libro</em>: libro contable donde se generará el asiento.</li>
+<li><em>Fecha</em></li>
+<li><em>Descripción</em>: descripción del asiento</li>
+</ul>
+</div></blockquote>
+</li>
+<li><dl class="first docutils">
+<dt>Ingresar los datos de cada partida:</dt>
+<dd><ul class="first last simple">
+<li><em>Cuenta</em>: puede tipear el código de la cuenta y la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o buscar la cuenta en el plan de cuentas, presionando el botón <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" />. Si la cuenta no está marcada como &#8220;Manual&#8221; en el plan de cuentas, no podrá generarse el asiento manual.</li>
+<li>Seleccionar si la partida es débito o crédito.</li>
+<li><em>Importe</em>: importe de la partida.</li>
+<li><em>Descripción</em>: descripción de la partida.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="como-modificar-un-asiento">
+<h2>9.4.7. ¿Cómo modificar un asiento?<a class="headerlink" href="#como-modificar-un-asiento" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note" id="howto-accounting-entries-modificarasiento">
+<p class="first admonition-title">Nota</p>
+<p class="last"><strong>Modificación de asientos</strong>
+Los únicos asientos que se pueden modificar son los manuales.</p>
+</div>
+<p>Para modificar un asiento manual realizar los siguientes pasos:</p>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Contabilidad ‣ Asientos</em>.</li>
+<li>Buscar el asiento que desea modificar y seleccionarlo.</li>
+<li>Presionar el ícono <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" />. Se abrirá la pantalla con el asiento para modificar.</li>
+<li>Realizar los cambios y presionar el botón  <em class="guilabel">Aceptar</em>.</li>
+</ol>
+</div>
+<div class="section" id="con-que-fecha-se-crean-los-asientos">
+<h2>9.4.8. ¿Con qué fecha se crean los asientos?<a class="headerlink" href="#con-que-fecha-se-crean-los-asientos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p id="howto-accounting-entries-fecha">Los asientos se crean con la fecha del documento asociado, excepto en los casos que se asigne otra <em>fecha contable</em>.</p>
+<p>La fecha contable puede asignarse mientras se carga el documento, haciendo click derecho sobre el campo Fecha. Allí se abrirá una pantalla para ingresar la fecha contable.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/fechaContableClickDerecho.png" src="../../_images/fechaContableClickDerecho.png" />
+<p class="caption">Click derecho sobre campo fecha</p>
+</div>
+<div class="figure">
+<img alt="../../_images/edicionFechaContable.png" src="../../_images/edicionFechaContable.png" />
+<p class="caption">Pantalla de modificación de fecha contable</p>
+</div>
+</div></blockquote>
+<p>Por ejemplo, si una factura de un gasto con fecha de Marzo se procesa en Junio, cuando ya se cerró la contabilidad de Marzo, es posible que  pesar de que la fecha del documento es de Marzo, su fecha contable sea de Junio. En este caso se debe modificar la fecha contable.</p>
+<p>En las consultas de los documentos, puede agregar la columna Fecha contable.</p>
+</div>
+<div class="section" id="como-resumir-asientos">
+<h2>9.4.9. ¿Cómo resumir asientos?<a class="headerlink" href="#como-resumir-asientos" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note" id="howto-accounting-entries-resumirasientos">
+<p class="first admonition-title">Nota</p>
+<p class="last"><strong>Asientos resumen</strong>
+Los asientos resumen permiten llevar determinados asientos en un libro y luego volcar un resumen de los mismos en otro libro. El objetivo es tener un libro diario más pequeño sin perder el detalle de las operaciones.</p>
+</div>
+<p>Por ejemplo, en el libro ventas se pueden volcar todas las facturas de venta. Luego, mensualmente, se resumen esos asientos en el libro diario, con un único asiento que contenga toda la información mensual de las ventas.</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Contabilidad ‣ Resumir asientos</em>. Se abrirá la pantalla para ingresar los parámetros.</p>
+<div class="figure">
+<img alt="../../_images/resumirAsientos.png" src="../../_images/resumirAsientos.png" />
+<p class="caption">Pantalla Resumir asientos</p>
+</div>
+</li>
+<li><p class="first">Completar los parámetros para resumir los asientos:</p>
+<ul class="simple">
+<li><em>Libro Origen</em>: Libro contable del cual se tomarán los asientos a resumir.</li>
+<li><em>Libro Destino</em>: Libro contable donde se generará el asiento resumen.</li>
+<li><em>Rango de fechas</em></li>
+<li><em>Agrupar por</em>: criterio temporal para agrupar los asientos.</li>
+<li><em>Unificar partidas</em>: indica si por cada cuenta se muestra la partida totalizada o los valores separados del debe y el haber.</li>
+<li><em>Descripción</em>: descripción que tomará el asiento resumen generado.</li>
+</ul>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="regeneracion-de-asientos">
+<h2>9.4.10. Regeneración de asientos<a class="headerlink" href="#regeneracion-de-asientos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p id="howto-accounting-entries-regenerar">Para regenerar asientos realizar los siguientes pasos:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Contabilidad ‣ Regenerar asientos</em>. Se abrirá la pantalla para ingresar los parámetros.</p>
+<div class="figure">
+<img alt="../../_images/regenerarAsientos.png" src="../../_images/regenerarAsientos.png" />
+<p class="caption">Pantalla Regenerar asientos</p>
+</div>
+</li>
+<li><p class="first">Completar los parámetros para regenerar los asientos:</p>
+<ul class="simple">
+<li><em>Tipo de documento</em>: si se selecciona la opción Todos, se regenerarán todos los documentos. Sino puede seleccionar el tipo de documento a regenerar.</li>
+<li><em>Entre</em>: rango de fechas a regenerar.</li>
+<li><em>Modo prueba</em>: si la opción está marcada, el sistema regenerará los asientos para previsualizarlos, pero no los guarda. Esta opción se utiliza para ver de antemano los asientos. Si desea que los asientos se creen definitivamente, debe destildar esta marca.</li>
+</ul>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>. El sistema mostrará los asientos regenerados. En cada asiento, se indica si es Nuevo, Modificado o Borrado.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="importacion-de-asientos-desde-planillas">
+<h2>9.4.11. Importación de Asientos desde planillas<a class="headerlink" href="#importacion-de-asientos-desde-planillas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p id="index-2">Es posible dar de alta asientos contables mediante la importación de
+planillas Excel, las cuales, para utilizarse en Fierro, deben guardarse en
+formato CSV. Esto se hace de la siguiente manera: abrir la planilla Excel,
+desplegar el menú
+<em class="menuselection">Archivo</em>-&gt; <em class="menuselection">Guardar como</em> -&gt; <em class="menuselection">Texto CSV</em>.</p>
+<p>La planilla a importar debe tener los siguientes datos por cada asiento:</p>
+<ol class="arabic">
+<li><p class="first">ID: número de asiento a crear, se debe asignar el mismo ID a todas las cuentas del mismo asiento</p>
+</li>
+<li><p class="first">Cuenta: número con el que se la indentifica en el plan de cuentas, completar un renglón por cada cuenta de cada asiento</p>
+</li>
+<li><p class="first">Descripción de la partida: nombre o detalle de la cuenta contable</p>
+</li>
+<li><p class="first">Debe: importe que se debe cargar en el DEBE para cada cuenta en la que corresponda</p>
+</li>
+<li><p class="first">Haber: importe a ingresar en el HABER para cada cuenta en la que corresponda</p>
+</li>
+<li><p class="first">Descripción del Asiento: detalla sobre el contenido del asiento (opcional)</p>
+</li>
+<li><p class="first">Centro de costo: al que se desea vincular el asiento a ingresar (opcional)</p>
+<div class="figure">
+<img alt="../../_images/ImportacionAsientos0.png" src="../../_images/ImportacionAsientos0.png" />
+<p class="caption">Modelo de planilla para importar asientos</p>
+</div>
+</li>
+</ol>
+<p>Los pasos a seguir son los siguientes:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Contabilidad ‣ Asientos</em>.</p>
+</li>
+<li><p class="first">En la nueva pantalla, pulsar en la barra de herramientas el botón <img alt="/icons/importar.png" class="inlinegraphic" src="../../_images/importar.png" /> (&#8220;Importar asientos desde archivo&#8221;).</p>
+<div class="figure">
+<img alt="../../_images/ImportacionAsientos1.png" src="../../_images/ImportacionAsientos1.png" />
+<p class="caption">Importación de documento</p>
+</div>
+</li>
+<li><p class="first">Se abrirá un asistente de importación en el que debe pulsar el botón <img alt="/icons/searchCopia.png" class="inlinegraphic" src="../../_images/searchCopia.png" /> (&#8220;Seleccionar el archivo a importar&#8221;),buscar el CSV, seleccionarlo y presionar la opción abrir.</p>
+<div class="figure">
+<img alt="../../_images/ImportacionAsientos2.png" src="../../_images/ImportacionAsientos2.png" />
+</div>
+</li>
+<li><p class="first">Al presionar el botón <img alt="/icons/22refrescar.png" class="inlinegraphic" src="../../_images/22refrescar.png" /> , se pueden visualizar las columnas del archivo y verificar que se vean correctamente.</p>
+<div class="figure">
+<img alt="../../_images/ImportacionAsientos3.png" src="../../_images/ImportacionAsientos3.png" />
+</div>
+</li>
+<li><p class="first">En la segunda ventana del asistente, se selecciona el libro en el cual se va a crear el asiento y la fecha del mismo.</p>
+<div class="figure">
+<img alt="../../_images/ImportacionAsientos4.png" src="../../_images/ImportacionAsientos4.png" />
+<p class="caption">Selección de Libro Contable</p>
+</div>
+</li>
+<li><p class="first">La tercer ventana, permite vincular los atributos del asiento con las columnas del archivo. Para ello hay que seleccionar el atributo y la columna en la que se encuentra y hacer click en el icono <img alt="/icons/22validar.png" class="inlinegraphic" src="../../_images/22validar.png" /></p>
+<div class="figure">
+<img alt="../../_images/ImportacionAsientos5.png" src="../../_images/ImportacionAsientos5.png" />
+<p class="caption">Vinculación de los atributos de los asientos y las columnas</p>
+</div>
+</li>
+<li><p class="first">Con el botón Finalizar se completa el asistente y aparece una pantalla de resultados, luego de cerrar la cual el sistema muestra los asientos ingresados.</p>
+<div class="figure">
+<img alt="../../_images/ImportacionAsientos6.png" src="../../_images/ImportacionAsientos6.png" />
+<p class="caption">Resultados de la importación</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="asientos-generados-por-las-consolidaciones-de-caja-y-tarjetas-con-diferencias">
+<h2>9.4.12. Asientos generados por las consolidaciones de caja y tarjetas con diferencias<a class="headerlink" href="#asientos-generados-por-las-consolidaciones-de-caja-y-tarjetas-con-diferencias" title="Enlazar permanentemente con este título">¶</a></h2>
+<p id="index-3">La operatoria con tarjetas de crédito incluye las ventas, consolidaciones y movimientos de banco, y cada uno de esos documentos tiene un impacto en la contabilidad.
+Al realizar facturas de venta se registrán automáticamente los asientos, reflejando las formas de pago ingresadas. Pero en algunas ocaciones se detectan diferencias de efectivo o tarjeta al realizar el cierre del día. Por ello, se puede configurar en Fierro que se realicen asientos registrando esas diferencias.</p>
+<ol class="arabic">
+<li><p class="first">Al ingresar una facturas de venta abonada con tarjeta, se genera un asiento automático:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Ejemplo 1</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/asientovisa1.png" src="../../_images/asientovisa1.png" />
+<p class="caption">Venta con Visa</p>
+</div>
+<ul class="simple">
+<li>Ejemplo 2</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/asientoventamastercard.png" src="../../_images/asientoventamastercard.png" />
+<p class="caption">Venta con Mastercard</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Cuando se realiza el cierre de tarjetas pueden detectarse cruces entres las tarjetas y se realiza automáticamente un asiento de ajuste (Ver <a class="reference internal" href="../cajaybancos/cajaybancos_08.html#howto-bookkeeping-creditcardplanclose"><em>¿Cómo ingresar el cierre de las tarjetas?</em></a>). Por ejemplo: faltan $35 de Mastercard y sobran $35 de Visa.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/diferenciaconsolidacion.png" src="../../_images/diferenciaconsolidacion.png" />
+<p class="caption">Cruce de tarjetas</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">También, pueden encontrarse diferencias absolutas (es decir que la diferencia no es entre tarjetas como en el caso anterior, sino que falta ese importe). Por ejemplo faltan $ 100 que figuran las facturas del sistema y NO en el cierre del posnet. En ese caso se genera un asiento de ajuste utilizando la cuenta definida previamente con el alias Diferencia de arqueo (el cliente debe indicar a Lambda Sistemas qué cuenta se debe utilizar):</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/asientodiferenciaconsolidacion2.png" src="../../_images/asientodiferenciaconsolidacion2.png" />
+<p class="caption">Diferencia en la consolidación</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Al conciliar los movimientos de banco generados por las tarjetas, hay que verificar si coinciden los valores de las ventas menos las comisiones con el importe que figura en el detalle del banco (Ver <a class="reference internal" href="../cajaybancos/cajaybancos_13.html#howto-bookkeeping-viewbankaccountmovements"><em>¿Cómo visualizar y conciliar los movimientos de banco?</em></a>). Por ejemplo, si se espera en el banco:</p>
+<blockquote>
+<div><p>$ 100 - comisiones = $96 para Visa</p>
+<p>$ 65 - comisiones = 60 para Mastercard</p>
+<ul class="simple">
+<li>Coinciden los valores: al conciliar se genera el asiento:</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/asientoconciliacionbanco.png" src="../../_images/asientoconciliacionbanco.png" />
+<p class="caption">Conciliación de banco</p>
+</div>
+<ul class="simple">
+<li>No coinciden los valores: por ejemplo de Visa se esperaba $97 y se acreditan $96, se debe cambiar el importe del movimiento de banco  y al concilidar se genera el asiento:</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/asientoconciliacionbanco2.png" src="../../_images/asientoconciliacionbanco2.png" />
+<p class="caption">Conciliación de banco en la que no coinciden los valores</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">El importe de las comisiones hay que ingresarlo, con la liquidación del banco en mano, como un gasto (Ver <a class="reference internal" href="../cajaybancos/cajaybancos_17.html#howto-bookkeeping-newexpense"><em>¿Cómo ingresar un gasto?</em></a>) imputado a Comisiones de Tarjeta y Retenciones de ganancias. Para dejar constancia del pago de ese gasto se utiliza una &#8220;Otra Forma de Pago&#8221; (creadas previamente desde Lambda Sistemas al realizar esta configuración) que corresponde a la tarjeta de las comisiones que se cargan.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Ejemplo 1</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/asientocomisionestarjeta.png" src="../../_images/asientocomisionestarjeta.png" />
+<p class="caption">Comisiones de tarjetas</p>
+</div>
+<ul class="simple">
+<li>Ejemplo 2</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/asientocomisionestarjeta2.png" src="../../_images/asientocomisionestarjeta2.png" />
+<p class="caption">Comisiones de tarjetas</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Al realizar el cierre de caja (Ver <a class="reference internal" href="../cajaybancos/cajaybancos_07.html#howto-bookkeeping-closecashbox"><em>¿Cómo cerrar la caja del día?</em></a>), si se presentan diferencias, también se realiza un ajuste y el asiento correspondiente.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/asientodiferenciaconsolidacioncaja.png" src="../../_images/asientodiferenciaconsolidacioncaja.png" />
+<p class="caption">Consolidación de caja con diferencias</p>
+</div>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">9.4. Asientos</a><ul>
+<li><a class="reference internal" href="#tipos-de-asientos">9.4.1. Tipos de asientos</a><ul>
+<li><a class="reference internal" href="#asientos-automaticos">9.4.1.1. Asientos automáticos</a></li>
+<li><a class="reference internal" href="#asientos-manuales">9.4.1.2. Asientos manuales</a></li>
+<li><a class="reference internal" href="#asientos-resumen">9.4.1.3. Asientos resumen</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#asientos-de-apertura-y-cierre-del-ejercicio">9.4.2. Asientos de Apertura y Cierre del Ejercicio</a><ul>
+<li><a class="reference internal" href="#asiento-de-apertura">9.4.2.1. Asiento de Apertura</a></li>
+<li><a class="reference internal" href="#asiento-de-cierre-de-resultados">9.4.2.2. Asiento de Cierre de Resultados</a></li>
+<li><a class="reference internal" href="#asiento-de-cierre-final">9.4.2.3. Asiento de Cierre Final</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#donde-visualizar-los-asientos">9.4.3. ¿Dónde visualizar los asientos?</a><ul>
+<li><a class="reference internal" href="#desde-la-consulta-de-cada-tipo-de-documento">9.4.3.1. Desde la consulta de cada tipo de documento</a></li>
+<li><a class="reference internal" href="#desde-la-consulta-de-asientos">9.4.3.2. Desde la consulta de asientos</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cuando-se-generan-los-asientos">9.4.4. ¿Cuándo se generan los asientos?</a></li>
+<li><a class="reference internal" href="#borrado-de-asientos">9.4.5. Borrado de asientos</a></li>
+<li><a class="reference internal" href="#como-cargar-un-asiento-manual">9.4.6. ¿Cómo cargar un asiento manual?</a></li>
+<li><a class="reference internal" href="#como-modificar-un-asiento">9.4.7. ¿Cómo modificar un asiento?</a></li>
+<li><a class="reference internal" href="#con-que-fecha-se-crean-los-asientos">9.4.8. ¿Con qué fecha se crean los asientos?</a></li>
+<li><a class="reference internal" href="#como-resumir-asientos">9.4.9. ¿Cómo resumir asientos?</a></li>
+<li><a class="reference internal" href="#regeneracion-de-asientos">9.4.10. Regeneración de asientos</a></li>
+<li><a class="reference internal" href="#importacion-de-asientos-desde-planillas">9.4.11. Importación de Asientos desde planillas</a></li>
+<li><a class="reference internal" href="#asientos-generados-por-las-consolidaciones-de-caja-y-tarjetas-con-diferencias">9.4.12. Asientos generados por las consolidaciones de caja y tarjetas con diferencias</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="03_financialYears.html"
+                        title="Capítulo anterior">9.3. Ejercicios y libros</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="05_reports.html"
+                        title="Próximo capítulo">9.5. Reportes</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="05_reports.html" title="9.5. Reportes"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="03_financialYears.html" title="9.3. Ejercicios y libros"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../12_accounting.html" >9. Contabilidad</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

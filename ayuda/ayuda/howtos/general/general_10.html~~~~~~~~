@@ -1,0 +1,161 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>8.10. Impresión de las vistas HTML &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="8. General" href="../11_general.html" />
+    <link rel="next" title="8.11. ¿Cómo trabajar offline en Fierro?" href="general_11.html" />
+    <link rel="prev" title="8.9. Importación de documentos desde planillas" href="general_09.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="general_11.html" title="8.11. ¿Cómo trabajar offline en Fierro?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_09.html" title="8.9. Importación de documentos desde planillas"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" accesskey="U">8. General</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="impresion-de-las-vistas-html">
+<h1>8.10. Impresión de las vistas HTML<a class="headerlink" href="#impresion-de-las-vistas-html" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p>La impresión de las vistas HTML no se realiza directamente desde Fierro,
+sino que se hace desde el navegador de Internet configurado.</p>
+<p class="last">Para imprimir una vista HTML, seguir los siguientes pasos:</p>
+</div>
+<ol class="arabic">
+<li><p class="first">En una pantalla de búsqueda de elementos, seleccionar la fila del elemento
+que se desea imprimir.</p>
+<div class="figure">
+<img alt="../../_images/seleccion.png" src="../../_images/seleccion.png" />
+<p class="caption">Pantalla de búsqueda</p>
+</div>
+</li>
+<li><p class="first">Hacer doble clic sobre la fila seleccionada, o pulsar el botón <img alt="/icons/ampliar_vista.png" class="inlinegraphic" src="../../_images/ampliar_vista.png" /> (&#8220;Abre la ficha en una ventana aparte&#8221;) en la
+barra de herramientas. Se abrirá la misma vista HTML en una nueva ventana.
+Esta operación también puede realizarse mediante las teclas
+<tt class="kbd docutils literal"><span class="pre">Ctrl</span></tt> + <tt class="kbd docutils literal"><span class="pre">E</span></tt>.</p>
+</li>
+<li><p class="first">Pulsar en la nueva ventana el botón <img alt="/icons/ampliar_vista.png" class="inlinegraphic" src="../../_images/ampliar_vista.png" /> (&#8220;Ver
+en navegador externo&#8221;) en la barra de herramientas. Se abrirá el navegador de
+Internet configurado (Firefox, Explorer, etcétera), conteniendo la vista HTML
+seleccionada. Si no se abre el navegador contactar a
+<a class="reference external" href="mailto:soporte&#37;&#52;&#48;fierro-soft&#46;com&#46;ar">soporte<span>&#64;</span>fierro-soft<span>&#46;</span>com<span>&#46;</span>ar</a>, para efectuar la configuración correspondiente.</p>
+<div class="figure">
+<img alt="../../_images/nuevaVentana.png" src="../../_images/nuevaVentana.png" />
+<p class="caption">Pantalla de nueva ventana</p>
+</div>
+</li>
+<li><p class="first">Imprimir la vista HTML desde el navegador, como se imprime cualquier otra
+página de Internet (Archivo -&gt; Imprimir).</p>
+<div class="figure">
+<img alt="../../_images/navegador.png" src="../../_images/navegador.png" />
+<p class="caption">Pantalla del navegador</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="general_09.html"
+                        title="Capítulo anterior">8.9. Importación de documentos desde planillas</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="general_11.html"
+                        title="Próximo capítulo">8.11. ¿Cómo trabajar offline en Fierro?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="general_11.html" title="8.11. ¿Cómo trabajar offline en Fierro?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_09.html" title="8.9. Importación de documentos desde planillas"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" >8. General</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

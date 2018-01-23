@@ -1,0 +1,151 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>13.1. Página web &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="13. Web" href="../16_web.html" />
+    <link rel="next" title="13.2. Secciones" href="02_sections.html" />
+    <link rel="prev" title="13. Web" href="../16_web.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="02_sections.html" title="13.2. Secciones"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="../16_web.html" title="13. Web"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../16_web.html" accesskey="U">13. Web</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="pagina-web">
+<span id="howto-web-intro"></span><h1>13.1. Página web<a class="headerlink" href="#pagina-web" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="section" id="ficha-del-libro">
+<span id="index-1"></span><h2>13.1.1. Ficha del libro<a class="headerlink" href="#ficha-del-libro" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Configurando el parámetro &#8220;WebURL&#8221; con la URL correspondiente a su web, se puede acceder desde la consulta de catálogo dentro del sistema Fierro a las siguientes opciones:</p>
+<ul class="simple">
+<li>A la ficha del libro en la página web, seleccionando la URL de la vista general .</li>
+<li>Se agrega también la columna &#8220;URL Web&#8221; a los resultados de búsquedas, la cual arrojará por cada libro la URL a la ficha del libro en la página web.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/web_1.png" src="../../_images/web_1.png" />
+</div>
+<p>Los datos que muestra la página son los que están cargados en la ficha del libro en Fierro (título, autores, etc.). También se toman los archivos adjuntos (tapa, reseña, etc.)</p>
+<div class="section" id="stock">
+<h3>13.1.1.1. Stock<a class="headerlink" href="#stock" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>En la página web se programa el criterio que muestra la página respecto a si un libro está disponible o no.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">13.1. Página web</a><ul>
+<li><a class="reference internal" href="#ficha-del-libro">13.1.1. Ficha del libro</a><ul>
+<li><a class="reference internal" href="#stock">13.1.1.1. Stock</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="../16_web.html"
+                        title="Capítulo anterior">13. Web</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="02_sections.html"
+                        title="Próximo capítulo">13.2. Secciones</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="02_sections.html" title="13.2. Secciones"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="../16_web.html" title="13. Web"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../16_web.html" >13. Web</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

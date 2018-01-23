@@ -1,0 +1,164 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1.1. ¿Cómo buscar libros por título y autor? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="1. Catálogo" href="../05_catalogo.html" />
+    <link rel="next" title="1.2. ¿Cómo buscar Libros por tema?" href="catalogo_02.html" />
+    <link rel="prev" title="1. Catálogo" href="../05_catalogo.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="catalogo_02.html" title="1.2. ¿Cómo buscar Libros por tema?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="../05_catalogo.html" title="1. Catálogo"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" accesskey="U">1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-buscar-libros-por-titulo-y-autor">
+<span id="howto-catalogo-sec1"></span><h1>1.1. ¿Cómo buscar libros por título y autor?<a class="headerlink" href="#como-buscar-libros-por-titulo-y-autor" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><ol class="arabic" id="index-1">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Catálogo ‣ Libros</em> o el
+ícono <img alt="/icons/libro.png" class="inlinegraphic" src="../../_images/libro.png" /> de la barra de herramientas. Se abrirá la
+pantalla de Búsqueda de Libros.</p>
+<div class="figure">
+<img alt="../../_images/scrBusqLibrGen.png" src="../../_images/scrBusqLibrGen.png" />
+<p class="caption">Panel General de la búsqueda de libros</p>
+</div>
+</li>
+<li><p class="first">En la parte superior de la pantalla, en el campo Título, ingresar el título
+del libro. La búsqueda por título busca aquellos títulos o subtítulos que
+contienen todas las palabras ingresadas o palabras que comienzen con el texto
+ingresado.</p>
+<p>Por ejemplo, si se ingresa &#8220;BOQ PINT&#8221; aparecerá el título &#8220;BOQUITAS PINTADAS&#8221;
+pero no aparecerá el título &#8220;BOQUITA&#8221; ya que no contiene ninguna palabra que
+comienze con &#8220;PINT&#8221;.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">La búsqueda por palabras agiliza las búsquedas ya que no es necesario
+tipear los títulos ni las palabras completas.  Además, la búsqueda
+ignora artículos, preposiciones, nexos, etc., tales como &#8220;LA&#8221;, &#8220;EL&#8221;,
+&#8220;QUE&#8221; y otros.</p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Buscar</em> de la parte superior derecha de la
+pantalla. Se ejecuta la búsqueda y los resultados aparecen el la parte media.</p>
+</li>
+<li><p class="first">Para <em>buscar por autor</em>, ingresar en el campo Autor algunas palabras del
+nombre o apellido.</p>
+<p>La búsqueda mantiene el criterio de la búsqueda por título: no es
+necesario poner las palabras completas a buscar.</p>
+</li>
+<li><p class="first">Para <em>buscar por título y autor</em>, ingresar las palabras a buscar en los
+campos Título y Autor y presionar el botón <em class="guilabel">Buscar</em></p>
+</li>
+</ol>
+<p>Si se desea ver la ficha de un libro, seleccionarlo en la lista. La ficha
+aparecerá en el panel inferior. Sobre este panel, oprimiendo el botón derecho
+del mouse puede elegirse qué vista obtener: por ejemplo, por historia de precios
+del libro.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="../05_catalogo.html"
+                        title="Capítulo anterior">1. Catálogo</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="catalogo_02.html"
+                        title="Próximo capítulo">1.2. ¿Cómo buscar Libros por tema?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="catalogo_02.html" title="1.2. ¿Cómo buscar Libros por tema?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="../05_catalogo.html" title="1. Catálogo"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../05_catalogo.html" >1. Catálogo</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

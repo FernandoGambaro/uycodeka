@@ -1,0 +1,298 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>2. Empleados &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="10. Personal" href="../13_personal.html" />
+    <link rel="next" title="3. ¿Cómo visualizar la Cuenta Corriente de un Empleado?" href="personal_03.html" />
+    <link rel="prev" title="1. ¿Cómo ingresar las categorizaciones del módulo de empleados?" href="personal_01.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="personal_03.html" title="3. ¿Cómo visualizar la Cuenta Corriente de un Empleado?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="personal_01.html" title="1. ¿Cómo ingresar las categorizaciones del módulo de empleados?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../13_personal.html" accesskey="U">10. Personal</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="empleados">
+<span id="howto-personal-sec2"></span><h1>2. Empleados<a class="headerlink" href="#empleados" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Empleado es la persona que se desempeña en un cargo determinado realizando
+tareas por las que recibe un salario a cambio.</p>
+</div>
+<div class="section" id="como-crear-un-empleado">
+<h2>2.1. ¿Cómo crear un empleado?<a class="headerlink" href="#como-crear-un-empleado" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div>La búsqueda de empleados se encuentra en <em class="menuselection">Personal ‣ Empleados</em>. Allí pulsar el botón <img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" /> o la
+opción de menú <em class="menuselection">Ventana Activa ‣ Nuevo empleado</em>. Se iniciará
+el asistente de creación (<em>véase</em> <a class="reference internal" href="../../basics/pantallas/pantallas_03.html#basics-controls-wizards"><em>Asistente</em></a>):</div></blockquote>
+<ul class="simple">
+<li>En el primer paso del asistente deberá completar los datos personales del mismo
+(Código, Nombre, Apellido, Tipo de documento, Nº de documento, Tipo de IVA y CUIT). Los
+únicos campos obligatorios son código y nombre del empleado.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/nuevoEmpleado.png" src="../../_images/nuevoEmpleado.png" />
+<p class="caption">Asistente para crear un empleado</p>
+</div>
+<ul class="simple">
+<li>En el segundo paso aparecen para completar los datos generales del empleado
+(Sucursal, Sector, Puesto, Fecha de ingreso, Fecha de egreso y Nº de legajo).</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/nuevoEmpleado2.png" src="../../_images/nuevoEmpleado2.png" />
+<p class="caption">Asistente para crear un empleado</p>
+</div>
+<ul class="simple">
+<li>En el siguiente paso deberá ingresar la/las direcciones del nuevo empleado
+(Dirección, teléfono, email y página web).</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/nuevoEmpleado3.png" src="../../_images/nuevoEmpleado3.png" />
+<p class="caption">Asistente para crear un empleado</p>
+</div>
+<ul>
+<li><p class="first">En el cuarto paso, se ingresarán los datos personales faltantes (Fecha de nacimiento, Profesión, sexo).</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/nuevoEmpleado4.png" src="../../_images/nuevoEmpleado4.png" />
+<p class="caption">Asistente para cargar datos del empleado</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">En la próxima pantalla se deben ingresar los datos necesario para realizar la liquidación de sueldo
+(Obra Social, modalidad de contratación, período de liquidación,Categoría de convenio, y plantilla de salario).</p>
+</li>
+</ul>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/nuevoEmpleado5.png" src="../../_images/nuevoEmpleado5.png" />
+<p class="caption">Asistente para cargar datos del empleado</p>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li>En la siguiente pantalla, podrá o no agregarle archivos adjuntos al empleado.</li>
+</ul>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/nuevoEmpleado6.png" src="../../_images/nuevoEmpleado6.png" />
+<p class="caption">Asistente para cargar datos del empleado</p>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li>.Luego podrá ingresar notas, las cuales crea necesarias y no fueron tomadas en cuenta en los pasos previos.</li>
+</ul>
+</div>
+<div class="section" id="como-modificar-la-ficha-de-un-empleado">
+<span id="howto-personal-sec2-sec2"></span><h2>2.2. ¿Cómo modificar la ficha de un empleado?<a class="headerlink" href="#como-modificar-la-ficha-de-un-empleado" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Personal ‣ Empleados</em>. Se abrirá la pantalla Empleados.</li>
+<li>Buscar el empleado del que se quiere ver la ficha.</li>
+<li>Seleccionar el vendedor y pulsar el ícono <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" />
+o la opción a través del menú <em class="menuselection">Ventana Activa ‣ Modificar Empleado</em></li>
+<li>Se abrirá la ficha del empleado, en donde pueden hacerse las modificaciones
+deseadas.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/nuevoEmpleado8.png" src="../../_images/nuevoEmpleado8.png" />
+<p class="caption">Pantalla Ficha de Empleado</p>
+</div>
+</div>
+<div class="section" id="como-eliminar-a-un-empleado">
+<h2>2.3. ¿Cómo eliminar a un empleado?<a class="headerlink" href="#como-eliminar-a-un-empleado" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Personal ‣ Empleados</em>. Se abrirá la pantalla Empleados.</li>
+<li>Buscar el empleado del que se quiere borrar la ficha.</li>
+<li>Seleccionar el empleado y pulsar el ícono <img alt="/icons/eliminar.png" class="inlinegraphic" src="../../_images/eliminar.png" />
+o la opción a través del menú <em class="menuselection">Ventana Activa ‣ Eliminar Empleado</em></li>
+</ol>
+</div>
+<div class="section" id="como-crear-un-nuevo-empleado-a-partir-de-un-vendedor">
+<h2>2.4. ¿Cómo crear un nuevo empleado a partir de un vendedor?<a class="headerlink" href="#como-crear-un-nuevo-empleado-a-partir-de-un-vendedor" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>La búsqueda de empleados se encuentra en <em class="menuselection">Personal ‣ Empleados</em>. Allí pulsar el botón <img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" /> o la
+opción de menú <em class="menuselection">Ventana Activa ‣ Nuevo empleado a partir de un vendedor</em>. Se iniciará
+la búsqueda de vendedores.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/nuevoEmpleado7.png" src="../../_images/nuevoEmpleado7.png" />
+<p class="caption">Pantalla de búsqueda de vendedores</p>
+</div>
+<p>Una vez seleccionado el vendedor a partir del cual creará el empleado, se abrirá un asistente para agregar los datos faltantes.</p>
+</div>
+<div class="section" id="como-visualizar-la-cuenta-corriente-de-un-empleado">
+<h2>2.5. ¿Cómo visualizar la Cuenta Corriente de un Empleado?<a class="headerlink" href="#como-visualizar-la-cuenta-corriente-de-un-empleado" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La cuenta corriente de un empleado puede visualizarse de tres formas
+distintas:</p>
+<ul class="simple">
+<li>Ordenada por débitos: muestra los movimientos agrupados por débitos, es decir,
+por cada liquidación de sueldo del empleado, se muestra con qué pago se canceló.</li>
+<li>Ordenada por créditos: muestra los movimientos agrupados por créditos, es
+decir, por cada orden de pago, se muestra qué liquidación de sueldo cancela.</li>
+<li>Ordenada por fecha: muestra todos los movimientos de la cuenta corriente en
+orden cronológico.</li>
+</ul>
+<p>Para visualizar la cuenta corriente de un empleado seguir los siguientes
+pasos:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Personal ‣ Cuenta Corriente</em>.</p>
+</li>
+<li><p class="first">Seleccionar el modo de visualización en el que desea ver las cuentas corrientes.</p>
+<div class="figure">
+<img alt="../../_images/empleadosCtaCte.png" src="../../_images/empleadosCtaCte.png" />
+<p class="caption">Menú Cuenta Corriente</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el empleado:</p>
+<ul class="simple">
+<li>Ingresar el código en el campo empleado.</li>
+<li>Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o <tt class="kbd docutils literal"><span class="pre">Tab</span></tt>.</li>
+<li>Si existe un empleado con el código, se autocompleta el nombre a la
+derecha del código.</li>
+<li>Si no se conoce el código, presionar el bóton <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" />
+para buscar el empleado.</li>
+</ul>
+</li>
+<li><p class="first">Completar los criterios de filtrado de los movimientos:</p>
+<ul class="simple">
+<li>Rango de fechas: Intervalo de tiempo del resumen de la cuenta corriente.</li>
+<li>Saldo: Pendiente, saldados o todos.</li>
+<li>Ver débitos: vencidos, a vencer, todos.</li>
+<li>Sucursal: filtrar sólo los movimientos de una sucursal.</li>
+<li>Saldo al: mostrar saldo a una fecha determinada.</li>
+</ul>
+</li>
+<li><p class="first">Presionar el botón <img alt="/icons/buscar.png" class="inlinegraphic" src="../../_images/buscar.png" /> de la barra de herramientas.
+Se mostrarán los movimientos de la cuenta corriente.</p>
+</li>
+<li><p class="first">En la lista de movimientos de la cuenta, es posible configurar la
+visualización de los mismos de manera que documentos vinculados aparezcan agrupados por
+bandas de color gris o blanco. Esto puede hacerse eligiendo el estilo de fila
+<em>Alternado</em> en la personalización de la vista actual (Ver <a class="reference internal" href="../../basics/busqueda/mantenimiento_14.html#basics-searchs-sec13"><em>Vistas
+personalizadas</em></a>):</p>
+<div class="figure">
+<img alt="../../_images/filasAlternadas.png" src="../../_images/filasAlternadas.png" />
+<p class="caption">Configuración de columnas</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">2. Empleados</a><ul>
+<li><a class="reference internal" href="#como-crear-un-empleado">2.1. ¿Cómo crear un empleado?</a></li>
+<li><a class="reference internal" href="#como-modificar-la-ficha-de-un-empleado">2.2. ¿Cómo modificar la ficha de un empleado?</a></li>
+<li><a class="reference internal" href="#como-eliminar-a-un-empleado">2.3. ¿Cómo eliminar a un empleado?</a></li>
+<li><a class="reference internal" href="#como-crear-un-nuevo-empleado-a-partir-de-un-vendedor">2.4. ¿Cómo crear un nuevo empleado a partir de un vendedor?</a></li>
+<li><a class="reference internal" href="#como-visualizar-la-cuenta-corriente-de-un-empleado">2.5. ¿Cómo visualizar la Cuenta Corriente de un Empleado?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="personal_01.html"
+                        title="Capítulo anterior">1. ¿Cómo ingresar las categorizaciones del módulo de empleados?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="personal_03.html"
+                        title="Próximo capítulo">3. ¿Cómo visualizar la Cuenta Corriente de un Empleado?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="personal_03.html" title="3. ¿Cómo visualizar la Cuenta Corriente de un Empleado?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="personal_01.html" title="1. ¿Cómo ingresar las categorizaciones del módulo de empleados?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../13_personal.html" >10. Personal</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

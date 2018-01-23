@@ -1,0 +1,212 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>5. ¿Cómo ingresar una factura de baja de consignación? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Compras" href="../07_compras.html" />
+    <link rel="next" title="6. ¿Cómo ingresar una factura con precio de costo?" href="compras_07.html" />
+    <link rel="prev" title="4. ¿Cómo ingresar un remito de consignación?" href="compras_04.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="compras_07.html" title="6. ¿Cómo ingresar una factura con precio de costo?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_04.html" title="4. ¿Cómo ingresar un remito de consignación?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" accesskey="U">3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-ingresar-una-factura-de-baja-de-consignacion">
+<span id="howto-compras-sec5"></span><h1>5. ¿Cómo ingresar una factura de baja de consignación?<a class="headerlink" href="#como-ingresar-una-factura-de-baja-de-consignacion" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Compras ‣ Facturas</em>. Se
+abrirá la pantalla Búsqueda de Facturas.</p>
+</li>
+<li><p class="first">Seleccionar el ícono <img alt="/icons/n_factura.png" class="inlinegraphic" src="../../_images/n_factura.png" /> de la barra de
+herramientas. Se abrirá la pantalla Nueva Factura.</p>
+<div class="figure">
+<img alt="../../_images/scrNewFacCom.png" src="../../_images/scrNewFacCom.png" />
+<p class="caption">Pantalla Nueva Factura</p>
+</div>
+</li>
+<li><p class="first">Para cambiar el proveedor de origen de la factura:</p>
+<ul class="simple">
+<li>Ingresar el código en el campo Proveedor.</li>
+<li>Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o <tt class="kbd docutils literal"><span class="pre">Tab</span></tt>.</li>
+<li>Si existe un proveedor con el código, se autocompleta el nombre a la
+derecha del código.</li>
+<li>Si no se conoce el código, presionar el bóton <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" />
+para buscar el proveedor.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/scrBillHeader.png" src="../../_images/scrBillHeader.png" />
+<p class="caption">Cabecera de la factura</p>
+</div>
+</li>
+<li><p class="first">Completar los datos generales de la factura:</p>
+<ul class="simple">
+<li><em>Tipo:</em> Baja de consignación.</li>
+<li><em>Bloqueda para Pagos:</em> Si la factura tiene algún problema, puede bloquearse
+para que no se realizen pagos sobre la misma. En otro momento puede
+desbloquearse.</li>
+<li><em>Número de factura</em></li>
+<li><em>Fecha:</em> Fecha de la factura. El sistema sugiere la fecha actual</li>
+<li><em>Vencimiento:</em> Fecha de vencimiento de la factura. El sistema sugiere
+la fecha actual</li>
+<li><em>Sucursal:</em> Sucursal a la que corresponde la factura-remito.
+El sistema sugiere la sucursal donde ingresó el usuario.</li>
+<li><em>Moneda:</em> Moneda de la factura.</li>
+</ul>
+</li>
+<li><p class="first">Por cada libro de la factura:</p>
+<ul>
+<li><p class="first">En el campo Código de la solapa Detalle, ingresar el código del libro (por
+teclado o con el lector de código de barras) o realizar la búsqueda del
+libro presionando el botón <img alt="/icons/b_libro.png" class="inlinegraphic" src="../../_images/b_libro.png" /> .</p>
+<div class="figure">
+<img alt="../../_images/scrEditAssignBill.png" src="../../_images/scrEditAssignBill.png" />
+<p class="caption">Opciones para modificar las asignaciones</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la opción Editar asignación (a pedidos de baja o remitos). Se
+abrirá la ventana Edición de asignación
+.</p>
+<div class="figure">
+<img alt="../../_images/scrDlgEditAssignOrders.png" src="../../_images/scrDlgEditAssignOrders.png" />
+<p class="caption">Pantalla Edición de Asignación</p>
+</div>
+</li>
+<li><p class="first">Modificar las cantidades asociadas.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<ul class="simple">
+<li>Si la factura corresponde a un <em>pedido de baja</em>,
+presionar el botón <img alt="/icons/22bpedidobaja.png" class="inlinegraphic" src="../../_images/22bpedidobaja.png" />.
+Se abrirá la pantalla Selección de Pedidos de Baja
+con la lista de los pedidos de baja pendientes del proveedor.
+Seleccionar el pedido correspondiente. Los items
+del pedido se cargarán en la grilla de la factura.</li>
+<li>Si la factura corresponde a un <em>remito</em>, presionar el
+botón <img alt="/icons/22bremito.png" class="inlinegraphic" src="../../_images/22bremito.png" />. Se abrirá la pantalla
+Selección de Remitos con la lista de los remitos pendientes del
+proveedor. Seleccionar el remito correspondiente. Los items
+del remito se cargarán en la grilla de la factura.</li>
+</ul>
+<p class="last"><em>De esta forma se ahorra el ingreso manual de los ítems de la factura.</em></p>
+</div>
+</li>
+<li><p class="first">Si el importe de la factura es distinto al importe calculado por el sistema
+en base a los precios, cantidades y descuentos, modificar el total en el
+campo Total de la parte inferior derecha de la pantalla.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em> o la tecla <tt class="kbd docutils literal"><span class="pre">F9</span></tt> y confirmar.</p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="compras_04.html"
+                        title="Capítulo anterior">4. ¿Cómo ingresar un remito de consignación?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="compras_07.html"
+                        title="Próximo capítulo">6. ¿Cómo ingresar una factura con precio de costo?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="compras_07.html" title="6. ¿Cómo ingresar una factura con precio de costo?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_04.html" title="4. ¿Cómo ingresar un remito de consignación?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" >3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

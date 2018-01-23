@@ -1,0 +1,182 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>2. ¿Cómo registrar salidas/entradas manuales? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="6. Stock" href="../09_stock.html" />
+    <link rel="next" title="3. ¿Cómo llevar a cero el stock de una sucursal?" href="stock_03.html" />
+    <link rel="prev" title="1. ¿Cómo mover material de una sucursal a otra?" href="stock_01.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="stock_03.html" title="3. ¿Cómo llevar a cero el stock de una sucursal?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="stock_01.html" title="1. ¿Cómo mover material de una sucursal a otra?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../09_stock.html" accesskey="U">6. Stock</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-registrar-salidas-entradas-manuales">
+<span id="howto-stock-movestockmanual"></span><h1>2. ¿Cómo registrar salidas/entradas manuales?<a class="headerlink" href="#como-registrar-salidas-entradas-manuales" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Documentos de stock</strong></p>
+<p>Un <em>documento de stock</em> es un comprobante generado por el sistema que se
+realiza cuando se desea modificar el stock manualmente.</p>
+<p>Los movimientos de stock pueden ser:</p>
+<ul class="last simple">
+<li>Entre depósitos: el stock sale de un depósito e ingresa a otro.</li>
+<li>De entrada: el stock ingresa a un depósito.</li>
+<li>De salida: el stock sale de un depósito.</li>
+</ul>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Stock ‣ Documentos de stock</em>.
+Se abrirá la pantalla Búsqueda de Documentos de stock.</p>
+<div class="figure">
+<img alt="../../_images/scrStockDocumentSearch.png" src="../../_images/scrStockDocumentSearch.png" />
+<p class="caption">Pantalla Búsqueda de Documentos de stock</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el ícono <img alt="/icons/doc_stock.png" class="inlinegraphic" src="../../_images/doc_stock.png" /> de la barra de
+herramientas. Se abrirá la pantalla Nuevo Documento de stock.</p>
+<div class="figure">
+<img alt="../../_images/scrStockDocumentNew.png" src="../../_images/scrStockDocumentNew.png" />
+<p class="caption">Pantalla Nuevo Documento de stock</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la opción <em>Entrada</em> o <em>Salida</em> según corresponda.</p>
+</li>
+<li><p class="first">Seleccionar el tipo de movimiento en el campo Tipo.</p>
+</li>
+<li><p class="first">Si el movimiento es de <em>Entrada</em>, seleccionar el depósito a donde ingresa el
+stock en el campo <em>Destino</em>.</p>
+</li>
+<li><p class="first">Si el movimiento es de <em>Salida</em>, seleccionar el depósito de donde sale el
+stock en el campo <em>Origen</em>.</p>
+</li>
+<li><p class="first">Ingresar la fecha del movimiento en el campo Fecha.</p>
+</li>
+<li><p class="first">Ingresar el número de remito a emitir (optativo).</p>
+</li>
+<li><p class="first">Por cada libro a mover:</p>
+<ul class="simple">
+<li>En el campo Código de la solapa Detalle, ingresar el código del libro (por
+teclado o con el lector de código de barras) o realizar la búsqueda del
+libro presionando el botón <img alt="/icons/b_libro.png" class="inlinegraphic" src="../../_images/b_libro.png" />.</li>
+<li>Ingresar la cantidad de libros</li>
+<li>Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o el botón <em class="guilabel">Agregar</em>. El libro se
+agregará a la grilla de la parte inferior, donde pueden editarse los
+valores ingresados haciendo doble click sobre el mismo.</li>
+<li>Si desea sacar un libro ingresado, seleccionar el libro en la grilla y
+presionar el botón <em class="guilabel">Quitar</em>.</li>
+</ul>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em> o presionar la tecla <tt class="kbd docutils literal"><span class="pre">F9</span></tt> para
+terminar la creación del documento de stock.</p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="stock_01.html"
+                        title="Capítulo anterior">1. ¿Cómo mover material de una sucursal a otra?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="stock_03.html"
+                        title="Próximo capítulo">3. ¿Cómo llevar a cero el stock de una sucursal?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="stock_03.html" title="3. ¿Cómo llevar a cero el stock de una sucursal?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="stock_01.html" title="1. ¿Cómo mover material de una sucursal a otra?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../09_stock.html" >6. Stock</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,159 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>5. Caja y Bancos &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../index.html" />
+    <link rel="next" title="1. Configuración inicial para operaciones con tarjetas y cheques" href="cajaybancos/cajaybancos_01.html" />
+    <link rel="prev" title="4.13. Facturación en firme" href="ventamayorista/ventas_9.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../manual.html">
+      <img class="logo" src="../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos/cajaybancos_01.html" title="1. Configuración inicial para operaciones con tarjetas y cheques"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventamayorista/ventas_9.html" title="4.13. Facturación en firme"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../manual.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="caja-y-bancos">
+<h1>5. Caja y Bancos<a class="headerlink" href="#caja-y-bancos" title="Enlazar permanentemente con este título">¶</a></h1>
+<p id="index-0">Operaciones del módulo de Caja y Bancos</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_01.html">1. Configuración inicial para operaciones con tarjetas y cheques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_02.html">2. ¿Cómo crear un banco?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_03.html">3. ¿Cómo crear cuentas de banco?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_04.html">4. ¿Cómo crear chequeras?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_05.html">5. ¿Cómo crear tarjetas?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_06.html">6. ¿Cómo crear planes de tarjetas ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_07.html">7. ¿Cómo cerrar la caja del día?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_08.html">8. ¿Cómo ingresar el cierre de las tarjetas?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_09.html">9. ¿Cómo visualizar los movimientos de caja?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_10.html">10. ¿Cómo transferir dinero de una caja a otra?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_11.html">11. ¿Cómo depositar efectivo en una cuenta de banco?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_12.html">12. ¿Cómo extraer efectivo de una caja?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_13.html">13. ¿Cómo visualizar y conciliar los movimientos de banco?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cajaybancos/cajaybancos_13.html#visualizar-los-movimientos-de-banco">13.1. Visualizar los Movimientos de Banco</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cajaybancos/cajaybancos_13.html#conciliar-los-movimientos-de-banco">13.2. Conciliar los Movimientos de Banco</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_14.html">14. ¿Cómo visualizar el estado de una cuenta?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_15.html">15. ¿Cómo visualizar los cheques emitidos?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_16.html">16. ¿Cómo visualizar la cartera de cheques?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_17.html">17. ¿Cómo registrar un gasto?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cajaybancos/cajaybancos_17.html#ingreso-de-un-gasto-con-iva-como-unico-impuesto">17.1. Ingreso de un gasto con IVA como único impuesto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cajaybancos/cajaybancos_17.html#ingreso-de-un-gasto-con-iva-percepciones-y-otros-impuestos">17.2. Ingreso de un gasto con IVA, percepciones y otros impuestos</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_18.html">18. Transferencias de caja</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cajaybancos/cajaybancos_18.html#permisos">18.1. Permisos</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cajaybancos/cajaybancos_19.html">19. ¿Cómo crear y utilizar Centros de Costo?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cajaybancos/cajaybancos_19.html#como-configurar-una-estrategia-de-imputacion">19.1. ¿Cómo configurar una estrategia de imputación?</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventamayorista/ventas_9.html"
+                        title="Capítulo anterior">4.13. Facturación en firme</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="cajaybancos/cajaybancos_01.html"
+                        title="Próximo capítulo">1. Configuración inicial para operaciones con tarjetas y cheques</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos/cajaybancos_01.html" title="1. Configuración inicial para operaciones con tarjetas y cheques"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventamayorista/ventas_9.html" title="4.13. Facturación en firme"
+             >anterior</a> |</li>
+<li><a href="../manual.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

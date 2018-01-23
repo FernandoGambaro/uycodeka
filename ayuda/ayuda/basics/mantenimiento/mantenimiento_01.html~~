@@ -1,0 +1,146 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1. Partes de la pantallas &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Búsquedas" href="../03_mantenimiento.html" />
+    <link rel="next" title="2. Realizar una búsqueda" href="mantenimiento_02.html" />
+    <link rel="prev" title="3. Búsquedas" href="../03_mantenimiento.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General" accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="mantenimiento_011.html" title="1.1.1. Alta, Baja, Modificar Cliente" accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="../03_mantenimiento.html" title="1. Menú Mantenimiento" accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_mantenimiento.html" accesskey="U">1. Menú Mantenimiento</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="partes-de-la-pantallas">
+<h1>1. Listado-Alta-Baja-Modificación Clientes<a class="headerlink" href="#partes-de-la-pantallas" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><p>-Listado de clientes, en esta pantalla podemos ver un listado de clientes ordenado por clientes con abono mensual, seguido de los clientes en forma alfabetica. 
+</p>
+<div class="figure">
+<img alt="../../_images/scrSearchParts.png" src="../../_images/scrSearchParts.png" />
+<p class="caption">Partes principales de la pantalla de Clientes</p>
+</div>
+<ol class="arabic simple">
+<li>Botones de acción: es el panel superior de la pantalla, tenemos los botones que nos permiten ingresar nuevos clientes, ver en un mapa de google maps, la ubicación de los clientes con abono mensual, realizar búsqueda, limpiar el 
+panel de criterio de búsqueda, e imprimir.</li>
+<li>Acciones sobre cada clientes: es en la grilla de clientes donde podemos realizar las siguientes acciones para cada uno.
+<ul class="simple">
+<li>Ver los equipos que hemos registrado del cliente, pudiendo dar de alta, modificar o eliminar equipos e imprimir un listado de los mismos .</li>
+<li>Acceder al listado de services realizados o para registrar. Pudiendo dar de alta service a un equipo o service realizado por horas.</li>
+<li>Para los clientes que tienen abono mensual donde se monitorea el estado de los respaldos, listar los mismos.</li>
+<li>Vemos la cantidad de horas que le tenemos asignadas por mes.</li>
+<li>Podemos ubicarlos en el mapa, siempre que los datos del domiciliio estén lo mas completos posibles.</li>
+<li>Modificar los datos del clietne.</li>
+<li>Ver los datos.</li>
+<li>Dar de baja un cliente, por mantener la consistencia de datos el cliente no se borra, se quita del listado.</li>
+</ul>
+</li>
+
+</ol>
+<p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Cliente seleccionado</strong></p>
+<p class="last">Al seleccionar un cliente queda la fila resatada, en caso de cambiar de página, al volver a la página donde se ve el cliente éste permanece seleccionado.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="../03_mantenimiento.html"  title="Capítulo anterior">1. Menú Mantenimiento</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="mantenimiento_011.html"  title="Próximo capítulo">1.1.1. Alta, Baja, Modificación cliente.</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="mantenimiento_011.html" title="1.1.1. Alta, Baja, Modificar Cliente">siguiente</a> |</li>
+        <li class="right" >
+          <a href="../03_mantenimiento.html" title="1. Menú Mantenimiento" >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_mantenimiento.html" >1. Menú Mantenimiento</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

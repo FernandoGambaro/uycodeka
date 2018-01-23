@@ -1,0 +1,180 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>13.3. Carrito &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="13. Web" href="../16_web.html" />
+    <link rel="next" title="13.4. Posicionamiento" href="04_others.html" />
+    <link rel="prev" title="13.2. Secciones" href="02_sections.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="04_others.html" title="13.4. Posicionamiento"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="02_sections.html" title="13.2. Secciones"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../16_web.html" accesskey="U">13. Web</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="carrito">
+<span id="howto-web-cart"></span><h1>13.3. Carrito<a class="headerlink" href="#carrito" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="section" id="index-1">
+<span id="id1"></span><h2>13.3.1. Carrito<a class="headerlink" href="#index-1" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="usuarios-web">
+<h3>13.3.1.1. Usuarios web<a class="headerlink" href="#usuarios-web" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Cuando un usuario se registra en la página se crea un Usuario Web en Fierro. Los usuarios web se visualizan en el menú Web-&gt;Usuarios Web. Para realizar un pedido web, el usuario debe registrarse.</p>
+<div class="figure">
+<img alt="../../_images/web_7.png" src="../../_images/web_7.png" />
+</div>
+<p>Un usuario web puede estar asociado a un cliente de la base de clientes del sistema.</p>
+<div class="figure">
+<img alt="../../_images/web_8.png" src="../../_images/web_8.png" />
+</div>
+</div>
+<div class="section" id="pedidos-web">
+<h3>13.3.1.2. Pedidos web<a class="headerlink" href="#pedidos-web" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Los pedidos generados desde la página crean una reserva web dentro de Fierro. Estas reservas se visualizan en el menú Ventas-&gt;Señas y reservas. Allí puede filtrar por tipo Reserva Web.</p>
+<p>Cuando se crea una reserva web, el administrador de la página recibe un mail con el aviso para luego desde el sistema realizar el seguimiento del pedido.</p>
+<p>Las reservas se crean en estado &#8220;A confirmar&#8221;. Cuando el administrador de la página verifica que se realizó el pago y que hay stock, debe cambiarle el curso al pedido con el botón &#8220;Aprobar reserva web&#8221;. Con esta acción la reserva pasa a estado Pendiente para seguir el circuito como cualquier otra seña o reserva.</p>
+<div class="figure">
+<img alt="../../_images/web_9.png" src="../../_images/web_9.png" />
+</div>
+<p>Cuando se cambia de estado la reserva web para darle curso, se puede elegir entre las siguientes opciones:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Dejar el usuario web vinculado al cliente predeterminado para facturarlo a ese cliente.</li>
+<li>Crear un nuevo cliente con los datos del usuario web, para que en futuras compras el usuario ya tenga su cliente asociado.</li>
+<li>Asociar el usuario web a un cliente preexistente en la base de datos. La asociación entre el usuario web y el cliente queda para las futuras operaciones.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/web_10.png" src="../../_images/web_10.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="formas-de-envio">
+<h3>13.3.1.3. Formas de envío<a class="headerlink" href="#formas-de-envio" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>En la programación de la página se calcula el costo de cada forma de envío. Este costo se puede calcular en función de la cantidad de libros, el peso, la dirección destino u cualquier otra variable del pedido generado. La reserva web generada contendrá el costo de envío como un adicional.</p>
+</div>
+<div class="section" id="formas-de-pago">
+<h3>13.3.1.4. Formas de pago<a class="headerlink" href="#formas-de-pago" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>En la programación de la página se agregan las formas de pago que permite el sitio. Puede ser una plataforma de pago que realice la cobranza con tarjeta u otro mecanismo.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">13.3. Carrito</a><ul>
+<li><a class="reference internal" href="#index-1">13.3.1. Carrito</a><ul>
+<li><a class="reference internal" href="#usuarios-web">13.3.1.1. Usuarios web</a></li>
+<li><a class="reference internal" href="#pedidos-web">13.3.1.2. Pedidos web</a></li>
+<li><a class="reference internal" href="#formas-de-envio">13.3.1.3. Formas de envío</a></li>
+<li><a class="reference internal" href="#formas-de-pago">13.3.1.4. Formas de pago</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="02_sections.html"
+                        title="Capítulo anterior">13.2. Secciones</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="04_others.html"
+                        title="Próximo capítulo">13.4. Posicionamiento</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="04_others.html" title="13.4. Posicionamiento"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="02_sections.html" title="13.2. Secciones"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../16_web.html" >13. Web</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

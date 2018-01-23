@@ -1,0 +1,291 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>7. Toma de inventario por ubicación &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="6. Stock" href="../09_stock.html" />
+    <link rel="next" title="8. Reducción de stock" href="stock_08.html" />
+    <link rel="prev" title="6. Toma de inventario mediante paquetes" href="stock_06.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="stock_08.html" title="8. Reducción de stock"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="stock_06.html" title="6. Toma de inventario mediante paquetes"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../09_stock.html" accesskey="U">6. Stock</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="toma-de-inventario-por-ubicacion">
+<h1>7. Toma de inventario por ubicación<a class="headerlink" href="#toma-de-inventario-por-ubicacion" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Toma de inventario</strong></p>
+<p>La <em>toma de inventario por ubicación</em> consiste en crear un inventario y luego
+registrar los libros contados por ubicación en un conjunto de tomas de inventario.</p>
+<p>El sistema permite crear dos inventarios paralelos y luego comparar los mismos,
+generando un archivo con las diferencias resultantes para volver a
+contar dichos libros y ajustar el conteo a las cantidades reales.</p>
+<p>El efecto final es que el stock se ajusta para llevarlo a las cantidades
+contadas.</p>
+<p class="last">Para utilizar esta función, es necesario realizar antes una configuración
+en el sistema. Por lo tanto, debe darse aviso previo de su utilización, para
+efectuar los ajustes necesarios.</p>
+</div>
+<div class="section" id="como-crear-un-inventario">
+<h2>7.1. ¿Cómo crear un inventario?<a class="headerlink" href="#como-crear-un-inventario" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-2"></span><p id="index-3">Los Inventarios se crean en el menú <cite>Stock &#8211;&gt; Inventario por ubicación &#8211;&gt; Inventario &#8211;&gt;</cite> Presionar <img alt="/icons/b_crear_inventario.png" class="inlinegraphic" src="../../_images/b_crear_inventario.png" /> Crear un inventario</p>
+<blockquote>
+<div><blockquote>
+<div><div class="figure">
+<img alt="../../_images/CrearInventario.png" src="../../_images/CrearInventario.png" />
+</div>
+</div></blockquote>
+<p>Se debe completar:</p>
+</div></blockquote>
+<ul class="simple">
+<li>Nombre: con el cuál se identificará el inventario creado.</li>
+<li>Depósito: seleccionar de la lista de depósitos sobre cuál tendrá efecto el inventario.</li>
+<li>Completo: Para inventarios completos, se debe tildar la opción. En caso de que el inventario sea sobre el stock parcial del depósito, no se debe tildar.</li>
+</ul>
+</div>
+<div class="section" id="como-editar-un-inventario">
+<h2>7.2. ¿Cómo editar un inventario?<a class="headerlink" href="#como-editar-un-inventario" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los Inventarios se editan desde el menú <cite>Stock &#8211;&gt; Inventario por ubicación &#8211;&gt; Inventario &#8211;&gt;</cite> Se abre la pantalla de consulta de inventario: seleccionar inventario a modificar y   Presionar <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" /> Modificar un inventario</p>
+</div>
+<div class="section" id="como-borrar-un-inventario">
+<h2>7.3. ¿Cómo borrar un inventario?<a class="headerlink" href="#como-borrar-un-inventario" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los Inventarios se borran desde  el menú <cite>Stock &#8211;&gt; Inventario por ubicación &#8211;&gt; Inventario &#8211;&gt;</cite>  Se abre la pantalla de consulta de inventario: seleccionar inventario a borrar  Presionar <img alt="/icons/22eliminar.png" class="inlinegraphic" src="../../_images/22eliminar.png" /> Borrar un inventario. El inventario no tiene que tener Tomas creadas para que se pueda borrar.</p>
+</div>
+<div class="section" id="como-crear-una-toma-de-inventario">
+<h2>7.4. ¿Cómo crear una toma de inventario?<a class="headerlink" href="#como-crear-una-toma-de-inventario" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-4"></span><ol class="arabic" id="index-5">
+<li><p class="first">Ir a la opción de menú <em class="menuselection">Stock ‣ Inventario por ubicación ‣ Tomas de inventario</em>.
+Se abre la pantalla de consulta de tomas de inventario:</p>
+<div class="figure">
+<img alt="../../_images/ConsultarToma.png" src="../../_images/ConsultarToma.png" />
+<p class="caption">Consulta Toma de inventario</p>
+</div>
+</li>
+<li><p class="first">Para crear una nueva toma de inventario presionar Presionar <img alt="/icons/b_crear_inventario.png" class="inlinegraphic" src="../../_images/b_crear_inventario.png" /> Crear una Toma de Inventario (conteo físico):</p>
+<div class="figure">
+<img alt="../../_images/CrearToma.png" src="../../_images/CrearToma.png" />
+<p class="caption">Crear toma de inventario</p>
+</div>
+</li>
+<li><p class="first">Se debe completar la cabecera del documento:</p>
+<ul class="simple">
+<li>Inventario: seleccionar de la lista de inventarios abiertos sobre cuál de ellos se realizará el conteo.</li>
+<li>Responsable: Se debe tiperar el nombre de la persona responsable de la toma.</li>
+<li>Fecha: El sistema sugiere la fecha del día, la misma puede ser cambiada a mano.</li>
+<li>Número de Toma: El sistema sigue una secuencia, la misma puede ser cambiada desde Sistema &#8211;&gt; Secuencias o bien asignar secuencia manual.</li>
+</ul>
+</li>
+<li><p class="first">Ingresar los productos contados. El ingreso lo puede hacer manualmente, seleccionando cada libro, o con la importación de datos desde un archivo CSV.</p>
+</li>
+</ol>
+<p>Si utiliza la opción de importar un archivo, previamente debe seleccionar la ubicación.</p>
+<p>Una vez cargados los productos con sus cantidades presionar el botón Aceptar. La toma de inventario se genera en el sistema.</p>
+</div>
+<div class="section" id="como-comparar-conteos-de-inventario">
+<h2>7.5. ¿Cómo comparar conteos de inventario?<a class="headerlink" href="#como-comparar-conteos-de-inventario" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-6"></span><div class="admonition note" id="index-7">
+<p class="first admonition-title">Nota</p>
+<p><strong>Toma de inventario</strong></p>
+<p class="last">Para comparar los inventarios, en el sistema debe haber registrado dos inventarios, con sus respectivas tomas de inventario. Ambos inventarios deben estar abiertos y pertenecen al mismo depósito.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Ir a la opción de menú <em class="menuselection">Stock ‣ Inventario por ubicación ‣ Inventario</em> Se abre la pantalla de consulta de inventarios.</p>
+<div class="figure">
+<img alt="../../_images/ConsultaInventario.png" src="../../_images/ConsultaInventario.png" />
+</div>
+</li>
+<li><p class="first">Buscar los dos inventarios a comparar, seleccionar ambos y  Presionar <img alt="/icons/b_comparar_inventario.png" class="inlinegraphic" src="../../_images/b_comparar_inventario.png" /> Comparar Inventarios.</p>
+</li>
+<li><p class="first">El sistema muestra una pantalla para seleccionar el tipo de salida del reporte. Seleccionar la opcion Planilla Open Office, la planilla contendra las formulas de las diferencias incluidas.</p>
+<div class="figure">
+<img alt="../../_images/ComparacionInventario.png" src="../../_images/ComparacionInventario.png" />
+</div>
+</li>
+<li><p class="first">En la planilla solo aparecen los productos que tienen diferencias en los inventarios. Se debe completar la columna &#8220;Cantidad real&#8221; en el archivo con los valores contados nuevamente y guardar la planilla con formato CSV para poder importarlo posteriormente en el sistema. De esta forma se genera el archivo con el nuevo conteo de las diferencias.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="generar-un-cargue-de-inventario-definitivo-con-informe-de-diferencias">
+<h2>7.6. Generar un cargue de inventario definitivo con informe de diferencias<a class="headerlink" href="#generar-un-cargue-de-inventario-definitivo-con-informe-de-diferencias" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Crear una nueva Toma de inventarios, sobre uno de los inventarios abiertos y comparados. Guardar la toma. A esta altura, ya uno de los dos Inventarios tiene la información correcta.</li>
+<li>Desde <cite>Stock &#8211;&gt; Inventario por ubicación &#8211;&gt; Inventario &#8211;&gt;</cite> seleccionar el inventario definitivo y Presionar <img alt="/icons/b_cerrar_inventario.png" class="inlinegraphic" src="../../_images/b_cerrar_inventario.png" /> Cerrar inventario.</li>
+</ol>
+</div>
+<div class="section" id="ajustes-de-stock">
+<h2>7.7. Ajustes de stock<a class="headerlink" href="#ajustes-de-stock" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El sistema genera los movimientos de stock para llevar el stock del sistema a las cantidades registradas en todas las tomas de inventario del inventario cerrado.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/ConfirmarInventario.png" src="../../_images/ConfirmarInventario.png" />
+</div>
+</div></blockquote>
+<ol class="arabic simple">
+<li>El inventario que no se tomó en cuenta para el ajuste final, se debe cancelar para que no quede pendiente por siempre. Para esto, el usuario selecciona este inventario y Presionar <img alt="/icons/22cancelar.png" class="inlinegraphic" src="../../_images/22cancelar.png" /> Cancelar inventario.</li>
+</ol>
+<p>El inventario queda cancelado.</p>
+<p>Luego de realizada la operación, el sistema muestra el listado de los documentos de stock creados para ejecutar el ajuste.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/AvisoFinal.png" src="../../_images/AvisoFinal.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="cierre-de-un-inventario-unico">
+<h2>7.8. Cierre de un inventario único<a class="headerlink" href="#cierre-de-un-inventario-unico" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>En caso de no generar dos inventarios para comparar los conteos, para cerrar el inventario: <cite>Stock &#8211;&gt; Inventario por ubicación &#8211;&gt; Inventario &#8211;&gt;</cite> seleccionar el inventario definitivo y Presionar <img alt="/icons/b_cerrar_inventario.png" class="inlinegraphic" src="../../_images/b_cerrar_inventario.png" /> Cerrar inventario.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Documentos del ajuste</strong></p>
+<p>El sistema hace los ajustes mediante Documentos de stock, tanto de Entrada
+como de Salida. Si, por ejemplo, un documento de salida muestra la cantidad
+4, significa que el sistema encontró 4 items más que los señalados por el
+conteo, y por ello hace la salida de cuatro. Si por el contrario, aparece
+por ejemplo la cifra 2 para un documento de entrada, significa que el
+sistema encontró 2 items menos que los señalados por el conteo, y por eso
+hace el ingreso de dos.</p>
+<p>Los documentos de stock de entrada y salida generados por el ajuste pueden
+visualizarse mediante una búsqueda de Documentos de stock, seleccionando la
+opción de menú <em class="menuselection">Stock ‣ Documentos de stock</em>.</p>
+<p class="last">Otra forma de visualizar dichos documentos es mediante un reporte, con la
+opción de menú <em class="menuselection">Stock ‣ Reportes ‣ Documentos de stock</em>.</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<blockquote>
+<div>Mediante un bloqueo de documentos se puede evitar, por ejemplo, que se
+ingrese un remito con fecha anterior a la del ajuste, y ello modifique en el
+sistema los movimientos operados por dicho ajuste.</div></blockquote>
+<p class="last">Si luego de haber hecho el ajuste se crea un bloqueo para cierto tipo de
+documento, y se coloca como fecha de corte la del ajuste, ningún documento de
+ese tipo podrá ser ingresado con fecha anterior a la señalada por el corte.
+Ver <a class="reference internal" href="../general/general_08.html#howto-others-bloqueodocumentos"><em>¿Cómo bloquear documentos?</em></a>.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">7. Toma de inventario por ubicación</a><ul>
+<li><a class="reference internal" href="#como-crear-un-inventario">7.1. ¿Cómo crear un inventario?</a></li>
+<li><a class="reference internal" href="#como-editar-un-inventario">7.2. ¿Cómo editar un inventario?</a></li>
+<li><a class="reference internal" href="#como-borrar-un-inventario">7.3. ¿Cómo borrar un inventario?</a></li>
+<li><a class="reference internal" href="#como-crear-una-toma-de-inventario">7.4. ¿Cómo crear una toma de inventario?</a></li>
+<li><a class="reference internal" href="#como-comparar-conteos-de-inventario">7.5. ¿Cómo comparar conteos de inventario?</a></li>
+<li><a class="reference internal" href="#generar-un-cargue-de-inventario-definitivo-con-informe-de-diferencias">7.6. Generar un cargue de inventario definitivo con informe de diferencias</a></li>
+<li><a class="reference internal" href="#ajustes-de-stock">7.7. Ajustes de stock</a></li>
+<li><a class="reference internal" href="#cierre-de-un-inventario-unico">7.8. Cierre de un inventario único</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="stock_06.html"
+                        title="Capítulo anterior">6. Toma de inventario mediante paquetes</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="stock_08.html"
+                        title="Próximo capítulo">8. Reducción de stock</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="stock_08.html" title="8. Reducción de stock"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="stock_06.html" title="6. Toma de inventario mediante paquetes"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../09_stock.html" >6. Stock</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

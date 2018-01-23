@@ -1,0 +1,149 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>12. ¿Cómo modificar el próximo número de Factura de Venta? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="13. ¿Cómo reemprimir una Factura de Venta?" href="ventas_11.html" />
+    <link rel="prev" title="11. ¿Cómo renumerar Facturas de Venta?" href="ventas_09.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_11.html" title="13. ¿Cómo reemprimir una Factura de Venta?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_09.html" title="11. ¿Cómo renumerar Facturas de Venta?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-modificar-el-proximo-numero-de-factura-de-venta">
+<h1>12. ¿Cómo modificar el próximo número de Factura de Venta?<a class="headerlink" href="#como-modificar-el-proximo-numero-de-factura-de-venta" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><ol class="arabic" id="index-1">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Otros ‣ Puntos de
+facturación</em>. Se abrirá la pantalla Puntos de Facturación.</p>
+</li>
+<li><p class="first">Seleccionar el punto de facturación donde se cambiará la numeración.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Modificar</em>. Se abrirá la ventana Modificación
+del punto de venta.</p>
+<div class="figure">
+<img alt="../../_images/scrEditSalePoint.png" src="../../_images/scrEditSalePoint.png" />
+<p class="caption">Pantalla Edición Punto de Facturación</p>
+</div>
+</li>
+<li><p class="first">Modificar el campo Próximo número de factura.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Numeración de facturas por punto de venta</strong></p>
+<p>Los <em>Puntos de Venta</em> representan el lugar donde se
+realiza la facturación y contienen la numeración que utilizan.</p>
+<p class="last">Una sucursal puede tener varios puntos de venta.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_09.html"
+                        title="Capítulo anterior">11. ¿Cómo renumerar Facturas de Venta?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_11.html"
+                        title="Próximo capítulo">13. ¿Cómo reemprimir una Factura de Venta?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_11.html" title="13. ¿Cómo reemprimir una Factura de Venta?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_09.html" title="11. ¿Cómo renumerar Facturas de Venta?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

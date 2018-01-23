@@ -1,0 +1,231 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>8.12. ¿Cómo crear tareas programadas? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="8. General" href="../11_general.html" />
+    <link rel="next" title="8.13. SINLI" href="general_13.html" />
+    <link rel="prev" title="8.11. ¿Cómo trabajar offline en Fierro?" href="general_11.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="general_13.html" title="8.13. SINLI"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_11.html" title="8.11. ¿Cómo trabajar offline en Fierro?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" accesskey="U">8. General</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-tareas-programadas">
+<span id="howto-others-tareasprogramadas"></span><h1>8.12. ¿Cómo crear tareas programadas?<a class="headerlink" href="#como-crear-tareas-programadas" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p>En Fierro pueden crearse <em>tareas programadas</em>, en las cuales se indican
+ciertos parámetros para que el sistema evalúe si realizar o no determinada
+acción.</p>
+<p>Por cada tarea (de cualquier tipo) se indican parámetros como Nombre, Tipo,
+Fecha y Hora. Éstas últimas indican cuándo exactamente se ejecutará la
+tarea.</p>
+<p>Las tareas se pueden crear para ejecutarse una única vez (por ejemplo, que
+dentro de 15 minutos se evalúen las ventas), o en forma periódica (que las
+ventas se evalúen todas las noches a las 12:00).</p>
+<p>Actualmente existen varios tipos:</p>
+<ol class="last arabic simple">
+<li><em>Sugerencias en base a ventas</em>;</li>
+<li><em>Alerta de pedido de baja pendiente</em>;</li>
+<li><em>Regeneración de costos</em>;</li>
+<li><em>Actualización de cotizaciones</em>;</li>
+<li><em>Búsqueda automática de tapas faltantes</em>;</li>
+<li><em>SINLIARG: recepción de mensajes por mail (POP3)</em>;</li>
+<li><em>SINLIARG: envío de mensajes por mail (SMTP)</em>;</li>
+<li><em>Prueba (tarea de autoevaluación del mecanismo)</em>.</li>
+</ol>
+</div>
+<div class="section" id="sugerencias-en-base-a-ventas">
+<h2>8.12.1. Sugerencias en base a ventas<a class="headerlink" href="#sugerencias-en-base-a-ventas" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-2"></span><div class="admonition note" id="index-3">
+<p class="first admonition-title">Nota</p>
+<p>A partir de un ritmo alto de ventas, el sistema produce &#8220;alertas de
+reposición&#8221; para detectar qué libros requieren de urgente recompra. El
+usuario puede programar también otros criterios: libros que están por debajo
+de un stock mínimo, o que han llegado a stock cero, etcétera.</p>
+<p class="last">El sistema puede enviar dichas alertas al mail del usuario, y crear
+automáticamente las <em class="guilabel">sugerencias de compra</em> respectivas (<em>Véase</em>
+<a class="reference internal" href="../compras/compras_01.html#howto-compras-sec1"><em>¿Cómo agregar una sugerencia de compra?</em></a>).</p>
+</div>
+<ol class="arabic">
+<li><p class="first">En <em class="menuselection">Sistema ‣ Tareas programadas</em>, pulsar el botón
+<em class="guilabel">Crear</em>: aparece el editor de tarea nueva.</p>
+<div class="figure">
+<img alt="../../_images/crearTareaProgramada.png" src="../../_images/crearTareaProgramada.png" />
+<p class="caption">Crear tarea programada</p>
+</div>
+</li>
+<li><p class="first">Cada tipo de tarea posee parámetros específicos. Cuando se selecciona el
+tipo, se despliegan dichos parámetros. Para cambiar el valor de un parámetro,
+se selecciona y se presiona el botón <em class="guilabel">Modificar</em>.</p>
+</li>
+<li><p class="first">Definición:</p>
+<ul>
+<li><p class="first"><em>¿Enviar Mail?</em>: indica si luego de ejecutarse la tarea se envía o no un
+mail con la información.</p>
+</li>
+<li><p class="first"><em>¿Generar Sugerencia?</em>: indica si la tarea creará sugerencias de compra
+para los libros evaluados. Si el libro ya tiene sugerencias de compra,
+éstas no se vuelven a generar.</p>
+</li>
+<li><p class="first"><em>Fórmula para alertar</em>: aquí se indica el criterio que tomará el sistema
+para alertar si hay que pedir un libro. El usuario puede armar la fórmula
+que le sea útil, teniendo a disposición algunas variables. Por ejemplo, si
+quiere alertas cuando hubo ventas y el stock es cero, la función será:
+VENTA mayor que 0 y STOCK menor o igual que 0.</p>
+<p>Las variables que puede utilizar son:</p>
+<p>VENTA: venta en el período.</p>
+<p>VULTMES: venta último mes.</p>
+<p>VULTANIO: venta último año.</p>
+<p>VULTSEMANA: venta última semana.</p>
+<p>VENTAESTIMADA: el sistema evalúa si alertar o no según la tendencia de
+venta.</p>
+<p>STOCK.</p>
+<p>CONSIGNACION.</p>
+<p>STOCK_MINIMO: stock mínimo del producto en los depósitos de la sucursal.</p>
+<p>STOCK_MAXIMO: stock máxima del producto en los depósitos de la sucursal.</p>
+<p>PUNTO_REORDEN: punto de reorden.</p>
+</li>
+<li><p class="first"><em>Cantidad a sugerir</em>: también es una fórmula para indiabbrevcar qué
+cantidad sugiere el sistema.</p>
+</li>
+<li><p class="first"><em>Sucursal</em>: la evaluación siempre se ejecuta sobre una sucursal.</p>
+</li>
+</ul>
+</li>
+<li><p class="first"><em>Fecha y Hora</em>: indican cuándo exactamente se ejecutará la tarea.</p>
+</li>
+<li><p class="first"><em>Intervalo</em>: se indicará cuando las tareas sean periódicas.</p>
+</li>
+<li><p class="first"><em>E- Mail</em>: dirección de correo a donde se envía el resultado de la tarea.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Un ejemplo: si se desea que todas las noches a las 02:00 se evalúen las
+ventas y se creen sugerencias de compra para libros que quedaron con
+stock menor a 2 ejemplares, la configuración sería la siguiente:</p>
+</div>
+<div class="figure">
+<img alt="../../_images/tareaProgramada.png" src="../../_images/tareaProgramada.png" />
+<p class="caption">Tarea programada</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">8.12. ¿Cómo crear tareas programadas?</a><ul>
+<li><a class="reference internal" href="#sugerencias-en-base-a-ventas">8.12.1. Sugerencias en base a ventas</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="general_11.html"
+                        title="Capítulo anterior">8.11. ¿Cómo trabajar offline en Fierro?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="general_13.html"
+                        title="Próximo capítulo">8.13. SINLI</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="general_13.html" title="8.13. SINLI"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_11.html" title="8.11. ¿Cómo trabajar offline en Fierro?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" >8. General</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

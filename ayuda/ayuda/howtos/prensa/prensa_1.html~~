@@ -1,0 +1,298 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>12.1. ¿Cómo buscar un periodista? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="12. Prensa" href="../15_prensa.html" />
+    <link rel="next" title="12.6. ¿Cómo enviar libros a Periodistas?" href="prensa_2.html" />
+    <link rel="prev" title="12. Prensa" href="../15_prensa.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="prensa_2.html" title="12.6. ¿Cómo enviar libros a Periodistas?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="../15_prensa.html" title="12. Prensa"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../15_prensa.html" accesskey="U">12. Prensa</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-buscar-un-periodista">
+<h1>12.1. ¿Cómo buscar un periodista?<a class="headerlink" href="#como-buscar-un-periodista" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><ol class="arabic">
+<li><p class="first">Hacer click en el menú <em class="menuselection">Prensa ‣ Periodistas</em>. Se abrirá la consulta de periodistas.</p>
+</li>
+<li><p class="first">El panel de búsqueda General permite buscar por código y nombre.</p>
+</li>
+<li><p class="first">El panel de búsqueda Transacción permite buscar por sucursal, fecha, o usuario de creación o modificación.</p>
+</li>
+<li><p class="first">El panel de búsqueda Extendido permite buscar por Tipo y Medio de periodista.</p>
+<div class="figure">
+<img alt="../../_images/Prensapanelextendido.png" src="../../_images/Prensapanelextendido.png" />
+<p class="caption">Consulta de periodistas</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="como-crear-un-nuevo-periodista">
+<h1>12.2. ¿Cómo crear un nuevo periodista?<a class="headerlink" href="#como-crear-un-nuevo-periodista" title="Enlazar permanentemente con este título">¶</a></h1>
+<ol class="arabic">
+<li><p class="first">Desde la pantalla <em>Búsqueda de Periodistas</em> seleccionar la opción de menú <em class="menuselection">Ventana Activa ‣ Nuevo Periodista</em> o el ícono <img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" />.  Se abrirá el asistente para crear un nuevo periodista. Ver <a class="reference internal" href="../../basics/pantallas/pantallas_03.html#basics-controls-wizards"><em>Asistente</em></a>.</p>
+<div class="figure">
+<img alt="../../_images/Prensacrearperiodista1.png" src="../../_images/Prensacrearperiodista1.png" />
+<p class="caption">Asistente para crear un periodista.</p>
+</div>
+</li>
+<li><p class="first">Completar los pasos del asistente. Para finalizar en un paso intermedio presionar las teclas <tt class="kbd docutils literal"><span class="pre">Ctrl</span></tt><tt class="kbd docutils literal"><span class="pre">F</span></tt>.</p>
+<p>Presionar el botón <em class="guilabel">Finish (Terminar )</em> para crear el periodista.</p>
+</li>
+</ol>
+<p>Las secciones de la creación de un periodista son:</p>
+<div class="section" id="datos-personales">
+<h2>12.2.1. Datos personales<a class="headerlink" href="#datos-personales" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los datos que podra completar son:</p>
+<ul class="simple">
+<li>Código: Código del periodista con el que se referencia en el sistema. Ver
+<a class="reference internal" href="../../basics/pantallas/pantallas_05.html#basics-controls-sequences"><em>Ingreso de códigos</em></a>.</li>
+<li>Nombre y Apellido.</li>
+<li>Tipo y Número de documento.</li>
+<li>Tipo de IVA.</li>
+<li>CUIT\CUIL.</li>
+</ul>
+</div>
+<div class="section" id="datos-generales">
+<h2>12.2.2. Datos generales<a class="headerlink" href="#datos-generales" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los datos a completar son:</p>
+<ul>
+<li><p class="first">Tipo: clasificación del periodista.</p>
+</li>
+<li><p class="first">Medio: medio en el cual trabaja el periodista.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Prensacrearperiodista2.png" src="../../_images/Prensacrearperiodista2.png" />
+<p class="caption">Asistente para crear un periodista.</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="direccion-del-periodista">
+<h2>12.2.3. Dirección del periodista.<a class="headerlink" href="#direccion-del-periodista" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Datos de contacto del periodista:</p>
+<ul>
+<li><p class="first">Domicilio.</p>
+</li>
+<li><p class="first">Código Postal.</p>
+</li>
+<li><p class="first">País.</p>
+</li>
+<li><p class="first">Provincia.</p>
+</li>
+<li><p class="first">Localidad.</p>
+</li>
+<li><p class="first">Teléfono.</p>
+</li>
+<li><p class="first">Email.</p>
+</li>
+<li><p class="first">Página Web.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Prensacrearperiodista3.png" src="../../_images/Prensacrearperiodista3.png" />
+<p class="caption">Asistente para crear un periodista.</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="notas">
+<h2>12.2.4. Notas<a class="headerlink" href="#notas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El periodista puede tener notas asociadas.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>¿Qué son?</strong></p>
+<p>Las <em>notas</em> son comentarios que pueden hacerse para variadas utilidades.</p>
+<p>Las notas quedan registradas y todos los usuarios pueden leer el contenido,
+quién las escribió, en qué fecha y sucursal.</p>
+<p class="last">Ver <a class="reference internal" href="../general/general_03.html#howto-others-notes"><em>¿Cómo agregar notas a los libros, clientes, proveedores o
+documentos?</em></a>.</p>
+</div>
+<p>Para agregar una nota:</p>
+<ol class="arabic">
+<li><p class="first">Presionar el botón <img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" />. Se abrirá la pantalla Nueva Nota.</p>
+<div class="figure">
+<img alt="../../_images/scrNewNote.png" src="../../_images/scrNewNote.png" />
+<p class="caption">Pantalla Nueva Nota</p>
+</div>
+</li>
+<li><p class="first">Completar el título (Asunto) y el texto de la nota.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+<div class="figure">
+<img alt="../../_images/Prensacrearperiodista6.png" src="../../_images/Prensacrearperiodista6.png" />
+<p class="caption">Asistente para crear un periodista.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="como-crear-un-periodista-a-partir-de-un-cliente">
+<h1>12.3. ¿Cómo crear un periodista a partir de un cliente?<a class="headerlink" href="#como-crear-un-periodista-a-partir-de-un-cliente" title="Enlazar permanentemente con este título">¶</a></h1>
+<ol class="arabic simple">
+<li>Desde la pantalla <em>Búsqueda de Periodistas</em> seleccionar la opción de menú <em class="menuselection">Ventana Activa ‣ Nuevo Periodista a partir de un cliente</em> o el ícono <img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" /> Crear un nuevo periodista partiendo de un cliente. Se abrirá la consulta de clientes (Ver <a class="reference internal" href="../ventas/ventas_03.html#howto-ventas-sec3"><em>¿Cómo buscar un cliente?</em></a>).</li>
+<li>Seleccionar el cliente y aceptar. Los datos del cliente pasarán a la nueva ficha de periodista.</li>
+<li>Completar la ficha y aceptar.</li>
+</ol>
+</div>
+<div class="section" id="como-crear-un-medio">
+<h1>12.4. ¿Cómo crear un Medio?<a class="headerlink" href="#como-crear-un-medio" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Los medios son, entre otros, los periódicos, canales de televición, radios, en los cuales trabajan los periodistas. Para poder agregarlos a sus fichas es necesario que estén crearlos previamente.</p>
+<ol class="arabic">
+<li><p class="first">En el menú Prensa, seleccionar Medios y se abrirá la pantalla de Medios</p>
+<div class="figure">
+<img alt="../../_images/Prensamedios.png" src="../../_images/Prensamedios.png" />
+<p class="caption">Crear un Medio</p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Crear</em>, ingresar el nombre del medio y aceptar.</p>
+<div class="figure">
+<img alt="../../_images/Prensamedios2.png" src="../../_images/Prensamedios2.png" />
+<p class="caption">Crear un Medio</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="como-crear-un-nuevo-tipo-de-periodista">
+<h1>12.5. ¿Cómo crear un nuevo tipo de periodista?<a class="headerlink" href="#como-crear-un-nuevo-tipo-de-periodista" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Los tipos se utilizan para clasificar a los periodistas. Una clasificación frecuente es la temática sobre la cual trabaja el periodista, por ejemplo: críticos de literatura, espectáculos, tecnología, etc.. Para poder agregarlos a sus fichas es necesario que estén crearlos previamente.</p>
+<ol class="arabic">
+<li><p class="first">En el menú Prensa, seleccionar Tipos y se abrirá la pantalla de Tipos</p>
+<div class="figure">
+<img alt="../../_images/Prensatiposdeperiodistas.png" src="../../_images/Prensatiposdeperiodistas.png" />
+<p class="caption">Creación de un tipo de periodista</p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Crear</em>, ingresar el nombre del medio y aceptar.</p>
+<div class="figure">
+<img alt="../../_images/Prensatiposdeperiodistas2.png" src="../../_images/Prensatiposdeperiodistas2.png" />
+<p class="caption">Creación de un tipo de periodista</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../manual.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">12.1. ¿Cómo buscar un periodista?</a></li>
+<li><a class="reference internal" href="#como-crear-un-nuevo-periodista">12.2. ¿Cómo crear un nuevo periodista?</a><ul>
+<li><a class="reference internal" href="#datos-personales">12.2.1. Datos personales</a></li>
+<li><a class="reference internal" href="#datos-generales">12.2.2. Datos generales</a></li>
+<li><a class="reference internal" href="#direccion-del-periodista">12.2.3. Dirección del periodista.</a></li>
+<li><a class="reference internal" href="#notas">12.2.4. Notas</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#como-crear-un-periodista-a-partir-de-un-cliente">12.3. ¿Cómo crear un periodista a partir de un cliente?</a></li>
+<li><a class="reference internal" href="#como-crear-un-medio">12.4. ¿Cómo crear un Medio?</a></li>
+<li><a class="reference internal" href="#como-crear-un-nuevo-tipo-de-periodista">12.5. ¿Cómo crear un nuevo tipo de periodista?</a></li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="../15_prensa.html"
+                        title="Capítulo anterior">12. Prensa</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="prensa_2.html"
+                        title="Próximo capítulo">12.6. ¿Cómo enviar libros a Periodistas?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="prensa_2.html" title="12.6. ¿Cómo enviar libros a Periodistas?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="../15_prensa.html" title="12. Prensa"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../15_prensa.html" >12. Prensa</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

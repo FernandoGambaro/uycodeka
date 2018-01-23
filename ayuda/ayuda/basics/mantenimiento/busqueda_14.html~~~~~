@@ -1,0 +1,185 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>14. Configurar las columnas del resultado &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Búsquedas" href="../03_mantenimiento.html" />
+    <link rel="next" title="15. Guardar las vistas personalizadas" href="mantenimiento_15.html" />
+    <link rel="prev" title="13. ¿Cómo exportar los resultados de una búsqueda?" href="mantenimiento_13.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="mantenimiento_15.html" title="15. Guardar las vistas personalizadas"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="mantenimiento_13.html" title="13. ¿Cómo exportar los resultados de una búsqueda?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_mantenimiento.html" accesskey="U">3. Búsquedas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="configurar-las-columnas-del-resultado">
+<span id="basics-searchs-sec13"></span><h1>14. Configurar las columnas del resultado<a class="headerlink" href="#configurar-las-columnas-del-resultado" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Vistas Personalizadas</strong></p>
+<p>Las columnas que aparecen en la lista de resultados pueden configurarse.</p>
+<p>Esta configuración consiste en:
+* Qué columnas se visualizan.</p>
+<ul class="simple">
+<li>En qué orden aparecen las columnas.</li>
+<li>En qué orden aparecen los resultados</li>
+</ul>
+<p class="last">Esta configuración queda guardada por usuario y se denomina
+<em>Vista Personalizada</em>.</p>
+</div>
+<p>Para configurar la vista personalizada, realizar los siguientes pasos:</p>
+<ol class="arabic">
+<li><p class="first">Hacer click derecho sobre la cabecera de la lista de resultados.</p>
+<div class="figure">
+<img alt="../../_images/scrListViewMenu.png" src="../../_images/scrListViewMenu.png" />
+<p class="caption">Menú Vistas Personalizadas sobre las columnas</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la opción <em class="guilabel">Personalizar vista actual</em>.
+Se abrirá la pantalla de modificación de la vista personalizada.</p>
+<div class="figure">
+<img alt="../../_images/scrListViewEdition.png" src="../../_images/scrListViewEdition.png" />
+<p class="caption">Pantalla Edición Vista Personalizada</p>
+</div>
+<p>La pantalla Edición de Vista Personalizada contiene las siguientes partes:</p>
+<ul class="simple">
+<li>Nombre de la vista personalizada.</li>
+<li>Lista de columnas disponibles: son todas las columnas que pueden ser
+visualizadas en la búsqueda.</li>
+<li>Lista de columnas visibles: son las columnas seleccionadas para ver en el
+resultado de la búsqueda.</li>
+<li>Lista de orden: son las columnas con el indicador de orden que tendrán los
+datos.</li>
+<li>Las flechas entre la lista de columnas disponibles y visibles se utilizan
+para pasar columnas de una lista a otra.</li>
+<li>Las flechas entre la lista de visibles y orden se utilizan para pasar
+columnas de una lista a otra.</li>
+<li>Las flechas debajo de la lista de columnas visibles se utilizan para
+determinar el orden en que aparecen las columnas.</li>
+<li>Las flechas debajo de la lista orden se utilizan para determinar el orden
+en que se aplica el ordenamiento de columnas. Por ejemplo, se puede ordenar
+primero por editorial y después por título.</li>
+<li>Los botones a la derecha de la lista de orden se utilizan para determinar
+si el orden es ascendente o descentente.</li>
+</ul>
+</li>
+<li><p class="first">Seleccionar las columnas que se quieren visualizar. (Se debe hacer click
+sobre la columna elegida para seleccionarla y luego cambiar su orden mediante
+las flechas.)</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">La próxima vez que ingrese a la pantalla de búsqueda, la configuración
+de las columnas será la última vista personalizada utilizada.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="mantenimiento_13.html"
+                        title="Capítulo anterior">13. ¿Cómo exportar los resultados de una búsqueda?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="mantenimiento_15.html"
+                        title="Próximo capítulo">15. Guardar las vistas personalizadas</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="mantenimiento_15.html" title="15. Guardar las vistas personalizadas"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="mantenimiento_13.html" title="13. ¿Cómo exportar los resultados de una búsqueda?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_mantenimiento.html" >3. Búsquedas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

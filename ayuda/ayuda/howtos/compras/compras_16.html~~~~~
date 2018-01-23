@@ -1,0 +1,254 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>15. Otras operaciones &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Compras" href="../07_compras.html" />
+    <link rel="next" title="16. Costos" href="compras_17.html" />
+    <link rel="prev" title="14. ¿Cómo visualizar los pedidos pendientes de un Proveedor?" href="compras_15.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="compras_17.html" title="16. Costos"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_15.html" title="14. ¿Cómo visualizar los pedidos pendientes de un Proveedor?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" accesskey="U">3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="otras-operaciones">
+<h1>15. Otras operaciones<a class="headerlink" href="#otras-operaciones" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="creacion-de-un-paquete-con-el-original-de-consignacion-de-un-proveedor">
+<span id="howto-compras-others-createconsignpacket"></span><h2>15.1. Creación de un paquete con el original de consignación de un proveedor<a class="headerlink" href="#creacion-de-un-paquete-con-el-original-de-consignacion-de-un-proveedor" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Este procedimiento genera un paquete con el original de consignación del
+proveedor.</p>
+<ol class="arabic simple">
+<li>Ir a la consulta de remitos en <em class="menuselection">Compras ‣ Remitos</em>.</li>
+<li>Buscar los remitos pendientes del proveedor filtrando por proveedor y estado
+Pendiente. Si el procedimiento se quiere hacer por sucursal, aplicar el
+filtro de sucursales.</li>
+<li>Seleccionar los remitos pendientes.</li>
+<li>Presionar el botón DE <img alt="/icons/22ndevolucion.png" class="inlinegraphic" src="../../_images/22ndevolucion.png" /> o menú
+<em class="menuselection">Ventana Activa ‣ Crear paquete de consignación</em> . Aparecerá
+una pantalla donde se consulta si se desea generar el paquete con el stock de
+dichos libros o con el original de consignación.</li>
+<li>Seleccionar la opción <em>Original de Consignación</em>.</li>
+<li>El sistema mostrará el nombre del paquete a crear y se generará el paquete.</li>
+</ol>
+</div>
+<div class="section" id="comparacion-de-la-consignacion-del-sistema-contra-la-enviada-por-el-proveedor">
+<h2>15.2. Comparación de la consignación del sistema contra la enviada por el proveedor<a class="headerlink" href="#comparacion-de-la-consignacion-del-sistema-contra-la-enviada-por-el-proveedor" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p>Este procedimiento se utiliza cuando se quiere comparar la consignación de
+un proveedor que indica el sistema, contra lo que indica el proveedor. En
+general, el proveedor envía una planilla con su información.</p>
+<p>Para esto, es necesario tener dos paquetes: uno con la consignación que
+indica el sistema, y otro con la consignación enviada por el proveedor.</p>
+<p class="last">Una vez que se tienen los dos paquetes, se pueden comparar mediante el
+sistema.</p>
+</div>
+<p>El procedimiento es el siguiente:</p>
+<ol class="arabic">
+<li><p class="first"><em>Generar un paquete con la consignación que indica el sistema</em></p>
+<p>El paquete con la consignación del proveedor se genera mediante el
+procedimiento <a class="reference internal" href="#howto-compras-others-createconsignpacket"><em>Creación de un paquete con el original de consignación de
+un proveedor</em></a>.</p>
+</li>
+<li><p class="first"><em>Generar un paquete con la consignación enviada por el proveedor</em></p>
+<p>Si el proveedor envió una planilla con la información, el paquete se puede
+crear mediante el procedimiento <a class="reference internal" href="../general/general_09.html#howto-others-importcsv"><em>Importación de documentos desde
+planillas</em></a>.</p>
+</li>
+<li><p class="first"><em>Comparar los paquetes</em></p>
+<p>Una vez que se tienen los dos paquetes, se realiza la comparación mediante el
+procedimiento <a class="reference internal" href="../general/general_02.html#howto-others-packet-compare"><em>Comparación de paquetes</em></a>.</p>
+<p>Luego de la comparación se obtendrán los 3 paquetes con la siguiente
+información:</p>
+<ol class="arabic simple">
+<li>Libros y cantidades que coinciden, es decir, que para el proveedor y para
+el sistema las cantidades consignadas son iguales.</li>
+<li>Libros y cantidades que para el sistema están consignadas pero para el
+proveedor no.</li>
+<li>Libros y cantidades que para el proveedor están consignadas pero para el
+sistema no.</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="section" id="fusion-administrativa-de-proveedores">
+<h2>15.3. Fusión administrativa de proveedores<a class="headerlink" href="#fusion-administrativa-de-proveedores" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>A continuación se detalla el procedimiento que debe realizarse cuando dos
+proveedores se fusionan. A nivel de sistema, lo que hay que hacer es &#8220;limpiar&#8221;
+la consignación y la cuenta corriente de un proveedor, y agregar esa información
+al proveedor que queda.</p>
+<ol class="arabic">
+<li><p class="first"><em>Vaciar la consignación del proveedor a anular</em></p>
+<p>El primer paso es hacer que el proveedor que deja de operar tenga la
+consignación en cero. Esta consignación será pasada al proveedor que queda.
+Para esto, hay que hacer una devolución ficticia al proveedor, y con los
+mismos libros hacer un remito al otro. De esta forma, se baja una
+consignación y se sube la otra, sin afectar el stock físico.</p>
+<p>Para obtener el listado de libros que hay que incluir en la devolución,
+realizar un paquete con el procedimiento: <a class="reference internal" href="#howto-compras-others-createconsignpacket"><em>Creación de un paquete con el
+original de consignación de un proveedor</em></a>.</p>
+<p>Luego, realizar la devolución (<em class="menuselection">Compras ‣ Devoluciones</em>) con
+el paquete de la consignación al proveedor que se va a anular.</p>
+<p>Para verificar que la consignación quedó vacía, ir a la ficha del proveedor y
+visualizar la vista Consignaciones. Esta debe aparecer vacía.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Si el proveedor no tiene la consignación unificada, debe realizarse la
+limpieza de la consignación por cada sucursal en forma separada.</p>
+</div>
+</li>
+<li><p class="first"><em>Aumentar la consignación del proveedor que queda activo</em></p>
+<p>Con el paquete utilizado en el paso anterior, crear un nuevo remito de
+consignación. Se recomienda cargarlo con el número 9999-99999999 para
+identificar que es un remito ficticio.</p>
+</li>
+<li><p class="first"><em>Limpiar la cuenta corriente del proveedor a anular</em></p>
+<p>Los comprobantes pendientes del proveedor a anular hay que pasarlos al otro
+proveedor. Para esto, hay que visualizar en la cuenta corriente los
+documentos pendientes, cancelarlos y cargarlos en el otro proveedor.</p>
+<p>Para cancelar la deuda, hay que hacer una orden de pago o recibo anulando
+todos los comprobantes. A este pago hay que ingresarle alguna forma de pago
+que no afecte la caja ni el banco. Se puede utilizar alguna opción de
+<a class="reference internal" href="../general/general_06.html#howto-others-otrasformasdepago"><em>Otras formas de pago</em></a>. De esta forma,
+la deuda del proveedor pasa a ser cero.</p>
+<p>Luego, hay que volver a cargar las facturas al otro proveedor.  Estas
+facturas hay que ingresarlas como facturas generales (sin libros), para no
+afectar el stock. Se deben cargar con el mismo importe, número y fecha para
+que la cuenta corriente quede igual a como estaba en el otro proveedor.</p>
+</li>
+<li><p class="first"><em>Cambio del proveedor principal</em></p>
+<p>Si se desea, puede cambiarse el proveedor principal de los libros del
+proveedor que se va a anular. Para esto, buscar todos los libros cuyo
+proveedor principal es el deseado (mediante el panel de búsqueda compras) y
+realizar el cambio masivo de proveedor (Ver <a class="reference internal" href="../catalogo/catalogo_04.html#howto-catalogo-book-changemainprovider"><em>Cambio masivo de proveedor
+principal</em></a>).</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p>El proveedor que se anula no puede borrarse del sistema porque tienen
+operaciones. Es posible volver a generar operaciones con este proveedor
+porque no queda bloqueado.</p>
+<p class="last">Por este motivo, se recomienda tener cuidado de no cargarle nuevas
+operaciones.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../manual.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">15. Otras operaciones</a><ul>
+<li><a class="reference internal" href="#creacion-de-un-paquete-con-el-original-de-consignacion-de-un-proveedor">15.1. Creación de un paquete con el original de consignación de un proveedor</a></li>
+<li><a class="reference internal" href="#comparacion-de-la-consignacion-del-sistema-contra-la-enviada-por-el-proveedor">15.2. Comparación de la consignación del sistema contra la enviada por el proveedor</a></li>
+<li><a class="reference internal" href="#fusion-administrativa-de-proveedores">15.3. Fusión administrativa de proveedores</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="compras_15.html"
+                        title="Capítulo anterior">14. ¿Cómo visualizar los pedidos pendientes de un Proveedor?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="compras_17.html"
+                        title="Próximo capítulo">16. Costos</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="compras_17.html" title="16. Costos"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_15.html" title="14. ¿Cómo visualizar los pedidos pendientes de un Proveedor?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" >3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Lambda Sistemas.
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

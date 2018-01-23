@@ -1,0 +1,163 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>13. ¿Cómo exportar los resultados de una búsqueda? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Búsquedas" href="../03_busqueda.html" />
+    <link rel="next" title="14. Configurar las columnas del resultado" href="busqueda_14.html" />
+    <link rel="prev" title="12. Anidar y unir búsquedas" href="busqueda_12.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-fierro.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="busqueda_14.html" title="14. Configurar las columnas del resultado"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="busqueda_12.html" title="12. Anidar y unir búsquedas"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_busqueda.html" accesskey="U">3. Búsquedas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-exportar-los-resultados-de-una-busqueda">
+<h1>13. ¿Cómo exportar los resultados de una búsqueda?<a class="headerlink" href="#como-exportar-los-resultados-de-una-busqueda" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Exportación de resultados de búsqueda</strong></p>
+<p>Todas las búsquedas en el sistema pueden ser exportadas a un archivo del
+tipo CSV o del tipo OpenOffice.</p>
+<p class="last">Los archivos CSV pueden abrirse desde Excel, OpenOffice Calc o cualquier
+programa de edición de texto. Los del tipo OpenOffice, desde OpenOffice
+Calc.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Realizar la búsqueda cuyo resultado se desea exportar.</p>
+</li>
+<li><p class="first">Presionar el botón  <img alt="/icons/22exportar.png" class="inlinegraphic" src="../../_images/22exportar.png" /> de la barra de
+herramientas o seleccionar la opción de menú <em class="menuselection">Ventana Activa
+‣ Exportar</em>. Se abrirá la pantalla Exportar Planilla.</p>
+<div class="figure">
+<img alt="../../_images/ExportarPlanilla.png" src="../../_images/ExportarPlanilla.png" />
+<p class="caption">Pantalla Exportar Planilla</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el tipo de planilla que se desee.</p>
+</li>
+<li><p class="first">En la pantalla siguiente seleccionar la salida. Si se elige Programa externo,
+el sistema mostrará el programa asociado respectivo; si se elige enviar por
+E-mail, Fierro mostrará el editor de envío por correo electrónico.
+(Ver <a class="reference internal" href="../../howtos/general/general_05.html#howto-others-mailconfig"><em>Configuración del envío por mail</em></a>.)</p>
+<div class="figure">
+<img alt="../../_images/SeleccionarSalida.png" src="../../_images/SeleccionarSalida.png" />
+<p class="caption">Pantalla Seleccionar salida</p>
+</div>
+</li>
+<li><p class="first">En el caso de elegir Guardar en un archivo, se verá una pantalla para dar
+nombre al archivo y elegir su ubicación:</p>
+<div class="figure">
+<img alt="../../_images/GuardarComo.png" src="../../_images/GuardarComo.png" />
+<p class="caption">Pantalla Guardar como</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="busqueda_12.html"
+                        title="Capítulo anterior">12. Anidar y unir búsquedas</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="busqueda_14.html"
+                        title="Próximo capítulo">14. Configurar las columnas del resultado</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="busqueda_14.html" title="14. Configurar las columnas del resultado"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="busqueda_12.html" title="12. Anidar y unir búsquedas"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../03_busqueda.html" >3. Búsquedas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Lambda Sistemas.
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,252 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>9.2. Plan de cuentas &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="9. Contabilidad" href="../12_accounting.html" />
+    <link rel="next" title="9.3. Ejercicios y libros" href="03_financialYears.html" />
+    <link rel="prev" title="9.1. Módulo contable en Fierro" href="01_intro.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="03_financialYears.html" title="9.3. Ejercicios y libros"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="01_intro.html" title="9.1. Módulo contable en Fierro"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../12_accounting.html" accesskey="U">9. Contabilidad</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="plan-de-cuentas">
+<span id="howto-accounting-accounts"></span><h1>9.2. Plan de cuentas<a class="headerlink" href="#plan-de-cuentas" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="section" id="como-acceder-al-plan-de-cuentas">
+<span id="index-1"></span><h2>9.2.1. ¿Cómo acceder al plan de cuentas?<a class="headerlink" href="#como-acceder-al-plan-de-cuentas" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic" id="howto-accounting-accounts-comoacceder">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Contabilidad ‣ Plan de cuentas</em>. Se desplegará el listado de planes de cuenta existentes en el sistema. En general habrá un único plan de cuentas. Si la implementación de Fierro se realiza para varias empresas, aparecerá un plan de cuentas por cada una. Se abrirá la pantalla de planes de cuenta.</p>
+<div class="figure">
+<img alt="../../_images/planesDeCuenta.png" src="../../_images/planesDeCuenta.png" />
+<p class="caption">Pantalla Planes de cuenta</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el plan de cuentas deseado.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Cuentas</em> o hacer doble click sobre el plan de cuentas. Se abrirá la pantalla del plan de cuentas.</p>
+<div class="figure">
+<img alt="../../_images/planDeCuentas.png" src="../../_images/planDeCuentas.png" />
+<p class="caption">Pantalla Plan de cuenta</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="como-buscar-una-cuenta-en-el-plan-de-cuentas">
+<h2>9.2.2. ¿Cómo buscar una cuenta en el plan de cuentas?<a class="headerlink" href="#como-buscar-una-cuenta-en-el-plan-de-cuentas" title="Enlazar permanentemente con este título">¶</a></h2>
+<p id="howto-accounting-accounts-comobuscar">La cuenta puede buscarse por código o por nombre. En el caso del código, la búsqueda es exacta. En caso de nombre, puede tipear cualquier palabra o parte del nombre de la cuenta.</p>
+<dl class="docutils">
+<dt>Para buscar una cuenta, ingrese el código o el nombre en el cuadro de la imagen y presione el ícono <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" /> o la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt>.</dt>
+<dd><div class="first last figure">
+<img alt="../../_images/buscarCuenta.png" src="../../_images/buscarCuenta.png" />
+<p class="caption">Búsqueda de cuentas</p>
+</div>
+</dd>
+</dl>
+<p>Si vuelve a presionar el botón <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" />, el sistema buscará la próxima aparición del texto buscado.</p>
+</div>
+<div class="section" id="como-agregar-una-cuenta-nueva">
+<h2>9.2.3. ¿Cómo agregar una cuenta nueva?<a class="headerlink" href="#como-agregar-una-cuenta-nueva" title="Enlazar permanentemente con este título">¶</a></h2>
+<p id="howto-accounting-accounts-add">Para agregar una cuenta, hay que tomar otra cuenta como referencia e indicar si la nueva cuenta está al mismo nivel de la cuenta seleccionada (&#8220;hermana&#8221;) o en un nivel inferior (&#8220;hija&#8221;). Una vez definido este criterio, los pasos son:</p>
+<ol class="arabic">
+<li><p class="first">Si la nueva cuenta es &#8220;hermana&#8221; de la cuenta seleccionada, presionar el ícono <img alt="/icons/22crearHermano.png" class="inlinegraphic" src="../../_images/22crearHermano.png" />.</p>
+</li>
+<li><p class="first">Si la nueva cuenta es &#8220;hija&#8221; de la cuenta seleccionada, presionar el ícono <img alt="/icons/22crearHijo.png" class="inlinegraphic" src="../../_images/22crearHijo.png" />.</p>
+</li>
+<li><p class="first">Una vez presionado el botón correspondiente, en la parte derecha de la pantalla se habilitará la edición de la nueva cuenta. Observar que en el árbol de cuentas aparece la cuenta con nombre &#8220;Nueva&#8221;.</p>
+<div class="figure">
+<img alt="../../_images/editarCuenta.png" src="../../_images/editarCuenta.png" />
+<p class="caption">Nueva cuenta</p>
+</div>
+</li>
+<li><p class="first">Completar los datos de la cuenta:</p>
+<ul>
+<li><p class="first"><em>Código</em>: código de la cuenta contable.</p>
+</li>
+<li><p class="first"><em>Manual</em>: indica si es posible ingresar asientos manuales para esa cuenta. En general, para las cuentas vinculadas a los asientos que se generan automáticamente en el sistema por cada documento, se recomienda no permitir asientos manuales para mantener la consistencia entre los valores arrojados por la contabilidad y por los datos de gestión. Ejemplo: la cuentas VENTAS debe coincidir con el total de ventas emitido en los reportes del sistema. Si hay algún asiento manual, estos totales no coincidirán y complicarán la auditoria.</p>
+</li>
+<li><p class="first"><em>Imputable</em>: indica si es posible generar asientos para esa cuenta o no. En general, las cuentas no imputables son las que agrupan otras cuentas.</p>
+</li>
+<li><p class="first"><em>Nombre</em>: nombre de la cuenta.</p>
+</li>
+<li><p class="first"><em>Descripción</em>: texto descriptivo de la cuenta.</p>
+</li>
+<li><p class="first"><em>Alias</em>: este valor no debe ser editado por el usuario, ya que se utiliza internamente en el sistema para la generación de asientos.</p>
+</li>
+<li><p class="first"><em>Moneda</em>: aunque toda la contabilidad se realiza en la moneda predeterminada del sistema, se puede asignar otra moneda a la cuenta para poder visualizar el movimiento en la moneda original. Si no se asigna otra moneda, dejar ese valor en blanco.</p>
+</li>
+<li><p class="first"><em>Tipo</em>: este atributo todavía no tiene implementación en el sistema, dejar en blanco.</p>
+</li>
+<li><p class="first"><em>Saldo deudor</em>: completar con el saldo normal de la cuenta. En algunos reportes del sistema, se resalta la cuenta si la misma tiene un saldo distinto al asignado. Esta herramienta sirve para las auditorias.</p>
+</li>
+<li><dl class="first docutils">
+<dt><em>Entidades relacionadas</em>: a pesar de que la mayor parte de la lógica de la generación de asientos está programada internamente en el sistema, mediante las entidades relacionadas a la cuenta se puede ajustar el comportamiento de los mismos. Por ejemplo, puedo definir que la cuenta está asociada a la caja &#8220;Caja fuerte&#8221;. De esta forma, los movimientos de caja realizados en la caja fuerte impactarán en esta cuenta contable. Las posibles vinculaciones son:</dt>
+<dd><ul class="first last simple">
+<li>Caja</li>
+<li>Cuenta de banco</li>
+<li>Tipo de gasto</li>
+<li>Forma de pago: formas de pago definidas como &#8220;Otras formas de pago&#8221;.</li>
+<li>Tarjeta de crédito</li>
+<li>Tipo de factura: tipo de factura de ventas. Este caso se utiliza en general para vincular el tipo de facturas &#8220;Nota de débito por rechazo de cheques&#8221; a una cuenta distinta de la de VENTAS.</li>
+<li>Tipo de proveedor</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<blockquote>
+<div><p>Para vincular las cuentas a las entidades, presionar el botón <em class="guilabel">Agregar</em>, seleccionar el tipo de entidad y luego el valor deseado.</p>
+</div></blockquote>
+</li>
+<li><p class="first">Una vez completados los campos, presionar el botón <em class="guilabel">Aceptar</em></p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<dl class="docutils">
+<dt><strong>Botón Aceptar</strong></dt>
+<dd>La pantalla posee dos botones <em class="guilabel">Aceptar</em>. El primer botón guarda los cambios realizados sobre la cuenta que se está modificando pero no los guarda definitivamente en la base de datos. Luego de presionar ese botón, se pueden seguir editando otras cuentas.  El segundo botón guarda los cambios en <em>forma definitiva en la base de datos</em>.</dd>
+</dl>
+<div class="last figure">
+<img alt="../../_images/editarCuentaAceptars.png" src="../../_images/editarCuentaAceptars.png" />
+<p class="caption">Observar los dos botones para guardar los cambios</p>
+</div>
+</div>
+</div>
+<div class="section" id="como-modificar-una-cuenta">
+<h2>9.2.4. ¿Cómo modificar una cuenta?<a class="headerlink" href="#como-modificar-una-cuenta" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic" id="howto-accounting-accounts-comomodificar">
+<li><p class="first">Seleccionar la cuenta que se desea modificar.</p>
+</li>
+<li><p class="first">Presionar el ícono <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" /> o realizar doble click sobre la cuenta.</p>
+<div class="figure">
+<img alt="../../_images/editarCuentaBoton.png" src="../../_images/editarCuentaBoton.png" />
+<p class="caption">Edición de la cuenta seleccionada.</p>
+</div>
+</li>
+<li><p class="first">Modificar los atributos de la cuenta en el panel derecho de la pantalla.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em> de la pantalla de edición de la cuenta y luego el botón <em class="guilabel">Aceptar</em> general de la pantalla del plan de cuentas.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">9.2. Plan de cuentas</a><ul>
+<li><a class="reference internal" href="#como-acceder-al-plan-de-cuentas">9.2.1. ¿Cómo acceder al plan de cuentas?</a></li>
+<li><a class="reference internal" href="#como-buscar-una-cuenta-en-el-plan-de-cuentas">9.2.2. ¿Cómo buscar una cuenta en el plan de cuentas?</a></li>
+<li><a class="reference internal" href="#como-agregar-una-cuenta-nueva">9.2.3. ¿Cómo agregar una cuenta nueva?</a></li>
+<li><a class="reference internal" href="#como-modificar-una-cuenta">9.2.4. ¿Cómo modificar una cuenta?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="01_intro.html"
+                        title="Capítulo anterior">9.1. Módulo contable en Fierro</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="03_financialYears.html"
+                        title="Próximo capítulo">9.3. Ejercicios y libros</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="03_financialYears.html" title="9.3. Ejercicios y libros"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="01_intro.html" title="9.1. Módulo contable en Fierro"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../12_accounting.html" >9. Contabilidad</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

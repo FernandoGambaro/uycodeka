@@ -1,0 +1,243 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>19. ¿Cómo crear y utilizar Centros de Costo? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="5. Caja y Bancos" href="../08_cajaybancos.html" />
+    <link rel="next" title="6. Stock" href="../09_stock.html" />
+    <link rel="prev" title="18. Transferencias de caja" href="cajaybancos_18.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../09_stock.html" title="6. Stock"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_18.html" title="18. Transferencias de caja"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" accesskey="U">5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-y-utilizar-centros-de-costo">
+<h1>19. ¿Cómo crear y utilizar Centros de Costo?<a class="headerlink" href="#como-crear-y-utilizar-centros-de-costo" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>None</strong></p>
+<p>El uso de centros de costo permite imputar un gasto a diferentes áreas o
+factores del negocio, a efectos de la contabilidad de costos. Así, es
+posible distribuir los gastos entre distintos grupos predeterminados de
+imputación (por ejemplo, entre sucursales de la empresa).</p>
+<p>La aplicación de los centros de costo puede ser manual o mediante una
+estrategia de imputación automática.</p>
+<p class="last">Una vez configurada la funcionalidad en el sistema, se advertirá que en el
+menú <em class="menuselection">Caja y Bancos ‣ Otros</em> aparecen las opciones
+<em>Asignación de centros de costo</em> y <em>Centros de costo</em>.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Caja y Bancos ‣ Otros ‣
+Centros de costo</em>;</p>
+</li>
+<li><p class="first">Se presenta una pantalla en donde, mediante el botón Crear, pueden crearse
+todos los centros de costo que se requieran, simplemente colocando sucursal y
+nombre:</p>
+<div class="figure">
+<img alt="../../_images/CrearCentroDeCosto.png" src="../../_images/CrearCentroDeCosto.png" />
+<p class="caption">Crear centro de costo</p>
+</div>
+</li>
+</ol>
+<div class="section" id="como-configurar-una-estrategia-de-imputacion">
+<h2>19.1. ¿Cómo configurar una estrategia de imputación?<a class="headerlink" href="#como-configurar-una-estrategia-de-imputacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-2"></span><div class="admonition note" id="index-3">
+<p class="first admonition-title">Nota</p>
+<p><strong>None</strong></p>
+<p>Con la opción de menú <em>Asignación de centros de costo</em> es posible definir la
+o las estrategias con las que se distribuirán los costos en la imputación.
+La creación de estrategias es <em>opcional</em>, ya que se utilizan para facilitar
+la carga de determinados gastos que se reparten siempre de igual forma entre
+distintos centros de costo.</p>
+<p>Ejemplos:</p>
+<p><em>Distribución según el volumen de ventas</em> (una compra de bolsas o
+señaladores se hace en forma unificada, pero su gasto se distribuye en
+función de cuánto vende cada sucursal).</p>
+<p><em>Distribución según superficie del local</em> (una compra de artículos de
+limpieza se distribuye según el tamaño de cada local).</p>
+<p class="last">Si se decide utilizar estrategias, seguir los siguientes pasos:</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Caja y Bancos ‣ Otros ‣
+Asignación de Centros de costo</em>; en la pantalla que se presenta, pulsar
+<em class="guilabel">Crear</em>.</p>
+</li>
+<li><p class="first">En la ventana que se presenta, colocar un número de código y un nombre para
+la estrategia, elegir un centro de costo del listado de los previamente
+creados, y el porcentaje que corresponderá, bajo esta estrategia y por cada
+gasto, al centro de costo elegido.</p>
+<div class="figure">
+<img alt="../../_images/CrearEstrategiaDeAsignacion.png" src="../../_images/CrearEstrategiaDeAsignacion.png" />
+<p class="caption">Crear estrategia de asignación</p>
+</div>
+</li>
+<li><p class="first">Cuando se han terminado de agregar los distintos porcentajes por cada centro
+de costo, la suma de los mismos debe totalizar el cien por cien. Luego de
+creadas, las estrategias se visualizan en <em class="menuselection">Caja y Bancos ‣
+Otros ‣ Asignación de Centros de costo</em>.</p>
+<div class="figure">
+<img alt="../../_images/ListaDeEstrategias.png" src="../../_images/ListaDeEstrategias.png" />
+<p class="caption">Visualizar estrategias de asignación</p>
+</div>
+</li>
+<li><p class="first">Al registrar un nuevo gasto se advertirá que en la solapa Imputación aparece
+un botón <em>Distribuir</em>, con el que puede elegirse una estrategia de imputación
+entre las existentes. De esta forma, la distribución del gasto se hará
+automáticamente en base a los porcentajes de la estrategia elegida.</p>
+<div class="figure">
+<img alt="../../_images/distribuirImputacion.png" src="../../_images/distribuirImputacion.png" />
+<p class="caption">Asignación automática</p>
+</div>
+</li>
+<li><p class="first">En la pantalla siguiente se observa cómo, para un gasto impositivo de 1500
+pesos, la estrategia Impuestos Municipales distribuyó el 45 % (675 pesos)
+para el local 1, el 30 % (450 pesos) para el local 2, y el 25 % (375 pesos)
+para el local 3.</p>
+<div class="figure">
+<img alt="../../_images/imputacionDistribuida.png" src="../../_images/imputacionDistribuida.png" />
+<p class="caption">Imputación distribuida</p>
+</div>
+</li>
+<li><p class="first">Para la imputación manual se elige cada centro de costo en el combo
+desplegable, se asigna un importe parcial a cada uno de ellos, y se pulsa
+<em class="guilabel">Agregar</em>. La suma de desgloses debe coincidir con el importe total
+del gasto. Mientras esto no ocurra, el campo Total Asignado permanecerá en
+rojo.</p>
+<div class="figure">
+<img alt="../../_images/imputacionManual.png" src="../../_images/imputacionManual.png" />
+<p class="caption">Imputación manual</p>
+</div>
+</li>
+<li><p class="first">La pantalla de búsqueda de Gastos (<em class="menuselection">Caja y Bancos ‣ Gastos</em>)
+incluye una columna <em>Centro de costo</em> que permite visualizar a qué centro o
+centros de costo se imputó el gasto seleccionado. Esto también puede verse en
+la vista inferior del gasto seleccionado en la búsqueda:</p>
+<div class="figure">
+<img alt="../../_images/visualizarImputacion.png" src="../../_images/visualizarImputacion.png" />
+<p class="caption">Vista de la imputación</p>
+</div>
+</li>
+<li><p class="first">Además, en el reporte de rentabilidad (<em class="menuselection">Ventas ‣ Reportes
+‣ Análisis de la librería ‣ Rentabilidad</em>), si se marca la opción
+<em>Incluir gastos</em> se obtiene una solapa con los gastos separados por centro de
+costos.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../manual.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">19. ¿Cómo crear y utilizar Centros de Costo?</a><ul>
+<li><a class="reference internal" href="#como-configurar-una-estrategia-de-imputacion">19.1. ¿Cómo configurar una estrategia de imputación?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="cajaybancos_18.html"
+                        title="Capítulo anterior">18. Transferencias de caja</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="../09_stock.html"
+                        title="Próximo capítulo">6. Stock</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../09_stock.html" title="6. Stock"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_18.html" title="18. Transferencias de caja"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" >5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

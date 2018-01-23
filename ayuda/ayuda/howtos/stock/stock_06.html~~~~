@@ -1,0 +1,239 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>6. Toma de inventario mediante paquetes &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="6. Stock" href="../09_stock.html" />
+    <link rel="next" title="7. Toma de inventario por ubicación" href="stock_07.html" />
+    <link rel="prev" title="5. ¿Cómo obtener un reporte de stock?" href="stock_05.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="stock_07.html" title="7. Toma de inventario por ubicación"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="stock_05.html" title="5. ¿Cómo obtener un reporte de stock?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../09_stock.html" accesskey="U">6. Stock</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="toma-de-inventario-mediante-paquetes">
+<h1>6. Toma de inventario mediante paquetes<a class="headerlink" href="#toma-de-inventario-mediante-paquetes" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Toma de inventario</strong></p>
+<p>La <em>toma de inventario mediante paquetes</em> consiste en registrar los libros
+contados en un conjunto de paquetes, y luego indicar que el stock total es
+el contenido en estos paquetes.</p>
+<p>El efecto final es que el stock se ajusta para llevarlo a las cantidades
+contadas.</p>
+<p class="last">Para utilizar esta función, es necesario realizar antes una configuración
+en el sistema. Por lo tanto, debe darse aviso previo de su utilización, para
+efectuar los ajustes necesarios.</p>
+</div>
+<div class="section" id="conteo-de-libros">
+<h2>6.1. Conteo de libros<a class="headerlink" href="#conteo-de-libros" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-2"></span><p id="index-3">Consiste en cargar en paquetes los libros contados. Pueden crearse cuantos
+paquetes se deseen, si bien es recomendable, a fin de organizar mejor el
+trabajo, crear un paquete por cada sector o estantería. También se aconseja
+crear todos los paquetes con el mismo tipo, y asignarles un nombre que indique
+la ubicación de los libros que lo componen. Si se encuentran errores en el
+conteo, pueden corregirse los paquetes.</p>
+<p>Si se utiliza lector de código de barras, es recomendable cargar los libros en
+el paquete con la modalidad de ingreso de códigos &#8220;Sin Enter&#8221;, para no tener que
+utilizar el teclado mientras se ingresan los libros. Esta opción se habilita
+dentro de la pantalla de Nuevo Paquete, en la opción de menú
+<em class="menuselection">Ventana Activa ‣ Modo de ingreso de códigos ‣ Sin Enter</em>.</p>
+</div>
+<div class="section" id="ajuste-de-stock">
+<h2>6.2. Ajuste de stock<a class="headerlink" href="#ajuste-de-stock" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-4"></span><p id="index-5">Una vez que ya se cargaron los paquetes con todo el stock, se realiza el ajuste
+final de inventario. En este procedimiento, el sistema realiza los ajustes de
+stock necesarios para llevar el stock de las cantidades actuales a las
+cantidades contadas en los paquetes. Para esto, crea automáticamente los
+documentos de stock con los respectivos ajustes.</p>
+<p>Los pasos a seguir son los siguientes:</p>
+<ol class="arabic">
+<li><p class="first">Ir a la opción de menú <em class="menuselection">Stock ‣ Otros ‣ Ajustes de stock</em>.
+Se abrirá la pantalla de búsqueda de paquetes:</p>
+<div class="figure">
+<img alt="../../_images/BusquedaPaquetes.png" src="../../_images/BusquedaPaquetes.png" />
+<p class="caption">Paquetes</p>
+</div>
+</li>
+<li><p class="first">Seleccionar los paquetes creados con el stock contado:</p>
+<div class="figure">
+<img alt="../../_images/SeleccionPaquetes.png" src="../../_images/SeleccionPaquetes.png" />
+<p class="caption">Paquetes</p>
+</div>
+</li>
+<li><p class="first">Pulsar <em class="guilabel">Aceptar</em>. Aparecerá una pantalla para seleccionar el
+depósito sobre el que se realizó el inventario.</p>
+<div class="figure">
+<img alt="../../_images/SeleccionarDeposito.png" src="../../_images/SeleccionarDeposito.png" />
+<p class="caption">Seleccionar depósito</p>
+</div>
+</li>
+<li><p class="first">A continuación el sistema pregunta si los paquetes seleccionados conforman el
+stock total del depósito. En el caso de inventarios completos, se debe
+indicar que sí.</p>
+<div class="figure">
+<img alt="../../_images/InventarioTotalParcial.png" src="../../_images/InventarioTotalParcial.png" />
+<p class="caption">Inventario total o parcial</p>
+</div>
+</li>
+<li><p class="first">Por último, el sistema pide confirmación para realizar el ajuste. En este
+paso, verificar que la cantidad de paquetes seleccionados sea la correcta.</p>
+<div class="figure">
+<img alt="../../_images/ConfirmaOperacion.png" src="../../_images/ConfirmaOperacion.png" />
+<p class="caption">Confirmar operación</p>
+</div>
+</li>
+<li><p class="first">Luego de realizada la operación, el sistema muestra el listado de los
+documentos de stock creados para ejecutar el ajuste.</p>
+<div class="figure">
+<img alt="../../_images/AvisoFinal.png" src="../../_images/AvisoFinal.png" />
+<p class="caption">Aviso final</p>
+</div>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Documentos del ajuste</strong></p>
+<p>El sistema hace los ajustes mediante Documentos de stock, tanto de Entrada
+como de Salida. Si, por ejemplo, un documento de salida muestra la cantidad
+4, significa que el sistema encontró 4 items más que los señalados por el
+conteo, y por ello hace la salida de cuatro. Si por el contrario, aparece
+por ejemplo la cifra 2 para un documento de entrada, significa que el
+sistema encontró 2 items menos que los señalados por el conteo, y por eso
+hace el ingreso de dos.</p>
+<p>Los documentos de stock de entrada y salida generados por el ajuste pueden
+visualizarse mediante una búsqueda de Documentos de stock, seleccionando la
+opción de menú <em class="menuselection">Stock ‣ Documentos de stock</em>.</p>
+<p class="last">Otra forma de visualizar dichos documentos es mediante un reporte, con la
+opción de menú <em class="menuselection">Stock ‣ Reportes ‣ Documentos de stock</em>.</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<blockquote>
+<div>Mediante un bloqueo de documentos se puede evitar, por ejemplo, que se
+ingrese un remito con fecha anterior a la del ajuste, y ello modifique en el
+sistema los movimientos operados por dicho ajuste.</div></blockquote>
+<p class="last">Si luego de haber hecho el ajuste se crea un bloqueo para cierto tipo de
+documento, y se coloca como fecha de corte la del ajuste, ningún documento de
+ese tipo podrá ser ingresado con fecha anterior a la señalada por el corte.
+Ver <a class="reference internal" href="../general/general_08.html#howto-others-bloqueodocumentos"><em>¿Cómo bloquear documentos?</em></a>.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">6. Toma de inventario mediante paquetes</a><ul>
+<li><a class="reference internal" href="#conteo-de-libros">6.1. Conteo de libros</a></li>
+<li><a class="reference internal" href="#ajuste-de-stock">6.2. Ajuste de stock</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="stock_05.html"
+                        title="Capítulo anterior">5. ¿Cómo obtener un reporte de stock?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="stock_07.html"
+                        title="Próximo capítulo">7. Toma de inventario por ubicación</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="stock_07.html" title="7. Toma de inventario por ubicación"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="stock_05.html" title="5. ¿Cómo obtener un reporte de stock?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../09_stock.html" >6. Stock</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

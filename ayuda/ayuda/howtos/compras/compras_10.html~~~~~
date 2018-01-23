@@ -1,0 +1,207 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>9. ¿Cómo crear una Devolución de material facturado? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Compras" href="../07_compras.html" />
+    <link rel="next" title="10. ¿Cómo visualizar la Cuenta Corriente de un Proveedor?" href="compras_11.html" />
+    <link rel="prev" title="8. ¿Cómo crear una Devolución de Consignación?" href="compras_09.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="compras_11.html" title="10. ¿Cómo visualizar la Cuenta Corriente de un Proveedor?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_09.html" title="8. ¿Cómo crear una Devolución de Consignación?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" accesskey="U">3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-una-devolucion-de-material-facturado">
+<h1>9. ¿Cómo crear una Devolución de material facturado?<a class="headerlink" href="#como-crear-una-devolucion-de-material-facturado" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Devolución de material</strong></p>
+<p>Las devoluciones de material se registran en el sistema de la siguiente
+forma:</p>
+<ul class="last simple">
+<li>Si la <em>devolución es en contra de un remito</em>, se genera una Devolución.
+Esto realiza el movimiento de stock pero no afecta la cuenta corriente del
+proveedor.</li>
+<li>Si la <em>devolución es en contra de una factura</em>, se genera un crédito o se
+ingresa una nota de crédito. Esto realiza el movimiento de stock y afecta
+la cuenta corriente del proveedor.</li>
+</ul>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Compras ‣ Créditos</em>. Se
+abrirá la pantalla Búsqueda de Créditos.</p>
+</li>
+<li><p class="first">Seleccionar el ícono <img alt="/icons/n_credito.png" class="inlinegraphic" src="../../_images/n_credito.png" /> de la barra de
+herramientas o presionar las teclas <tt class="kbd docutils literal"><span class="pre">Ctrl</span></tt><tt class="kbd docutils literal"><span class="pre">N</span></tt>. Se abrirá la
+pantalla Nuevo Crédito.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Créditos, notas de créditos y notas de crédito generales</strong></p>
+<p>Un <em>crédito</em> se registra cuando se hace la devolución de material
+facturado. El crédito genera movimientos de salida de stock y figura en
+la cuenta corriente del proveedor.</p>
+<p>Cuando se recibe la <em>nota de crédito</em> del proveedor, se registra en el
+sistema reemplazando a los créditos generados en el momento de la
+devolución.</p>
+<p class="last">Una <em>nota de crédito general</em> es una nota de crédito sin ejemplares.
+Figura en la cuenta corriente, y no mueve stock.</p>
+</div>
+</li>
+<li><p class="first">Para cambiar el proveedor de origen del crédito:</p>
+<ul class="simple">
+<li>Ingresar el código en el campo Proveedor.</li>
+<li>Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o <tt class="kbd docutils literal"><span class="pre">Tab</span></tt>.</li>
+<li>Si existe un proveedor con el código, se autocompleta el nombre a la
+derecha del código.</li>
+<li>Si no se conoce el código, presionar el bóton <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" />
+para buscar el proveedor.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/scrCreditHeader.png" src="../../_images/scrCreditHeader.png" />
+<p class="caption">Cabecera del crédito</p>
+</div>
+</li>
+<li><p class="first">Completar los datos generales del crédito:</p>
+<ul class="simple">
+<li><em>Motivo</em></li>
+<li><em>Sin movimiento de stock</em>: marcar en el caso que el crédito no implique
+salida de material.</li>
+<li><em>Número de crédito</em></li>
+<li><em>Fecha:</em> Fecha de la devolución. El sistema sugiere la fecha actual</li>
+<li><em>Sucursal:</em> Sucursal a la que corresponde la devolución.
+El sistema sugiere la sucursal donde ingresó el usuario.</li>
+<li><em>Depósito:</em> Depósito desde donde dalen los libros.  El sistema sugiere el
+depósito asociado a la sucursal donde ingresó el usuario.</li>
+<li><em>Moneda</em>: Moneda del crédito.</li>
+</ul>
+</li>
+<li><p class="first">Por cada libro del crédito:</p>
+<ul class="simple">
+<li>En el campo Código de la solapa Detalle, ingresar el código del libro (por
+teclado o con el lector de código de barras) o realizar la búsqueda del
+libro presionando el botón <img alt="/icons/b_libro.png" class="inlinegraphic" src="../../_images/b_libro.png" />.</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<ul class="simple">
+<li>Si la devolución corresponde a una <em>factura</em>, presionar el
+botón <img alt="/icons/22nfactura.png" class="inlinegraphic" src="../../_images/22nfactura.png" />. Se abrirá la pantalla
+Selección de Facturas con la lista de los facturas pendientes del
+proveedor. Seleccionar la factura correspondiente. Los items que
+pueden devolverse se cargarán en la grilla.</li>
+</ul>
+<p class="last"><em>De esta forma se ahorra el ingreso manual de los ítems del crédito.</em></p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em> o la tecla <tt class="kbd docutils literal"><span class="pre">F9</span></tt> y confirmar.</p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="compras_09.html"
+                        title="Capítulo anterior">8. ¿Cómo crear una Devolución de Consignación?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="compras_11.html"
+                        title="Próximo capítulo">10. ¿Cómo visualizar la Cuenta Corriente de un Proveedor?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="compras_11.html" title="10. ¿Cómo visualizar la Cuenta Corriente de un Proveedor?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_09.html" title="8. ¿Cómo crear una Devolución de Consignación?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" >3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

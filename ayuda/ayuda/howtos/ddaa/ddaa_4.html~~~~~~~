@@ -1,0 +1,368 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>5. Liquidación de derechos de autor &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="11. Derechos de Autor" href="../14_ddaa.html" />
+    <link rel="next" title="6. Pago a Derecho Habientes" href="ddaa_5.html" />
+    <link rel="prev" title="4. Contratos" href="ddaa_3.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-fierro.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ddaa_5.html" title="6. Pago a Derecho Habientes"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ddaa_3.html" title="4. Contratos"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../14_ddaa.html" accesskey="U">11. Derechos de Autor</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="liquidacion-de-derechos-de-autor">
+<h1>5. Liquidación de derechos de autor<a class="headerlink" href="#liquidacion-de-derechos-de-autor" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p>El autor cede al editor el derecho de reproducir su obra y de distribuirla a cambio de una compensación económica, la misma es generada desde Fierro con liquidaciones.</p>
+<p class="last">La herramienta principal del módulo es la generación por lote de liquidaciones a los derecho habientes, que permite de forma automática crear las liquidaciones en base a los contratos y ventas registradas en el sistema.</p>
+</div>
+<div class="section" id="como-crear-una-nueva-liquidacion-manual">
+<h2>5.1. ¿Cómo crear una nueva liquidación manual?<a class="headerlink" href="#como-crear-una-nueva-liquidacion-manual" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Derechos de Autor ‣ Liquidaciones</em>.</li>
+<li>Para realizar una nueva liquidación deben presionar el botón <img alt="/icons/22nuevo.png" class="inlinegraphic" src="../../_images/22nuevo.png" />.</li>
+<li>Se abrirá la pantalla de consulta de contratos para seleccionar el correspondiente a liquidar.</li>
+<li>Luego completar los pasos del asistente.</li>
+</ol>
+<ul>
+<li><p class="first">Datos generales a completar:</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_LiquidacionManual.png" src="../../_images/Dautor_LiquidacionManual.png" />
+<p class="caption">Crear una nueva liquidación</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<p>Una vez completo presionar <em class="guilabel">Next</em></p>
+<ul>
+<li><p class="first">En caso de liquidar un contrato a porcentaje visualizarán la siguiente pantalla.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_LiquidacionManualDetalle.png" src="../../_images/Dautor_LiquidacionManualDetalle.png" />
+<p class="caption">Detalle de nueva liquidación</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">En caso de liquidar un contrato pago único (se asigna el monto detallado en el contrato que se esta liquidando).</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_LiquidacionManualPU.png" src="../../_images/Dautor_LiquidacionManualPU.png" />
+<p class="caption">Liquidación de pago único</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">En caso de liquidar un contrato por reimpresión.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_LiquidacionManualRE.png" src="../../_images/Dautor_LiquidacionManualRE.png" />
+<p class="caption">Liquidación por reimpresión</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<p>Una vez completo presionar <em class="guilabel">Next</em></p>
+<div class="section" id="archivos-asociados">
+<h3>5.1.1. Archivos asociados<a class="headerlink" href="#archivos-asociados" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>La liquidación puede tener archivos adjuntos.</p>
+<p>Ver <a class="reference internal" href="../general/general_04.html#howto-others-attachs"><em>¿Cómo agregar archivos adjuntos?</em></a>.</p>
+</div>
+<div class="section" id="notas">
+<h3>5.1.2. Notas<a class="headerlink" href="#notas" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Para agregar información adicional a la liquidación se pueden tener notas asociadas.</p>
+<p>Ver <a class="reference internal" href="../general/general_03.html#howto-others-notes"><em>¿Cómo agregar notas?</em></a>.</p>
+<p>Presionar el botón <em class="guilabel">Finish (Terminar )</em> para crear la liquidación.</p>
+</div>
+</div>
+<div class="section" id="como-crear-una-nueva-liquidacion-manual-extraordinaria">
+<h2>5.2. ¿Cómo crear una nueva liquidación manual extraordinaria?<a class="headerlink" href="#como-crear-una-nueva-liquidacion-manual-extraordinaria" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Corresponden a liquidaciones excepcionales que pueden afectar a
+cualquier tipo de contrato (por ejemplo: cesión de derechos, ventas especiales, etc.).</p>
+</div>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Derechos de Autor ‣ Liquidaciones</em>.</li>
+<li>Para realizar una nueva liquidación extraordinaria deben presionar el botón <img alt="/icons/22nuevo.png" class="inlinegraphic" src="../../_images/22nuevo.png" />.</li>
+</ol>
+<ul>
+<li><p class="first">Datos generales a completar: sucursal y fecha.</p>
+</li>
+<li><p class="first">Descripción de liquidación extraordinaria:</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_LiquidacionExtraordinaria.png" src="../../_images/Dautor_LiquidacionExtraordinaria.png" />
+<p class="caption">Detalle de nueva liquidación extraordinaria</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<p>Presionar el botón <em class="guilabel">Finish (Terminar )</em> para crear la liquidación.</p>
+</div>
+<div class="section" id="como-crear-liquidaciones-por-lote">
+<h2>5.3. ¿Cómo crear liquidaciones por lote?<a class="headerlink" href="#como-crear-liquidaciones-por-lote" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Derechos de Autor ‣ Liquidaciones</em>.</p>
+</li>
+<li><p class="first">Para realizar una nueva liquidación por lote deben presionar el botón <img alt="/icons/22nuevaliquidacion.png" class="inlinegraphic" src="../../_images/22nuevaliquidacion.png" />.</p>
+</li>
+<li><p class="first">Se abrirá la pantalla de generación de liquidaciones de derechos de autor por lote.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_LiquidacionLote.png" src="../../_images/Dautor_LiquidacionLote.png" />
+<p class="caption">Pantalla de Generación automática de liquidación</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Seleccionar el período que se va a liquidar (ej. Mensual, Bimestral, Semestral, Anual).</p>
+</li>
+<li><p class="first">Seleccionar el subperíodo que se va a liquidar, las opciones dependen del período previamente seleccionado (ej período Mensual &gt; Subperíodo Enero).</p>
+</li>
+<li><p class="first">Seleccionar el año al que corresponde la liquidación.</p>
+</li>
+<li><p class="first">La liquidación puede generarse para todos o acotarse a un conjunto de contratos, utilizando las solapas de filtro o Grupo de contratos. Para que la liquidación de derechos de autor sea filtrada, presionar el botón <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" /> . Se abrirá la pantalla de ingreso de filtros de la
+búsqueda de contratos. Ingresar el criterio de búsqueda y presionar el botón <em class="guilabel">Aceptar</em>. En el campo inferior al botón se muestra la descripción del criterio de búsqueda a aplicar.</p>
+</li>
+<li><p class="first">En el filtro de criterios de exclusión se pueden seleccionar tanto facturas como notas de crédito que no se tomarán en cuenta para generar la liquidación  utilizando las solapas de filtro o Grupo de
+Facturas/ Notas de crédito como se explicó en el punto anterior.</p>
+</li>
+<li><p class="first">Una vez que se haya seleccionado cada campo , hacer click en el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Es importante destacar que en esta instancia aún no está generada la liquidación.</p>
+</div>
+<ul>
+<li><p class="first">Se abrirá la pantalla de generación automática de lote de liquidaciones con los resultados obtenidos.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_GenerarLiquidacion.png" src="../../_images/Dautor_GenerarLiquidacion.png" />
+<p class="caption">Solapa generación automática de lote de liquidaciones.</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<ol class="arabic simple">
+<li>Luego de controlar las liquidaciones a generar , hacer click en el botón <em class="guilabel">Aceptar</em>. En este punto las liquidaciones quedaron generadas.</li>
+<li>El sistema consultará si se desean imprimir, podrán encontrar diferentes modelos de impresiones.</li>
+</ol>
+</div>
+<div class="section" id="consulta-de-liquidaciones">
+<h2>5.4. Consulta de liquidaciones<a class="headerlink" href="#consulta-de-liquidaciones" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Desde el menú <em class="menuselection">Derechos de Autor ‣ Liquidaciones</em> pueden consultar las liquidaciones ya generadas.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_ConsultaLiquidacion.png" src="../../_images/Dautor_ConsultaLiquidacion.png" />
+<p class="caption">Consulta de liquidación</p>
+</div>
+</div></blockquote>
+<p>Las vistas de detalle y detalle resumido muestran como se conforma la liquidación mediante la lista de documentos que intervinieron en ella.</p>
+<p>Selección de vistas:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar un elemento de la lista de resultados. En la parte inferior
+aparecerá una vista.</p>
+</li>
+<li><p class="first">Hacer click derecho sobre la vista. Aparecerá la lista de vistas disponibles.</p>
+</li>
+<li><p class="first">Seleccionar la vista deseada.</p>
+</li>
+<li><p class="first">La selección de la vista también puede hacerse desde el menú
+<em class="menuselection">Ventana Activa ‣ Vistas</em>. Se desplegarán las vistas
+disponibles.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Dautor_VistaDetalle.png" src="../../_images/Dautor_VistaDetalle.png" />
+<p class="caption">Vista detalle de liquidación</p>
+</div>
+<div class="figure">
+<img alt="../../_images/Dautor_VistaDetalleResumido.png" src="../../_images/Dautor_VistaDetalleResumido.png" />
+<p class="caption">Vista detalle resumido de liquidación</p>
+</div>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="como-borrar-una-liquidacion">
+<h2>5.5. ¿Cómo borrar una liquidación?<a class="headerlink" href="#como-borrar-una-liquidacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Buscar la liquidación que se quiere borrar.</li>
+<li>Seleccionar la liquidación y pulsar el ícono <img alt="/icons/eliminar.png" class="inlinegraphic" src="../../_images/eliminar.png" />
+o la opción a través del menú <em class="menuselection">Ventana Activa ‣ Borrar liquidación</em></li>
+</ol>
+</div>
+<div class="section" id="como-reimprimir-una-liquidacion">
+<h2>5.6. ¿Cómo reimprimir una liquidación?<a class="headerlink" href="#como-reimprimir-una-liquidacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Buscar la liquidación que se quiere reimprimir.</li>
+<li>Seleccionar la liquidación y pulsar el ícono <img alt="/icons/22imprimir.png" class="inlinegraphic" src="../../_images/22imprimir.png" />
+o la opción a través del menú <em class="menuselection">Ventana Activa ‣ imprimir liquidación</em></li>
+<li>Se abrirá una lista desplegable con todos los modelos de impresiones disponibles, deben seleccionar el indicado y <em class="guilabel">Aceptar</em>.</li>
+<li>La opción de impresión &#8220;Carta&#8221; se encuentra disponible desde el icono <img alt="/icons/22imprimirLote.png" class="inlinegraphic" src="../../_images/22imprimirLote.png" /> o  a través del menú <em class="menuselection">Ventana Activa ‣ imprimir liquidaciones seleccionadas</em>, si se seleccionan varias liquidaciones de un mismo derecho habiente
+esta opción unifica todo el detalle en un sólo documento.</li>
+</ol>
+</div>
+<div class="section" id="envio-de-las-liquidaciones-por-mail">
+<h2>5.7. Envío de las liquidaciones por mail<a class="headerlink" href="#envio-de-las-liquidaciones-por-mail" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition warning">
+<p class="first admonition-title">Advertencia</p>
+<p class="last">Para poder enviar desde Fierro las liquidaciones a los derecho habientes, se debe tener
+configurado el envío de correo (<em>véase</em> <a class="reference internal" href="../general/general_05.html#howto-others-mailconfig"><em>Configuración del envío por
+mail</em></a>) y, en la ficha de cada derecho habiente, debe
+constar su dirección de e-mail.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Luego de creada la <em>liquidación</em>, realizar la consulta del documento, seleccionarlo y pulsar el botón
+<img alt="/icons/22mail.png" class="inlinegraphic" src="../../_images/22mail.png" /> en la barra de herramientas.</p>
+</li>
+<li><p class="first">Redactar mensaje a enviar:</p>
+<div class="figure">
+<img alt="../../_images/Dautor_mail.png" src="../../_images/Dautor_mail.png" />
+<p class="caption">Detalles del correo a enviar</p>
+</div>
+</li>
+</ol>
+<p>En caso de seleccionar varias liquidaciones de un mismo derecho habiente se puede tildar <em>agrupar</em> para que se envíen en un único mail.</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar modelo de impresión de liquidación que se desea enviar de la lista de modelos disponibles.</p>
+</li>
+<li><p class="first">El sistema informará si el mail pudo
+enviarse correctamente:</p>
+<div class="figure">
+<img alt="../../_images/Dautor_mailOK.png" src="../../_images/Dautor_mailOK.png" />
+<p class="caption">Confirmación de envío</p>
+</div>
+</li>
+<li><p class="first">El derecho habiente recibirá en su casilla de mail un mensaje con la liquidación adjunta.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">5. Liquidación de derechos de autor</a><ul>
+<li><a class="reference internal" href="#como-crear-una-nueva-liquidacion-manual">5.1. ¿Cómo crear una nueva liquidación manual?</a><ul>
+<li><a class="reference internal" href="#archivos-asociados">5.1.1. Archivos asociados</a></li>
+<li><a class="reference internal" href="#notas">5.1.2. Notas</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#como-crear-una-nueva-liquidacion-manual-extraordinaria">5.2. ¿Cómo crear una nueva liquidación manual extraordinaria?</a></li>
+<li><a class="reference internal" href="#como-crear-liquidaciones-por-lote">5.3. ¿Cómo crear liquidaciones por lote?</a></li>
+<li><a class="reference internal" href="#consulta-de-liquidaciones">5.4. Consulta de liquidaciones</a></li>
+<li><a class="reference internal" href="#como-borrar-una-liquidacion">5.5. ¿Cómo borrar una liquidación?</a></li>
+<li><a class="reference internal" href="#como-reimprimir-una-liquidacion">5.6. ¿Cómo reimprimir una liquidación?</a></li>
+<li><a class="reference internal" href="#envio-de-las-liquidaciones-por-mail">5.7. Envío de las liquidaciones por mail</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ddaa_3.html"
+                        title="Capítulo anterior">4. Contratos</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ddaa_5.html"
+                        title="Próximo capítulo">6. Pago a Derecho Habientes</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ddaa_5.html" title="6. Pago a Derecho Habientes"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ddaa_3.html" title="4. Contratos"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../14_ddaa.html" >11. Derechos de Autor</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

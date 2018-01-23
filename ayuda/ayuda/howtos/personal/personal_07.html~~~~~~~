@@ -1,0 +1,207 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>7. Pago a Empleados &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="10. Personal" href="../13_personal.html" />
+    <link rel="next" title="11. Derechos de Autor" href="../14_ddaa.html" />
+    <link rel="prev" title="6. Liquidación de sueldos" href="personal_06.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../14_ddaa.html" title="11. Derechos de Autor"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="personal_06.html" title="6. Liquidación de sueldos"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../13_personal.html" accesskey="U">10. Personal</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="pago-a-empleados">
+<span id="howto-personal-sec07"></span><h1>7. Pago a Empleados<a class="headerlink" href="#pago-a-empleados" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Órdenes de pago</strong></p>
+<p class="last">El pago a empleados se registra en el sistema mediante <em>órdenes de pago</em> . El mismo aplica contra las liquidaciones generadas y la cuenta corriente.</p>
+</div>
+<div class="section" id="como-crear-una-orden-de-pago">
+<h2>7.1. ¿Cómo crear una Orden de Pago ?<a class="headerlink" href="#como-crear-una-orden-de-pago" title="Enlazar permanentemente con este título">¶</a></h2>
+<span class="target" id="index-2"></span><ol class="arabic" id="index-3">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Personal ‣ Ordenes de pago</em>. Se abrirá la pantalla de búsqueda de Òrdenes de pago.</p>
+</li>
+<li><p class="first">En la barra de herramientas pulsar el ícono <img alt="/icons/22n_orden_de_pago.png" class="inlinegraphic" src="../../_images/22n_orden_de_pago.png" />. Se abrirá la pantalla Órdenes de Pago.</p>
+<div class="figure">
+<img alt="../../_images/personal_ordenDePago.png" src="../../_images/personal_ordenDePago.png" />
+<p class="caption">Pantalla de Órdenes de Pago.</p>
+</div>
+</li>
+<li><p class="first">Al ingresar el código del empleado, automáticamente se verán en el panel
+intermedio los débitos a cancelar, de los cuales pueden
+seleccionarse todos o algunos, como también el pago total o parcial.</p>
+</li>
+<li><p class="first">Con el botón <em class="guilabel">Agregar</em> incluirlos en la orden. Se verán en el panel inferior.</p>
+</li>
+<li><p class="first">Desde la solapa de Formas de pago se asigna la forma de pago deseada.</p>
+</li>
+<li><p class="first">Si al guardar la orden no se le asigna todavía una forma de pago, quedará
+guardada con el estado Sin asignar pagos.</p>
+</li>
+<li><p class="first">Al terminar la generación el sistema sugiere imprimir el documento.</p>
+<div class="figure">
+<img alt="../../_images/op_personal.png" src="../../_images/op_personal.png" />
+<p class="caption">Impresión de OP</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="como-buscar-una-orden-de-pago">
+<h2>7.2. ¿Cómo buscar una Órden de Pago ?<a class="headerlink" href="#como-buscar-una-orden-de-pago" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Personal ‣ Ordenes de pago</em>.</p>
+<div class="figure">
+<img alt="../../_images/busquedaOP_personal.png" src="../../_images/busquedaOP_personal.png" />
+<p class="caption">Pantalla Órdenes de Pago.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="como-asignar-pagos-a-una-orden-de-pago">
+<h2>7.3. ¿Cómo asignar pagos a una Orden de Pago ?<a class="headerlink" href="#como-asignar-pagos-a-una-orden-de-pago" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Una vez creada una órden de pago con estado &#8216;Sin asignar pagos&#8217; desde la consulta de
+menú <em class="menuselection">Personal ‣ Órdenes de Pago</em>, deben buscar y
+seleccionar el documento, luego y pulsar el ícono <img alt="/icons/22cambiar_importe.png" class="inlinegraphic" src="../../_images/22cambiar_importe.png" /> en la barra de herramientas.
+Se abrirá la pantalla Órdenes de Pago donde se debe asignar la forma de pago deseada y aceptar para guardar los cambios.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Personal_AsignarPago.png" src="../../_images/Personal_AsignarPago.png" />
+<p class="caption">Pantalla asignación de pagos.</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="como-cerrar-una-orden-de-pago">
+<h2>7.4. ¿Cómo cerrar una Orden de Pago ?<a class="headerlink" href="#como-cerrar-una-orden-de-pago" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Cuando el empleado firma el recibo de sueldo, desde la consulta de
+menú <em class="menuselection">Personal ‣ Órdenes de Pago</em> deben buscar y seleccionar el documento, luego
+pulsar el ícono <cite>Cerrar orden de pago y asignar número de recibo</cite>.
+En este momento se concreta el pago.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/Personal_CerrarOP.png" src="../../_images/Personal_CerrarOP.png" />
+<p class="caption">Cerrar órden de pago</p>
+</div>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">7. Pago a Empleados</a><ul>
+<li><a class="reference internal" href="#como-crear-una-orden-de-pago">7.1. ¿Cómo crear una Orden de Pago ?</a></li>
+<li><a class="reference internal" href="#como-buscar-una-orden-de-pago">7.2. ¿Cómo buscar una Órden de Pago ?</a></li>
+<li><a class="reference internal" href="#como-asignar-pagos-a-una-orden-de-pago">7.3. ¿Cómo asignar pagos a una Orden de Pago ?</a></li>
+<li><a class="reference internal" href="#como-cerrar-una-orden-de-pago">7.4. ¿Cómo cerrar una Orden de Pago ?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="personal_06.html"
+                        title="Capítulo anterior">6. Liquidación de sueldos</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="../14_ddaa.html"
+                        title="Próximo capítulo">11. Derechos de Autor</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../14_ddaa.html" title="11. Derechos de Autor"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="personal_06.html" title="6. Liquidación de sueldos"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../13_personal.html" >10. Personal</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

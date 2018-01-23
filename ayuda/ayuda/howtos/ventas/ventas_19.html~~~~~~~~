@@ -1,0 +1,208 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>21. ¿Cómo utilizar el sistema de puntos? &mdash; Fierro 20.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="Fierro 20.1 documentation" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="22. ¿Cómo se completa la operación de pago contrareembolso?" href="ventas_20.html" />
+    <link rel="prev" title="20. ¿Cómo revertir un cambio de precio?" href="ventas_17.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-fierro.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_20.html" title="22. ¿Cómo se completa la operación de pago contrareembolso?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_17.html" title="20. ¿Cómo revertir un cambio de precio?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-utilizar-el-sistema-de-puntos">
+<h1>21. ¿Cómo utilizar el sistema de puntos?<a class="headerlink" href="#como-utilizar-el-sistema-de-puntos" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="admonition note" id="index-0">
+<p class="first admonition-title">Nota</p>
+<p><strong>Criterio de las reglas</strong></p>
+<p>Para usar el sistema de puntos, debe crearse al menos una regla de
+puntaje. En ella se definirá la equivalencia entre puntos y pesos.</p>
+<p class="last">Se puede crear más de una regla: por ejemplo, puntos para clientes
+normales, para clientes VIP. etcétera.</p>
+</div>
+<p>La carga de las reglas se realiza desde <em class="menuselection">Ventas ‣ Otros ‣ Reglas de Puntaje</em>.
+Dentro de la regla se define:</p>
+<ol class="arabic simple">
+<li><em>Importe por punto (crédito):</em> aquí se indica cuántos pesos se requieren para
+sumar 1 punto en cada compra. Por ejemplo, un valor de 10 indicará que por
+cada 10 pesos se acumula 1 punto. En una compra de $ 26, se acumularán 2.6
+puntos que se redondean a 3.</li>
+<li><em>Importe por punto (débito):</em> aquí se indica cuántos pesos equivalen a un
+punto para pagar la compra. Ejemplos: un valor de 10 indicará que cada punto
+equivale a $10. Así, en una compra de $ 26 se necesitarán 2.6 puntos que se
+redondean a 3. Un valor de 1 indicará que 1 punto equivale a $1. En este
+caso, en una compra de $30 se necesitarán 30 puntos.</li>
+</ol>
+<p>La regla puede definirse a nivel general y también con excepciones, por ejemplo
+si se quiere establecer que determinado tipo de producto tenga otro puntaje.</p>
+<div class="figure">
+<img alt="../../_images/puntosReglas.png" src="../../_images/puntosReglas.png" />
+<p class="caption">Pantalla Reglas de puntaje</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Clientes</strong></p>
+<p class="last">En la ficha de cada cliente se debe indicar qué regla de puntaje tiene
+para acumular puntos. Esto se indica en la ficha en su solapa Puntos.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/puntosCliente.png" src="../../_images/puntosCliente.png" />
+<p class="caption">Pantalla Cliente</p>
+</div>
+<ol class="arabic simple">
+<li>En la vista general del cliente y en la columna Puntos se visualizan los
+puntos acumulados.</li>
+<li>En la vista Historial de puntos del cliente se pueden observar los
+movimientos realizados.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/puntosHistorial.png" src="../../_images/puntosHistorial.png" />
+<p class="caption">Pantalla Historial de puntos</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Obtención de puntos por compras realizadas</strong></p>
+<p class="last">Si un cliente tiene habilitado el sistema de puntos, cuando se le realice
+una factura sumará los puntos correspondientes.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Canje de puntos como forma de pago</strong></p>
+<p class="last">Cuando se le realiza una factura a un cliente, ésta puede pagarse con los
+puntos que el cliente ha acumulado.</p>
+</div>
+<ol class="arabic simple">
+<li>Debe pulsarse el botón &#8220;Aplicar el descuento de puntos...&#8221; de la barra de
+herramientas.</li>
+<li>En la solapa Formas de pago aparece el detalle del canje.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/puntosFactura.png" src="../../_images/puntosFactura.png" />
+<p class="caption">Pantalla Canje de puntos</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Otorgamiento de puntos por otros motivos</strong></p>
+<p class="last">Es posible agregar o quitar puntos a un cliente por motivos distintos a
+sus compras. (La tipificación de motivos es configurable.)</p>
+</div>
+<ol class="arabic simple">
+<li>Se selecciona el cliente en la búsqueda de clientes y se pulsa el botón
+Agregar o quitar puntos manualmente.</li>
+<li>Se ingresa el motivo y la cantidad de puntos a asignar, lo cuales, según el
+motivo, pueden sumar o restar en el puntaje del cliente.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/puntosManuales.png" src="../../_images/puntosManuales.png" />
+<p class="caption">Pantalla Otorgamiento de puntos</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_17.html"
+                        title="Capítulo anterior">20. ¿Cómo revertir un cambio de precio?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_20.html"
+                        title="Próximo capítulo">22. ¿Cómo se completa la operación de pago contrareembolso?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_20.html" title="22. ¿Cómo se completa la operación de pago contrareembolso?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_17.html" title="20. ¿Cómo revertir un cambio de precio?"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Lambda Sistemas.
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

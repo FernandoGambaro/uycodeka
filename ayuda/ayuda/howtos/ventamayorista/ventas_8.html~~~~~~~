@@ -1,0 +1,346 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4.11. Servicio de novedades &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="4. Venta Mayorista" href="../07_ventamayorista.html" />
+    <link rel="next" title="4.13. Facturación en firme" href="ventas_9.html" />
+    <link rel="prev" title="4.10. Creación de un pedido en firme" href="ventas_7.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-fierro.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_9.html" title="4.13. Facturación en firme"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_7.html" title="4.10. Creación de un pedido en firme"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" accesskey="U">4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="servicio-de-novedades">
+<h1>4.11. Servicio de novedades<a class="headerlink" href="#servicio-de-novedades" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="admonition note" >
+<p class="first admonition-title">Nota</p>
+<p><strong>Generación de servicios de novedades</strong></p>
+<p>La herramienta de generación de servicios de novedades permite crear
+en forma masiva, un conjunto de remitos o pedidos con determinados
+libros, para un conjunto de clientes.</p>
+<p class="last">Para facilitar la generación de servicios de novedades, pueden
+crearse distintas categorías de servicio de novedad para asignarle a
+cada cliente, por ejemplo: librerías pequeñas, librerías grandes,
+cadenas, etc. De esta forma, los clientes quedan clasificados para, al
+momento de generar el servicio, asignarle una cantidad de libros similar
+a todos los clientes de esa categoría. Ver <a class="reference internal" href="#howto-ventas-servicionovedad-categorias"><em>Categorías de
+servicio de novedades</em></a>.</p>
+</div>
+<p>La generación de servicios de novedades se compone de dos pasos:</p>
+<ol class="arabic">
+<li><p class="first"><em>Definición de los libros y cantidades a enviar:</em> en este paso se deciden los
+libros y cantidades que se van a enviar, indicando dicho valor para cada
+categoría de cliente o creando nuevos modelos.</p>
+</li>
+<li><p class="first"><em>Definicion de los clientes a los que se les envía el servicio:</em> en este paso
+se eligen los clientes a los que se les envía el servicio de novedad.</p>
+<p>Los clientes pueden elegirse manualmente, o el sistema puede
+mostrar los clientes por categoría de servicios de novedad.</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Pedidos y remitos</strong></p>
+<p>La herramienta de generación de servicios de novedades puede generar
+<em>Pedidos</em> o <em>Remitos</em>, según cómo esté configurado el sistema.</p>
+<p class="last">Si desea generar remitos o pedidos, debe informarlo al implementador
+del sistema para que realize la configuración correspondiente.</p>
+</div>
+<p>Para generar un servicio de novedad, los pasos son los siguientes:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Servicio de
+Novedades</em>. Se abrirá la pantalla de Generación automática de lote de
+novedades en la solapa <em>Modelos</em>.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Advertencia</p>
+<p class="last">Si no aparece la opción de menú <em class="menuselection">Ventas ‣ Servicio de
+Novedades</em>, solicitar la configuración al implementador del sistema.</p>
+</div>
+<p>En la solapa <em>Modelos</em> se determinan los libros y cantidades a enviar por
+cada categoría de servicio de novedad. También es posible crear modelos en
+la misma pantalla, sin asociar a categorías preexistentes.</p>
+<p>La pantalla muestra un grilla donde por cada libro, se debe ingresar la
+cantidad a enviar a cada modelo.</p>
+<div class="figure">
+<img alt="../../_images/scrServNovModelos.png" src="../../_images/scrServNovModelos.png" />
+<p class="caption">Pantalla Generación automática de lote de novedades</p>
+</div>
+</li>
+<li><p class="first">Agregar los libros que se desean enviar presionando el botón <em class="guilabel">Agregar Libro</em>.</p>
+</li>
+<li><p class="first">Completar las cantidades a ingresar de cada libro para cada modelo.</p>
+<div class="figure">
+<img alt="../../_images/scrServNovModelosLibros.png" src="../../_images/scrServNovModelosLibros.png" />
+<p class="caption">Edición de las cantidades a enviar por libro por modelo</p>
+</div>
+</li>
+<li><p class="first">Si desea crear otra combinación de libros y cantidades, puede crear un nuevo modelo.</p>
+<p>Para esto, presionar el botón <em class="guilabel">Agregar Modelo</em>. Se abrirá la
+pantalla para ingresar el nombre del modelo.</p>
+<div class="figure">
+<img alt="../../_images/scrServNovModelosNuevo.png" src="../../_images/scrServNovModelosNuevo.png" />
+<p class="caption">Creación de un nuevo modelo</p>
+</div>
+<p>Luego de crear el modelo, aparece una nueva columna para completar las
+cantidades a enviar por libro.</p>
+<div class="figure">
+<img alt="../../_images/scrServNovModelosNuevoColumna.png" src="../../_images/scrServNovModelosNuevoColumna.png" />
+<p class="caption">Nuevo modelo</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la solapa Clientes. Se mostrará una grilla donde se visualizarán
+los clientes a quienes se les envía el servicio de novedad (código, nombre y
+dirección ), el modelo o categoría de servicio, y los libros con las
+cantidades que se envían, uno por columna.</p>
+<div class="figure">
+<img alt="../../_images/scrServNovClientes.png" src="../../_images/scrServNovClientes.png" />
+<p class="caption">Clientes del servicio de novedad</p>
+</div>
+</li>
+<li><p class="first">Agregar los clientes a los que se les enviará el servicio de novedad. Para
+esto hay dos opciones:</p>
+<ol class="arabic">
+<li><p class="first"><em>Seleccionar manualmente los clientes</em></p>
+<ol class="arabic">
+<li><p class="first">Presionar el botón <em class="guilabel">Agregar Cliente</em>. Se abrirá la pantalla
+de selección de clientes.</p>
+</li>
+<li><p class="first">Seleccionar los clientes. Puede seleccionar varios clientes presionando
+la tecla Ctrl.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+<li><p class="first">Seleccionar el modelo que desea aplicar a los clientes seleccionados.</p>
+<div class="figure">
+<img alt="../../_images/scrServNovClientSelectModel.png" src="../../_images/scrServNovClientSelectModel.png" />
+<p class="caption">Selección del modelo para los clientes</p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>. Los clientes se agregarán a la grilla.</p>
+</li>
+</ol>
+</li>
+<li><p class="first"><em>Generar el listado de clientes a partir de las categorías de servicio de novedad</em></p>
+<p>Con esta opción, el sistema muestra todos los clientes que tienen una
+categoría asignada, y por cada uno, completa los libros y cantidades
+definidas previamente.</p>
+<p>Para generar el listado a partir de las categorías, presionar el
+botón <em class="guilabel">Generar Categorías</em>.</p>
+<div class="figure">
+<img alt="../../_images/scrServNovClientesGenCat.png" src="../../_images/scrServNovClientesGenCat.png" />
+<p class="caption">Listado de clientes, con los libros y cantidades</p>
+</div>
+</li>
+</ol>
+</li>
+<li><p class="first">Para cambiar el modelo asignado a un cliente, seleccionar la celda Modelo de
+la fila del cliente, y seleccionar la opción deseada. Luego del cambio, las
+cantidades de los libros se modificarán a las correspondientes a dicho
+modelo.</p>
+<div class="figure">
+<img alt="../../_images/scrServNovClientesCambiarModelo.png" src="../../_images/scrServNovClientesCambiarModelo.png" />
+<p class="caption">Cambio de modelo de un cliente</p>
+</div>
+</li>
+<li><p class="first">Para cambiar la cantidad particular a enviar de un libro a un cliente,
+modificar el valor en la celda del libro en la fila del cliente.</p>
+<div class="figure">
+<img alt="../../_images/scrServNovClientesCambiarCantidad.png" src="../../_images/scrServNovClientesCambiarCantidad.png" />
+<p class="caption">Cambio de una cantidad para un cliente</p>
+</div>
+</li>
+<li><p class="first">Para visualizar la cantidad de libros a enviar, seleccionar la solapa
+Totales. Se mostrarán los totales a enviar por libro y por modelo.</p>
+<div class="figure">
+<img alt="../../_images/scrServNovTotales.png" src="../../_images/scrServNovTotales.png" />
+<p class="caption">Solapa Totales</p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>. Se generarán los pedido o remitos
+correspondientes al servicio de novedad.</p>
+<div class="figure">
+<img alt="../../_images/scrServNovAcept.png" src="../../_images/scrServNovAcept.png" />
+<p class="caption">Generar servicio de novedades</p>
+</div>
+<p>Luego de generar los documentos, el sistema propone abrir la pantalla con los
+documentos generados.</p>
+</li>
+<li><p class="first">Si se generan <em>remitos</em>, pueden imprimirse en forma masiva. Para esto,
+realizar los siguientes pasos:</p>
+<ol class="arabic simple">
+<li>Seleccionar los remitos que se desean imprimir.</li>
+<li>Seleccionar la opción de menú <em class="menuselection">Ventana Activa ‣ Imprimir
+Remitos</em> o el ícono <img alt="/icons/imprimir.png" class="inlinegraphic" src="../../_images/imprimir.png" /> de la barra de
+herramientas.</li>
+</ol>
+</li>
+<li><p class="first">Si se generan <em>pedidos</em>, puede generarse un reporte de modelos para realizar la preparación de los mismos.</p>
+<p>Este reporte es de suma utilidad para el armado de los paquetes a enviar,
+porque agrupa los pedidos según la cantidad de libros. Indica, por ejemplo,
+que hay que preparar 10 pedidos de 5 ejemplares de un libro y tres de otro,
+15 pedidos de un ejemplar de un libro, etc.</p>
+<p>Para genear el reporte de modelos de pedidos, realizar los siguientes pasos:</p>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Reportes ‣ Modelos de pedidos.</em></li>
+<li>Seleccionar el filtro de pedidos a preparar.</li>
+<li>Presionar el botón <em class="guilabel">Aceptar</em>.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Los nombres de los modelos de categorías de servicio de novedad no se
+corresponden con los nombres de los modelos del reporte. Estos tienen un
+nombre generado aleatoriamente.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="categorias-de-servicio-de-novedades">
+<span id="howto-ventas-servicionovedad-categorias"></span><h1>4.12. Categorías de servicio de novedades<a class="headerlink" href="#categorias-de-servicio-de-novedades" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="creacion-de-categorias-de-servicio-de-novedad">
+<h2>4.12.1. Creación de categorías de servicio de novedad<a class="headerlink" href="#creacion-de-categorias-de-servicio-de-novedad" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Otros ‣ Categorías
+de Servicio de Novedad</em>. Se abrirá la pantalla de edición de categorías de
+servicios de novedad.</li>
+<li>Crear, modificar o borrar las categorías de servicios de novedad.</li>
+</ol>
+</div>
+<div class="section" id="asignacion-de-una-categoria-de-servicio-de-novedad-a-un-cliente">
+<span id="howto-ventas-servicionovedad-categorias-client"></span><h2>4.12.2. Asignación de una categoría de servicio de novedad a un cliente<a class="headerlink" href="#asignacion-de-una-categoria-de-servicio-de-novedad-a-un-cliente" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Ingresar a la ficha del cliente al cual se le quiere asignar una categoría de
+servicio de novedad. Ver <a class="reference internal" href="../ventas/ventas_04.html#howto-ventas-sec4-sec11"><em>¿Cómo modificar la ficha de un cliente?</em></a></p>
+</li>
+<li><p class="first">Seleccionar la solapa Distribución.</p>
+</li>
+<li><p class="first">Dentro de la solapa Distribución, seleccionar la opción deseada en el campo
+<em>Categoría Serv. Nov.</em>.</p>
+<div class="figure">
+<img alt="../../_images/scrServNovClient.png" src="../../_images/scrServNovClient.png" />
+<p class="caption">Solapa Distribución en la pantalla de modificación de la ficha de cliente</p>
+</div>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em>.</p>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">4.11. Servicio de novedades</a></li>
+<li><a class="reference internal" href="#categorias-de-servicio-de-novedades">4.12. Categorías de servicio de novedades</a><ul>
+<li><a class="reference internal" href="#creacion-de-categorias-de-servicio-de-novedad">4.12.1. Creación de categorías de servicio de novedad</a></li>
+<li><a class="reference internal" href="#asignacion-de-una-categoria-de-servicio-de-novedad-a-un-cliente">4.12.2. Asignación de una categoría de servicio de novedad a un cliente</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_7.html"
+                        title="Capítulo anterior">4.10. Creación de un pedido en firme</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_9.html"
+                        title="Próximo capítulo">4.13. Facturación en firme</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_9.html" title="4.13. Facturación en firme"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_7.html" title="4.10. Creación de un pedido en firme"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" >4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

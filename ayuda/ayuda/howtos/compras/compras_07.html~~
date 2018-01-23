@@ -1,0 +1,151 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>6. ¿Cómo ingresar una factura con precio de costo? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Compras" href="../07_compras.html" />
+    <link rel="next" title="7. ¿Cómo ingresar una Nota de Crédito?" href="compras_08.html" />
+    <link rel="prev" title="5. ¿Cómo ingresar una factura de baja de consignación?" href="compras_05.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="compras_08.html" title="7. ¿Cómo ingresar una Nota de Crédito?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_05.html" title="5. ¿Cómo ingresar una factura de baja de consignación?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" accesskey="U">3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-ingresar-una-factura-con-precio-de-costo">
+<h1>6. ¿Cómo ingresar una factura con precio de costo?<a class="headerlink" href="#como-ingresar-una-factura-con-precio-de-costo" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Facturas con precio de costo</strong></p>
+<p>En algunos casos, deben ingresarse facturas a precio de costo por items
+que no son libros, o por libros de saldos.</p>
+<p class="last">En estos casos, no se aplica el PVP (precio de venta al público) menos el
+descuento del proveedor para obtener el costo de los artículos, sino que es
+posible registrar la factura con sus precios de costo y luego colocar
+manualmente el PVP que se desee.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/FacturaCosto.png" src="../../_images/FacturaCosto.png" />
+<p class="caption">Pantalla de nueva factura</p>
+</div>
+<ol class="arabic simple">
+<li>La columna Precio muestra el precio de costo indicado en la factura del
+proveedor.</li>
+<li>La columna PVP es la del precio de venta al público, y puede seleccionarse
+para colocar el valor que se desee.</li>
+<li>Si se modifica el precio en dicha columna, el sistema preguntará si se desea
+cambiar el PVP no sólo para el ingreso de la factura, sino también en la
+ficha del artículo.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/mensajeCambioPrecio.png" src="../../_images/mensajeCambioPrecio.png" />
+<p class="caption">Pantalla de aviso de cambio de precio</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="compras_05.html"
+                        title="Capítulo anterior">5. ¿Cómo ingresar una factura de baja de consignación?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="compras_08.html"
+                        title="Próximo capítulo">7. ¿Cómo ingresar una Nota de Crédito?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="compras_08.html" title="7. ¿Cómo ingresar una Nota de Crédito?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_05.html" title="5. ¿Cómo ingresar una factura de baja de consignación?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" >3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

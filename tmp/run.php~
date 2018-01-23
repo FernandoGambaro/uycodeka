@@ -1,0 +1,7 @@
+<?php
+
+echo $comando = escapeshellcmd('lp  -dFacturacion -n 2 -omedia=210x145mm -o fit-to-page Factura2469.pdf');
+
+		echo"..1..". $output = shell_exec($comando); /*Envío la impresión por sistema*/
+		var_dump($output);
+?>

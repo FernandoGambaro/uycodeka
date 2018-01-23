@@ -1,0 +1,279 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1. ¿Cómo ingresar las categorizaciones del módulo de empleados? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="10. Personal" href="../13_personal.html" />
+    <link rel="next" title="2. Empleados" href="personal_02.html" />
+    <link rel="prev" title="10. Personal" href="../13_personal.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="personal_02.html" title="2. Empleados"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="../13_personal.html" title="10. Personal"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../13_personal.html" accesskey="U">10. Personal</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="admonition note" id="howto-personal-sec1">
+<p class="first admonition-title">Nota</p>
+<p class="last">El módulo Personal permite registrar fichas de empleados, tener registro de los
+horarios de trabajo de los mismos mediante el fichaje de entrada y salida y
+generar las liquidaciones de sueldo.</p>
+</div>
+<div class="section" id="como-ingresar-las-categorizaciones-del-modulo-de-empleados">
+<h1>1. ¿Cómo ingresar las categorizaciones del módulo de empleados?<a class="headerlink" href="#como-ingresar-las-categorizaciones-del-modulo-de-empleados" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="section" id="como-crear-sectores">
+<span id="index-1"></span><h2>1.1. ¿Cómo crear sectores?<a class="headerlink" href="#como-crear-sectores" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Personal ‣ Otros ‣
+Sectores</em>. Se abrirá la pantalla Sectores.</p>
+<div class="figure">
+<img alt="../../_images/sectores.png" src="../../_images/sectores.png" />
+<p class="caption">Pantalla Sectores</p>
+</div>
+</li>
+<li><p class="first">Los respectivos botones permiten editar, crear o eliminar sectores.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="como-crear-puestos">
+<span id="howto-personal-sec1-sec2"></span><h2>1.2. ¿Cómo crear puestos?<a class="headerlink" href="#como-crear-puestos" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Personal ‣ Otros ‣
+Puestos</em>. Se abrirá la pantalla Puestos.</p>
+<div class="figure">
+<img alt="../../_images/puestos.png" src="../../_images/puestos.png" />
+<p class="caption">Pantalla Puestos</p>
+</div>
+</li>
+<li><p class="first">Los respectivos botones permiten editar, crear o eliminar puestos.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="como-crear-categorias-de-convenio">
+<h2>1.3. ¿Cómo crear categorías de convenio?<a class="headerlink" href="#como-crear-categorias-de-convenio" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Personal ‣ Otros ‣
+Categorías de convenio</em>. Se abrirá la pantalla Puestos.</p>
+<div class="figure">
+<img alt="../../_images/categoriaDeConvenio.png" src="../../_images/categoriaDeConvenio.png" />
+<p class="caption">Pantalla Categorías de convenio</p>
+</div>
+</li>
+<li><p class="first">Los respectivos botones permiten editar, crear o eliminar categorías de convenio.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="como-crear-obras-sociales">
+<h2>1.4. ¿Cómo crear obras sociales?<a class="headerlink" href="#como-crear-obras-sociales" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Personal ‣ Otros ‣
+Obras Sociales</em>. Se abrirá la pantalla Puestos.</p>
+<div class="figure">
+<img alt="../../_images/obrasSociales.png" src="../../_images/obrasSociales.png" />
+<p class="caption">Pantalla Obras Sociales</p>
+</div>
+</li>
+<li><p class="first">Los respectivos botones permiten editar, crear o eliminar obras sociales.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="como-crear-modalidades-de-contratacion">
+<h2>1.5. ¿Cómo crear modalidades de contratación?<a class="headerlink" href="#como-crear-modalidades-de-contratacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Personal ‣ Otros ‣
+Modalidades de contratación</em>. Se abrirá la pantalla Puestos.</p>
+<div class="figure">
+<img alt="../../_images/modalidadesDeContratacion.png" src="../../_images/modalidadesDeContratacion.png" />
+<p class="caption">Pantalla Modalidades de Contratación</p>
+</div>
+</li>
+<li><p class="first">Los respectivos botones permiten editar, crear o eliminar modalidades de contratación.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="como-crear-una-plantilla-de-recibo">
+<h2>1.6. Cómo crear una plantilla de recibo ?<a class="headerlink" href="#como-crear-una-plantilla-de-recibo" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">El módulo incluye la plantilla de recibo de SEC vigente configurada. Si desean utilizar otras plantillas deben crearlas
+como está explicado a continuación.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Personal ‣ Otros ‣
+Plantilla de recibo</em>. Se abrirá la pantalla Plantilla de salarios.</p>
+<div class="figure">
+<img alt="../../_images/plantillaSalario.png" src="../../_images/plantillaSalario.png" />
+</div>
+</li>
+<li><p class="first">Hacer click en el botón <em class="guilabel">Crear</em>. Se abrirá la pantalla para la creación de una nueva plantilla de salarios.</p>
+</li>
+<li><p class="first">También se puede crear una plantilla de salarios nueva, a partir de una ya existente, haciendo click en el botón <em class="guilabel">Copiar</em> . Esto realizará una copia de la
+plantilla seleccionada y luego solo habrá que modificar los valores que difieran de la plantilla copiada.</p>
+<div class="figure">
+<img alt="../../_images/creacionPlantilla.png" src="../../_images/creacionPlantilla.png" />
+<p class="caption">Pantalla de creación de Plantilla de salarios.</p>
+</div>
+</li>
+<li><p class="first">Agregar el nombre a la plantilla de sueldo .</p>
+</li>
+<li><p class="first">En valores predeterminado se deben ingresar las variables que influirán al momento de realizar la liquidación utilizando la plantilla que estamos confeccionando.
+Por ejemplo:</p>
+<div class="figure">
+<img alt="../../_images/valoresLiquidacion.png" src="../../_images/valoresLiquidacion.png" />
+<p class="caption">Pantalla para ingresar Valores Predeterminados.</p>
+</div>
+</li>
+<li><p class="first">En &#8216;Items de salarios&#8217; van las fórmulas que se utilizarán para calcular los sueldos a liquidar con esta plantilla.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Al posicionarse sobre cada concepto a completar con el mouse aparecerá una breve descripción del campo a completar.</p>
+</div>
+<div class="figure">
+<img alt="../../_images/formulas.png" src="../../_images/formulas.png" />
+<p class="caption">Pantalla para ingresar nuevos conceptos en la plantilla de salario.</p>
+</div>
+</li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li>Nombre:colocar un nombre significativo a item del salario.</li>
+<li>Descripción: breve descripción del item que se está generando .</li>
+<li>Fórmula: utilizando los valores predeterminados ingresados anteriormente, deben generar la fórmula para el cálculo de los valores necesarios para realizar la liquidación.</li>
+<li>Etiquetas: Son claves que se utilizan en la fórmula para luego utilizar ese valor en una sumatoria.</li>
+<li>Unidades : Descripción del concepto que aparecerá en el recibo. Ejemplo:&#8216;3 %&#8217;.</li>
+<li>Cálculo Auxiliar: Si este casillero se encuentra tildado el cálculo que se realice no se verá plasmado en el recibo de sueldo</li>
+</ul>
+<blockquote>
+<div><p>sino que el resultado se utilizará en otra fórmula.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">IMPORTANTE: Con la sumatoria de estos conceptos se formará el salario, no hay un límite de conceptos para crear.</p>
+</div>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<ol class="arabic simple">
+<li>Una vez agregado todos los conceptos y valores necesarios hacer click en <em class="guilabel">Aceptar</em>.</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">1. ¿Cómo ingresar las categorizaciones del módulo de empleados?</a><ul>
+<li><a class="reference internal" href="#como-crear-sectores">1.1. ¿Cómo crear sectores?</a></li>
+<li><a class="reference internal" href="#como-crear-puestos">1.2. ¿Cómo crear puestos?</a></li>
+<li><a class="reference internal" href="#como-crear-categorias-de-convenio">1.3. ¿Cómo crear categorías de convenio?</a></li>
+<li><a class="reference internal" href="#como-crear-obras-sociales">1.4. ¿Cómo crear obras sociales?</a></li>
+<li><a class="reference internal" href="#como-crear-modalidades-de-contratacion">1.5. ¿Cómo crear modalidades de contratación?</a></li>
+<li><a class="reference internal" href="#como-crear-una-plantilla-de-recibo">1.6. Cómo crear una plantilla de recibo ?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="../13_personal.html"
+                        title="Capítulo anterior">10. Personal</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="personal_02.html"
+                        title="Próximo capítulo">2. Empleados</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="personal_02.html" title="2. Empleados"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="../13_personal.html" title="10. Personal"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../13_personal.html" >10. Personal</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

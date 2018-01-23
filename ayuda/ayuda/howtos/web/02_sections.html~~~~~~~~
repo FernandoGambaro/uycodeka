@@ -1,0 +1,236 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>13.2. Secciones &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="13. Web" href="../16_web.html" />
+    <link rel="next" title="13.3. Carrito" href="03_cart.html" />
+    <link rel="prev" title="13.1. Página web" href="01_intro.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="03_cart.html" title="13.3. Carrito"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="01_intro.html" title="13.1. Página web"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../16_web.html" accesskey="U">13. Web</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="secciones">
+<span id="howto-web-sections"></span><h1>13.2. Secciones<a class="headerlink" href="#secciones" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="section">
+<span id="id1"></span><h2>13.2.1. Secciones<a class="headerlink" href="#index-1" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La página web se estructura en secciones. Cada sección es una porción de la página que puede ser administrada por el usuario. Las secciones definidas se pueden visualizar en el menú Web-&gt;Otros-&gt;Secciones.</p>
+<div class="figure">
+<img alt="../../_images/web_2.png" src="../../_images/web_2.png" />
+</div>
+<div class="section" id="secciones-que-muestran-un-grupo-de-libros">
+<h3>13.2.1.1. Secciones que muestran un grupo de libros<a class="headerlink" href="#secciones-que-muestran-un-grupo-de-libros" title="Enlazar permanentemente con este título">¶</a></h3>
+<dl class="docutils">
+<dt>Estas secciones son del tipo Grupo de libros y contienen un grupo asociado.</dt>
+<dd><ul class="first last simple">
+<li>En la definición de la sección puede visualizar el grupo de libros asociado (Web-&gt;Otros-&gt;Secciones).</li>
+<li>En el menú Catálogo-&gt;Grupos de libros puede editar los libros del grupo.</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="secciones-que-muestran-texto-y-o-imagenes">
+<h3>13.2.1.2. Secciones que muestran texto y/o imágenes<a class="headerlink" href="#secciones-que-muestran-texto-y-o-imagenes" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Estas secciones muestran otra página que se agrega desde Fierro. Las páginas se editan en el menú Web-&gt;Página web.</p>
+</div>
+<div class="section" id="creacion-de-una-pagina-web">
+<h3>13.2.1.3. Creación de una página web<a class="headerlink" href="#creacion-de-una-pagina-web" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Para crear una página web en Fierro debe seguir los siguientes pasos:</p>
+<ol class="arabic simple">
+<li>Ingresar al menú Web-&gt;Página web.</li>
+<li>Presionar el ícono <img alt="/icons/22nuevo.png" class="inlinegraphic" src="../../_images/22nuevo.png" /> Crear una nueva página web. Aparecerá el asistente para crear páginas.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/web_3.png" src="../../_images/web_3.png" />
+</div>
+<ol class="arabic">
+<li><p class="first">Las páginas pueden crearse con distintos mecanismos:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Mediante una plantilla: en este caso, seleccione la plantilla, presione Next y complete los datos solicitados.</li>
+<li>Cargando el archivo HTML: seleccione el archivo HTML en su máquina.</li>
+<li>Editando el HTML en la misma pantalla.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Presione Next (si es una plantilla, deberá ingresar los datos propios de la plantilla).</p>
+</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/web_4.png" src="../../_images/web_4.png" />
+</div>
+<ol class="arabic simple">
+<li>En la solapa Grupo de libros seleccione el grupo solo si el tipo de página web lo solicita (esto se define al momento del diseño de la paǵina).</li>
+<li>Presione Finish. Una vez creada la página web, podrá visualizarla en el sitio web.</li>
+</ol>
+</div>
+</div>
+<div class="section" id="seccion-contacto">
+<h2>13.2.2. Sección Contacto<a class="headerlink" href="#seccion-contacto" title="Enlazar permanentemente con este título">¶</a></h2>
+<p id="howto-web-intro-contacto">En esta sección el usuario completa un formulario y el administrador de la página recibe un mail con estos datos.</p>
+<p>Puede configurarse un único mail o distintas partes de la empresa para que el usuario elija a quien dirigir el mail, por ejemplo: Ventas, Prensa, Librería, etc. La configuración se realiza mediante el parámetro &#8220;emailReceivers&#8221;.</p>
+<div class="figure">
+<img alt="../../_images/web_5.png" src="../../_images/web_5.png" />
+</div>
+</div>
+<div class="section" id="seccion-quienes-somos">
+<h2>13.2.3. Sección Quiénes Somos<a class="headerlink" href="#seccion-quienes-somos" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="sucursales">
+<h3>13.2.3.1. Sucursales<a class="headerlink" href="#sucursales" title="Enlazar permanentemente con este título">¶</a></h3>
+<blockquote id="howto-web-intro-sucursals">
+<div><ul>
+<li><p class="first">Se visualizan los datos de cada sucursal. Es posible configurar qué sucursales desean mostrarse en la página (parámetro sucursalesWeb).</p>
+</li>
+<li><p class="first">Para cada sucursal que se muestra, buscar el cliente asociado (en Ventas-&gt;Clientes). En la ficha del cliente completar (todos los datos son optativos):</p>
+<blockquote>
+<div><ul class="simple">
+<li>Mail</li>
+<li>Teléfono</li>
+<li>Dirección</li>
+<li>Ciudad</li>
+<li>Agregar una nota con el asunto &#8220;Horarios&#8221; y completar en el cuerpo de la nota el horario de la sucursal.</li>
+<li>Agregar una nota con el asunto &#8220;Superficie Local&#8221; y completar en el cuerpo de la nota el dato de la sucursal.</li>
+<li>Agregar un adjunto del tipo &#8220;Imagen sucursal&#8221; con la foto de la sucursal (configuración sucursalImageType)</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<div class="figure">
+<img alt="../../_images/web_6.png" src="../../_images/web_6.png" />
+</div>
+</div>
+<div class="section" id="texto-quienes-somos">
+<h3>13.2.3.2. Texto Quiénes somos<a class="headerlink" href="#texto-quienes-somos" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Es una página web estática. Puede editarse en Web-&gt;Páginas web.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../manual.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">13.2. Secciones</a><ul>
+<li><a class="reference internal" href="#index-1">13.2.1. Secciones</a><ul>
+<li><a class="reference internal" href="#secciones-que-muestran-un-grupo-de-libros">13.2.1.1. Secciones que muestran un grupo de libros</a></li>
+<li><a class="reference internal" href="#secciones-que-muestran-texto-y-o-imagenes">13.2.1.2. Secciones que muestran texto y/o imágenes</a></li>
+<li><a class="reference internal" href="#creacion-de-una-pagina-web">13.2.1.3. Creación de una página web</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#seccion-contacto">13.2.2. Sección Contacto</a></li>
+<li><a class="reference internal" href="#seccion-quienes-somos">13.2.3. Sección Quiénes Somos</a><ul>
+<li><a class="reference internal" href="#sucursales">13.2.3.1. Sucursales</a></li>
+<li><a class="reference internal" href="#texto-quienes-somos">13.2.3.2. Texto Quiénes somos</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="01_intro.html"
+                        title="Capítulo anterior">13.1. Página web</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="03_cart.html"
+                        title="Próximo capítulo">13.3. Carrito</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="03_cart.html" title="13.3. Carrito"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="01_intro.html" title="13.1. Página web"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../16_web.html" >13. Web</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

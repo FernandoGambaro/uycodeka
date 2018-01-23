@@ -1,0 +1,169 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4. Fichaje &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="10. Personal" href="../13_personal.html" />
+    <link rel="next" title="5. ¿Cómo obtener un reporte de Jornadas Laborales?" href="personal_05.html" />
+    <link rel="prev" title="3. ¿Cómo visualizar la Cuenta Corriente de un Empleado?" href="personal_03.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="personal_05.html" title="5. ¿Cómo obtener un reporte de Jornadas Laborales?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="personal_03.html" title="3. ¿Cómo visualizar la Cuenta Corriente de un Empleado?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../13_personal.html" accesskey="U">10. Personal</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="fichaje">
+<span id="howto-personal-sec4"></span><h1>4. Fichaje<a class="headerlink" href="#fichaje" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p class="last">La jornada de trabajo del empleado está formada por el número de horas que el mismo está obligado a trabajar .</p>
+</div>
+<div class="section" id="fichar-ingreso">
+<h2>4.1. Fichar ingreso<a class="headerlink" href="#fichar-ingreso" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div>Seleccionar la opción de menú <em class="menuselection">Personal ‣ Fichar entrada</em>.</div></blockquote>
+<ul class="simple">
+<li>Se abrirá una ventana en la cual habrá que ingresar el código del empleado que está fichando su ingreso.
+Si no recuerda el código, puede realizar la búsqueda haciendo click en el ícono <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" /></li>
+</ul>
+<div class="figure">
+<img alt="../../_images/ficharIngreso.png" src="../../_images/ficharIngreso.png" />
+<p class="caption">Asistente para fichar el ingreso de un empleado</p>
+</div>
+<p>El campo de fecha y hora se autocompletará con los datos del sistema(no puede ser manipulado por el usuario), y se incluye un campo &#8216;Observación&#8217; por si
+es necesario hacer alguna aclaración sobre el ingreso del empleado (Ejemplo: demora por tránsito, recupero de horas
+extras, etc).</p>
+<p>Si el empleado demora en escribir las observaciones o en presionar el botón fichar, seleccionando el ícono <a href="#id1"><span class="problematic" id="id2">|graphic /imagen/22resfrecar.png|</span></a> se actualizará el horario.</p>
+</div>
+<div class="section" id="fichar-salida">
+<span id="howto-personal-sec4-sec2"></span><h2>4.2. Fichar salida<a class="headerlink" href="#fichar-salida" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div>Seleccionar la opción de menú <em class="menuselection">Personal ‣ Fichar salida</em>.</div></blockquote>
+<ul class="simple">
+<li>Se abrirá una ventana en la cual debe ingresar el código del empleado que desea fichar su salida, si no recuerda el código puede realizar la
+búsqueda haciendo click en el ícono <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" />.</li>
+</ul>
+<div class="figure">
+<img alt="../../_images/ficharSalida.png" src="../../_images/ficharSalida.png" />
+<p class="caption">Asistente para fichar el egreso de un empleado</p>
+</div>
+<p>Una vez seleccionado el empleado, se autocompletará el campo &#8216;Último ingreso&#8217; con los datos registrados, en caso de
+haber olvidado el fichaje de entrada de dicho día aparecerá la leyenda &#8216;Salida sin ingreso Asociado&#8217; que permite guardar el fichaje sin entrada (En estos casos el empleado debería completar el campo &#8216;Observación&#8217;).</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">4. Fichaje</a><ul>
+<li><a class="reference internal" href="#fichar-ingreso">4.1. Fichar ingreso</a></li>
+<li><a class="reference internal" href="#fichar-salida">4.2. Fichar salida</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="personal_03.html"
+                        title="Capítulo anterior">3. ¿Cómo visualizar la Cuenta Corriente de un Empleado?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="personal_05.html"
+                        title="Próximo capítulo">5. ¿Cómo obtener un reporte de Jornadas Laborales?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="personal_05.html" title="5. ¿Cómo obtener un reporte de Jornadas Laborales?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="personal_03.html" title="3. ¿Cómo visualizar la Cuenta Corriente de un Empleado?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../13_personal.html" >10. Personal</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

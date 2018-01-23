@@ -1,0 +1,149 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>8.8. ¿Cómo bloquear documentos? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="8. General" href="../11_general.html" />
+    <link rel="next" title="8.9. Importación de documentos desde planillas" href="general_09.html" />
+    <link rel="prev" title="8.7. Formatos e impresión de reportes" href="general_07.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="general_09.html" title="8.9. Importación de documentos desde planillas"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_07.html" title="8.7. Formatos e impresión de reportes"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" accesskey="U">8. General</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-bloquear-documentos">
+<span id="howto-others-bloqueodocumentos"></span><h1>8.8. ¿Cómo bloquear documentos?<a class="headerlink" href="#como-bloquear-documentos" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p>El bloqueo de documentos es útil para evitar operaciones anteriores a una
+fecha dada, y que ello modifique en el sistema los movimientos posteriores a
+la misma.</p>
+<p class="last">Si luego de haber hecho una operación se crea un bloqueo para cierto tipo de
+documento, y se le coloca una fecha de corte, ningún documento de ese tipo
+podrá ser ingresado con fecha anterior a la señalada por el corte.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Ir a la opción de menú <em class="menuselection">Sistema ‣ Bloqueo de documentos</em>. Se
+abrirá una pantalla de búsqueda.</p>
+</li>
+<li><p class="first">Pulsar el botón Crear. En la nueva ventana, elegir en el menú desplegable el
+tipo de documento a bloquear.</p>
+<div class="figure">
+<img alt="../../_images/BloqueoDocumentos.png" src="../../_images/BloqueoDocumentos.png" />
+<p class="caption">Tipo de documento</p>
+</div>
+</li>
+<li><p class="first">Es posible limitar el bloqueo a una sucursal, y también decidir un bloqueo a
+futuro. Esto último impide cargar documentos a partir del día en que se
+aplica dicha opción.</p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="general_07.html"
+                        title="Capítulo anterior">8.7. Formatos e impresión de reportes</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="general_09.html"
+                        title="Próximo capítulo">8.9. Importación de documentos desde planillas</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="general_09.html" title="8.9. Importación de documentos desde planillas"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="general_07.html" title="8.7. Formatos e impresión de reportes"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../11_general.html" >8. General</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,276 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>18. ¿Cómo actualizar la lista de precios? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="19. ¿Cómo copiar una lista de precios?" href="ventas_16.html" />
+    <link rel="prev" title="17. ¿Cómo trabajar con señas y reservas?" href="ventas_15.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_16.html" title="19. ¿Cómo copiar una lista de precios?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_15.html" title="17. ¿Cómo trabajar con señas y reservas?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-actualizar-la-lista-de-precios">
+<h1>18. ¿Cómo actualizar la lista de precios?<a class="headerlink" href="#como-actualizar-la-lista-de-precios" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><p id="index-1">Las listras de precios se pueden actualizar importando una planilla con las nuevos
+precios o indicando libro por libro que cambio se desea realizar.</p>
+<div class="section" id="importar-precios-de-una-planilla-de-calculo">
+<h2>18.1. Importar precios de una planilla de cálculo<a class="headerlink" href="#importar-precios-de-una-planilla-de-calculo" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La importación de precios permite actualizar los precios del catálogo desde
+una planilla de cálculo con la lista de libros y precios.</p>
+<p>Los proveedores suelen enviar sus listas en planillas Excel, cuyo formato no
+es soportado por este sistema. Se debe abrir el archivo Excel y en la opción de
+menú <em class="menuselection">Archivo ‣ Guardar como ...</em> Guardar como Texto CSV (.csv).</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Listas de precios</em>.
+Se abrirá la pantalla de Listas de precios.</p>
+<div class="figure">
+<img alt="../../_images/listaprecios.png" src="../../_images/listaprecios.png" />
+</div>
+</li>
+<li><p class="first">Seleccionar la lista de precios en la cual van a aplicar los cambios.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Precios</em>. Se abrirá la pantalla de cambios de
+precio.</p>
+<div class="figure">
+<img alt="../../_images/listaprecios1.png" src="../../_images/listaprecios1.png" />
+</div>
+</li>
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventana Activa ‣ Importar Precios</em>
+o el ícono <img alt="/icons/importar.png" class="inlinegraphic" src="../../_images/importar.png" /> de la barra de herramientas. Se
+abrirá el asistente de importación de precios. Ver
+<a class="reference internal" href="../../basics/pantallas/pantallas_03.html#basics-controls-wizards"><em>Asistente</em></a>.</p>
+</li>
+<li><p class="first">En el primer paso del asistente, seleccionar el archivo a importar presionando
+el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" /></p>
+<div class="figure">
+<img alt="../../_images/scrImportPricesFile.png" src="../../_images/scrImportPricesFile.png" />
+<p class="caption">Asistente para importar precios - Selección del archivo a importar</p>
+</div>
+</li>
+<li><p class="first"><em>Empezar desde línea:</em> Indica en qué fila se empieza a procesar el archivo,
+dado que éste puede tener líneas de títulos o de descripción que no se
+necesiten.</p>
+</li>
+<li><p class="first"><em>Formato del archivo:</em> El botón <img alt="/icons/refrescar.png" class="inlinegraphic" src="../../_images/refrescar.png" /> permite
+visualizar el contenido del archivo según el formato elegido, lo cual se
+mostrará en la parte inferior de la pantalla. Si las columnas no se vieran
+correctamente, elegir la opción Personalizado; así puede, por ejemplo,
+colocarse una coma en el campo Separador, para ordenar un formato Excel.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Siguiente</em> para pasar al próximo paso del asistente.</p>
+</li>
+<li><p class="first">En el siguiente paso se define qué columna del archivo tiene el código para
+vincular los libros del archivo con los del catálogo. Ingresar el número de
+columna, visualizándolo en el paso anterior.</p>
+</li>
+<li><p class="first">Si el código elegido es el de proveedor, ingresar el código de proveedor o
+buscarlo presionando el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" />.</p>
+<div class="figure">
+<img alt="../../_images/scrImportPricesCode.png" src="../../_images/scrImportPricesCode.png" />
+<p class="caption">Asistente para importar precios - Selección de la columna código</p>
+</div>
+</li>
+<li><p class="first">En el siguiente paso se define en qué columna del archivo está el precio y
+cómo es su formato. Ingresar el número de columna, el carácter usado para
+separar los decimales y las decenas de mil, y la moneda.</p>
+<div class="figure">
+<img alt="../../_images/scrImportPricesPrice.png" src="../../_images/scrImportPricesPrice.png" />
+<p class="caption">Asistente para importar precios - Selección de la columna precio</p>
+</div>
+</li>
+<li><p class="first">Dentro de todos los libros contenidos en el archivo, puede filtrarse los
+libros a importar. Por ejemplo, puedo definir que solo se importen los libros
+con stock, o los libros de alguna editorial determinada. Para esto, presionar
+libros.</p>
+</li>
+<li><p class="first">Ingresar los criterios de filtrado de los libros que se quieren importar.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Finalizar</em> para comenzar el procesamiento del archivo.</p>
+</li>
+<li><p class="first">Se abrirá la pantalla de Resultados de la importación de precios donde se
+muestra la cantidad de líneas procesadas, la cantidad de precios actualizados
+y la cantidad de errores.</p>
+<p>Si hubo errores, se muestra la lista de los mismos. Estos errores pueden
+guardarse para volver a procesar el archivo con otros criterios de
+configuración.</p>
+<div class="figure">
+<img alt="../../_images/scrImportPricesErrors.png" src="../../_images/scrImportPricesErrors.png" />
+<p class="caption">Asistente para importar precios - Resultado de la importación</p>
+</div>
+</li>
+<li><p class="first">Los libros que pudieron ser importados aparecerán en la parte inferior de la
+pantalla de importación de precios.</p>
+<p>Presionar el botón <em class="guilabel">Aceptar</em> para guardar los cambios de precios y
+cerrar la ventana o <em class="guilabel">Aplicar</em> para guardar los cambios y seguir en
+la pantalla.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="otras-formas-de-cambiar-precios">
+<h2>18.2. Otras formas de cambiar precios<a class="headerlink" href="#otras-formas-de-cambiar-precios" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En ocaciones, no se cuenta con una planilla sino que se va indicando en cada caso que aumento
+o disminución de  precio correponde para cada libro. Para ello, los pasos son:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Listas de precios</em>.
+Se abrirá la pantalla de Listas de precios.</p>
+<div class="figure">
+<img alt="../../_images/listaprecios.png" src="../../_images/listaprecios.png" />
+</div>
+</li>
+<li><p class="first">Seleccionar la lista de precios en la cual van a aplicar los cambios.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Precios</em>. Se abrirá la pantalla de cambios de
+precio.</p>
+<div class="figure">
+<img alt="../../_images/listaprecios1.png" src="../../_images/listaprecios1.png" />
+</div>
+</li>
+<li><p class="first">Buscar los libros a los que se les va a modificar el precio.</p>
+</li>
+<li><p class="first">Seleccionar el o los libros a modificar y se habilitarán los iconos para hacer las modificaciones</p>
+<div class="figure">
+<img alt="../../_images/listaprecios2.png" src="../../_images/listaprecios2.png" />
+</div>
+</li>
+<li><p class="first">Utilizar el botón <img alt="/icons/22cambiar_importe.png" class="inlinegraphic" src="../../_images/22cambiar_importe.png" /> <em class="menuselection">Cambiar precio de los libros seleccionados</em> para inidicar el nuevo precio de los libros seleccionados</p>
+<div class="figure">
+<img alt="../../_images/listaprecios3.png" src="../../_images/listaprecios3.png" />
+</div>
+</li>
+<li><p class="first">Utilizar los botones <img alt="/icons/22incrementPercentage.png" class="inlinegraphic" src="../../_images/22incrementPercentage.png" /> <em class="menuselection">Aumentar los precios en un porcentaje</em> y  <img alt="/icons/22decrementarPercentage.png" class="inlinegraphic" src="../../_images/22decrementarPercentage.png" /> <em class="menuselection">Decrementar los precios en un porcentaje</em> para indicar en que porcentaje deben aumentar o disminuir los precios de los libros seleccionados</p>
+<div class="figure">
+<img alt="../../_images/listaprecios4.png" src="../../_images/listaprecios4.png" />
+</div>
+</li>
+<li><p class="first">Utilizar los botones <img alt="/icons/22incrementarimporte.png" class="inlinegraphic" src="../../_images/22incrementarimporte.png" /> <em class="menuselection">Aumentar los precios en un importe fijo</em> y  <img alt="/icons/22decrementarimporte.png" class="inlinegraphic" src="../../_images/22decrementarimporte.png" /><em class="menuselection">Decrementar los precios en un importe fijo</em> para inidicar que importe se debe sumar o restar al precio de los libros seleccionados</p>
+<div class="figure">
+<img alt="../../_images/listaprecios5.png" src="../../_images/listaprecios5.png" />
+</div>
+</li>
+<li><p class="first">Revisar en las modificaciones realizadas en le para inferior de la ventana y aceptar las modificaciones</p>
+<div class="figure">
+<img alt="../../_images/listaprecios6.png" src="../../_images/listaprecios6.png" />
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">18. ¿Cómo actualizar la lista de precios?</a><ul>
+<li><a class="reference internal" href="#importar-precios-de-una-planilla-de-calculo">18.1. Importar precios de una planilla de cálculo</a></li>
+<li><a class="reference internal" href="#otras-formas-de-cambiar-precios">18.2. Otras formas de cambiar precios</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_15.html"
+                        title="Capítulo anterior">17. ¿Cómo trabajar con señas y reservas?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_16.html"
+                        title="Próximo capítulo">19. ¿Cómo copiar una lista de precios?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_16.html" title="19. ¿Cómo copiar una lista de precios?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_15.html" title="17. ¿Cómo trabajar con señas y reservas?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

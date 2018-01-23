@@ -1,0 +1,5 @@
+<?php
+require('makefont/makefont.php');
+
+MakeFont('font/ttf/Eurocl15.ttf','cp1252');
+?>

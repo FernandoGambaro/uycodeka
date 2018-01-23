@@ -1,0 +1,159 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>9.3. Ejercicios y libros &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="9. Contabilidad" href="../12_accounting.html" />
+    <link rel="next" title="9.4. Asientos" href="04_entries.html" />
+    <link rel="prev" title="9.2. Plan de cuentas" href="02_accounts.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="04_entries.html" title="9.4. Asientos"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="02_accounts.html" title="9.2. Plan de cuentas"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../12_accounting.html" accesskey="U">9. Contabilidad</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="ejercicios-y-libros">
+<span id="howto-accounting-financialyears"></span><h1>9.3. Ejercicios y libros<a class="headerlink" href="#ejercicios-y-libros" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="section" id="como-crear-un-ejercicio-contable">
+<span></span><h2>9.3.1. ¿Cómo crear un ejercicio contable?<a class="headerlink" href="#como-crear-un-ejercicio-contable" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note" id="howto-accounting-financialyears-ejercicio">
+<p class="first admonition-title">Nota</p>
+<p class="last"><strong>Ejercicios</strong>
+Por cada año contable que se desea contabilizar en el sistema, se debe crear un nuevo ejercicio.</p>
+</div>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Contabilidad ‣ Ejercicios</em>. Se desplegará el listado de ejercicios.</li>
+<li>Presionar el botón <em class="guilabel">Crear</em>. Se abrirá la pantalla para ingresar los datos del ejercicio.</li>
+<li>Completar los datos del ejercicio contable:<ul>
+<li><em>Nombre</em>: Nombre del ejercicio.</li>
+<li><em>Empresa</em>: Empresa a la que corresponde el ejercicio.</li>
+<li><em>Fecha inicial</em>: Fecha de comienzo del ejercicio.</li>
+<li><em>Fecha final</em>: Fecha final del ejercicio.</li>
+<li><em>Moneda</em>: Moneda en que se realizan los asientos.</li>
+<li><em>Planes de cuenta</em>: Plan de cuentas que utiliza el ejercicio.</li>
+<li><em>Bloqueado hasta</em>: completar este campo si se desea bloquear la creación de asientos en el ejercicio. Los ejercicios suelen bloquearse una vez presentados los balances, para no generar diferencias entre los datos del sistema y los presentados.</li>
+</ul>
+</li>
+</ol>
+</div>
+<div class="section" id="como-crear-un-libro-contable">
+<h2>9.3.2. ¿Cómo crear un libro contable?<a class="headerlink" href="#como-crear-un-libro-contable" title="Enlazar permanentemente con este título">¶</a></h2>
+<p id="howto-accounting-financialyears-libro">Los libros contables son creados por Lambda Sistemas, de acuerdo a lo relevado en <a class="reference internal" href="01_intro.html#howto-accounting-intro-cars-multiplebooks"><em>Múltiples libros</em></a>.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../manual.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">9.3. Ejercicios y libros</a><ul>
+<li><a class="reference internal" href="#como-crear-un-ejercicio-contable">9.3.1. ¿Cómo crear un ejercicio contable?</a></li>
+<li><a class="reference internal" href="#como-crear-un-libro-contable">9.3.2. ¿Cómo crear un libro contable?</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="02_accounts.html"
+                        title="Capítulo anterior">9.2. Plan de cuentas</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="04_entries.html"
+                        title="Próximo capítulo">9.4. Asientos</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="04_entries.html" title="9.4. Asientos"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="02_accounts.html" title="9.2. Plan de cuentas"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../12_accounting.html" >9. Contabilidad</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

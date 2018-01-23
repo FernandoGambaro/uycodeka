@@ -1,0 +1,144 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>16. ¿Cómo anular una Factura de Venta? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="17. ¿Cómo trabajar con señas y reservas?" href="ventas_15.html" />
+    <link rel="prev" title="15. ¿Cómo obtener un reporte de ventas por editorial o proveedor?" href="ventas_13.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_15.html" title="17. ¿Cómo trabajar con señas y reservas?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_13.html" title="15. ¿Cómo obtener un reporte de ventas por editorial o proveedor?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-anular-una-factura-de-venta">
+<h1>16. ¿Cómo anular una Factura de Venta?<a class="headerlink" href="#como-anular-una-factura-de-venta" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><ol class="arabic simple" id="index-1">
+<li>Buscar la factura a anular. Ver <a class="reference internal" href="ventas_07.html#howto-ventas-sec7"><em>¿Cómo buscar una Factura de Venta?</em></a></li>
+<li>Seleccionar la factura.</li>
+<li>Seleccionar la opción de menú <em class="menuselection">Ventana Activa ‣ Anular
+Factura</em> o el ícono <img alt="/icons/eliminar.png" class="inlinegraphic" src="../../_images/eliminar.png" /> de la barra de
+herramientas.</li>
+<li>Confirmar la anulación de la factura.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/scrAnulVent.png" src="../../_images/scrAnulVent.png" />
+<p class="caption">Factura seleccionada para anular</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Anulación de facturas</strong></p>
+<p>Cuando se anula una factura de venta, se revierten los movimientos de
+stock y los pagos afectados por esa factura.</p>
+<p class="last">La columna <em>Cancelada</em> indica si la factura fue anulada
+o no.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_13.html"
+                        title="Capítulo anterior">15. ¿Cómo obtener un reporte de ventas por editorial o proveedor?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_15.html"
+                        title="Próximo capítulo">17. ¿Cómo trabajar con señas y reservas?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_15.html" title="17. ¿Cómo trabajar con señas y reservas?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_13.html" title="15. ¿Cómo obtener un reporte de ventas por editorial o proveedor?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

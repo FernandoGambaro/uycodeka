@@ -1,0 +1,360 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4. ¿Cómo crear un nuevo cliente? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="7. ¿Cómo visualizar la cuenta corriente de un cliente?" href="ventas_05.html" />
+    <link rel="prev" title="3. ¿Cómo buscar un cliente?" href="ventas_03.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_05.html" title="7. ¿Cómo visualizar la cuenta corriente de un cliente?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_03.html" title="3. ¿Cómo buscar un cliente?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-crear-un-nuevo-cliente">
+<span id="howto-ventas-sec4"></span><h1>4. ¿Cómo crear un nuevo cliente?<a class="headerlink" href="#como-crear-un-nuevo-cliente" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p>La creación en Fierro de una ficha de cliente -persona u organización-,
+además de dar entidad al nuevo cliente influye en varias operaciones del
+módulo de Ventas, que son afectadas por los datos de la ficha.</p>
+<p class="last">Se puede crear un cliente desde la búsqueda como se describe abajo, aunque
+también es posible hacerlo en las pantallas de documentos que requieran
+identificar clientes (<em>véase</em> <a class="reference internal" href="../../basics/busqueda/mantenimiento_17.html#basics-controls-creacionintercalada"><em>¿Qué es la &#8220;creación intercalada&#8221;?</em></a>).</p>
+</div>
+<ol class="arabic">
+<li><p class="first">En la consulta de clientes, pulsar el botón <img alt="/icons/nuevo.png" class="inlinegraphic" src="../../_images/nuevo.png" /> o la
+opción de menú <em class="menuselection">Ventana Activa ‣ Nuevo Cliente</em>. Se iniciará
+el asistente de creación (<em>véase</em> <a class="reference internal" href="../../basics/pantallas/pantallas_03.html#basics-controls-wizards"><em>Asistente</em></a>):</p>
+<div class="figure">
+<img alt="../../_images/crearCliente.png" src="../../_images/crearCliente.png" />
+<p class="caption">Asistente para crear un cliente</p>
+</div>
+</li>
+<li><p class="first">En el primer paso del asistente debe indicarse si el nuevo cliente es Persona
+u Organización, y si se lo va a crear con <em class="guilabel">cuenta corriente</em>.</p>
+</li>
+<li><p class="first">Dependiendo de qué se haya indicado, en el segundo paso aparecen los campos
+para identificar a un individuo o a una empresa. El único campo obligatorio
+allí es <em>Nombre</em> o <em>Nombre Fantasía</em>.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">A lo largo del asistente sólo se presenta una diferencia más según el
+tipo de cliente, y es la de <em>Datos personales</em> (Fecha de nacimiento,
+Profesión, Sexo) cuando se trata de Persona.</p>
+</div>
+</li>
+</ol>
+<p>En campos como <em>País</em>, <em>Provincia</em>, <em>Localidad</em>, <em>Vendedor</em> y <em>Transporte</em>, el
+botón <img alt="/icons/searchCopia.png" class="inlinegraphic" src="../../_images/searchCopia.png" /> permite buscar esos datos y, de no
+existir aún, crearlos en su respectiva ventana o lista (<em>véase</em> <a class="reference internal" href="../../basics/busqueda/mantenimiento_17.html#basics-controls-creacionintercalada"><em>¿Qué es la
+&#8220;creación intercalada&#8221;?</em></a>).</p>
+<div class="figure">
+<img alt="../../_images/clienteDistribucion.png" src="../../_images/clienteDistribucion.png" />
+<p class="caption">Datos de distribución</p>
+</div>
+<p>Otros datos, en cambio, deben ya existir al momento de crear el cliente. Tal el
+caso de los <em>Datos de distribución</em> (imagen superior), donde se ingresa
+información esencial para las operaciones con el cliente:</p>
+<ul>
+<li><p class="first"><em>Tipo de cliente</em>: deben crearse previamente en <em class="menuselection">Ventas ‣
+Otros ‣ Tipos de clientes</em>. Posteriormente, pueden buscarse clientes por su
+tipo mediante el panel <em>Condiciones de venta</em> de la consulta de clientes.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Dicha tipología es fundamental en la creación de <em class="guilabel">categorías
+para servicio de novedades</em>, en las cuales se generan modelos vinculando
+títulos, cantidades y tipos de cliente (por ejemplo &#8220;librerías
+pequeñas&#8221;, &#8220;librerías grandes&#8221;, &#8220;cadenas&#8221;, etcétera).
+<em>Véase</em><a class="reference internal" href="../ventamayorista/ventas_8.html#howto-ventas-servicionovedad-categorias-client"><em>Asignación de una categoría de servicio de novedad a un
+cliente</em></a>.</p>
+</div>
+</li>
+<li><p class="first"><em>Lista de precios</em>: la asignación que se haga en este campo influirá en la
+carga de <em class="guilabel">pedidos y facturas</em> de cliente, los cuales serán
+valorizados por el sistema según la lista elegida, se trate de la
+predeterminada u otra (<em>véase</em> <em class="xref std std-ref">¿Cómo crear pedidos de cliente?</em>). Mediante el panel <em>Condiciones de venta</em> de
+la consulta de clientes, puede hallárselos según su lista de precios asignada.</p>
+</li>
+<li><p class="first"><em>Zona</em>: se crean previamente en <em class="menuselection">Ventas ‣ Otros ‣ Zonas</em> y,
+luego de la asignación, los clientes de una determinada zona podrán
+localizarse mediante el panel <em>Dirección</em> de la consulta de clientes.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">La &#8220;zonificación&#8221; de clientes (por ejemplo en áreas o regiones del país)
+tiene utilidad en el <em>reporte de cobranzas</em> (<em class="menuselection">Ventas ‣
+Reportes ‣ Análisis de la distribución ‣ Ranking de cobranzas</em>), en
+el cual puede filtrarse a los clientes por zonas y, en consecuencia,
+obtener una visión de cuenta corriente y consignaciones por áreas
+geográficas. Dicho reporte evalúa: deuda en cuenta corriente,
+consignación actual, facturación de los últimos dos meses, cobranza y
+ventas en los últimos dos años, porcentaje de las cobranzas, etcétera.</p>
+</div>
+</li>
+</ul>
+<p>Otros pasos clave en la creación de clientes son:</p>
+<ul>
+<li><p class="first"><em>Datos de la cuenta corriente</em>: esta ventana del asistente solo existe si en
+el primer paso se ha marcado el casillero &#8220;Con cuenta corriente&#8221;, y sirve para
+colocar los <em class="guilabel">montos límite de crédito y consignación</em> del cliente.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">El sistema evalúa dichos montos al momento de <em class="guilabel">bloquear
+pedidos de cliente</em>, si éste ha excedido uno o ambos límites
+(<em>véase</em> <a class="reference internal" href="ventas_06.html#howto-ventas-sec6"><em>¿Cómo crear condiciones de venta?</em></a>).</p>
+</div>
+</li>
+<li><p class="first">El paso <em>Seleccione la condición de venta</em> presenta una lista desplegable para
+elegir y asignar al cliente una condición previamente creada
+(<em>véase</em> <a class="reference internal" href="ventas_06.html#howto-ventas-sec6"><em>¿Cómo crear condiciones de venta?</em></a>).</p>
+</li>
+</ul>
+<p>Otras ventanas útiles en la creación de clientes son:</p>
+<ul>
+<li><p class="first"><em>Datos de la tarjeta</em>: pulsando en este paso el botón <img alt="/icons/22tarjeta.png" class="inlinegraphic" src="../../_images/22tarjeta.png" />,
+se abre un editor para colocar los datos de la tarjeta del cliente.</p>
+</li>
+<li><p class="first"><em>Materias de preferencia</em>: permite seleccionar y agregar, desde el árbol de
+materias que se tenga organizado, los temas de elección habitual del cliente.</p>
+</li>
+<li><p class="first"><em>Grupos a los que pertenece</em>: se crean previamente en <em class="menuselection">Ventas
+‣ Otros ‣ Grupos de clientes</em>, y pueden utilizarse, por ejemplo, para el
+envío masivo de boletines desde Fierro.</p>
+<div class="figure">
+<img alt="../../_images/clienteGrupos.png" src="../../_images/clienteGrupos.png" />
+<p class="caption">Asignación a un grupo</p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Los tres aspectos anteriores tienen principalmente aplicación si se
+desea generar desde Fierro acciones de marketing basadas en
+características de consumo del cliente.</p>
+</div>
+</li>
+<li><p class="first"><em>Notas del cliente</em>: al igual que la mayoría de las entidades en Fierro, un
+cliente puede tener <em class="guilabel">notas asociadas</em> en las cuales se registre
+información interna para el negocio, o datos que no puedan colocarse en otros
+campos del asistente (<em>véase</em> <a class="reference internal" href="../general/general_03.html#howto-others-notes"><em>¿Cómo agregar notas a los libros,
+clientes, proveedores o documentos?</em></a>).</p>
+</li>
+</ul>
+</div>
+<div class="section" id="como-modificar-la-ficha-de-un-cliente">
+<span id="howto-ventas-sec4-sec11"></span><h1>5. ¿Cómo modificar la ficha de un cliente?<a class="headerlink" href="#como-modificar-la-ficha-de-un-cliente" title="Enlazar permanentemente con este título">¶</a></h1>
+<ol class="arabic simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Clientes</em>.
+Se abrirá la pantalla Clientes.</li>
+<li>Buscar el cliente del que se quiere ver la ficha.</li>
+<li>Seleccionar el cliente y pulsar el ícono <img alt="/icons/22editar.png" class="inlinegraphic" src="../../_images/22editar.png" /></li>
+<li>Se abrirá la ficha del cliente, en donde pueden hacerse las modificaciones
+deseadas.</li>
+</ol>
+<div class="figure">
+<img alt="../../_images/scrFichaCliente.png" src="../../_images/scrFichaCliente.png" />
+<p class="caption">Pantalla Ficha de Cliente</p>
+</div>
+</div>
+<div class="section" id="como-importar-clientes-desde-un-archivo">
+<h1>6. ¿Cómo importar clientes desde un archivo?<a class="headerlink" href="#como-importar-clientes-desde-un-archivo" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Importación de clientes</strong></p>
+<p>Hay aspectos que deben tenerse en cuenta antes de utilizar esta
+herramienta, a fin de que los datos se incorporen correctamente.</p>
+<p class="last">Es importante leer las observaciones siguientes y trabajar previamente
+sobre la planilla Excel u OpenOffice Calc, para identificar los
+distintos valores y compararlos con los datos del sistema.</p>
+</div>
+<ul class="simple">
+<li><em>Código de cliente:</em> Puede importarse el cliente con el código que aparece en
+la planilla. Si en ésta no existe código, se le asigna el código consecutivo
+utilizado en el alta común de clientes. Si dicha secuencia no está habilitada,
+el código queda en blanco.</li>
+<li><em>País:</em> Si la planilla contiene la columna País, puede asignarse éste sólo en
+el caso de que exista con nombre idéntico en el sistema. Si en la planilla no
+existe país, se asigna el predeterminado del sistema.</li>
+<li><em>Provincia:</em> Si la planilla contiene la columna Provincia, se busca en el
+sistema si hay alguna dentro del respectivo país que coincida exactamente, y
+se asigna. Si ninguna coincide, se agrega una nota al cliente indicando esta
+situación, y la provincia queda en blanco. Si la planilla no tiene dicha
+columna, se deja en blanco.</li>
+<li><em>Localidad:</em> Si la planilla contiene la columna Localidad, se busca en el
+sistema si hay alguna dentro de la respectiva provincia que coincida
+exactamente, y se asigna. Si ninguna coincide, se agrega una nota al cliente
+indicando esta situación, y la localidad queda en blanco. Si la planilla no
+tiene dicha columna, se deja en blanco.</li>
+<li><em>Campos obligatorios:</em> La importación fallará si en la planilla las personas
+careciesen de Apellido y las organizaciones no tuvieran Nombre y Razón social.</li>
+<li><em>Categoría de IVA:</em> Si la planilla contiene la columna IVA, se busca en el
+sistema si hay alguna coincidencia exacta y se asigna. Si la coincidencia no
+es exacta, se producirá un error y el cliente no se importará. En caso de
+carecer del dato, se asigna la categoría predeterminada del sistema.</li>
+<li><em>Condición de venta:</em> Si la planilla contiene la columna Condición de venta,
+se busca en el sistema si hay alguna coincidencia exacta y se asigna. Si la
+coincidencia no es exacta, se producirá un error y el cliente no se importará.
+En caso de carecer del dato, se asigna la condición predeterminada del
+sistema.</li>
+<li><em>Notas:</em> Para evitar perder información, los datos que existan en la planilla
+y no estén contemplados en la importación, pueden agregarse como notas del
+cliente. Se permite asignar hasta 3 columnas como notas.</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last"><em>Observaciones:</em>
+En todos los casos, el sistema intenta hallar exactamente el mismo dato de
+la planilla dentro de sus propios datos. Por ejemplo, si en la planilla
+dice Santa Fé y en el sistema Santa Fe (sin acento), la importación no se
+cumplirá.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Ventas ‣ Clientes</em>. Se abrirá
+la pantalla Clientes. Pulsar en la barra de herramientas el ícono
+<img alt="/icons/22importar.png" class="inlinegraphic" src="../../_images/22importar.png" /> (Importar Clientes desde Archivo).
+A continuación se iniciará el asistente para importación:</p>
+<div class="figure">
+<img alt="../../_images/ImportacionClientes.png" src="../../_images/ImportacionClientes.png" />
+<p class="caption">Pantalla Archivo a importar.</p>
+</div>
+</li>
+<li><p class="first">Tener en cuenta que las planillas Excel deben convertirse a CSV para poder
+utilizarlas en Fierro.</p>
+</li>
+<li><p class="first">A continuación de la primera pantalla, debe indicarse qué tipo de cliente se
+va a importar: Persona u Organización, y si será o no cliente con cuenta
+corriente.</p>
+<div class="figure">
+<img alt="../../_images/PersonaOrganizacion.png" src="../../_images/PersonaOrganizacion.png" />
+<p class="caption">Pantalla Tipo de cliente.</p>
+</div>
+</li>
+<li><p class="first">El siguiente paso es relacionar, mediante el tilde verde, los atributos con
+las columnas, según la visualización del archivo.</p>
+<div class="figure">
+<img alt="../../_images/ColumnasClientes.png" src="../../_images/ColumnasClientes.png" />
+<p class="caption">Pantalla Columnas a importar.</p>
+</div>
+</li>
+<li><p class="first">Cuando se pulsa el botón Terminar (Finish), se muestra el resultado de la
+importación.</p>
+<div class="figure">
+<img alt="../../_images/ResultadosSinErrores.png" src="../../_images/ResultadosSinErrores.png" />
+<p class="caption">Pantalla Resultados de la importación.</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">4. ¿Cómo crear un nuevo cliente?</a></li>
+<li><a class="reference internal" href="#como-modificar-la-ficha-de-un-cliente">5. ¿Cómo modificar la ficha de un cliente?</a></li>
+<li><a class="reference internal" href="#como-importar-clientes-desde-un-archivo">6. ¿Cómo importar clientes desde un archivo?</a></li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_03.html"
+                        title="Capítulo anterior">3. ¿Cómo buscar un cliente?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_05.html"
+                        title="Próximo capítulo">7. ¿Cómo visualizar la cuenta corriente de un cliente?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_05.html" title="7. ¿Cómo visualizar la cuenta corriente de un cliente?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_03.html" title="3. ¿Cómo buscar un cliente?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

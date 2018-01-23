@@ -1,0 +1,153 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>14. ¿Cómo visualizar el estado de una cuenta? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="5. Caja y Bancos" href="../08_cajaybancos.html" />
+    <link rel="next" title="15. ¿Cómo visualizar los cheques emitidos?" href="cajaybancos_15.html" />
+    <link rel="prev" title="13. ¿Cómo visualizar y conciliar los movimientos de banco?" href="cajaybancos_13.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_15.html" title="15. ¿Cómo visualizar los cheques emitidos?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_13.html" title="13. ¿Cómo visualizar y conciliar los movimientos de banco?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" accesskey="U">5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-visualizar-el-estado-de-una-cuenta">
+<span id="howto-bookkeeping-statement"></span><h1>14. ¿Cómo visualizar el estado de una cuenta?<a class="headerlink" href="#como-visualizar-el-estado-de-una-cuenta" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><div class="admonition note" id="index-1">
+<p class="first admonition-title">Nota</p>
+<p><strong>Movimientos de banco</strong></p>
+<p>El sistema registra todos los movimientos de banco generados por las
+acreditaciones de tarjetas, cheques emitidos, depósitos, extracciones y
+movimientos manuales.</p>
+<p class="last">En la funcionalidad Estado de cuenta se puede visualizar el estado de una
+cuenta en una fecha futura. También es posible conciliar el movimiento de banco, revertir la conciliación, modificar la fecha o el importe del movimiento (ver <a class="reference internal" href="cajaybancos_13.html#howto-bookkeeping-viewbankaccountmovements"><em>Conciliar los movimientos de banco</em></a>)</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Caja y Bancos ‣ Estado de
+cuenta</em>. Se abrirá la pantalla Estado de cuenta.</p>
+<div class="figure">
+<img alt="../../_images/scrStatement.png" src="../../_images/scrStatement.png" />
+<p class="caption">Pantalla Estado de cuenta</p>
+</div>
+</li>
+<li><p class="first">Seleccionar la cuenta de banco que se desea visualizar.</p>
+</li>
+<li><p class="first">Ingresar el rango de fechas que se desea visualizar (opcional).</p>
+</li>
+<li><p class="first">Presionar el botón <img alt="/icons/search.png" class="inlinegraphic" src="../../_images/search.png" /> de la barra de herramientas.</p>
+<p>En la parte izquierda de la pantalla aparecerá un listado donde cada
+línea es una fecha con el saldo del banco en ese momento.</p>
+</li>
+<li><p class="first">Seleccionar una fecha del listado de la parte izquierda de la pantalla. En la
+parte derecha aparecerán todos los movimientos de esa día.</p>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="cajaybancos_13.html"
+                        title="Capítulo anterior">13. ¿Cómo visualizar y conciliar los movimientos de banco?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="cajaybancos_15.html"
+                        title="Próximo capítulo">15. ¿Cómo visualizar los cheques emitidos?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_15.html" title="15. ¿Cómo visualizar los cheques emitidos?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_13.html" title="13. ¿Cómo visualizar y conciliar los movimientos de banco?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" >5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>3. Búsquedas &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../index.html" />
+    <link rel="next" title="1. Partes de la pantallas" href="busqueda/mantenimiento_01.html" />
+    <link rel="prev" title="2.6. Ventanas" href="principal/principal_06.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../index.html">
+      <img class="logo" src="../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="busqueda/mantenimiento_01.html" title="1. Partes de la pantallas"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="principal/principal_06.html" title="2.6. Ventanas"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../index.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="busquedas">
+<h1>3. Búsquedas<a class="headerlink" href="#busquedas" title="Enlazar permanentemente con este título">¶</a></h1>
+<p >Este capítulo describe el uso de las <em>búsquedas</em>.</p>
+<p>Las búsquedas son el punto de partida para casi toda la funcionalidad del
+sistema. Por ejemplo, para cancelar un pedido, facturar un libro, o ingresar un
+remito, primero es necesario acceder a la respectiva búsqueda.</p>
+<p>La estructura de la pantalla de búsquedas es la misma para todas las entidades
+del sistema: libros, clientes, proveedores, documentos de compras y ventas,
+stock, etc.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_01.html">1. Partes de la pantallas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_02.html">2. Realizar una búsqueda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_03.html">3. ¿Qué es una vista?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_04.html">4. Cambiar la vista actual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_05.html">5. Ampliar la vista en una nueva ventana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_06.html">6. Cambiar el foco de la pantalla</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_07.html">7. Cambiar el panel de búsqueda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_08.html">8. Limpiar la búsqueda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_09.html">9. Mostrar y ocultar los paneles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_10.html">10. Ordenar los resultados de la búsqueda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_11.html">11. Limitar los resultados</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_12.html">12. Anidar y unir búsquedas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_13.html">13. ¿Cómo exportar los resultados de una búsqueda?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_14.html">14. Configurar las columnas del resultado</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_15.html">15. Guardar las vistas personalizadas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_16.html">16. Seleccionar una vista personalizada</a></li>
+<li class="toctree-l1"><a class="reference internal" href="busqueda/mantenimiento_17.html">17. ¿Qué es la &#8220;creación intercalada&#8221;?</a></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="principal/principal_06.html"
+                        title="Capítulo anterior">2.6. Ventanas</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="busqueda/mantenimiento_01.html"
+                        title="Próximo capítulo">1. Partes de la pantallas</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="busqueda/mantenimiento_01.html" title="1. Partes de la pantallas"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="principal/principal_06.html" title="2.6. Ventanas"
+             >anterior</a> |</li>
+<li><a href="../index.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>

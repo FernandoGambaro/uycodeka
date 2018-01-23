@@ -1,0 +1,187 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>2. Ventas &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../index.html" />
+    <link rel="next" title="1. ¿Cómo facturar una venta?" href="ventas/ventas_01.html" />
+    <link rel="prev" title="1.18. ¿Cómo trabajar con libros usados?" href="catalogo/catalogo_13.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../manual.html">
+      <img class="logo" src="../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas/ventas_01.html" title="1. ¿Cómo facturar una venta?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo/catalogo_13.html" title="1.18. ¿Cómo trabajar con libros usados?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../manual.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="ventas">
+<h1>2. Ventas<a class="headerlink" href="#ventas" title="Enlazar permanentemente con este título">¶</a></h1>
+<p id="index-0">Operaciones del módulo de Ventas</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_01.html">1. ¿Cómo facturar una venta?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_02.html">2. ¿Cómo facturar a partir de una búsqueda de libros?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_03.html">3. ¿Cómo buscar un cliente?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_04.html">4. ¿Cómo crear un nuevo cliente?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_04.html#como-modificar-la-ficha-de-un-cliente">5. ¿Cómo modificar la ficha de un cliente?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_04.html#como-importar-clientes-desde-un-archivo">6. ¿Cómo importar clientes desde un archivo?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_05.html">7. ¿Cómo visualizar la cuenta corriente de un cliente?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_06.html">8. ¿Cómo crear condiciones de venta?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_07.html">9. ¿Cómo crear una Nota de Crédito?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_08.html">10. ¿Cómo buscar una Factura de Venta?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_09.html">11. ¿Cómo renumerar Facturas de Venta?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_10.html">12. ¿Cómo modificar el próximo número de Factura de Venta?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_11.html">13. ¿Cómo reemprimir una Factura de Venta?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_12.html">14. ¿Cómo visualizar el total de ventas entre fechas?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_13.html">15. ¿Cómo obtener un reporte de ventas por editorial o proveedor?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_14.html">16. ¿Cómo anular una Factura de Venta?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_15.html">17. ¿Cómo trabajar con señas y reservas?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_15.html#como-crear-una-nueva-sena">17.1. Cómo crear una nueva seña</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_15.html#como-crear-una-sena-general">17.2. Cómo crear una seña general</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_15a.html">18. ¿Cómo actualizar la lista de precios?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_15a.html#importar-precios-de-una-planilla-de-calculo">18.1. Importar precios de una planilla de cálculo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_15a.html#otras-formas-de-cambiar-precios">18.2. Otras formas de cambiar precios</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_16.html">19. ¿Cómo copiar una lista de precios?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_17.html">20. ¿Cómo revertir un cambio de precio?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_19.html">21. ¿Cómo utilizar el sistema de puntos?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_20.html">22. ¿Cómo se completa la operación de pago contrareembolso?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_21.html">23. ¿Cómo utilizar la estimación y tendencia de ventas?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_22.html">24. ¿Cómo crear puntos de facturación?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_23.html">25. Vendedores</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_23.html#como-crear-un-vendedor">25.1. ¿Cómo crear un vendedor?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_23.html#como-modificar-la-ficha-de-un-vendedor">25.2. ¿Cómo modificar la ficha de un vendedor?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_23.html#como-eliminar-a-un-vendedor">25.3. ¿Cómo eliminar a un vendedor?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_23.html#como-asignar-un-vendedor-a-un-cliente-para-mayoristas">25.4. ¿Cómo asignar un vendedor a un cliente? (para mayoristas)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_23.html#como-sacar-reportes-de-comisiones-para-mayoristas">25.5. ¿Cómo sacar reportes de comisiones? (para mayoristas)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_23.html#como-asignar-un-vendedor-a-una-factura-para-librerias">25.6. ¿Cómo asignar un vendedor a una factura? (para librerías)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_23.html#como-buscar-facturas-por-vendedor-para-librerias">25.7. ¿Cómo buscar facturas por vendedor? (para librerías)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_24.html">26. Venta a crédito</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_24.html#como-asignar-pago-en-cuotas-a-una-factura-de-venta">26.1. ¿Cómo asignar pago en cuotas a una factura de venta?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_24.html#consulta-de-las-cuotas">26.2. Consulta de las cuotas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_24.html#cuentas-corrientes">26.3. Cuentas corrientes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_24.html#cobro-de-las-cuotas">26.4. Cobro de las cuotas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_24.html#cartas-de-intimacion-a-morosos">26.5. Cartas de intimación a morosos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_24.html#carga-de-recibos">26.6. Carga de recibos</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ventas/ventas_25.html">27. ¿Cómo trabajar con Kits?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_25.html#crear-un-kit">27.1. Crear un Kit:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_25.html#como-editar-un-kit">27.2. ¿Cómo editar un kit?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_25.html#como-ingresar-stock-en-un-kit">27.3. ¿Cómo ingresar stock en un kit?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_25.html#como-facturar-un-kit">27.4. ¿Cómo facturar un Kit?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_25.html#como-desarmar-un-kit">27.5. ¿Cómo desarmar un Kit?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_25.html#como-llevar-a-cero-el-stock-de-un-kit">27.6. ¿Cómo llevar a cero el stock de un kit?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ventas/ventas_25.html#como-deshacer-un-kit">27.7. ¿Cómo deshacer un Kit?</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="catalogo/catalogo_13.html"
+                        title="Capítulo anterior">1.18. ¿Cómo trabajar con libros usados?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas/ventas_01.html"
+                        title="Próximo capítulo">1. ¿Cómo facturar una venta?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas/ventas_01.html" title="1. ¿Cómo facturar una venta?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="catalogo/catalogo_13.html" title="1.18. ¿Cómo trabajar con libros usados?"
+             >anterior</a> |</li>
+<li><a href="../manual.html">Manual UYCODEKA</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

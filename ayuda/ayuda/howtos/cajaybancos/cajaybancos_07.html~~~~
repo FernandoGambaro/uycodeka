@@ -1,0 +1,197 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>7. ¿Cómo cerrar la caja del día? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="5. Caja y Bancos" href="../08_cajaybancos.html" />
+    <link rel="next" title="8. ¿Cómo ingresar el cierre de las tarjetas?" href="cajaybancos_08.html" />
+    <link rel="prev" title="6. ¿Cómo crear planes de tarjetas ?" href="cajaybancos_06.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_08.html" title="8. ¿Cómo ingresar el cierre de las tarjetas?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_06.html" title="6. ¿Cómo crear planes de tarjetas ?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" accesskey="U">5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-cerrar-la-caja-del-dia">
+<span id="howto-bookkeeping-closecashbox"></span><h1>7. ¿Cómo cerrar la caja del día?<a class="headerlink" href="#como-cerrar-la-caja-del-dia" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p><strong>Consolidación de caja</strong></p>
+<p>La consolidación de una caja implica que un usuario certifica que en un
+momento dado hay determinada cantidad de dinero en la caja. Cada
+consolidación es como una &#8220;marca&#8221;, donde se indica la cantidad de dinero
+existente.</p>
+<p>En cada consolidación, el sistema muestra el dinero que había en la última
+consolidación más todos los movimientos realizados desde ese momento. El
+usuario debe ingresar la cantidad de dinero que cuenta en la caja. Si hay
+diferencias, se crea un ajuste.</p>
+<p class="last">La consolidación de caja puede realizarse más de una vez al día.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">Seleccionar la opción de menú <em class="menuselection">Caja y Bancos ‣
+Consolidaciones de caja ‣ Nueva Consolidación de Caja</em>. Se abrirá la
+pantalla Consolidación de caja.</p>
+<div class="figure">
+<img alt="../../_images/scrCashBoxCloseParts.png" src="../../_images/scrCashBoxCloseParts.png" />
+<p class="caption">Pantalla Consolidación de caja</p>
+</div>
+<p>La pantalla tiene las siguientes partes:
+* Selección de la caja a consolidar.</p>
+<ul class="simple">
+<li>Solapa de valores calculados: muestra el estado en la última consolidación,
+y los movimientos realizados desde ese momento.</li>
+<li>Solapa valores físicos: en esta pantalla se ingresan los valores que se
+cuentan en la caja. Pueden ingresarse varios totales, y en distintas
+monedas.</li>
+<li>En la parte inferior se muestra el resumen. Por cada moneda, se muestra el
+total que calcula el sistema, el total ingresado por el usuario, y la
+diferencia.</li>
+</ul>
+</li>
+<li><p class="first">Seleccionar la caja a consolidar.</p>
+</li>
+<li><p class="first">Presionar el botón <img alt="/icons/buscar.png" class="inlinegraphic" src="../../_images/buscar.png" /> de la barra de herramientas.
+En la solapa <em>Valores calculados</em> se mostrará la fecha y cantidad de dinero
+de la última consolidación, y todos los movimientos desde entonces.</p>
+</li>
+<li><p class="first">Seleccionar la solapa <em>Valores físicos</em>.</p>
+<div class="figure">
+<img alt="../../_images/scrCashBoxCloseInput.png" src="../../_images/scrCashBoxCloseInput.png" />
+<p class="caption">Solapa Valores físicos</p>
+</div>
+</li>
+<li><p class="first">Ingresar los valores que se cuentan en la caja. Por cada cantidad:</p>
+<ul class="simple">
+<li>Ingresar el importe.</li>
+<li>Seleccionar la moneda.</li>
+<li>Presionar el botón <em class="guilabel">Agregar</em>. El importe se agrega a la lista y
+se actualiza el resumen en la parte inferior de la pantalla.</li>
+</ul>
+</li>
+<li><p class="first">En la parte inferior de la pantalla (Resumen), se muestra la diferencia entre
+los valores calculados por el sistema y los que ingresa el usuario.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar.</em></p>
+</li>
+<li><p class="first">Si la cantidad calculada es distinta a la ingresada, aparecerá un mensaje
+indicando que se va a realizar un ajuste.</p>
+<div class="figure">
+<img alt="../../_images/scrCashBoxCloseMessage.png" src="../../_images/scrCashBoxCloseMessage.png" />
+<p class="caption">Mensaje Ajuste por diferencia</p>
+</div>
+</li>
+<li><p class="first">Ingresar la descripción de la diferencia en la consolidación.</p>
+<div class="figure">
+<img alt="../../_images/scrCashBoxCloseInputAdjust.png" src="../../_images/scrCashBoxCloseInputAdjust.png" />
+<p class="caption">Ingreso de descripción por diferencia</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="cajaybancos_06.html"
+                        title="Capítulo anterior">6. ¿Cómo crear planes de tarjetas ?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="cajaybancos_08.html"
+                        title="Próximo capítulo">8. ¿Cómo ingresar el cierre de las tarjetas?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="cajaybancos_08.html" title="8. ¿Cómo ingresar el cierre de las tarjetas?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="cajaybancos_06.html" title="6. ¿Cómo crear planes de tarjetas ?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../08_cajaybancos.html" >5. Caja y Bancos</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

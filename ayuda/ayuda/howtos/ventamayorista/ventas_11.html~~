@@ -1,0 +1,168 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>4.3. Cobranzas &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="4. Venta Mayorista" href="../07_ventamayorista.html" />
+    <link rel="next" title="4.5. ¿Cómo crear pedidos masivamente?" href="ventas_2.html" />
+    <link rel="prev" title="4.2. Lotes de Devolución" href="ventas_10.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_2.html" title="4.5. ¿Cómo crear pedidos masivamente?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_10.html" title="4.2. Lotes de Devolución"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" accesskey="U">4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="cobranzas">
+<h1>4.3. Cobranzas<a class="headerlink" href="#cobranzas" title="Enlazar permanentemente con este título">¶</a></h1>
+<ol class="arabic">
+<li><p class="first">Para cargar el recibo que registra un pago de facturas pendientes, ir a la
+opción de menú <em class="menuselection">Ventas ‣ Recibos</em>.</p>
+</li>
+<li><p class="first">Pulsar el ícono <img alt="/icons/22vta_recibo.png" class="inlinegraphic" src="../../_images/22vta_recibo.png" /> en la barra de
+herramientas. Se abrirá la pantalla de Nuevo Recibo:</p>
+<div class="figure">
+<img alt="../../_images/NuevoReciboVentas.png" src="../../_images/NuevoReciboVentas.png" />
+<p class="caption">Pantalla Nuevo Recibo</p>
+</div>
+</li>
+<li><p class="first">Una vez que se elige el cliente aparecen sus facturas pendientes.
+Seleccionándolas, con el botón <em class="guilabel">Agregar</em> se pasan a la parte
+inferior, donde se visualizan las que serán pagadas. Asimismo, pueden hacerse
+pagos parciales que se indicarán mediante el botón Pago parcial. Luego, en la
+solapa Formas de pago, al elegir la forma de pago aparecerá el importe
+parcial a pagar.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="impresion-de-recibos">
+<h1>4.4. Impresión de recibos<a class="headerlink" href="#impresion-de-recibos" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>El sistema puede configurarse para definir el comportamiento de la impresión de
+recibos luego de su creación: que siempre se imprima, que pregunte, o que no se
+imprima.</p>
+<p>En general, si los recibos se imprimen desde el sistema, se deja la
+configuración Preguntar antes de imprimir. Si los recibos se hacen manualmente y
+luego se pasan al sistema, la configuración se deja en No imprimir.</p>
+<p>Este comportamiento se configura en la pantalla de Nuevo Recibo, menú
+<em class="menuselection">Ventana Activa ‣ Modo de impresión</em>. La opción queda guardada
+en la configuración del usuario.</p>
+<p>Independientemente de este comportamiento, el recibo puede reimprimirse desde la
+consulta de recibos <em class="menuselection">Ventas ‣ Recibos</em>, seleccionando el recibo
+y presionando el botón Imprimir <img alt="/icons/22imprimir.png" class="inlinegraphic" src="../../_images/22imprimir.png" /> .</p>
+<div class="figure">
+<img alt="../../_images/saleReceiptPrinting.png" src="../../_images/saleReceiptPrinting.png" />
+<p class="caption">Selección del modo de impresión de recibos</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">4.3. Cobranzas</a></li>
+<li><a class="reference internal" href="#impresion-de-recibos">4.4. Impresión de recibos</a></li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_10.html"
+                        title="Capítulo anterior">4.2. Lotes de Devolución</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_2.html"
+                        title="Próximo capítulo">4.5. ¿Cómo crear pedidos masivamente?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_2.html" title="4.5. ¿Cómo crear pedidos masivamente?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_10.html" title="4.2. Lotes de Devolución"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_ventamayorista.html" >4. Venta Mayorista</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

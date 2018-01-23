@@ -1,0 +1,168 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>5. ¿Cómo obtener un reporte de Jornadas Laborales? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="10. Personal" href="../13_personal.html" />
+    <link rel="next" title="6. Liquidación de sueldos" href="personal_06.html" />
+    <link rel="prev" title="4. Fichaje" href="personal_04.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="personal_06.html" title="6. Liquidación de sueldos"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="personal_04.html" title="4. Fichaje"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../13_personal.html" accesskey="U">10. Personal</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-obtener-un-reporte-de-jornadas-laborales">
+<span id="howto-personal-sec05"></span><h1>5. ¿Cómo obtener un reporte de Jornadas Laborales?<a class="headerlink" href="#como-obtener-un-reporte-de-jornadas-laborales" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" id="index-0"></span><p>El <em>Reporte de Jornadas Laborales</em> muestra las jornadas laborales de un empleado
+o de un grupo en determinados días según el fichaje realizado por cada uno de ellos.</p>
+<ul class="simple">
+<li>Seleccionar la opción de menú <em class="menuselection">Personal ‣ Reporte de jornadas</em>.</li>
+</ul>
+<p>Se abrirá la pantalla Reporte de Jornadas Laborales.</p>
+<p>El reporte tiene varios  parámetros.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/reporteJornadaLaboral.png" src="../../_images/reporteJornadaLaboral.png" />
+<p class="caption">Pantalla Reporte de Jornada Laboral</p>
+</div>
+</div></blockquote>
+<ol class="arabic">
+<li><p class="first">El estilo del reporte es &#8216;Jornadas Laborales&#8217; .</p>
+</li>
+<li><p class="first">Seleccionar cómo se van a ordenar los datos en la primer lista desplegable Opción. Se puede ordenar &#8216;Por empleado&#8217; o &#8216;Por empleado agrupado por día&#8217;</p>
+</li>
+<li><p class="first">Ingresar el rango de fechas para el cual se quieren obtener las jornadas laborales. (Ver
+<a class="reference internal" href="../../basics/pantallas/pantallas_06.html#basics-controls-daterange"><em>Ingreso de rangos de fecha</em></a>).</p>
+</li>
+<li><p class="first">Seleccionar la sucursal para la cual se quiere obtener el reporte.</p>
+</li>
+<li><p class="first">El reporte puede acotarse a un conjunto de empleados, realizando el reporte para un determinado
+Filtro.</p>
+<p>Para que el reporte sea filtrado, presionar el botón <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" /> . Se abrirá la pantalla de ingreso de filtros de la
+búsqueda de empleados. Ingresar el criterio de búsqueda y presionar el botón
+<em class="guilabel">Aceptar</em>. En el campo inferior al botón se muestra la descripción
+del criterio de búsqueda a aplicar.</p>
+</li>
+<li><p class="first">Presionar el botón <em class="guilabel">Aceptar</em> para generar el reporte.</p>
+</li>
+<li><p class="first">Seleccionar la salida del reporte. El reporte se puede obtener por pantalla,
+impresora, etc. Si sale por pantalla, posteriormente puede imprimirse sin
+tener que volver a completar los parámetros del reporte ni ejecutarlo
+nuevamente.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../../_images/seleccionarSalida.png" src="../../_images/seleccionarSalida.png" />
+<p class="caption">Pantalla para seleccionar la salida del Reporte</p>
+</div>
+</div></blockquote>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="personal_04.html"
+                        title="Capítulo anterior">4. Fichaje</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="personal_06.html"
+                        title="Próximo capítulo">6. Liquidación de sueldos</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="personal_06.html" title="6. Liquidación de sueldos"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="personal_04.html" title="4. Fichaje"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../13_personal.html" >10. Personal</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

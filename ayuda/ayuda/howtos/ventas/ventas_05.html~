@@ -1,0 +1,177 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>7. ¿Cómo visualizar la cuenta corriente de un cliente? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="8. ¿Cómo crear condiciones de venta?" href="ventas_06.html" />
+    <link rel="prev" title="4. ¿Cómo crear un nuevo cliente?" href="ventas_04.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_06.html" title="8. ¿Cómo crear condiciones de venta?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_04.html" title="4. ¿Cómo crear un nuevo cliente?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-visualizar-la-cuenta-corriente-de-un-cliente">
+<span id="howto-ventas-sec5"></span><h1>7. ¿Cómo visualizar la cuenta corriente de un cliente?<a class="headerlink" href="#como-visualizar-la-cuenta-corriente-de-un-cliente" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><p id="index-1">La cuenta corriente de un cliente puede visualizarse de tres formas:</p>
+<ul class="simple">
+<li>Agrupada por débitos: por cada factura del cliente se muestra con qué pago o
+nota de crédito se canceló.</li>
+<li>Agrupada por créditos: por cada recibo o crédito del cliente, se muestra qué
+facturas cancela.</li>
+<li>Agrupada por fecha: muestra todos los movimientos de la cuenta corriente en
+orden cronológico.</li>
+</ul>
+<p>Para visualizar la cuenta corriente de un cliente:</p>
+<ol class="arabic">
+<li><p class="first">Seleccionar el modo de visualización en el menú <em class="menuselection">Ventas ‣ Cuenta corriente</em>:</p>
+<div class="figure">
+<img alt="../../_images/menuCuentaCorriente.png" src="../../_images/menuCuentaCorriente.png" />
+<p class="caption">Opciones del menú Cuenta corriente</p>
+</div>
+</li>
+<li><p class="first">Seleccionar el cliente:</p>
+<ul class="simple">
+<li>Ingresar el código en el campo Cliente.</li>
+<li>Presionar la tecla <tt class="kbd docutils literal"><span class="pre">Enter</span></tt> o <tt class="kbd docutils literal"><span class="pre">Tab</span></tt>.</li>
+<li>Si existe un cliente con el código ingresado, se autocompletará el nombre a
+la derecha del mismo.</li>
+<li>Si no se conoce el código, presionar el botón
+<img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" /> para buscar el cliente.</li>
+</ul>
+</li>
+<li><p class="first">Completar los criterios de filtrado de movimientos:</p>
+<ul class="simple">
+<li>Rango de fechas: intervalo de tiempo del resumen de la cuenta.</li>
+<li>Saldo: Todos, Pendientes, Saldados.</li>
+<li>Ver débitos: Todos, Vencidos, A vencer.</li>
+<li>Sucursal: Todas o una sucursal en particular.</li>
+<li>Saldo al: fecha de corte del resumen.</li>
+</ul>
+</li>
+<li><p class="first">Presionar el botón <img alt="/icons/22buscar.png" class="inlinegraphic" src="../../_images/22buscar.png" /> de la barra de
+herramientas. Se mostrarán los movimientos de la cuenta corriente:</p>
+<div class="figure">
+<img alt="../../_images/movimientosCuentaCliente.png" src="../../_images/movimientosCuentaCliente.png" />
+<p class="caption">Movimientos de la cuenta de cliente</p>
+</div>
+</li>
+<li><p class="first">El botón <img alt="/icons/22porFecha.png" class="inlinegraphic" src="../../_images/22porFecha.png" /> de la barra de herramientas permite
+generar el reporte <em>Resumen de cuenta</em>, el cual posibilita obtener
+información de cuenta corriente para uno o varios clientes, con rango de
+fechas y fecha de corte, y en diferentes estados de los documentos.</p>
+<div class="figure">
+<img alt="../../_images/ResumenDeCuenta.png" src="../../_images/ResumenDeCuenta.png" />
+<p class="caption">Resumen de cuenta</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_04.html"
+                        title="Capítulo anterior">4. ¿Cómo crear un nuevo cliente?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_06.html"
+                        title="Próximo capítulo">8. ¿Cómo crear condiciones de venta?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Ingrese texto a buscar
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_06.html" title="8. ¿Cómo crear condiciones de venta?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_04.html" title="4. ¿Cómo crear un nuevo cliente?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

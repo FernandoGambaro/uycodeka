@@ -1,0 +1,141 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>2. ¿Cómo facturar a partir de una búsqueda de libros? &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="2. Ventas" href="../06_ventas.html" />
+    <link rel="next" title="3. ¿Cómo buscar un cliente?" href="ventas_03.html" />
+    <link rel="prev" title="1. ¿Cómo facturar una venta?" href="ventas_01.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../index.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="ventas_03.html" title="3. ¿Cómo buscar un cliente?"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_01.html" title="1. ¿Cómo facturar una venta?"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" accesskey="U">2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="como-facturar-a-partir-de-una-busqueda-de-libros">
+<h1>2. ¿Cómo facturar a partir de una búsqueda de libros?<a class="headerlink" href="#como-facturar-a-partir-de-una-busqueda-de-libros" title="Enlazar permanentemente con este título">¶</a></h1>
+<span class="target" ></span><ul class="simple" id="index-1">
+<li>En la pantalla Búsqueda de Libros realizar una búsqueda.</li>
+<li>Seleccionar el libro a facturar.</li>
+<li>Seleccionar la opción de menú <em class="menuselection">Ventana Activa ‣ Facturar</em> o
+el ícono <img alt="/icons/facturarLibro.png" class="inlinegraphic" src="../../_images/facturarLibro.png" /> de la barra de herramientas. Se
+abrirá la pantalla Nueva Factura de Venta con el libro seleccionado ya
+cargado.</li>
+<li>Continuar con la creación de la factura como se explica en <a class="reference internal" href="ventas_01.html#howto-ventas-sec1"><em>¿Cómo
+facturar una venta?</em></a></li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">Esta funcionalidad permite facturar mientras se están haciendo distintas
+búsquedas de libros. De esta forma, en la estación de trabajo donde se
+factura a los clientes, no es necesario estar siempre en la pantalla Nueva
+Factura de Venta.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="ventas_01.html"
+                        title="Capítulo anterior">1. ¿Cómo facturar una venta?</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="ventas_03.html"
+                        title="Próximo capítulo">3. ¿Cómo buscar un cliente?</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="ventas_03.html" title="3. ¿Cómo buscar un cliente?"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="ventas_01.html" title="1. ¿Cómo facturar una venta?"
+             >anterior</a> |</li>
+<li><a href="../../index.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../06_ventas.html" >2. Ventas</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2017, UYCODEKA
+      
+    </div>
+  </body>
+</html>

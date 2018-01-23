@@ -1,0 +1,247 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>16. Costos &mdash; UYCODEKA</title>
+    
+    <link rel="stylesheet" href="../../_static/fierrodoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '20.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/sidebar.js"></script>
+    <link rel="top" title="UYCODEKA" href="../../index.html" />
+    <link rel="up" title="3. Compras" href="../07_compras.html" />
+    <link rel="next" title="4. Venta Mayorista" href="../07_ventamayorista.html" />
+    <link rel="prev" title="15. Otras operaciones" href="compras_16.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../manual.html">
+      <img class="logo" src="../../_static/logo-uycodeka.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../07_ventamayorista.html" title="4. Venta Mayorista"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_16.html" title="15. Otras operaciones"
+             accesskey="P">anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" accesskey="U">3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="costos">
+<h1>16. Costos<a class="headerlink" href="#costos" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="tipos-de-costos">
+<span id="howto-compras-costos"></span><h2>16.1. Tipos de costos<a class="headerlink" href="#tipos-de-costos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El costo del libro puede ser de alguno de los siguientes tipos:</p>
+<ul>
+<li><p class="first">Manual: se calcula en forma independiente y se asigna manualmente a cada libro.</p>
+</li>
+<li><p class="first">PVP menos Descuento: lo calcula el sistema como el precio de venta menos el descuento configurado en su proveedor. Por ejemplo, si el PVP del libro es de $100 y el proveedor realiza un descuento del 40%, su costo será de $60.</p>
+</li>
+<li><p class="first">Precio de última compra: lo asigna el sistema como el precio de la última compra.</p>
+</li>
+<li><p class="first">Precio de lista del proveedor: se toma de la lista de precios del proveedor (se configura un parámetro en Fierro en el que se indica cual es la lista del proveedor entre las listas de precios).</p>
+</li>
+<li><dl class="first docutils">
+<dt>Costo Promedio: aplica una formula de costo promedio ponderado. Cada vez que se ingresa una factura de compra, se hace el promedio considerando:</dt>
+<dd><ul class="first last simple">
+<li>cuántos libros hay en stock y cual es su costo</li>
+<li>cuántos libros se ingresan con el documento y su costo.</li>
+</ul>
+</dd>
+</dl>
+<p>La formula es: (stock actual * costo) + (stock ingreso * costo) / total de ejemplares -&gt; (2 * 7) + (6  * 9) / 8  = 8.5</p>
+</li>
+</ul>
+<div class="section" id="casos-mas-comunes-de-utilizacion-de-cada-estrategia-de-costos">
+<h3>16.1.1. Casos más comunes de utilización de cada estrategia de costos:<a class="headerlink" href="#casos-mas-comunes-de-utilizacion-de-cada-estrategia-de-costos" title="Enlazar permanentemente con este título">¶</a></h3>
+<ul class="simple">
+<li>Manual: libros de edición propia.</li>
+<li>PVP menos Descuento: libros que se trabajan principalmente en consignación o con PVP fijo.</li>
+<li>Precio de última compra: libros importados.</li>
+<li>Precio de lista del proveedor: artículos que se compran al costo y se multiplican por un coeficiente.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="como-se-modifican-los-costos">
+<h2>16.2. Cómo se modifican los costos:<a class="headerlink" href="#como-se-modifican-los-costos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El costo del libro se modifica según su tipo.</p>
+<ul class="simple">
+<li>Manual: lo modifica el usuario en la ficha del libro (solapa Ventas) o mediante la actualización masiva de libros.</li>
+<li>PVP menos Descuento: el sistema recalcula el costo ante cambio del PVP, proveedor principal o del descuento del proveedor principal del libro (al hacer un cambio masivo de proveedor, se puede indicar a que compania corresponde. <em>Véase</em> <a class="reference internal" href="../catalogo/catalogo_04.html#howto-catalogo-book-changemainprovider"><em>¿Cómo se realiza un cambio masivo de proveedor principal?</em></a>).</li>
+<li>Precio de última compra: el costo del libro es actualizado cuando se crea una nueva factura o factura-remito de compra.</li>
+<li>Precio de lista del proveedor: se modifica al cargar nuevas facturas del proveedor. Previamente debe indicarse en su ficha que usa precio de costo y definirse en el parámetro cual es la lista de precios correspondiente (solicitar a Lambda Sistemas).</li>
+<li>Costo Promedio: se recalcula cada vez que se ingrese una factura firme o una baja de consignación de tipo firme.</li>
+</ul>
+</div>
+<div class="section" id="cambio-masivo-de-costos">
+<h2>16.3. Cambio masivo de costos<a class="headerlink" href="#cambio-masivo-de-costos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Es posible actualizar los costos en forma masiva, para ello se utiliza la herramienta Importación masiva de libros. La fuente de datos para esta actualización debe ser una planilla que contenga, además del código del libro, una columna con el tipo de costo y otra columna con el valor.</p>
+<p>Los valores posibles para la columna tipo de costo son:</p>
+<ul class="simple">
+<li>Manual</li>
+<li>Pvp-Descuento</li>
+<li>Precio última compra</li>
+<li>Precio de lista del proveedor</li>
+</ul>
+<p>Si el tipo es PVP-Descuento o Precio Última compra, no es necesario que esté la columna Costo, ya que el mismo es calculado por el sistema.</p>
+</div>
+<div class="section" id="regeneracion-de-costos">
+<h2>16.4. Regeneración de costos<a class="headerlink" href="#regeneracion-de-costos" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Desde el menú <em class="menuselection">Ventana Activa ‣ Cambiar costo histórico</em>, en la consulta de libros, se pueden regenerar los costos a una determinada fecha. Esta función también permite cambiar el tipo de costo y recalcularlo a una fecha a elección. De este modo si se desea indicar que tipo de costo debe tener una cantidad de libros o modificar el que tiene, se pueden seleccionar en al busqueda de libros y mediante la función  &#8220;Cambiar costo historico&#8221; aplicar el nuevo tipo y calcular el costo con ese tipo desde la fecha deseada en adelante.</p>
+<p>El sistema provee la herramienta para recalcular los costos de los libros en forma automática mediante una tarea programada que configura Lambda Sistemas. La tarea y su periodicidad se pueden ver desde el menú <em class="menuselection">Sistemas ‣ Tareas Programadas</em>.</p>
+</div>
+<div class="section" id="moneda-y-valorizacion-del-costo">
+<h2>16.5. Moneda y valorización del costo<a class="headerlink" href="#moneda-y-valorizacion-del-costo" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="moneda">
+<h3>16.5.1. Moneda:<a class="headerlink" href="#moneda" title="Enlazar permanentemente con este título">¶</a></h3>
+<ul class="simple">
+<li>PVP-Descuento: el costo tiene la misma moneda que el PVP.</li>
+<li>Lista de precios del proveedor: el item puede tener el costo en dólares y el PVP en pesos.</li>
+<li>Precio de última compra: la moneda del costo coincide con la moneda de la factura de compra.</li>
+<li>Costo Promedio: el costo tiene como moneda pesos.</li>
+</ul>
+</div>
+<div class="section" id="valorizacion">
+<h3>16.5.2. Valorización:<a class="headerlink" href="#valorizacion" title="Enlazar permanentemente con este título">¶</a></h3>
+<ul class="simple">
+<li>Para la contabilidad, en todos los casos se convierte el costo a pesos.</li>
+<li>En el reporte de rentabilidad se valoriza con el costo a la fecha de la venta.</li>
+<li>El reporte de stock, si se valoriza al costo, toma el costo de la fecha seleccionada.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="vistas-que-muestran-los-costos">
+<h2>16.6. Vistas que muestran los costos:<a class="headerlink" href="#vistas-que-muestran-los-costos" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Historial de costos: cada cambio en el costo de un libro queda guardado en el historial de costos. El mismo puede visualizarse en la vista Historial de Costos  (Ver <a class="reference internal" href="../../basics/busqueda/busqueda_04.html#basics-searchs-sec4"><em>Cambiar la vista actual</em></a>).</p>
+<div class="figure">
+<img alt="../../_images/historiadecosto.png" src="../../_images/historiadecosto.png" />
+<p class="caption">Vista historia de costo</p>
+</div>
+</li>
+<li><p class="first">Vista de compras: esta vista de compras de la ficha del libro incorpora la visualización del proveedor principal y el costo por compañía.</p>
+<div class="figure">
+<img alt="../../_images/vistacompras.png.png" src="../../_images/vistacompras.png.png" />
+<p class="caption">Vista de compras</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="proveedores-que-utilizan-precio-de-costo">
+<h2>16.7. Proveedores que utilizan precio de costo<a class="headerlink" href="#proveedores-que-utilizan-precio-de-costo" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Un proveedor utiliza precio de costo cuando se compra a un costo y luego se asigna un PVP.  Si el costo del libro es del tipo Manual, el sistema permite asignar el costo mientras se carga la factura. En la ficha del proveedor se debe indicar que trabaja a precio de costo (Ver <a class="reference internal" href="compras_12.html#howto-compras-sec10"><em>¿Cómo crear un nuevo Proveedor?</em></a>) .</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../manual.html">Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">16. Costos</a><ul>
+<li><a class="reference internal" href="#tipos-de-costos">16.1. Tipos de costos</a><ul>
+<li><a class="reference internal" href="#casos-mas-comunes-de-utilizacion-de-cada-estrategia-de-costos">16.1.1. Casos más comunes de utilización de cada estrategia de costos:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#como-se-modifican-los-costos">16.2. Cómo se modifican los costos:</a></li>
+<li><a class="reference internal" href="#cambio-masivo-de-costos">16.3. Cambio masivo de costos</a></li>
+<li><a class="reference internal" href="#regeneracion-de-costos">16.4. Regeneración de costos</a></li>
+<li><a class="reference internal" href="#moneda-y-valorizacion-del-costo">16.5. Moneda y valorización del costo</a><ul>
+<li><a class="reference internal" href="#moneda">16.5.1. Moneda:</a></li>
+<li><a class="reference internal" href="#valorizacion">16.5.2. Valorización:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#vistas-que-muestran-los-costos">16.6. Vistas que muestran los costos:</a></li>
+<li><a class="reference internal" href="#proveedores-que-utilizan-precio-de-costo">16.7. Proveedores que utilizan precio de costo</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="compras_16.html"
+                        title="Capítulo anterior">15. Otras operaciones</a></p>
+  <h4>Próximo tema</h4>
+  <p class="topless"><a href="../07_ventamayorista.html"
+                        title="Próximo capítulo">4. Venta Mayorista</a></p>
+<div id="searchbox" style="display: none">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Ir a" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../07_ventamayorista.html" title="4. Venta Mayorista"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="compras_16.html" title="15. Otras operaciones"
+             >anterior</a> |</li>
+<li><a href="../../manual.html">Manual UYCODEKA</a> &raquo;</li>
+          <li><a href="../07_compras.html" >3. Compras</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Lambda Sistemas.
+      Creado con <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.2.
+    </div>
+  </body>
+</html>
