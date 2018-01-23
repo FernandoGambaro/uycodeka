@@ -1,6 +1,33 @@
-UYCODEKA actualización Marzo 2017
+UYCODEKA actualización Noviembre 2017
 
 Nuevas características.
+
+Noviembre 2017
+
+Menú → Mantenimiento→ Sugerencias: i) Mejoras en el control de campos obligatorios al registrar nuevo cliente.
+
+
+Octubre 2017
+
+Menú → Mantenimiento i) Se agrego la programación de tareas utilizando el crontab del usuario apache. ii) Se re-escribio el sistema de chequeo de respaldos. Iii) Se corrigió el dar de alta a usuarios.
+Menú → Reportes i) Mejoras en la selección de opciones para los reportes.
+
+
+Setiembre 2017
+
+Menú → Trabajos i) Se reorganizo el menú principal, para mejorar el acceso a funciones más utilizadas. ii) Se cambio la pantalla de inicio, mostrando un resumen de los sectores mas relevantes.
+
+
+Agosto 2017
+
+Menú → Mantenimiento → Sugerencias: i) Se incorporó la posibilidad de enviar sugerencias -Luego de 30 días de instalado el sistema le aparece al ingresar la pantalla de envío de sugerencias-.
+General: i) Se amenizo la forma de ingresar cobros. ii) Actualizamos JpGraph 4.0.2 para que funcione con PHP5 y PHP7 -incluido el parche-
+
+
+Julio 2017
+
+General: i) Se termino la sección del manual de instalación y se avanzo en la utilización del sistema.
+ii) Se mejoro el instalador incorporando licencia de uso y verificación de requerimientos.
 
 
 Junio 2017
@@ -27,7 +54,7 @@ v) Se mejoro la administración de sesiones, cuando se instala en un servidor, a
 
 
 
-Menú → Mantenimiento → Datos del sistema: Se agrego la posibilidad de seleccionar entre dos modelos de facturas, la posibilidad de incluir el logo en ellas y la ubicación del símbolo de la moneda a utilizar, a la izquierda o a la derecha del número.
+Menú → Mantenimiento → Datos del sistema: Se agrego la posibilidad de seleccionar entre dos modelos de facturas, la posibilidad de incluir el logo en ellas y la ubicación del símbolo de la moneda a utilizar, a la izquierda o a la derecha del importe.
 
 
 Marzo 2017
